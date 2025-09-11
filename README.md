@@ -97,7 +97,6 @@ Obsidian Vault/
 - Driver loaded
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
-<!-- Last updated: 2026-09-11T09:20:36+07:00 -->
 
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
@@ -174,6 +173,7 @@ Obsidian Vault/
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
+<!-- Last updated: 2026-09-11T09:20:36+07:00 -->
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
