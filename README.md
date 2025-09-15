@@ -60,6 +60,7 @@ Obsidian Vault/
 ---
 
 ## Quick Access
+<!-- Last updated: 2026-09-12T09:59:43+07:00 -->
 
 | Category | Path |
 |----------|------|
