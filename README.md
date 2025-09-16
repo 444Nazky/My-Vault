@@ -181,7 +181,6 @@ Obsidian Vault/
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
-<!-- Last updated: 2026-09-11T09:20:36+07:00 -->
 ---
 
 ## Maintenance
