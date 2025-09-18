@@ -20,7 +20,6 @@ Obsidian Vault/
 │   ├── Github/                # GitHub connect tutorial
 │   ├── Prompts/               # empty
 │   ├── VSCode/                # empty
-<!-- Last updated: 2026-09-12T09:59:43+07:00 -->
 │   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
 ├── Personal/                  # Personal notes & logs
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
