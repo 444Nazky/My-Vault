@@ -16,6 +16,7 @@ Obsidian Vault/
 │   ├── AI-CLI-Agents.md
 │   └── README.md
 ├── Development/               # Development projects & guides
+<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 │   ├── Database/              # 2 files: phpMyAdmin guides
 │   ├── Github/                # GitHub connect tutorial
 │   ├── Prompts/               # empty
@@ -79,7 +80,6 @@ Obsidian Vault/
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
 | Gaming NFS Heat | System/Gaming/README |
 | Visual Guides | System/Fixes/Visual-Guides |
-<!-- Last updated: 2026-09-11T09:20:36+07:00 -->
 | Quick Reference | System/Fixes/Quick-Reference |
 | Graphs Index | Graphs/00-Graph-Index - per-topic diagrams |
 | Web Links Hub | Web-Links-Hub - pointer page |
