@@ -1,7 +1,6 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
-<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
@@ -121,6 +120,7 @@ Obsidian Vault/
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
 
+<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
