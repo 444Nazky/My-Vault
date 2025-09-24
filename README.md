@@ -62,6 +62,7 @@ Obsidian Vault/
 ## Quick Access
 
 | Category | Path |
+<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
 | System Fixes Index | System/Fixes/README |
@@ -188,6 +189,5 @@ Obsidian Vault/
 To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
-<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 3. Update this index when adding new categories
 4. Run System/Fixes/Visual-Guides updates when system changes
