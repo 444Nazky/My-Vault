@@ -89,7 +89,6 @@ Obsidian Vault/
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
 
 ---
-<!-- Last updated: 2026-09-11T09:29:56+07:00 -->
 
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
@@ -190,4 +189,5 @@ To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
+<!-- Last updated: 2026-09-11T09:29:56+07:00 -->
 4. Run System/Fixes/Visual-Guides updates when system changes
