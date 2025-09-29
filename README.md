@@ -36,6 +36,7 @@ Obsidian Vault/
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
+<!-- Last updated: 2026-09-12T09:59:44+07:00 -->
 │   ├── System-Architecture.md
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
@@ -122,7 +123,6 @@ Obsidian Vault/
 - See System/Gaming/README for setup
 
 ### Roblox via Sober - INSTALLED 2026-09-09
-<!-- Last updated: 2026-09-12T09:59:44+07:00 -->
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
