@@ -44,7 +44,6 @@ Obsidian Vault/
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
-<!-- Last updated: 2026-09-12T09:59:44+07:00 -->
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
@@ -123,6 +122,7 @@ Obsidian Vault/
 - See System/Gaming/README for setup
 
 ### Roblox via Sober - INSTALLED 2026-09-09
+<!-- Last updated: 2026-09-12T09:59:44+07:00 -->
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
