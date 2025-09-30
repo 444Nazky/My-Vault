@@ -2,6 +2,7 @@
 
 **Location:** `~/Documents/Obsidian Vault/`
 **Last Updated:** 2026-09-10
+<!-- Last updated: 2026-09-11T09:29:56+07:00 -->
 **Total Notes:** 192 markdown files
 
 ---
@@ -62,7 +63,6 @@ Obsidian Vault/
 ## Quick Access
 
 | Category | Path |
-<!-- Last updated: 2026-09-11T09:29:56+07:00 -->
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
 | System Fixes Index | System/Fixes/README |
