@@ -90,6 +90,7 @@ Obsidian Vault/
 
 ---
 
+<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
 ### NVIDIA RTX 5050 - FIXED
@@ -127,7 +128,6 @@ Obsidian Vault/
 - See System/roblox-sober-install for details
 
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
-<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
