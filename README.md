@@ -64,6 +64,7 @@ Obsidian Vault/
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
+<!-- Last updated: 2026-09-11T09:29:56+07:00 -->
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
@@ -112,7 +113,6 @@ Obsidian Vault/
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
 - Bumblebee blacklist disabled
-<!-- Last updated: 2026-09-11T09:29:56+07:00 -->
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 - Verified with `modprobe nvidia-drm`
 
