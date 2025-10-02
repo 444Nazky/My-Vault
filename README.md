@@ -90,7 +90,6 @@ Obsidian Vault/
 
 ---
 
-<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
 ### NVIDIA RTX 5050 - FIXED
@@ -173,6 +172,7 @@ Obsidian Vault/
 
 | Tool | Version | Location |
 |------|---------|----------|
+<!-- Last updated: 2026-09-11T09:20:37+07:00 -->
 | Claude Code | 2.1.263 | Current session |
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
