@@ -57,7 +57,6 @@ Obsidian Vault/
 └── Path.md
 ```
 
-<!-- Last updated: 2026-09-12T09:59:44+07:00 -->
 ---
 
 ## Quick Access
