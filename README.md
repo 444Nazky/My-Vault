@@ -26,6 +26,7 @@ Obsidian Vault/
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
 │   ├── School/                # P3, P3-2, What-to-Create
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
+<!-- Last updated: 2026-09-12T09:59:44+07:00 -->
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
@@ -180,7 +181,6 @@ Obsidian Vault/
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
-<!-- Last updated: 2026-09-12T09:59:44+07:00 -->
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
 ---
