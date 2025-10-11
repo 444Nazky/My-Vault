@@ -4,7 +4,6 @@
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
-<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 ---
 
 ## Folder Structure
