@@ -2,7 +2,6 @@
 
 **Location:** `~/Documents/Obsidian Vault/`
 **Last Updated:** 2026-09-10
-<!-- Last updated: 2026-09-11T09:20:38+07:00 -->
 **Total Notes:** 192 markdown files
 
 ---
