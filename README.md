@@ -129,7 +129,6 @@ Obsidian Vault/
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
-<!-- Last updated: 2026-09-11T09:20:38+07:00 -->
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
