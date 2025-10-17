@@ -18,7 +18,6 @@ Obsidian Vault/
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
 │   ├── Github/                # GitHub connect tutorial
-<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 │   ├── Prompts/               # empty
 │   ├── VSCode/                # empty
 │   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
