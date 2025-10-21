@@ -14,7 +14,6 @@ Obsidian Vault/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
-<!-- Last updated: 2026-09-11T09:20:38+07:00 -->
 │   └── README.md
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
@@ -43,6 +42,7 @@ Obsidian Vault/
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
+<!-- Last updated: 2026-09-11T09:20:38+07:00 -->
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
