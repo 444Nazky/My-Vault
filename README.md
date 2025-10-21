@@ -1,7 +1,6 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
-<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
@@ -120,6 +119,7 @@ Obsidian Vault/
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
+<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
