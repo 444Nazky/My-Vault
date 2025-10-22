@@ -27,7 +27,6 @@ Obsidian Vault/
 │   ├── School/                # P3, P3-2, What-to-Create
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
-<!-- Last updated: 2026-09-11T09:20:38+07:00 -->
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
@@ -118,6 +117,7 @@ Obsidian Vault/
 
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
+<!-- Last updated: 2026-09-11T09:20:38+07:00 -->
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
 
