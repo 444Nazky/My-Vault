@@ -10,7 +10,6 @@
 
 ```
 Obsidian Vault/
-<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
