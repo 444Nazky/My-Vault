@@ -24,7 +24,6 @@ Obsidian Vault/
 ├── Personal/                  # Personal notes & logs
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
-<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 │   ├── School/                # P3, P3-2, What-to-Create
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
@@ -132,6 +131,7 @@ Obsidian Vault/
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
+<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
 ### VSCode Theme Bug - DOCUMENTED
