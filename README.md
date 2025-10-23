@@ -14,6 +14,7 @@ Obsidian Vault/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
+<!-- Last updated: 2026-09-11T09:20:39+07:00 -->
 │   └── README.md
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
@@ -34,7 +35,6 @@ Obsidian Vault/
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
-<!-- Last updated: 2026-09-11T09:20:38+07:00 -->
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
