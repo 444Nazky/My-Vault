@@ -131,7 +131,6 @@ Obsidian Vault/
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
-<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
 ### VSCode Theme Bug - DOCUMENTED
@@ -162,6 +161,7 @@ Obsidian Vault/
 
 ## Visual Documentation
 
+<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 | Document | Content |
 |---------|---------|
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
