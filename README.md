@@ -84,6 +84,7 @@ Obsidian Vault/
 | Web Links Hub | Web-Links-Hub - pointer page |
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
+<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 | Device Overview | Personal/Device/00 - Device Overview |
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
@@ -153,7 +154,6 @@ Obsidian Vault/
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
 | Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
-<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
