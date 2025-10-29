@@ -33,7 +33,6 @@ Obsidian Vault/
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
-<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
@@ -114,6 +113,7 @@ Obsidian Vault/
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
+<!-- Last updated: 2026-09-11T09:29:57+07:00 -->
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
