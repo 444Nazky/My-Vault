@@ -54,6 +54,7 @@ Obsidian Vault/
 ├── PROMPTS.md
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
+<!-- Last updated: 2026-09-11T09:20:39+07:00 -->
 └── Path.md
 ```
 
@@ -94,7 +95,6 @@ Obsidian Vault/
 
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
-<!-- Last updated: 2026-09-11T09:20:39+07:00 -->
 - Driver loaded
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
