@@ -179,6 +179,7 @@ Obsidian Vault/
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
+<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
