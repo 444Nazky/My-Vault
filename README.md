@@ -20,6 +20,7 @@ Obsidian Vault/
 │   ├── Github/                # GitHub connect tutorial
 │   ├── Prompts/               # empty
 │   ├── VSCode/                # empty
+<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 │   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
 ├── Personal/                  # Personal notes & logs
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
@@ -42,7 +43,6 @@ Obsidian Vault/
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
-<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
