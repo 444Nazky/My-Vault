@@ -117,12 +117,12 @@ Obsidian Vault/
 
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
+<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
 
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
