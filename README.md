@@ -70,6 +70,7 @@ Obsidian Vault/
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
+<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
@@ -117,7 +118,6 @@ Obsidian Vault/
 
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
 
