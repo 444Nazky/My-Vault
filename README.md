@@ -58,6 +58,7 @@ Obsidian Vault/
 ```
 
 ---
+<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 
 ## Quick Access
 
@@ -70,7 +71,6 @@ Obsidian Vault/
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
