@@ -46,7 +46,6 @@ Obsidian Vault/
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
-<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
@@ -119,6 +118,7 @@ Obsidian Vault/
 
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
+<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
 
