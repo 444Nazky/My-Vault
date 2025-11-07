@@ -143,7 +143,6 @@ Obsidian Vault/
 
 ## Fixes Summary
 
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 | Issue | Status | Document |
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
@@ -158,6 +157,7 @@ Obsidian Vault/
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
 ---
+<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 
 ## Visual Documentation
 
