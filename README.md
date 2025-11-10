@@ -146,13 +146,13 @@ Obsidian Vault/
 | Issue | Status | Document |
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
-<!-- Last updated: 2026-09-11T09:20:40+07:00 -->
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
+<!-- Last updated: 2026-09-11T09:20:40+07:00 -->
 | Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
