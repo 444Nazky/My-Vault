@@ -160,7 +160,6 @@ Obsidian Vault/
 
 ## Visual Documentation
 
-<!-- Last updated: 2026-09-11T09:20:40+07:00 -->
 | Document | Content |
 |---------|---------|
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
