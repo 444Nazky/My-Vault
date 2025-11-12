@@ -105,6 +105,7 @@ Obsidian Vault/
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
+<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
@@ -173,7 +174,6 @@ Obsidian Vault/
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
