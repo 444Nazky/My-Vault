@@ -105,13 +105,13 @@ Obsidian Vault/
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
+<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
-<!-- Last updated: 2026-09-12T09:59:45+07:00 -->
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 <!-- Last updated: 2026-09-11T09:30:14+07:00 -->
