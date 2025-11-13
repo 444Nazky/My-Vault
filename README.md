@@ -32,7 +32,6 @@ Obsidian Vault/
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
-<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
@@ -138,6 +137,7 @@ Obsidian Vault/
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
 
+<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
 
