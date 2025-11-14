@@ -6,7 +6,6 @@
 
 ---
 
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 ## Folder Structure
 
 ```
