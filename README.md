@@ -27,6 +27,7 @@ Obsidian Vault/
 │   ├── School/                # P3, P3-2, What-to-Create
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
+<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
@@ -94,7 +95,6 @@ Obsidian Vault/
 
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 - Driver loaded
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
