@@ -8,6 +8,7 @@
 
 ## Folder Structure
 
+<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 ```
 Obsidian Vault/
 ├── 07-Incident Response/        # IR cases
