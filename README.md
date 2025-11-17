@@ -133,7 +133,6 @@ Obsidian Vault/
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
-<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
