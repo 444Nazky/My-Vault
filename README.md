@@ -8,8 +8,8 @@
 
 ## Folder Structure
 
-<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 ```
+<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 Obsidian Vault/
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
