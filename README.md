@@ -16,6 +16,7 @@ Obsidian Vault/
 │   ├── AI-CLI-Agents.md
 │   └── README.md
 ├── Development/               # Development projects & guides
+<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 │   ├── Database/              # 2 files: phpMyAdmin guides
 │   ├── Github/                # GitHub connect tutorial
 │   ├── Prompts/               # empty
