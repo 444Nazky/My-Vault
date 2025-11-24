@@ -26,6 +26,7 @@ Obsidian Vault/
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
 │   ├── School/                # P3, P3-2, What-to-Create
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
+<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
@@ -174,7 +175,6 @@ Obsidian Vault/
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
-<!-- Last updated: 2026-09-12T09:59:46+07:00 -->
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
