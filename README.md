@@ -15,7 +15,6 @@ Obsidian Vault/
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
 │   └── README.md
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
 │   ├── Github/                # GitHub connect tutorial
@@ -68,6 +67,7 @@ Obsidian Vault/
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
+<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
