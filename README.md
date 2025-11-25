@@ -67,7 +67,6 @@ Obsidian Vault/
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
-<!-- Last updated: 2026-09-11T09:29:58+07:00 -->
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
@@ -190,4 +189,5 @@ To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
+<!-- Last updated: 2026-09-11T09:29:59+07:00 -->
 4. Run System/Fixes/Visual-Guides updates when system changes
