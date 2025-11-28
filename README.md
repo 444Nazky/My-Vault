@@ -92,7 +92,6 @@ Obsidian Vault/
 
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
-<!-- Last updated: 2026-09-11T09:20:40+07:00 -->
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
 - Driver loaded
@@ -115,6 +114,7 @@ Obsidian Vault/
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 - Verified with `modprobe nvidia-drm`
+<!-- Last updated: 2026-09-11T09:20:40+07:00 -->
 
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
