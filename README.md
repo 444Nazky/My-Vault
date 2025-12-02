@@ -90,7 +90,6 @@ Obsidian Vault/
 
 ---
 
-<!-- Last updated: 2026-09-11T09:20:40+07:00 -->
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
 ### NVIDIA RTX 5050 - FIXED
