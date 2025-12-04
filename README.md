@@ -124,6 +124,7 @@ Obsidian Vault/
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
+<!-- Last updated: 2026-09-11T09:29:59+07:00 -->
 - See System/roblox-sober-install for details
 
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
