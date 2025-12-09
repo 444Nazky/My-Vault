@@ -156,6 +156,7 @@ Obsidian Vault/
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
+<!-- Last updated: 2026-09-11T09:29:59+07:00 -->
 ---
 
 ## Visual Documentation
@@ -174,7 +175,6 @@ Obsidian Vault/
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
-<!-- Last updated: 2026-09-11T09:29:59+07:00 -->
 | Grok | 1.0.13 | `/usr/bin/grok` |
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
