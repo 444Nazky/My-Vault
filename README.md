@@ -93,7 +93,6 @@ Obsidian Vault/
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
 ### NVIDIA RTX 5050 - FIXED
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 - DKMS rebuilt
 - Driver loaded
 - Wayland environment configured
