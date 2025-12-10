@@ -33,7 +33,6 @@ Obsidian Vault/
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
-<!-- Last updated: 2026-09-11T09:20:41+07:00 -->
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
@@ -148,6 +147,7 @@ Obsidian Vault/
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
+<!-- Last updated: 2026-09-11T09:20:41+07:00 -->
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
