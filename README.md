@@ -61,6 +61,7 @@ Obsidian Vault/
 
 ## Quick Access
 
+<!-- Last updated: 2026-09-11T09:20:41+07:00 -->
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
@@ -147,7 +148,6 @@ Obsidian Vault/
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
-<!-- Last updated: 2026-09-11T09:20:41+07:00 -->
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
