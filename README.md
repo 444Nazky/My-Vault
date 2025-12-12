@@ -98,7 +98,6 @@ Obsidian Vault/
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
 
-<!-- Last updated: 2026-09-11T09:29:59+07:00 -->
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
@@ -164,6 +163,7 @@ Obsidian Vault/
 | Document | Content |
 |---------|---------|
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
+<!-- Last updated: 2026-09-11T09:29:59+07:00 -->
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
 
