@@ -45,7 +45,6 @@ Obsidian Vault/
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
@@ -192,6 +191,7 @@ To update this vault:
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
 4. Run System/Fixes/Visual-Guides updates when system changes
+<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 
 ## Tags
 #note-readme
