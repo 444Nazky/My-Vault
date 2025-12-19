@@ -29,7 +29,6 @@ Obsidian Vault/
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
-<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
