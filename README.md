@@ -29,6 +29,7 @@ Obsidian Vault/
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
+<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
@@ -158,7 +159,6 @@ Obsidian Vault/
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
 ---
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 
 ## Visual Documentation
 
