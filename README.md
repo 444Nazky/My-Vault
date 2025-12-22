@@ -68,6 +68,7 @@ Obsidian Vault/
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
 | GRUB Fix | System/Fixes/GRUB-Configuration |
+<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
@@ -124,7 +125,6 @@ Obsidian Vault/
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
 
