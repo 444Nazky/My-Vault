@@ -137,6 +137,7 @@ Obsidian Vault/
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
 
 ### Secure Boot - INFO
+<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 - Keep disabled for gaming compatibility
 
 ---
