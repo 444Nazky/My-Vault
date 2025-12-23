@@ -99,7 +99,6 @@ Obsidian Vault/
 - env.lua updated with NVIDIA variables
 
 ### GRUB Configuration - FIXED
-<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
