@@ -119,6 +119,7 @@ Obsidian Vault/
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
+<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 - See System/Gaming/README for setup
 
 ### Roblox via Sober - INSTALLED 2026-09-09
@@ -127,7 +128,6 @@ Obsidian Vault/
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
 
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
