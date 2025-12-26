@@ -87,7 +87,6 @@ Obsidian Vault/
 | Device Overview | Personal/Device/00 - Device Overview |
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 
 ---
 
@@ -129,6 +128,7 @@ Obsidian Vault/
 - See System/roblox-sober-install for details
 
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
+<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
