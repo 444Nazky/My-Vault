@@ -47,7 +47,6 @@ Obsidian Vault/
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
-<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
@@ -127,6 +126,7 @@ Obsidian Vault/
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
 
+<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
