@@ -57,6 +57,7 @@ Obsidian Vault/
 └── Path.md
 ```
 
+<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 ---
 
 ## Quick Access
@@ -87,7 +88,6 @@ Obsidian Vault/
 | Device Overview | Personal/Device/00 - Device Overview |
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
-<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 
 ---
 
