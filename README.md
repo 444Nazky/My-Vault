@@ -28,7 +28,6 @@ Obsidian Vault/
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
@@ -46,6 +45,7 @@ Obsidian Vault/
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
+<!-- Last updated: 2026-09-12T09:59:48+07:00 -->
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
