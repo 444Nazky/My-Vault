@@ -28,6 +28,7 @@ Obsidian Vault/
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
+<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
@@ -128,7 +129,6 @@ Obsidian Vault/
 - See System/roblox-sober-install for details
 
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
-<!-- Last updated: 2026-09-12T09:59:47+07:00 -->
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
