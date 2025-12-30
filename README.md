@@ -64,6 +64,7 @@ Obsidian Vault/
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
+<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
@@ -96,7 +97,6 @@ Obsidian Vault/
 - DKMS rebuilt
 - Driver loaded
 - Wayland environment configured
-<!-- Last updated: 2026-09-11T09:30:00+07:00 -->
 - env.lua updated with NVIDIA variables
 
 ### GRUB Configuration - FIXED
