@@ -30,6 +30,7 @@ Obsidian Vault/
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
+<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
