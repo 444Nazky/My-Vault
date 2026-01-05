@@ -53,6 +53,7 @@ Obsidian Vault/
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
 ├── PROMPTS.md
 ├── README.md                  # YOU ARE HERE
+<!-- Last updated: 2026-09-11T09:20:43+07:00 -->
 ├── Map of Content.md
 └── Path.md
 ```
@@ -172,7 +173,6 @@ Obsidian Vault/
 
 | Tool | Version | Location |
 |------|---------|----------|
-<!-- Last updated: 2026-09-11T09:20:42+07:00 -->
 | Claude Code | 2.1.263 | Current session |
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
