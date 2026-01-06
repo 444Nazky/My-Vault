@@ -45,6 +45,7 @@ Obsidian Vault/
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
+<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
@@ -61,7 +62,6 @@ Obsidian Vault/
 
 ## Quick Access
 
-<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
