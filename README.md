@@ -46,7 +46,6 @@ Obsidian Vault/
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
-<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
