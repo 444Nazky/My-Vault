@@ -102,7 +102,6 @@ Obsidian Vault/
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
-<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
@@ -191,3 +190,4 @@ To update this vault:
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
 4. Run System/Fixes/Visual-Guides updates when system changes
+<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
