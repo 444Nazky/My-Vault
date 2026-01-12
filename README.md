@@ -41,6 +41,7 @@ Obsidian Vault/
 │   ├── Caelestia Dotfiles Context.md
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
+<!-- Last updated: 2026-09-12T09:59:48+07:00 -->
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
@@ -71,7 +72,6 @@ Obsidian Vault/
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
-<!-- Last updated: 2026-09-12T09:59:48+07:00 -->
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
