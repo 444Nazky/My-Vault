@@ -71,6 +71,7 @@ Obsidian Vault/
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
+<!-- Last updated: 2026-09-12T09:59:48+07:00 -->
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
