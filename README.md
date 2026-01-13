@@ -26,7 +26,6 @@ Obsidian Vault/
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
 │   ├── School/                # P3, P3-2, What-to-Create
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
-<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
@@ -109,6 +108,7 @@ Obsidian Vault/
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
+<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
