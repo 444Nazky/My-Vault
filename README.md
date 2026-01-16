@@ -49,7 +49,6 @@ Obsidian Vault/
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
-<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
 ├── PROMPTS.md
@@ -132,6 +131,7 @@ Obsidian Vault/
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
+<!-- Last updated: 2026-09-11T09:30:01+07:00 -->
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
