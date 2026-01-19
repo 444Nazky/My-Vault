@@ -151,6 +151,7 @@ Obsidian Vault/
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
+<!-- Last updated: 2026-09-12T09:59:48+07:00 -->
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
 | Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
@@ -191,7 +192,6 @@ To update this vault:
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
 4. Run System/Fixes/Visual-Guides updates when system changes
-<!-- Last updated: 2026-09-12T09:59:48+07:00 -->
 
 ## Tags
 #note-readme
