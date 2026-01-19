@@ -21,7 +21,6 @@ Obsidian Vault/
 │   ├── Prompts/               # empty
 │   ├── VSCode/                # empty
 │   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
-<!-- Last updated: 2026-09-11T09:20:43+07:00 -->
 ├── Personal/                  # Personal notes & logs
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
@@ -69,6 +68,7 @@ Obsidian Vault/
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
 | GRUB Fix | System/Fixes/GRUB-Configuration |
+<!-- Last updated: 2026-09-11T09:20:43+07:00 -->
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
