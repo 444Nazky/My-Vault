@@ -131,7 +131,6 @@ Obsidian Vault/
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
-<!-- Last updated: 2026-09-11T09:30:02+07:00 -->
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
@@ -190,4 +189,5 @@ To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
+<!-- Last updated: 2026-09-11T09:30:02+07:00 -->
 4. Run System/Fixes/Visual-Guides updates when system changes
