@@ -34,6 +34,7 @@ Obsidian Vault/
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
+<!-- Last updated: 2026-09-11T09:20:44+07:00 -->
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
@@ -110,7 +111,6 @@ Obsidian Vault/
 - Btrfs mount advice included
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
-<!-- Last updated: 2026-09-11T09:20:44+07:00 -->
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
