@@ -96,7 +96,6 @@ Obsidian Vault/
 - DKMS rebuilt
 - Driver loaded
 - Wayland environment configured
-<!-- Last updated: 2026-09-11T09:20:44+07:00 -->
 - env.lua updated with NVIDIA variables
 
 ### GRUB Configuration - FIXED
