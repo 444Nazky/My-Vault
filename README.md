@@ -170,6 +170,7 @@ Obsidian Vault/
 
 ## AI CLI Agents
 
+<!-- Last updated: 2026-09-11T09:30:02+07:00 -->
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
