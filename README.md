@@ -37,6 +37,7 @@ Obsidian Vault/
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
+<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
 │   ├── KDE-Plasma-Ricing.md
@@ -117,7 +118,6 @@ Obsidian Vault/
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
-<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
