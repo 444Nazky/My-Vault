@@ -22,7 +22,6 @@ Obsidian Vault/
 │   ├── VSCode/                # empty
 │   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
 ├── Personal/                  # Personal notes & logs
-<!-- Last updated: 2026-09-11T09:20:44+07:00 -->
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
 │   ├── School/                # P3, P3-2, What-to-Create
