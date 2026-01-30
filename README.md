@@ -138,10 +138,10 @@ Obsidian Vault/
 
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
+<!-- Last updated: 2026-09-11T09:30:02+07:00 -->
 
 ---
 
-<!-- Last updated: 2026-09-11T09:30:02+07:00 -->
 ## Fixes Summary
 
 | Issue | Status | Document |
