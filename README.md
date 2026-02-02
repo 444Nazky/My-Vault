@@ -114,6 +114,7 @@ Obsidian Vault/
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 <!-- Last updated: 2026-09-11T09:30:14+07:00 -->
+<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
@@ -126,7 +127,6 @@ Obsidian Vault/
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
-<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
