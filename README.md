@@ -114,7 +114,6 @@ Obsidian Vault/
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 <!-- Last updated: 2026-09-11T09:30:14+07:00 -->
-<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
