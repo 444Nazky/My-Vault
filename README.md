@@ -59,7 +59,6 @@ Obsidian Vault/
 
 ---
 
-<!-- Last updated: 2026-09-11T09:20:44+07:00 -->
 ## Quick Access
 
 | Category | Path |
