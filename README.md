@@ -97,7 +97,6 @@ Obsidian Vault/
 - Driver loaded
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
-<!-- Last updated: 2026-09-11T09:20:44+07:00 -->
 
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
