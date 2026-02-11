@@ -36,7 +36,6 @@ Obsidian Vault/
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
-<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 │   ├── System-Architecture.md
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
