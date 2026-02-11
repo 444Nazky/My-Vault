@@ -69,6 +69,7 @@ Obsidian Vault/
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
+<!-- Last updated: 2026-09-11T09:30:02+07:00 -->
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
@@ -170,7 +171,6 @@ Obsidian Vault/
 
 ## AI CLI Agents
 
-<!-- Last updated: 2026-09-11T09:30:02+07:00 -->
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
