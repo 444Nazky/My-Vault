@@ -14,6 +14,7 @@ Obsidian Vault/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
+<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 │   └── README.md
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
@@ -178,7 +179,6 @@ Obsidian Vault/
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
-<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
