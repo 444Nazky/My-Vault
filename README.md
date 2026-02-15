@@ -14,7 +14,6 @@ Obsidian Vault/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
-<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 │   └── README.md
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
@@ -171,6 +170,7 @@ Obsidian Vault/
 
 ## AI CLI Agents
 
+<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
