@@ -44,6 +44,7 @@ Obsidian Vault/
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
+<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
@@ -170,7 +171,6 @@ Obsidian Vault/
 
 ## AI CLI Agents
 
-<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
