@@ -1,5 +1,6 @@
 # Obsidian Vault Index
 
+<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 **Location:** `~/Documents/Obsidian Vault/`
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
@@ -10,7 +11,6 @@
 
 ```
 Obsidian Vault/
-<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
