@@ -77,6 +77,7 @@ Obsidian Vault/
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
 | Roblox Sober | System/roblox-sober-install |
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
+<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 | Gaming NFS Heat | System/Gaming/README |
 | Visual Guides | System/Fixes/Visual-Guides |
 | Quick Reference | System/Fixes/Quick-Reference |
@@ -118,7 +119,6 @@ Obsidian Vault/
 
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
-<!-- Last updated: 2026-09-12T09:59:49+07:00 -->
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
 
