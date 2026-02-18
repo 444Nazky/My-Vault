@@ -112,7 +112,6 @@ Obsidian Vault/
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
 - Bumblebee blacklist disabled
-<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 - Verified with `modprobe nvidia-drm`
 
@@ -181,6 +180,7 @@ Obsidian Vault/
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
+<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 
 ---
 
