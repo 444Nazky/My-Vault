@@ -173,6 +173,7 @@ Obsidian Vault/
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
+<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
@@ -180,7 +181,6 @@ Obsidian Vault/
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
-<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 
 ---
 
