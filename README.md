@@ -107,6 +107,7 @@ Obsidian Vault/
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
+<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 - Btrfs mount advice included
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
@@ -141,7 +142,6 @@ Obsidian Vault/
 
 ---
 
-<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 ## Fixes Summary
 
 | Issue | Status | Document |
