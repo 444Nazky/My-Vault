@@ -107,7 +107,6 @@ Obsidian Vault/
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
-<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 - Btrfs mount advice included
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
@@ -157,6 +156,7 @@ Obsidian Vault/
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
+<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 ---
 
 ## Visual Documentation
