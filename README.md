@@ -11,6 +11,7 @@
 ```
 Obsidian Vault/
 ├── 07-Incident Response/        # IR cases
+<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
@@ -98,7 +99,6 @@ Obsidian Vault/
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
 
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
