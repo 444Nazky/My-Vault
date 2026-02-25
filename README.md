@@ -162,6 +162,7 @@ Obsidian Vault/
 
 | Document | Content |
 |---------|---------|
+<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
@@ -179,7 +180,6 @@ Obsidian Vault/
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
-<!-- Last updated: 2026-09-11T09:20:45+07:00 -->
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
 ---
