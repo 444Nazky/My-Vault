@@ -104,7 +104,6 @@ Obsidian Vault/
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
 
-<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
@@ -132,6 +131,7 @@ Obsidian Vault/
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
+<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
