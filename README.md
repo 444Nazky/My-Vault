@@ -85,6 +85,7 @@ Obsidian Vault/
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
 | Device Overview | Personal/Device/00 - Device Overview |
+<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
 
@@ -131,7 +132,6 @@ Obsidian Vault/
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
-<!-- Last updated: 2026-09-11T09:30:03+07:00 -->
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
