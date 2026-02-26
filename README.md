@@ -84,6 +84,7 @@ Obsidian Vault/
 | Web Links Hub | Web-Links-Hub - pointer page |
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
+<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 | Device Overview | Personal/Device/00 - Device Overview |
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
@@ -104,7 +105,6 @@ Obsidian Vault/
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
 
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
