@@ -28,6 +28,7 @@ Obsidian Vault/
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
+<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
@@ -111,7 +112,6 @@ Obsidian Vault/
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 <!-- Last updated: 2026-09-11T09:30:14+07:00 -->
