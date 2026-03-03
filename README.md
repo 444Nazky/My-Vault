@@ -34,7 +34,6 @@ Obsidian Vault/
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
@@ -140,6 +139,7 @@ Obsidian Vault/
 
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
+<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 
 ---
 
