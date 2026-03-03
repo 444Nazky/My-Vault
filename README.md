@@ -34,6 +34,7 @@ Obsidian Vault/
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
+<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
@@ -150,7 +151,6 @@ Obsidian Vault/
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
