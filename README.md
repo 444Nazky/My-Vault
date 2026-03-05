@@ -91,7 +91,6 @@ Obsidian Vault/
 ---
 
 ## Status: All Fixes Complete (Updated 2026-09-10)
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
