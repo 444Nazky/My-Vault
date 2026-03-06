@@ -135,7 +135,6 @@ Obsidian Vault/
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
-<!-- Last updated: 2026-09-11T09:30:04+07:00 -->
 
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
