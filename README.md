@@ -96,6 +96,7 @@ Obsidian Vault/
 - DKMS rebuilt
 - Driver loaded
 - Wayland environment configured
+<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 - env.lua updated with NVIDIA variables
 
 ### GRUB Configuration - FIXED
@@ -137,7 +138,6 @@ Obsidian Vault/
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
 
 ### Secure Boot - INFO
-<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 - Keep disabled for gaming compatibility
 
 ---
