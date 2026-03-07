@@ -15,6 +15,7 @@ Obsidian Vault/
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
 │   └── README.md
+<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
 │   ├── Github/                # GitHub connect tutorial
@@ -96,7 +97,6 @@ Obsidian Vault/
 - DKMS rebuilt
 - Driver loaded
 - Wayland environment configured
-<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 - env.lua updated with NVIDIA variables
 
 ### GRUB Configuration - FIXED
