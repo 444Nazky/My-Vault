@@ -44,6 +44,7 @@ Obsidian Vault/
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
+<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
