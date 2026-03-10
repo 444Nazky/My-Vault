@@ -105,7 +105,6 @@ Obsidian Vault/
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
