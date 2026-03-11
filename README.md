@@ -61,6 +61,7 @@ Obsidian Vault/
 
 ## Quick Access
 
+<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
