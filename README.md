@@ -81,6 +81,7 @@ Obsidian Vault/
 | Visual Guides | System/Fixes/Visual-Guides |
 | Quick Reference | System/Fixes/Quick-Reference |
 | Graphs Index | Graphs/00-Graph-Index - per-topic diagrams |
+<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 | Web Links Hub | Web-Links-Hub - pointer page |
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
@@ -126,7 +127,6 @@ Obsidian Vault/
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
 
-<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
