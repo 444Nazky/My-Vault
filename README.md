@@ -25,7 +25,6 @@ Obsidian Vault/
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
 │   ├── School/                # P3, P3-2, What-to-Create
-<!-- Last updated: 2026-09-11T09:30:04+07:00 -->
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
