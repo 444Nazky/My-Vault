@@ -167,6 +167,7 @@ Obsidian Vault/
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
 
 ---
+<!-- Last updated: 2026-09-11T09:30:04+07:00 -->
 
 ## AI CLI Agents
 
