@@ -15,7 +15,6 @@ Obsidian Vault/
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
 │   └── README.md
-<!-- Last updated: 2026-09-12T09:59:50+07:00 -->
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
 │   ├── Github/                # GitHub connect tutorial
@@ -188,6 +187,7 @@ Obsidian Vault/
 ## Maintenance
 
 To update this vault:
+<!-- Last updated: 2026-09-12T09:59:51+07:00 -->
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
