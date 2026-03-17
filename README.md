@@ -105,7 +105,6 @@ Obsidian Vault/
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
-<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
@@ -134,6 +133,7 @@ Obsidian Vault/
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
 ### VSCode Theme Bug - DOCUMENTED
+<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
 
