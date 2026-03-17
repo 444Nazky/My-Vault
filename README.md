@@ -4,7 +4,6 @@
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
-<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 ---
 
 ## Folder Structure
@@ -106,6 +105,7 @@ Obsidian Vault/
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
+<!-- Last updated: 2026-09-11T09:20:46+07:00 -->
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
