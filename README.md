@@ -53,6 +53,7 @@ Obsidian Vault/
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
 ├── PROMPTS.md
 ├── README.md                  # YOU ARE HERE
+<!-- Last updated: 2026-09-11T09:30:04+07:00 -->
 ├── Map of Content.md
 └── Path.md
 ```
