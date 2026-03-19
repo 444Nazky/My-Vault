@@ -149,7 +149,6 @@ Obsidian Vault/
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
-<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
