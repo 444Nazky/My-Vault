@@ -101,6 +101,7 @@ Obsidian Vault/
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
+<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
 
@@ -148,7 +149,6 @@ Obsidian Vault/
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
-<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
