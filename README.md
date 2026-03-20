@@ -168,7 +168,6 @@ Obsidian Vault/
 
 ---
 
-<!-- Last updated: 2026-09-11T09:30:04+07:00 -->
 ## AI CLI Agents
 
 | Tool | Version | Location |
@@ -185,6 +184,7 @@ Obsidian Vault/
 ---
 
 ## Maintenance
+<!-- Last updated: 2026-09-11T09:30:04+07:00 -->
 
 To update this vault:
 1. Check Map of Content for full overview
