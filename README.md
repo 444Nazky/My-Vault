@@ -101,7 +101,6 @@ Obsidian Vault/
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
-<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
 
