@@ -167,6 +167,7 @@ Obsidian Vault/
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
 
+<!-- Last updated: 2026-09-12T09:59:51+07:00 -->
 ---
 
 ## AI CLI Agents
