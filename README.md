@@ -95,7 +95,6 @@ Obsidian Vault/
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
 - Driver loaded
-<!-- Last updated: 2026-09-11T09:30:04+07:00 -->
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
 
