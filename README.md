@@ -38,6 +38,7 @@ Obsidian Vault/
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
 │   ├── Troubleshooting Steps.md
+<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 │   ├── Caelestia Dotfiles Context.md
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
@@ -72,7 +73,6 @@ Obsidian Vault/
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
-<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
