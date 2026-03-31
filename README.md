@@ -185,7 +185,6 @@ Obsidian Vault/
 
 ## Maintenance
 
-<!-- Last updated: 2026-09-11T09:30:05+07:00 -->
 To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
