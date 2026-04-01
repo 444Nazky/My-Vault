@@ -54,7 +54,6 @@ Obsidian Vault/
 ├── PROMPTS.md
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
-<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 └── Path.md
 ```
 
@@ -65,6 +64,7 @@ Obsidian Vault/
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
+<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
