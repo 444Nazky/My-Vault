@@ -64,7 +64,6 @@ Obsidian Vault/
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
-<!-- Last updated: 2026-09-11T09:20:47+07:00 -->
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
@@ -137,6 +136,7 @@ Obsidian Vault/
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
 
+<!-- Last updated: 2026-09-11T09:20:48+07:00 -->
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
 
