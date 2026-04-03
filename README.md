@@ -86,6 +86,7 @@ Obsidian Vault/
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
 | Device Overview | Personal/Device/00 - Device Overview |
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
+<!-- Last updated: 2026-09-12T09:59:51+07:00 -->
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
 
 ---
@@ -157,7 +158,6 @@ Obsidian Vault/
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
-<!-- Last updated: 2026-09-12T09:59:51+07:00 -->
 ---
 
 ## Visual Documentation
