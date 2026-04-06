@@ -104,6 +104,7 @@ Obsidian Vault/
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
 
+<!-- Last updated: 2026-09-11T09:20:48+07:00 -->
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
@@ -165,7 +166,6 @@ Obsidian Vault/
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
-<!-- Last updated: 2026-09-11T09:20:48+07:00 -->
 
 ---
 
