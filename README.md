@@ -61,7 +61,6 @@ Obsidian Vault/
 
 ## Quick Access
 
-<!-- Last updated: 2026-09-11T09:20:48+07:00 -->
 | Category | Path |
 |----------|------|
 | AI Agents | AGENTS/AI-CLI-Agents |
@@ -166,6 +165,7 @@ Obsidian Vault/
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
+<!-- Last updated: 2026-09-11T09:20:48+07:00 -->
 
 ---
 
