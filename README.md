@@ -137,6 +137,7 @@ Obsidian Vault/
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
 
+<!-- Last updated: 2026-09-12T09:59:51+07:00 -->
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
 
@@ -159,7 +160,6 @@ Obsidian Vault/
 
 ---
 
-<!-- Last updated: 2026-09-12T09:59:51+07:00 -->
 ## Visual Documentation
 
 | Document | Content |
