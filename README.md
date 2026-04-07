@@ -163,6 +163,7 @@ Obsidian Vault/
 | Document | Content |
 |---------|---------|
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
+<!-- Last updated: 2026-09-11T09:30:05+07:00 -->
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
 
