@@ -51,6 +51,7 @@ Obsidian Vault/
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
+<!-- Last updated: 2026-09-11T09:30:05+07:00 -->
 ├── PROMPTS.md
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
@@ -72,7 +73,6 @@ Obsidian Vault/
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
-<!-- Last updated: 2026-09-11T09:30:05+07:00 -->
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
