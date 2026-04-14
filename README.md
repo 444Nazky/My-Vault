@@ -147,7 +147,6 @@ Obsidian Vault/
 | Issue | Status | Document |
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
-<!-- Last updated: 2026-09-12T09:59:52+07:00 -->
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
@@ -187,6 +186,7 @@ Obsidian Vault/
 
 ## Maintenance
 
+<!-- Last updated: 2026-09-12T09:59:52+07:00 -->
 To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
