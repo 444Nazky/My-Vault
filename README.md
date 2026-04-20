@@ -54,7 +54,6 @@ Obsidian Vault/
 ├── PROMPTS.md
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
-<!-- Last updated: 2026-09-11T09:30:06+07:00 -->
 └── Path.md
 ```
 
