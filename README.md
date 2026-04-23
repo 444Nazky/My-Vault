@@ -116,6 +116,7 @@ Obsidian Vault/
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
+<!-- Last updated: 2026-09-11T09:30:06+07:00 -->
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
@@ -153,7 +154,6 @@ Obsidian Vault/
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
 | Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
-<!-- Last updated: 2026-09-11T09:30:06+07:00 -->
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
