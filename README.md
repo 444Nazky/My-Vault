@@ -36,7 +36,6 @@ Obsidian Vault/
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
-<!-- Last updated: 2026-09-11T09:20:49+07:00 -->
 │   ├── System-Architecture.md
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
@@ -180,6 +179,7 @@ Obsidian Vault/
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
+<!-- Last updated: 2026-09-11T09:20:49+07:00 -->
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
 ---
