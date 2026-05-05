@@ -1,11 +1,11 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
+<!-- Last updated: 2026-09-11T09:20:49+07:00 -->
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
 ---
-<!-- Last updated: 2026-09-11T09:20:49+07:00 -->
 
 ## Folder Structure
 
