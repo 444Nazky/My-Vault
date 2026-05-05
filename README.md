@@ -1,5 +1,4 @@
 # Obsidian Vault Index
-<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 
 **Location:** `~/Documents/Obsidian Vault/`
 **Last Updated:** 2026-09-10
@@ -117,6 +116,7 @@ Obsidian Vault/
 <!-- Last updated: 2026-09-11T09:30:14+07:00 -->
 - Verified with `modprobe nvidia-drm`
 
+<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
