@@ -1,4 +1,5 @@
 # Obsidian Vault Index
+<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 
 **Location:** `~/Documents/Obsidian Vault/`
 **Last Updated:** 2026-09-10
