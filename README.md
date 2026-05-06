@@ -1,7 +1,6 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
-<!-- Last updated: 2026-09-11T09:20:49+07:00 -->
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
@@ -72,6 +71,7 @@ Obsidian Vault/
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
+<!-- Last updated: 2026-09-11T09:20:49+07:00 -->
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
