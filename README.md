@@ -63,6 +63,7 @@ Obsidian Vault/
 
 | Category | Path |
 |----------|------|
+<!-- Last updated: 2026-09-11T09:20:49+07:00 -->
 | AI Agents | AGENTS/AI-CLI-Agents |
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
