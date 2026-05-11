@@ -7,6 +7,7 @@
 ---
 
 ## Folder Structure
+<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 
 ```
 Obsidian Vault/
@@ -32,7 +33,6 @@ Obsidian Vault/
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
-<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
