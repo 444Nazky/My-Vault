@@ -7,7 +7,6 @@
 ---
 
 ## Folder Structure
-<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 
 ```
 Obsidian Vault/
@@ -147,6 +146,7 @@ Obsidian Vault/
 | Issue | Status | Document |
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
+<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
