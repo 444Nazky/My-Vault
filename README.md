@@ -5,6 +5,7 @@
 **Total Notes:** 192 markdown files
 
 ---
+<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 
 ## Folder Structure
 
@@ -107,7 +108,6 @@ Obsidian Vault/
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
-<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 - Btrfs mount advice included
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
