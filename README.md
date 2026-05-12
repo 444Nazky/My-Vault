@@ -5,7 +5,6 @@
 **Total Notes:** 192 markdown files
 
 ---
-<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 
 ## Folder Structure
 
@@ -186,6 +185,7 @@ Obsidian Vault/
 ---
 
 ## Maintenance
+<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 
 To update this vault:
 1. Check Map of Content for full overview
