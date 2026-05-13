@@ -111,7 +111,6 @@ Obsidian Vault/
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
-<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 <!-- Last updated: 2026-09-11T09:30:14+07:00 -->
@@ -122,6 +121,7 @@ Obsidian Vault/
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
 
+<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
