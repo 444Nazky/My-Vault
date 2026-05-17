@@ -47,7 +47,6 @@ Obsidian Vault/
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
-<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
@@ -189,5 +188,6 @@ Obsidian Vault/
 To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
+<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 3. Update this index when adding new categories
 4. Run System/Fixes/Visual-Guides updates when system changes
