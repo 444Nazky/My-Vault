@@ -89,7 +89,6 @@ Obsidian Vault/
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
 
 ---
-<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
@@ -101,6 +100,7 @@ Obsidian Vault/
 
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
+<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
