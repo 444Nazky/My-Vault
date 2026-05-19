@@ -99,6 +99,7 @@ Obsidian Vault/
 - env.lua updated with NVIDIA variables
 
 ### GRUB Configuration - FIXED
+<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
@@ -108,7 +109,6 @@ Obsidian Vault/
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
-<!-- Last updated: 2026-09-12T09:59:53+07:00 -->
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
