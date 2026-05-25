@@ -68,6 +68,7 @@ Obsidian Vault/
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
 | GRUB Fix | System/Fixes/GRUB-Configuration |
+<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
@@ -166,7 +167,6 @@ Obsidian Vault/
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
 
-<!-- Last updated: 2026-09-11T09:20:50+07:00 -->
 ---
 
 ## AI CLI Agents
