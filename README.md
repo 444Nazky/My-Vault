@@ -52,7 +52,6 @@ Obsidian Vault/
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
 ├── PROMPTS.md
-<!-- Last updated: 2026-09-11T09:30:07+07:00 -->
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
 └── Path.md
@@ -119,6 +118,7 @@ Obsidian Vault/
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
+<!-- Last updated: 2026-09-11T09:30:07+07:00 -->
 - See System/Gaming/README for setup
 
 ### Roblox via Sober - INSTALLED 2026-09-09
