@@ -1,7 +1,6 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
-<!-- Last updated: 2026-09-11T09:20:51+07:00 -->
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
@@ -81,6 +80,7 @@ Obsidian Vault/
 | Gaming NFS Heat | System/Gaming/README |
 | Visual Guides | System/Fixes/Visual-Guides |
 | Quick Reference | System/Fixes/Quick-Reference |
+<!-- Last updated: 2026-09-11T09:20:51+07:00 -->
 | Graphs Index | Graphs/00-Graph-Index - per-topic diagrams |
 | Web Links Hub | Web-Links-Hub - pointer page |
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
