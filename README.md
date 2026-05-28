@@ -1,6 +1,7 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
+<!-- Last updated: 2026-09-11T09:20:51+07:00 -->
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
@@ -21,7 +22,6 @@ Obsidian Vault/
 │   ├── Prompts/               # empty
 │   ├── VSCode/                # empty
 │   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
-<!-- Last updated: 2026-09-11T09:20:51+07:00 -->
 ├── Personal/                  # Personal notes & logs
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
