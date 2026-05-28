@@ -37,6 +37,7 @@ Obsidian Vault/
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
+<!-- Last updated: 2026-09-12T09:59:54+07:00 -->
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
 │   ├── KDE-Plasma-Ricing.md
