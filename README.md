@@ -176,6 +176,7 @@ Obsidian Vault/
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
+<!-- Last updated: 2026-09-11T09:20:51+07:00 -->
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
