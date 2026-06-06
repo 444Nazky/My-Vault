@@ -35,7 +35,6 @@ Obsidian Vault/
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
-<!-- Last updated: 2026-09-11T09:30:08+07:00 -->
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
 │   ├── Troubleshooting Steps.md
