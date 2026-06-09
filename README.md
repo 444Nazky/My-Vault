@@ -47,7 +47,6 @@ Obsidian Vault/
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
-<!-- Last updated: 2026-09-12T09:59:54+07:00 -->
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
