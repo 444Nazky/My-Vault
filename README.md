@@ -52,6 +52,7 @@ Obsidian Vault/
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
 ├── PROMPTS.md
+<!-- Last updated: 2026-09-12T09:59:54+07:00 -->
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
 └── Path.md
@@ -162,7 +163,6 @@ Obsidian Vault/
 ## Visual Documentation
 
 | Document | Content |
-<!-- Last updated: 2026-09-12T09:59:54+07:00 -->
 |---------|---------|
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
