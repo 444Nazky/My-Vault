@@ -94,7 +94,6 @@ Obsidian Vault/
 
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
-<!-- Last updated: 2026-09-11T09:20:52+07:00 -->
 - Driver loaded
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
@@ -146,6 +145,7 @@ Obsidian Vault/
 
 | Issue | Status | Document |
 |-------|--------|----------|
+<!-- Last updated: 2026-09-11T09:20:52+07:00 -->
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
