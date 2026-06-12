@@ -13,6 +13,7 @@ Obsidian Vault/
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
+<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 │   ├── AI-CLI-Agents.md
 │   └── README.md
 ├── Development/               # Development projects & guides
@@ -132,7 +133,6 @@ Obsidian Vault/
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
-<!-- Last updated: 2026-09-12T09:59:54+07:00 -->
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
