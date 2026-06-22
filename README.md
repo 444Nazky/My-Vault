@@ -102,7 +102,6 @@ Obsidian Vault/
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
-<!-- Last updated: 2026-09-11T09:30:09+07:00 -->
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
