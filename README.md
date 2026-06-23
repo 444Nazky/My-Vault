@@ -73,6 +73,7 @@ Obsidian Vault/
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
+<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
 | Roblox Sober | System/roblox-sober-install |
