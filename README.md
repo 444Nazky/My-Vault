@@ -6,6 +6,7 @@
 
 ---
 
+<!-- Last updated: 2026-09-11T09:30:09+07:00 -->
 ## Folder Structure
 
 ```
@@ -144,7 +145,6 @@ Obsidian Vault/
 ## Fixes Summary
 
 | Issue | Status | Document |
-<!-- Last updated: 2026-09-11T09:30:09+07:00 -->
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
