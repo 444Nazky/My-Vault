@@ -85,6 +85,7 @@ Obsidian Vault/
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
 | Device Overview | Personal/Device/00 - Device Overview |
+<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
 
@@ -164,7 +165,6 @@ Obsidian Vault/
 | Document | Content |
 |---------|---------|
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
-<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
 
