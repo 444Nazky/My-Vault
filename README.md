@@ -17,6 +17,7 @@ Obsidian Vault/
 │   └── README.md
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
+<!-- Last updated: 2026-09-11T09:20:52+07:00 -->
 │   ├── Github/                # GitHub connect tutorial
 │   ├── Prompts/               # empty
 │   ├── VSCode/                # empty
@@ -159,7 +160,6 @@ Obsidian Vault/
 ---
 
 ## Visual Documentation
-<!-- Last updated: 2026-09-11T09:20:52+07:00 -->
 
 | Document | Content |
 |---------|---------|
