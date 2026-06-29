@@ -66,6 +66,7 @@ Obsidian Vault/
 | AI Agents | AGENTS/AI-CLI-Agents |
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
+<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
