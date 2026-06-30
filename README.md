@@ -182,6 +182,7 @@ Obsidian Vault/
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
 ---
+<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 
 ## Maintenance
 
