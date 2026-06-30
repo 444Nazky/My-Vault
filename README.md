@@ -55,6 +55,7 @@ Obsidian Vault/
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
 └── Path.md
+<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 ```
 
 ---
