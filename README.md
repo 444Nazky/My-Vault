@@ -1,4 +1,5 @@
 # Obsidian Vault Index
+<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 
 **Location:** `~/Documents/Obsidian Vault/`
 **Last Updated:** 2026-09-10
@@ -55,7 +56,6 @@ Obsidian Vault/
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
 └── Path.md
-<!-- Last updated: 2026-09-12T09:59:55+07:00 -->
 ```
 
 ---
