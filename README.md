@@ -15,6 +15,7 @@ Obsidian Vault/
 ├── AGENTS/                    # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
 │   └── README.md
+<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 ├── Development/               # Development projects & guides
 │   ├── Database/              # 2 files: phpMyAdmin guides
 │   ├── Github/                # GitHub connect tutorial
@@ -182,7 +183,6 @@ Obsidian Vault/
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
 ---
-<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 
 ## Maintenance
 
