@@ -28,7 +28,6 @@ Obsidian Vault/
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
-<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
@@ -73,6 +72,7 @@ Obsidian Vault/
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
+<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
