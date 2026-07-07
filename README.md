@@ -79,7 +79,6 @@ Obsidian Vault/
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
 | Gaming NFS Heat | System/Gaming/README |
 | Visual Guides | System/Fixes/Visual-Guides |
-<!-- Last updated: 2026-09-12T09:59:56+07:00 -->
 | Quick Reference | System/Fixes/Quick-Reference |
 | Graphs Index | Graphs/00-Graph-Index - per-topic diagrams |
 | Web Links Hub | Web-Links-Hub - pointer page |
