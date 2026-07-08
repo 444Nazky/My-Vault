@@ -98,13 +98,13 @@ Obsidian Vault/
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
 
-<!-- Last updated: 2026-09-11T09:30:10+07:00 -->
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
 
+<!-- Last updated: 2026-09-11T09:30:10+07:00 -->
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
