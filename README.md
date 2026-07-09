@@ -77,7 +77,6 @@ Obsidian Vault/
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
 | Roblox Sober | System/roblox-sober-install |
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
-<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 | Gaming NFS Heat | System/Gaming/README |
 | Visual Guides | System/Fixes/Visual-Guides |
 | Quick Reference | System/Fixes/Quick-Reference |
@@ -104,6 +103,7 @@ Obsidian Vault/
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
+<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
