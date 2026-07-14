@@ -33,6 +33,7 @@ Obsidian Vault/
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
+<!-- Last updated: 2026-09-11T09:30:10+07:00 -->
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
@@ -122,7 +123,6 @@ Obsidian Vault/
 
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
-<!-- Last updated: 2026-09-11T09:30:10+07:00 -->
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
