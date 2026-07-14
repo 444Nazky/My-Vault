@@ -74,6 +74,7 @@ Obsidian Vault/
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
+<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
 | Roblox Sober | System/roblox-sober-install |
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
