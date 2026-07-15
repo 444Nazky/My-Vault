@@ -74,7 +74,6 @@ Obsidian Vault/
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
-<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
 | Roblox Sober | System/roblox-sober-install |
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
@@ -132,6 +131,7 @@ Obsidian Vault/
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
+<!-- Last updated: 2026-09-11T09:20:53+07:00 -->
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
