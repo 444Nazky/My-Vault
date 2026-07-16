@@ -46,7 +46,6 @@ Obsidian Vault/
 ├── Tasks/                     # Project tasks
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
-<!-- Last updated: 2026-09-12T09:59:56+07:00 -->
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
@@ -103,6 +102,7 @@ Obsidian Vault/
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
+<!-- Last updated: 2026-09-12T09:59:56+07:00 -->
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
