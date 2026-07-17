@@ -108,7 +108,6 @@ Obsidian Vault/
 - Identified root causes from caelestia-shell removal
 - Lessons learned documented
 - Btrfs mount advice included
-<!-- Last updated: 2026-09-12T09:59:56+07:00 -->
 
 ### HDMI Monitor on NVIDIA Wayland - FIXED 2026-09-07
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
@@ -118,6 +117,7 @@ Obsidian Vault/
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
+<!-- Last updated: 2026-09-12T09:59:56+07:00 -->
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
 - See System/Gaming/README for setup
