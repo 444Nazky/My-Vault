@@ -121,7 +121,6 @@ Obsidian Vault/
 - See System/Gaming/README for setup
 
 ### Roblox via Sober - INSTALLED 2026-09-09
-<!-- Last updated: 2026-09-11T09:30:10+07:00 -->
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
