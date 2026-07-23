@@ -75,7 +75,6 @@ Obsidian Vault/
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
-<!-- Last updated: 2026-09-11T09:20:54+07:00 -->
 | Roblox Sober | System/roblox-sober-install |
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
 | Gaming NFS Heat | System/Gaming/README |
