@@ -39,7 +39,6 @@ Obsidian Vault/
 │   ├── System-Architecture.md
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
-<!-- Last updated: 2026-09-12T09:59:56+07:00 -->
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
@@ -172,6 +171,7 @@ Obsidian Vault/
 
 ## AI CLI Agents
 
+<!-- Last updated: 2026-09-12T09:59:56+07:00 -->
 | Tool | Version | Location |
 |------|---------|----------|
 | Claude Code | 2.1.263 | Current session |
