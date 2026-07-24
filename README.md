@@ -48,7 +48,6 @@ Obsidian Vault/
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
-<!-- Last updated: 2026-09-11T09:30:11+07:00 -->
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
@@ -149,6 +148,7 @@ Obsidian Vault/
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
+<!-- Last updated: 2026-09-11T09:30:11+07:00 -->
 | HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
