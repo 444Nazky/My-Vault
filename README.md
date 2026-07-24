@@ -48,6 +48,7 @@ Obsidian Vault/
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
 │   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
+<!-- Last updated: 2026-09-11T09:30:11+07:00 -->
 │   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
@@ -185,7 +186,6 @@ Obsidian Vault/
 
 ## Maintenance
 
-<!-- Last updated: 2026-09-11T09:30:11+07:00 -->
 To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
