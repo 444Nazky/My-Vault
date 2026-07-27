@@ -82,7 +82,6 @@ Obsidian Vault/
 | Quick Reference | System/Fixes/Quick-Reference |
 | Graphs Index | Graphs/00-Graph-Index - per-topic diagrams |
 | Web Links Hub | Web-Links-Hub - pointer page |
-<!-- Last updated: 2026-09-12T09:59:57+07:00 -->
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
 | Device Overview | Personal/Device/00 - Device Overview |
@@ -95,6 +94,7 @@ Obsidian Vault/
 
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
+<!-- Last updated: 2026-09-12T09:59:57+07:00 -->
 - Driver loaded
 - Wayland environment configured
 - env.lua updated with NVIDIA variables
