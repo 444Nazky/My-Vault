@@ -32,6 +32,7 @@ Obsidian Vault/
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
 │   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
+<!-- Last updated: 2026-09-11T09:20:54+07:00 -->
 │   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
 │   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Starship Installation.md
@@ -79,7 +80,6 @@ Obsidian Vault/
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
 | Gaming NFS Heat | System/Gaming/README |
 | Visual Guides | System/Fixes/Visual-Guides |
-<!-- Last updated: 2026-09-11T09:20:54+07:00 -->
 | Quick Reference | System/Fixes/Quick-Reference |
 | Graphs Index | Graphs/00-Graph-Index - per-topic diagrams |
 | Web Links Hub | Web-Links-Hub - pointer page |
