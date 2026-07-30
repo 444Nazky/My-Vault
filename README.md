@@ -115,7 +115,6 @@ Obsidian Vault/
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 - Verified with `modprobe nvidia-drm`
 
-<!-- Last updated: 2026-09-11T09:30:11+07:00 -->
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
@@ -182,6 +181,7 @@ Obsidian Vault/
 | Hermes | 0.21.0 | `~/.local/bin/hermes` |
 | Ollama | 0.33.3 | `/usr/bin/ollama` |
 
+<!-- Last updated: 2026-09-11T09:30:11+07:00 -->
 ---
 
 ## Maintenance
