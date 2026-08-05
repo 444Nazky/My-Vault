@@ -28,7 +28,6 @@ Obsidian Vault/
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
 ├── System/                    # System configurations & fixes
-<!-- Last updated: 2026-09-12T09:59:57+07:00 -->
 │   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/ # 31 files: perf debugging
 │   ├── Display-Server/        # hyprland-trackpad-sensitivity
@@ -68,6 +67,7 @@ Obsidian Vault/
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
+<!-- Last updated: 2026-09-12T09:59:57+07:00 -->
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
