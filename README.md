@@ -39,7 +39,6 @@ Obsidian Vault/
 │   ├── System-Architecture.md
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
-<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
@@ -107,6 +106,7 @@ Obsidian Vault/
 
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
+<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 - Lessons learned documented
 - Btrfs mount advice included
 
