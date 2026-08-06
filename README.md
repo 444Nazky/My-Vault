@@ -75,7 +75,6 @@ Obsidian Vault/
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
-<!-- Last updated: 2026-09-12T09:59:57+07:00 -->
 | Roblox Sober | System/roblox-sober-install |
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
 | Gaming NFS Heat | System/Gaming/README |
@@ -127,6 +126,7 @@ Obsidian Vault/
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
+<!-- Last updated: 2026-09-12T09:59:57+07:00 -->
 
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
