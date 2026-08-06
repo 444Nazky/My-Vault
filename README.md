@@ -40,7 +40,6 @@ Obsidian Vault/
 │   ├── Troubleshooting Steps.md
 │   ├── Caelestia Dotfiles Context.md
 │   ├── KDE-Plasma-Ricing.md
-<!-- Last updated: 2026-09-11T09:20:55+07:00 -->
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
@@ -158,6 +157,7 @@ Obsidian Vault/
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
 ---
+<!-- Last updated: 2026-09-11T09:20:55+07:00 -->
 
 ## Visual Documentation
 
