@@ -106,7 +106,6 @@ Obsidian Vault/
 
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
-<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 - Lessons learned documented
 - Btrfs mount advice included
 
@@ -186,6 +185,7 @@ Obsidian Vault/
 
 ## Maintenance
 
+<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 To update this vault:
 1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
