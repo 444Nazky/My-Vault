@@ -140,6 +140,7 @@ Obsidian Vault/
 - Keep disabled for gaming compatibility
 
 ---
+<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 
 ## Fixes Summary
 
