@@ -9,6 +9,7 @@
 ## Folder Structure
 
 ```
+<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 Obsidian Vault/
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
@@ -140,7 +141,6 @@ Obsidian Vault/
 - Keep disabled for gaming compatibility
 
 ---
-<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 
 ## Fixes Summary
 
