@@ -9,7 +9,6 @@
 ## Folder Structure
 
 ```
-<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 Obsidian Vault/
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
@@ -71,6 +70,7 @@ Obsidian Vault/
 | GRUB Fix | System/Fixes/GRUB-Configuration |
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
+<!-- Last updated: 2026-09-11T09:30:12+07:00 -->
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
 | System Architecture | System/System-Architecture |
