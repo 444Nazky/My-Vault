@@ -175,6 +175,7 @@ Obsidian Vault/
 | Claude Code | 2.1.263 | Current session |
 | OpenCode | 1.18.29 | `/usr/bin/opencode` |
 | Grok | 1.0.13 | `/usr/bin/grok` |
+<!-- Last updated: 2026-09-11T09:20:55+07:00 -->
 | Gemini CLI | 0.57.0 | `~/.local/npm/bin/gemini` |
 | FreeBuff | 0.0.154 | `/usr/bin/freebuff` |
 | Kilo | 7.5.15 | `/usr/bin/kilo` |
