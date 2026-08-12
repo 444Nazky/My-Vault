@@ -21,6 +21,7 @@ Obsidian Vault/
 │   ├── Prompts/               # empty
 │   ├── VSCode/                # empty
 │   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
+<!-- Last updated: 2026-09-11T09:20:55+07:00 -->
 ├── Personal/                  # Personal notes & logs
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
@@ -93,7 +94,6 @@ Obsidian Vault/
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
 ### NVIDIA RTX 5050 - FIXED
-<!-- Last updated: 2026-09-11T09:20:55+07:00 -->
 - DKMS rebuilt
 - Driver loaded
 - Wayland environment configured
