@@ -7,6 +7,7 @@
 ---
 
 ## Folder Structure
+<!-- Last updated: 2026-09-11T09:20:55+07:00 -->
 
 ```
 Obsidian Vault/
