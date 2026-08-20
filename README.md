@@ -4,7 +4,6 @@
 **Last Updated:** 2026-09-10
 **Total Notes:** 192 markdown files
 
-<!-- Last updated: 2026-09-12T09:59:57+07:00 -->
 ---
 
 ## Folder Structure
@@ -145,6 +144,7 @@ Obsidian Vault/
 
 ## Fixes Summary
 
+<!-- Last updated: 2026-09-12T09:59:58+07:00 -->
 | Issue | Status | Document |
 |-------|--------|----------|
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
