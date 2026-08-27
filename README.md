@@ -52,7 +52,6 @@ Obsidian Vault/
 │   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
 │   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
 ├── PROMPTS.md
-<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 ├── README.md                  # YOU ARE HERE
 ├── Map of Content.md
 └── Path.md
@@ -102,6 +101,7 @@ Obsidian Vault/
 ### GRUB Configuration - FIXED
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
+<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
 
