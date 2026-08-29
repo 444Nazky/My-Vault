@@ -24,7 +24,6 @@ Obsidian Vault/
 ├── Personal/                  # Personal notes & logs
 │   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
 │   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
-<!-- Last updated: 2026-09-12T09:59:58+07:00 -->
 │   ├── School/                # P3, P3-2, What-to-Create
 │   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
 │   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
@@ -158,6 +157,7 @@ Obsidian Vault/
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
+<!-- Last updated: 2026-09-12T09:59:58+07:00 -->
 ---
 
 ## Visual Documentation
