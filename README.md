@@ -72,7 +72,6 @@ Obsidian Vault/
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
 | Caelestia Config | System/Caelestia/00-Overview |
-<!-- Last updated: 2026-09-12T09:59:58+07:00 -->
 | System Architecture | System/System-Architecture |
 | Terminal Setup | System/terminal-config-backup-2026-09-09 |
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
@@ -156,6 +155,7 @@ Obsidian Vault/
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
 | Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
+<!-- Last updated: 2026-09-12T09:59:58+07:00 -->
 | VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
 ---
