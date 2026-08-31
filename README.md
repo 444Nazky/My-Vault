@@ -77,7 +77,6 @@ Obsidian Vault/
 | Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
 | Roblox Sober | System/roblox-sober-install |
 | Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
-<!-- Last updated: 2026-09-11T09:30:13+07:00 -->
 | Gaming NFS Heat | System/Gaming/README |
 | Visual Guides | System/Fixes/Visual-Guides |
 | Quick Reference | System/Fixes/Quick-Reference |
@@ -124,6 +123,7 @@ Obsidian Vault/
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
+<!-- Last updated: 2026-09-11T09:30:13+07:00 -->
 - Wrapper at `~/.local/bin/sober`
 - See System/roblox-sober-install for details
 
