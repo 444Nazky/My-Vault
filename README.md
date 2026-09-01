@@ -10,6 +10,7 @@
 
 ```
 Obsidian Vault/
+<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                    # AI CLI agents documentation
@@ -44,7 +45,6 @@ Obsidian Vault/
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
-<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
