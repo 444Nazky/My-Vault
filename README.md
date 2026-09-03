@@ -102,7 +102,6 @@ Obsidian Vault/
 - Duplicate Arch entries removed (disabled 10_linux)
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
-<!-- Last updated: 2026-09-11T09:30:13+07:00 -->
 - UEFI Firmware moved to bottom of menu
 
 ### Caelestia Shell Issue - FIXED
@@ -132,6 +131,7 @@ Obsidian Vault/
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
+<!-- Last updated: 2026-09-11T09:30:13+07:00 -->
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
