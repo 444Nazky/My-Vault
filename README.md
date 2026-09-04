@@ -41,7 +41,6 @@ Obsidian Vault/
 │   ├── Caelestia Dotfiles Context.md
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
-<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
 ├── Tasks/                     # Project tasks
@@ -104,6 +103,7 @@ Obsidian Vault/
 - Duplicate Windows entries removed (disabled os-prober)
 - Windows Boot Manager added manually
 - UEFI Firmware moved to bottom of menu
+<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 
 ### Caelestia Shell Issue - FIXED
 - Identified root causes from caelestia-shell removal
