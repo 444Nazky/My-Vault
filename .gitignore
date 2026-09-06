@@ -1,0 +1,17 @@
+# Obsidian plugins (contains bundled code that may trigger secret scanners)
+.obsidian/plugins/
+
+# Obsidian workspace (local session data, not useful to sync)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian cache
+.obsidian/cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
