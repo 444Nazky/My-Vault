@@ -8,37 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "14b146f7db3c0945",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "17862b3b3a834993",
-            "type": "leaf",
-            "state": {
-              "type": "3d-graph-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "3d graph"
-            }
-          },
-          {
             "id": "b33ed73156cc22a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PROMPTS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PROMPTS"
+              "title": "New tab"
             }
           }
         ]
@@ -222,13 +198,22 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "14b146f7db3c0945",
+  "active": "b33ed73156cc22a9",
   "lastOpenFiles": [
+    "Arch-Chroot-Kilo-Agent/System-Fixes/KDE-Plasma-Ricing.md",
+    "System/KDE-Plasma-Ricing.md",
+    "Arch-Chroot-Kilo-Agent/System-Fixes/caelestia-shell-Removal-Issues.md",
+    "PROMPTS.md",
+    "Arch-Chroot-Kilo-Agent/System-Fixes/caelestia-shell-removal-issues.md",
+    "Arch-Chroot-Kilo-Agent/System-Fixes",
+    "Arch-Chroot-Kilo-Agent/System Fixes",
+    "Arch-Chroot-Kilo-Agent",
+    "Arch-Chroot-Kilo-agent/System Fixes",
+    "Arch-Chroot-Kilo-agent",
     "Arch-Chroot Kilo agent/System Fixes/caelestia-shell-Removal-Issues.md",
     "Arch-Chroot Kilo agent/System Fixes",
     "Arch-Chroot Kilo agent",
     "Path.md",
-    "PROMPTS.md",
     "System/Fixes/Quick-Reference.md",
     "System/System-Architecture.md",
     "System/System-Architecture.md.tmp.4965.63d42716e4c7",
@@ -250,15 +235,6 @@
     "Development/VSCode Theme Bug/07 - VSCode Settings Anatomy.md",
     "Development/VSCode Theme Bug/06 - Understanding Alpha Channels.md",
     "Development/VSCode Theme Bug/05 - Quick Reference Cheatsheet.md",
-    "Development/VSCode Theme Bug/04 - Prevention Checklist.md",
-    "Development/VSCode Theme Bug/03 - Manual Fix Guide.md",
-    "Development/VSCode Theme Bug/02 - Installed Extensions Snapshot.md",
-    "Development/VSCode Theme Bug/01 - Broken Color Customizations.md",
-    "Development/VSCode Theme Bug/00 - Map of Content.md",
-    "Development/VSCode Theme Bug",
-    "Personal/Spreadsheets-Auth",
-    "Personal/Session-Logs/2026-08-29-Caelestia-Session",
-    "Personal/Session-Logs",
-    "Personal/Cybersecurity/Cybersecurity/Tools"
+    "Development/VSCode Theme Bug/04 - Prevention Checklist.md"
   ]
 }
