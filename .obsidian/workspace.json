@@ -200,6 +200,7 @@
   },
   "active": "b33ed73156cc22a9",
   "lastOpenFiles": [
+    "README.md.tmp.4965.b9999623481d",
     "Arch-Chroot-Kilo-Agent/System-Fixes/KDE-Plasma-Ricing.md",
     "System/KDE-Plasma-Ricing.md",
     "Arch-Chroot-Kilo-Agent/System-Fixes/caelestia-shell-Removal-Issues.md",
@@ -234,7 +235,6 @@
     "Development/VSCode Theme Bug/08 - How VSCode Theme Engine Works.md",
     "Development/VSCode Theme Bug/07 - VSCode Settings Anatomy.md",
     "Development/VSCode Theme Bug/06 - Understanding Alpha Channels.md",
-    "Development/VSCode Theme Bug/05 - Quick Reference Cheatsheet.md",
-    "Development/VSCode Theme Bug/04 - Prevention Checklist.md"
+    "Development/VSCode Theme Bug/05 - Quick Reference Cheatsheet.md"
   ]
 }
