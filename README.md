@@ -114,6 +114,7 @@ Obsidian Vault/
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
 - Verified with `modprobe nvidia-drm`
+<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
@@ -132,7 +133,6 @@ Obsidian Vault/
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
-<!-- Last updated: 2026-09-11T09:20:56+07:00 -->
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
