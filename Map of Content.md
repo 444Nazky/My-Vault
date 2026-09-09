@@ -10,18 +10,20 @@
 
 | Section                          | Description                    | Key Notes                                                        |
 | -------------------------------- | ------------------------------ | ---------------------------------------------------------------- |
-| [[Linux/]]                       | System admin, CLI, BlackArch   | [[System Specifications]], [[CLI Cheatsheet]]                    |
-| [[Caelestia-Configuration/]]     | Hyprland + Caelestia shell     | [[Caelestia System Architecture]], [[Caelestia Config Files]]    |
-| [[Caelestia-Lag-Investigation/]] | Performance debugging          | [[00 - Investigation Overview]], [[Root Cause - Swappiness 100]] |
-| [[Cybersecurity/]]               | Pentesting tools & methodology | [[BlackArch Tools]], [[Blackarch]]                               |
-| [[Spreadsheets Auth/]]           | Google Sheets API auth         | [[Spreadsheets Auth]], [[Google Sheets Login API Setup]]         |
-| [[Database/]]                    | Laravel database management    | [[Database Management & phpMyAdmin Guide]]                       |
-| [[Github/]]                      | Git tutorials                  | [[GitHub - Connect Repository Tutorial]]                         |
-| [[Todo/]]                        | Tasks & migration guides       | [[Arch Migration]], [[Arch Linux System Fixes]]                  |
-| [[SchoolEvent/]]                 | School project docs            | [[P3]], [[What-to-Create]]                                       |
-| [[This Device/]]                 | Device-specific notes          | [[00 - Device Overview]]                                         |
-| [[VSCode Theme Bug/]]            | VSCode theme debugging         | [[Bug Report - VSCode Theme Rendering Issue]]                    |
-| [[Session-Logs/]]                | Troubleshooting sessions       | [[2026-08-29-Caelestia-Session/]]                                |
+| [[System/Linux/]]                | System admin, CLI, BlackArch   | [[System Specifications]], [[CLI Cheatsheet]]                    |
+| [[System/Caelestia/]]            | Hyprland + Caelestia shell     | [[Caelestia System Architecture]], [[Caelestia Config Files]]    |
+| [[System/Caelestia-Investigation/]] | Performance debugging          | [[00 - Investigation Overview]], [[Root Cause - Swappiness 100]] |
+| [[Personal/Cybersecurity/]]      | Pentesting tools & methodology | [[BlackArch Tools]], [[Blackarch]]                               |
+| [[Personal/Spreadsheets-Auth/]]  | Google Sheets API auth         | [[Spreadsheets Auth]], [[Google Sheets Login API Setup]]         |
+| [[Development/Database/]]        | Laravel database management    | [[Database Management & phpMyAdmin Guide]]                       |
+| [[Development/Github/]]          | Git tutorials                  | [[GitHub - Connect Repository Tutorial]]                         |
+| [[Tasks/]]                       | Tasks & migration guides       | [[Arch Migration]], [[Arch Linux System Fixes]]                  |
+| [[Personal/School/]]             | School project docs            | [[P3]], [[What-to-Create]]                                       |
+| [[Personal/Device/]]             | Device-specific notes          | [[00 - Device Overview]]                                         |
+| [[Development/VSCode Theme Bug/]] | VSCode theme debugging         | [[Bug Report - VSCode Theme Rendering Issue]]                    |
+| [[Personal/Session-Logs/]]       | Troubleshooting sessions       | [[2026-08-29-Caelestia-Session/]]                                |
+| [[System/Fixes/]]                | System fixes & guides          | [[NVIDIA-RTX-5050-Investigation]], [[GRUB-Configuration]]        |
+| [[System/Gaming/]]               | Gaming setup & troubleshooting | [[System-Info]], [[The-Problem]]                                  |
 
 ---
 
@@ -98,6 +100,12 @@ gantt
     Fix Swappiness        :active, 2026-08-30, 1h
     Disable MariaDB       :active, 2026-08-30, 30m
     
+    section Sep 7
+    Niri Haku Setup        :done, 2026-09-07, 4h
+    
+    section Sep 9
+    Terminal Config Backup :done, 2026-09-09, 30m
+    
     section This Week
     Arch Migration      :done, 2026-08-25, 2d
     BlackArch Setup     :done, 2026-08-27, 4h
@@ -164,42 +172,61 @@ graph TB
 
 ```
 Obsidian Vault/
-├── 00 - Master Map of Content.md     <-- YOU ARE HERE
+├── Map of Content.md     <-- YOU ARE HERE
 │
-├── Linux/
-│   ├── System Specifications.md      # Hardware details
-│   ├── BlackArch Tools.md            # Security toolkit
-│   ├── Hyprland-Optimization.md     # Compositor tuning
-│   ├── Chrome-Performance-Guide.md  # Browser optimization
-│   ├── ZRAM-Swap-Guide.md          # Memory management
-│   └── System-Monitoring-Guide.md   # Resource tracking
+├── System/
+│   ├── Linux/            # System admin, CLI, BlackArch
+│   │   ├── System Specifications.md
+│   │   ├── BlackArch Tools.md
+│   │   ├── Hyprland-Optimization.md
+│   │   ├── Chrome-Performance-Guide.md
+│   │   ├── ZRAM-Swap-Guide.md
+│   │   ├── System-Monitoring-Guide.md
+│   │   └── CLI Cheatsheet.md
+│   ├── Caelestia/        # Desktop environment
+│   │   ├── Caelestia System Architecture.md
+│   │   ├── Caelestia Config Files.md
+│   │   ├── Hyprland Keybinds.md
+│   │   ├── Caelestia Lock Settings.md
+│   │   ├── Caelestia Modification Guide.md
+│   │   └── Hyprland - Reduce Transparency.md
+│   ├── Caelestia-Investigation/  # Performance debugging
+│   ├── Fixes/            # System fixes
+│   ├── Gaming/
+│   ├── Display-Server/
+│   ├── Starship Installation.md
+│   ├── Shell Startup Order.md
+│   ├── System-Architecture.md
+│   ├── Troubleshooting Steps.md
+│   ├── Caelestia Dotfiles Context.md
+│   ├── KDE-Plasma-Ricing.md
+│   ├── hakuspace-niri-setup-2026-09-07.md
+│   └── terminal-config-backup-2026-09-09.md
 │
-├── Caelestia-Configuration/          # Desktop environment
-│   ├── Caelestia-System-Architecture.md
-│   ├── Caelestia-Config-Files-Reference.md
-│   └── Hyprland-Keybinds.md
+├── Personal/
+│   ├── Cybersecurity/
+│   │   ├── Blackarch/
+│   │   ├── Tools/
+│   │   └── Requierements/
+│   ├── Device/
+│   ├── School/
+│   ├── Session-Logs/
+│   └── Spreadsheets-Auth/
 │
-├── Cybersecurity/
-│   ├── Blackarch/
-│   │   ├── BlackArch-Audit.md
-│   │   └── BlackArch-Tool-Usage-Cheat-Sheet.md
-│   ├── Tools/
-│   │   ├── Nmap.md
-│   │   ├── Sqlmap.md
-│   │   └── Burpsuite.md
-│   └── Requierements/
-│       └── Owasp.md
+├── Development/
+│   ├── Database/
+│   ├── Github/
+│   ├── VSCode Theme Bug/
+│   └── Prompts/
 │
-├── Agent Tasks/
-│   ├── Nazkypedia-UI-Improvements/
-│   ├── E-Commerce PBO/
-│   ├── Laravel-CRUD/
-│   └── React-Native-Taskmanager/
-│
-└── This Device/
-    ├── Hardware Specifications.md
-    ├── Network Configuration.md
-    └── Boot Configuration.md
+└── Tasks/
+    ├── Arch Migration.md
+    ├── Arch Linux System Fixes.md
+    ├── Automated tools.md
+    ├── E-Commerce PBO/
+    ├── Laravel-CRUD/
+    ├── Nazkypedia-UI-Improvements/
+    └── React-Native-Taskmanager/
 ```
 
 ## Tag Ecosystem

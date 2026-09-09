@@ -1,7 +1,7 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
-**Last Updated:** 2026-09-06
+**Last Updated:** 2026-09-09
 
 ---
 
@@ -27,7 +27,15 @@ Obsidian Vault/
 │   ├── Display-Server/
 │   ├── Fixes/               # System fixes
 │   ├── Gaming/
-│   └── Linux/
+│   ├── Linux/
+│   ├── Starship Installation.md
+│   ├── Shell Startup Order.md
+│   ├── System-Architecture.md
+│   ├── Troubleshooting Steps.md
+│   ├── Caelestia Dotfiles Context.md
+│   ├── KDE-Plasma-Ricing.md
+│   ├── hakuspace-niri-setup-2026-09-07.md
+│   └── terminal-config-backup-2026-09-09.md
 ├── Tasks/                     # Project tasks
 ├── PROMPTS.md
 ├── README.md
@@ -47,6 +55,7 @@ Obsidian Vault/
 | Caelestia Shell Issue | [[System/Fixes/caelestia-shell-Removal-Issues]] |
 | Caelestia Config | [[System/Caelestia/00-Overview]] |
 | System Architecture | [[System/System-Architecture]] |
+| Terminal Setup | [[System/terminal-config-backup-2026-09-09]] |
 | Visual Guides | [[System/Fixes/Visual-Guides]] |
 | Quick Reference | [[System/Fixes/Quick-Reference]] |
 
