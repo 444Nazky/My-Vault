@@ -88,8 +88,8 @@ Obsidian Vault/
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
 
-<!-- Last updated: 2026-09-12T09:59:58+07:00 -->
 ---
+<!-- Last updated: 2026-09-12T09:59:58+07:00 -->
 
 ## Status: All Fixes Complete (Updated 2026-09-10)
 
