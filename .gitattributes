@@ -1,0 +1,6 @@
+# GitHub Linguist: vault notes are documentation, not code.
+*.md linguist-documentation
+
+# Keep Obsidian plugin/theme bundles out of the language stats
+# if any of them ever get tracked.
+.obsidian/** linguist-vendored
