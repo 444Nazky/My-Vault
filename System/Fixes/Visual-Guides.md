@@ -1,6 +1,7 @@
 # System Fixes - Visual Guide
 
-**Last Updated:** 2026-09-06
+**Last Updated:** 2026-09-10
+**See also:** [[Graph-Web-Atlas]] for full vault diagrams, [[Web-Links-Hub]] for link web.
 
 ---
 
@@ -177,8 +178,81 @@ graph TD
 ## System State Summary
 
 ```mermaid
-pie title Fix Status (2026-09-06)
-    "NVIDIA RTX 5050" : 100
-    "GRUB Configuration" : 100
-    "Secure Boot" : 100
+pie title Fix Status (2026-09-10)
+    "NVIDIA RTX 5050" : 20
+    "GRUB Configuration" : 20
+    "HDMI nvidia-drm" : 20
+    "Gaming PRIME" : 15
+    "Sober Roblox" : 15
+    "SEO IR" : 10
 ```
+
+---
+
+## HDMI Fix - UKI Trap Sequence
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant G as GRUB cmdline
+    participant K as UKI cmdline
+    participant M as nvidia-drm
+    participant H as Hyprland
+
+    U->>G: Add nvidia-drm.modeset=1
+    Note over G: Ignored on UKI boot
+    G-->>H: HDMI still missing
+    U->>K: Write /etc/kernel/cmdline
+    K->>K: mkinitcpio -P rebuild
+    U->>M: modprobe nvidia-drm
+    M-->>H: HDMI-A-2 exposed
+    H-->>U: Monitor detected
+```
+
+See [[System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland]].
+
+---
+
+## Gaming PRIME Offload Flow
+
+```mermaid
+flowchart LR
+    INTEL[Intel UHD<br/>default] --> FLAGS["__NV_PRIME_RENDER_OFFLOAD=1<br/>__GLX_VENDOR_LIBRARY_NAME=nvidia"]
+    FLAGS --> NVIDIA[RTX 5050 8GB<br/>renders game]
+    NVIDIA --> PROTON[Proton GE 11-6<br/>Steam compat]
+    PROTON --> NFS[NFS Heat smooth]
+```
+
+See [[System/Gaming/README]], [[System/Gaming/The-Solution]], [[System/Gaming/Launch-Options]].
+
+---
+
+## Sober Roblox Install Chain
+
+```mermaid
+flowchart TD
+    A[flatpak install org.vinegarhq.Sober 1.7.1] --> B[GNOME runtime 50 + Wine bundled]
+    B --> C[Desktop entry in launcher]
+    B --> D["~/.local/bin/sober wrapper"]
+    D --> E[sober GUI]
+    D --> F[sober launch_uri rblox]
+    E --> G[Wayland Hyprland OK]
+```
+
+See [[System/roblox-sober-install]].
+
+---
+
+## SEO Poisoning Response Loop
+
+```mermaid
+flowchart TD
+    A[Cloaking detect<br/>Googlebot vs user curl] --> B[Snapshot forensics]
+    B --> C[grep backdoor + htaccess diff]
+    C --> D[maintenance isolate]
+    D --> E[clean core + reset creds]
+    E --> F[harden + reindex]
+    F --> G[Checklist verified]
+```
+
+See [[07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis]], [[Graph-Web-Atlas]].
