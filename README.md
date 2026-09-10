@@ -59,6 +59,7 @@ Obsidian Vault/
 
 ---
 
+<!-- Last updated: 2026-09-11T09:30:14+07:00 -->
 ## Quick Access
 
 | Category | Path |
@@ -68,7 +69,6 @@ Obsidian Vault/
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
 | GRUB Fix | System/Fixes/GRUB-Configuration |
-<!-- Last updated: 2026-09-11T09:30:14+07:00 -->
 | GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
