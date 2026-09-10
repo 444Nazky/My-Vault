@@ -1,7 +1,6 @@
 # CSharp Notes
 
 **Part of:** [[Programming-Languages-Cobweb]]
-**Siblings:** [[C]], [[Cpp]], [[Swift]], [[Rust]], [[Comparisons]], [[Toolchain-Interop]]
 **Born:** 2000. Managed OOP on .NET, GC, LINQ, async/await.
 
 ## Properties in 30 Seconds
@@ -20,9 +19,9 @@ t.Complete();
 
 ```mermaid
 flowchart LR
-    A[async method] --> B[await I/O<br/>thread released]
-    B --> C[continuation<br/>on completion]
-    C --> D[Task result]
+    A["async method"] --> B["await IO"]
+    B --> C["continuation"]
+    C --> D["result"]
 ```
 
 Random fact: `async/await` was mainstreamed by C# 5 (2012) before JS and Python copied the pattern.

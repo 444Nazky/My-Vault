@@ -1,17 +1,16 @@
 # Comparisons
 
 **Part of:** [[Programming-Languages-Cobweb]]
-**Covers:** [[C]], [[Cpp]], [[CSharp]], [[Swift]], [[Rust]]
-**See also:** [[Toolchain-Interop]]
+**Covers:** C, Cpp, CSharp, Swift, Rust
 
 ## Safety vs Control
 
 ```mermaid
-flowchart TD
-    C[C: max control<br/>zero safety net] --> CPP[C++: high control<br/>opt-in safety]
-    CPP --> RS[Rust: high control<br/>compile-time safety]
-    RS --> SW[Swift: medium control<br/>ARC + optionals]
-    SW --> CS[C#: medium control<br/>GC + nullable]
+flowchart LR
+    C["C"] --> CPP["Cpp"]
+    CPP --> RS["Rust"]
+    RS --> SW["Swift"]
+    SW --> CS["CSharp"]
 ```
 
 Move right when bugs cost more than nanoseconds, move left when hardware or ABI forces you.
@@ -20,38 +19,34 @@ Move right when bugs cost more than nanoseconds, move left when hardware or ABI 
 
 ```mermaid
 graph LR
-    KERNEL[Kernels drivers<br/>embedded] --> C
-    KERNEL --> RS
-    GAME[Game engines<br/>HFT audio] --> CPP
-    ENTERPRISE[Enterprise APIs<br/>Unity tools] --> CS
-    APPLE[iOS macOS apps] --> SW
-    CLI[CLI tools<br/>wasm edge] --> RS
+    K["systems"] --> C["C"]
+    K --> RS["Rust"]
+    G["games"] --> CPP["Cpp"]
+    E["enterprise"] --> CS["CSharp"]
+    A["Apple apps"] --> SW["Swift"]
 ```
 
 ## Decision Tree
 
 ```mermaid
 flowchart TD
-    A[New project?] --> B{Apple-only app?}
-    B -->|Yes| SW[Swift + SwiftUI]
-    B -->|No| C{Need GC + fast hiring?}
-    C -->|Yes| CS[C# + .NET]
-    C -->|No| D{Manual memory or no runtime?}
-    D -->|Yes| E{Can you afford borrow checker?}
-    E -->|Yes| RS[Rust]
-    E -->|No| CPP[C++]
-    D -->|No| F{Legacy C ABI?}
-    F -->|Yes| CC[C]
+    A["new project"] --> B{"Apple only"}
+    B -->|"yes"| SW["Swift"]
+    B -->|"no"| C{"need GC"}
+    C -->|"yes"| CS["CSharp"]
+    C -->|"no"| D{"no runtime"}
+    D -->|"yes"| RS["Rust"]
+    D -->|"no"| CC["C"]
 ```
 
 ## One Idea Each
 
 | Lang | Mental model |
 |------|--------------|
-| [[C]] | Array + pointer + manual free |
-| [[Cpp]] | Zero-cost abstractions |
-| [[CSharp]] | GC + LINQ + async |
-| [[Swift]] | Optionals + ARC + protocols |
-| [[Rust]] | Ownership + traits + match |
+| C | Array + pointer + manual free |
+| Cpp | Zero-cost abstractions |
+| CSharp | GC + LINQ + async |
+| Swift | Optionals + ARC + protocols |
+| Rust | Ownership + traits + match |
 
 Tags: #programming #comparison #cobweb

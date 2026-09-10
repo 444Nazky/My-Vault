@@ -1,7 +1,6 @@
 # Cpp Notes
 
 **Part of:** [[Programming-Languages-Cobweb]]
-**Siblings:** [[C]], [[CSharp]], [[Swift]], [[Rust]], [[Comparisons]], [[Toolchain-Interop]]
 **Born:** 1985. C with classes, then templates, RAII, zero-cost abstractions.
 
 ## RAII in 30 Seconds
@@ -22,10 +21,9 @@ Destructors run in reverse order of construction. That is the whole trick.
 
 ```mermaid
 flowchart TD
-    RAW[raw new delete<br/>legacy] --> UNIQUE[unique_ptr<br/>single owner]
-    UNIQUE --> SHARED[shared_ptr<br/>shared owner]
-    SHARED --> WEAK[weak_ptr<br/>break cycles]
-    WEAK --> OK[Prefer unique<br/>share only if needed]
+    RAW["raw new delete"] --> UNIQ["unique ptr"]
+    UNIQ --> SHR["shared ptr"]
+    SHR --> WK["weak ptr"]
 ```
 
 ## Gotchas

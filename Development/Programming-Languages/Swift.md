@@ -1,7 +1,6 @@
 # Swift Notes
 
 **Part of:** [[Programming-Languages-Cobweb]]
-**Siblings:** [[C]], [[Cpp]], [[CSharp]], [[Rust]], [[Comparisons]], [[Toolchain-Interop]]
 **Born:** 2014. Safe Apple development, ARC, optionals, protocols.
 
 ## Optionals in 30 Seconds
@@ -21,10 +20,9 @@ Optionals are just `enum Optional { case none, some(T) }`.
 
 ```mermaid
 flowchart TD
-    STRONG[strong ref<br/>default] --> CYCLE[retain cycle<br/>closures + delegates]
-    CYCLE --> WEAK[weak<br/>nil on dealloc]
-    CYCLE --> UNOWNED[unowned<br/>crash if dangling]
-    WEAK --> OK[Use weak self<br/>in closures]
+    S["strong ref"] --> CY["cycle risk"]
+    CY --> W["use weak"]
+    W --> OK["no leak"]
 ```
 
 ## Gotchas

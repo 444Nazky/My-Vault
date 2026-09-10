@@ -1,7 +1,6 @@
 # Rust Notes
 
 **Part of:** [[Programming-Languages-Cobweb]]
-**Siblings:** [[C]], [[Cpp]], [[CSharp]], [[Swift]], [[Comparisons]], [[Toolchain-Interop]]
 **Born:** 2015. Safe systems, no GC, borrow checker.
 
 ## Ownership in 30 Seconds
@@ -21,10 +20,9 @@ fn main() {
 
 ```mermaid
 flowchart TD
-    OWN[One owner] --> MOVE[Moves by default]
-    MOVE --> BOR[Borrow with &]
-    BOR --> MUT[&mut is exclusive<br/>one writer OR many readers]
-    MUT --> DROP[Dropped at scope end<br/>no double-free]
+    OWN["one owner"] --> MOV["moves by default"]
+    MOV --> BOR["borrow with ref"]
+    BOR --> RULE["one writer or many readers"]
 ```
 
 ## Gotchas

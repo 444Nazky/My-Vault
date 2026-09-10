@@ -1,7 +1,6 @@
 # C Notes
 
 **Part of:** [[Programming-Languages-Cobweb]]
-**Siblings:** [[Cpp]], [[CSharp]], [[Swift]], [[Rust]], [[Comparisons]], [[Toolchain-Interop]]
 **Born:** 1972, Bell Labs. Portable assembler.
 
 ## Pointers in 30 Seconds
@@ -19,10 +18,9 @@ free(buf);     // forget = leak, twice = crash
 
 ```mermaid
 flowchart LR
-    S[Stack<br/>auto vars] --> H[Heap<br/>malloc free]
-    H --> G[Globals<br/>static]
-    G --> T[Text<br/>code]
-    H --> BUG[You own everything<br/>leak / double-free / UAF]
+    S["Stack"] --> H["Heap"]
+    H --> G["Globals"]
+    G --> T["Code"]
 ```
 
 ## Gotchas
