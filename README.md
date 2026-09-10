@@ -87,6 +87,7 @@ Obsidian Vault/
 | Device Overview | Personal/Device/00 - Device Overview |
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
+<!-- Last updated: 2026-09-12T09:59:59+07:00 -->
 
 ---
 
@@ -143,7 +144,6 @@ Obsidian Vault/
 ---
 
 ## Fixes Summary
-<!-- Last updated: 2026-09-12T09:59:59+07:00 -->
 
 | Issue | Status | Document |
 |-------|--------|----------|
