@@ -1,0 +1,13 @@
+includes = []
+packages = [
+    "hypr",
+    "foot",
+    "fish",
+    "starship",
+    "uwsm",
+    "micro",
+    "fastfetch",
+    "btop"
+]
+
+[variables]

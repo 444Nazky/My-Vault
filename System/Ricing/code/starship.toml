@@ -1,0 +1,28 @@
+# Catppuccin Mocha Powerline Prompt (Single Line)
+format = """
+[░▒▓](#cba6f7)\
+$username\
+[](bg:#89b4fa fg:#cba6f7)\
+$directory\
+[](bg:#313244 fg:#89b4fa)\
+$time\
+[ ](fg:#313244)\
+"""
+
+[username]
+show_always = true
+style_user = "bg:#cba6f7 fg:#11111b bold"
+style_root = "bg:#f38ba8 fg:#11111b bold"
+format = '[$user]($style)'
+
+[directory]
+style = "bg:#89b4fa fg:#11111b bold"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#313244 fg:#cdd6f4 bold"
+format = '[ ♡ $time ]($style)'
