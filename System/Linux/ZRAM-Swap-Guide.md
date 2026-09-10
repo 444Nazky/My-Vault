@@ -16,11 +16,11 @@ flowchart TD
     B -->|Yes| C[Compress to ZRAM]
     B -->|No| D[Use Disk Swap]
     
-    C --> E[Fast I/O<br/>In-RAM compression]
-    D --> F[Slower I/O<br/>Disk operations]
+    C --> E[Fast in RAM compression]
+    D --> F[Slower disk operations]
     
     E --> G[Higher efficiency]
-    F --> H[SSD/HDD operations]
+    F --> H[Disk swap operations]
 ```
 
 ### Key Benefits

@@ -58,9 +58,9 @@ nmap --top-ports 100 target.com
 ### Discovery
 ```mermaid
 flowchart LR
-    S[Scan Type] --> S1[Ping Scan<br/>-sn]
-    S --> S2[SYN Stealth<br/>-sS]
-    S --> S3[ACK Scan<br/>-sA]
+    S[Scan Type] --> S1[Ping scan]
+    S --> S2[SYN stealth]
+    S --> S3[ACK scan]
 ```
 
 ```bash

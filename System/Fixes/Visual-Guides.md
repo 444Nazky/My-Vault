@@ -73,7 +73,7 @@ sequenceDiagram
 
     U->>G: Power On
     G->>G: Load /boot/grub/grub.cfg
-    Note over G: Scripts execute in order:<br/>10_linux, 20_linux_xen,<br/>30_os-prober, 40_custom, 41_uefi-firmware
+    Note over G: Scripts run in order: linux, xen, prober, custom, uefi
 
     U->>G: Select BlackArch
     G->>L: Load Kernel
@@ -91,18 +91,18 @@ sequenceDiagram
 ```mermaid
 graph TB
     subgraph nvme1n1["nvme1n1 (238.5G) - BlackArch"]
-        A1[nvme1n1p1<br/>1G EFI<br/>UUID: 0F61-907D]
-        A2[nvme1n1p2<br/>237.5G btrfs<br/>UUID: 67fde82c...]
+        A1["EFI 1G Linux"]
+        A2["btrfs root 237G"]
     end
 
     subgraph nvme0n1["nvme0n1 (476.9G) - Windows"]
-        B1[nvme0n1p1<br/>1G EFI<br/>UUID: 298C-5E1B]
-        B2[nvme0n1p2<br/>475.9G NTFS<br/>UUID: BCB6C114...]
+        B1["EFI 1G Windows"]
+        B2["NTFS 476G Windows"]
     end
 
     subgraph sda["sda (57.3G) - Backup"]
-        C1[sda1<br/>57.3G exfat]
-        C2[sda2<br/>32M Ventoy]
+        C1["exfat backup 57G"]
+        C2["ventoy 32M"]
     end
 
     style nvme1n1 fill:#e6f3ff
@@ -147,11 +147,11 @@ sequenceDiagram
 ```mermaid
 graph TD
     subgraph Scripts["GRUB Scripts in /etc/grub.d/"]
-        S1["10_linux<br/>DISABLED"]
-        S2["20_linux_xen<br/>Xen kernels"]
-        S3["30_os-prober<br/>DISABLED via GRUB_DISABLE_OS_PROBER"]
-        S4["40_custom<br/>Windows Boot Manager"]
-        S5["41_uefi-firmware<br/>Moved to bottom"]
+        S1["10 linux off"]
+        S2["20 xen kernels"]
+        S3["30 prober off"]
+        S4["40 custom Windows"]
+        S5["41 UEFI last"]
     end
 
     subgraph Output["Final GRUB Menu"]
@@ -194,18 +194,18 @@ pie title Fix Status (2026-09-10)
 ```mermaid
 sequenceDiagram
     participant U as User
-    participant G as GRUB cmdline
-    participant K as UKI cmdline
-    participant M as nvidia-drm
+    participant G as GRUB config
+    participant K as UKI config
+    participant M as drm module
     participant H as Hyprland
 
-    U->>G: Add nvidia-drm.modeset=1
+    U->>G: add modeset flag
     Note over G: Ignored on UKI boot
     G-->>H: HDMI still missing
-    U->>K: Write /etc/kernel/cmdline
-    K->>K: mkinitcpio -P rebuild
-    U->>M: modprobe nvidia-drm
-    M-->>H: HDMI-A-2 exposed
+    U->>K: write kernel cmdline
+    K->>K: rebuild initramfs
+    U->>M: load drm module
+    M-->>H: output exposed
     H-->>U: Monitor detected
 ```
 
@@ -217,10 +217,10 @@ See [[System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland]].
 
 ```mermaid
 flowchart LR
-    INTEL[Intel UHD<br/>default] --> FLAGS["__NV_PRIME_RENDER_OFFLOAD=1<br/>__GLX_VENDOR_LIBRARY_NAME=nvidia"]
-    FLAGS --> NVIDIA[RTX 5050 8GB<br/>renders game]
-    NVIDIA --> PROTON[Proton GE 11-6<br/>Steam compat]
-    PROTON --> NFS[NFS Heat smooth]
+    INTEL["Intel default"] --> FLAGS["PRIME flags set"]
+    FLAGS --> NVIDIA["RTX 5050 renders game"]
+    NVIDIA --> PROTON["Proton GE compat"]
+    PROTON --> NFS["NFS Heat smooth"]
 ```
 
 See [[System/Gaming/README]], [[System/Gaming/The-Solution]], [[System/Gaming/Launch-Options]].
@@ -231,12 +231,12 @@ See [[System/Gaming/README]], [[System/Gaming/The-Solution]], [[System/Gaming/La
 
 ```mermaid
 flowchart TD
-    A[flatpak install org.vinegarhq.Sober 1.7.1] --> B[GNOME runtime 50 + Wine bundled]
-    B --> C[Desktop entry in launcher]
-    B --> D["~/.local/bin/sober wrapper"]
-    D --> E[sober GUI]
-    D --> F[sober launch_uri rblox]
-    E --> G[Wayland Hyprland OK]
+    A["install Sober flatpak"] --> B["runtime plus Wine bundled"]
+    B --> C["desktop entry in launcher"]
+    B --> D["cli wrapper"]
+    D --> E["launch GUI"]
+    D --> F["launch game URI"]
+    E --> G["Wayland plus GPU OK"]
 ```
 
 See [[System/roblox-sober-install]].
@@ -247,12 +247,12 @@ See [[System/roblox-sober-install]].
 
 ```mermaid
 flowchart TD
-    A[Cloaking detect<br/>Googlebot vs user curl] --> B[Snapshot forensics]
-    B --> C[grep backdoor + htaccess diff]
-    C --> D[maintenance isolate]
-    D --> E[clean core + reset creds]
-    E --> F[harden + reindex]
-    F --> G[Checklist verified]
+    A["detect cloaking"] --> B["snapshot forensics"]
+    B --> C["check backdoor signs"]
+    C --> D["isolate site"]
+    D --> E["clean core files"]
+    E --> F["harden and reindex"]
+    F --> G["checklist verified"]
 ```
 
 See [[07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis]], [[Graph-Web-Atlas]].

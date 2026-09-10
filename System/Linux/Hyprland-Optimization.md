@@ -12,15 +12,15 @@
 flowchart TD
     A[Performance Issues] --> B{Identify Bottleneck}
     
-    B -->|CPU| CPU[CPU: animations,<br/>blurring]
-    B -->|GPU| GPU[GPU: shadows,<br/>rounded corners]
-    B -->|RAM| RAM[Memory: apps,<br/>background processes]
+    B -->|CPU| CPU["CPU animations blurring"]
+    B -->|GPU| GPU["GPU shadows corners"]
+    B -->|RAM| RAM["Memory apps background"]
     
     CPU --> C1[Disable animations]
     GPU --> G1[Reduce effects]
-    RAM --> S1[Services,<br/>background apps]
+    RAM --> S1[Trim background apps]
     
-    C1 --> Result[Monitor with htop<br/>glances]
+    C1 --> Result[Monitor with htop]
     G1 --> Result
     S1 --> Result
 ```

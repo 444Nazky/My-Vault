@@ -40,23 +40,23 @@
 ```mermaid
 graph TB
     subgraph Hardware["Hardware Profile"]
-        CPU[CPU: i7-13650HX<br/>20 cores @ 2.6GHz]
-        RAM[RAM: 15GB DDR5<br/>4800MT/s]
-        GPU[GPU: RTX 5050 8GB<br/>+ Intel UHD]
-        Storage[Storage: 2x NVMe<br/>238GB + 477GB]
+        CPU["CPU i7 13650HX 20 cores"]
+        RAM["RAM 15GB DDR5"]
+        GPU["RTX 5050 plus Intel UHD"]
+        Storage["2x NVMe drives"]
     end
     
     subgraph Software["Software Stack"]
         OS[BlackArch Linux]
-        DE[Hyprland + Caelestia]
+        DE["Hyprland and Caelestia"]
         Shell[Fish Shell]
         Terminal[Foot Terminal]
-        Apps[Apps: VSCodium<br/>Neovim, Steam]
+        Apps["VSCodium Neovim Steam"]
     end
     
     subgraph Status["Current Status"]
-        MemStatus[RAM: ~8.7GB / 15GB]
-        SwapStatus[Swap: 0B<br/>ZRAM enabled]
+        MemStatus["RAM mostly used"]
+        SwapStatus["ZRAM enabled"]
         CPUStatus[CPU: Variable]
     end
 ```
@@ -68,9 +68,9 @@ graph TB
 graph TD
     A[System Boot] --> B[Kernel Loading]
     B --> C[Systemd Init]
-    C --> D[Display Manager<br/>SDDM]
-    D --> E[Hyprland<br/>Wayland Compositor]
-    E --> F[Caelestia<br/>Desktop Shell]
+    C --> D["SDDM display manager"]
+    D --> E["Hyprland compositor"]
+    E --> F["Caelestia shell"]
     F --> G[Applications]
     G --> H[User Workspace]
 ```
@@ -154,11 +154,13 @@ mindmap
 ### Cybersecurity Toolkit
 ```mermaid
 graph TD
-    Recon[Reconnaissance<br/>nmap, amass, theHarvester] --> Scan[Scanning<br/>masscan, netcat]
-    Scan --> Enum[Enumeration<br/>dirsearch, ffuf, gobuster]
-    Enum --> Vuln[Vulnerability<br/>nikto, nuclei, nmap scripts]
-    Vuln --> Exploit[Exploitation<br/>metasploit, burpsuite]
-    Exploit --> Cracking[Password Attacks<br/>hashcat, john, hydra]
+    Recon["Recon tools"] --> Scan["Scan tools"]
+    Scan --> Enum["Enum tools"]
+    Enum --> Vuln["Vuln check"]
+    Vuln --> Exploit["Exploit tools"]
+    Exploit --> Cracking["Password tools"]
+
+Tools per stage: nmap and amass, masscan, dirsearch and ffuf, nikto and nuclei, metasploit and burpsuite, hashcat and john.
 ```
 
 ### Development Stack
@@ -186,67 +188,58 @@ graph TB
 
 ```mermaid
 flowchart TD
-    A[NVIDIA RTX 5050<br/>610.57.04] -->|FIXED| Z[All Green]
-    B[GRUB duplicates<br/>+ menu order] -->|FIXED| Z
-    C[Caelestia shell removal] -->|FIXED| Z
-    D[HDMI nvidia-drm modeset<br/>2026-09-07] -->|FIXED| Z
-    E[NFS Heat PRIME offload<br/>Proton GE 11-6] -->|FIXED| Z
-    F[Roblox Sober 1.7.1<br/>2026-09-09] -->|INSTALLED| Z
-    G[SEO kurmamedia IR<br/>2026-09-07] -->|INVESTIGATED| Z
-    H[VSCode Theme Bug<br/>19 files] -->|DOCUMENTED| Z
-    Z --> I[Vault indexes refreshed<br/>2026-09-10]
+    A["NVIDIA driver"] -->|"fixed"| Z["All Green"]
+    B["GRUB menu"] -->|"fixed"| Z
+    C["Caelestia shell"] -->|"fixed"| Z
+    D["HDMI drm output"] -->|"fixed"| Z
+    E["NFS Heat PRIME"] -->|"fixed"| Z
+    F["Sober install"] -->|"done"| Z
+    G["SEO investigation"] -->|"done"| Z
+    H["Theme bug docs"] -->|"done"| Z
+    Z --> I["indexes refreshed"]
 ```
 
 ## Vault Growth Map
 
 ```mermaid
 graph LR
-    Root[Vault 192 files] --> IR[07-IR<br/>6 files]
-    Root --> SYS[System<br/>~70 files]
-    Root --> PER[Personal<br/>~40 files]
-    Root --> DEV[Development<br/>~23 files]
-    Root --> TSK[Tasks<br/>~37 files]
-    Root --> AGT[AGENTS<br/>2 files]
-    SYS --> FIX[Fixes 11]
-    SYS --> INV[Investigation 31]
-    SYS --> LIN[Linux 12]
-    SYS --> GAM[Gaming 7]
-    SYS --> CAE[Caelestia 7]
-    TSK --> ECOM[E-Com PBO 10]
-    TSK --> CRUD[Laravel CRUD 10]
-    TSK --> NAZ[Nazkypedia 10]
-    TSK --> RN[React Native 4]
-    DEV --> VTB[VSCode Bug 19]
+    Root["Vault 202 files"] --> SYS["System 77"]
+    Root --> ME["Personal and Dev 74"]
+    Root --> DO["Work and Ops 45"]
+    ME --> PER["Personal 45"]
+    ME --> DEV["Development 29"]
+    DO --> TSK["Tasks 37"]
+    DO --> OPS["IR plus Agents 8"]
 ```
 
 ## Incident Response Workflow
 
 ```mermaid
 flowchart LR
-    A[SEO Poisoning<br/>kurmamedia.com] --> B{DNS active?<br/>72.61.209.233}
-    B -->|Yes| C[HTTP check]
-    B -->|No| D[Closed]
-    C -->|Timeout| E[Hostinger suspended?]
-    C -->|Judi keywords| F[Cloaking confirmed]
-    E --> G[Document IoC<br/>01-Mod-Operandus]
+    A["SEO case opened"] --> B{"DNS active"}
+    B -->|"yes"| C["HTTP check"]
+    B -->|"no"| D["closed"]
+    C -->|"timeout"| E["host suspended"]
+    C -->|"spam found"| F["cloaking confirmed"]
+    E --> G["record IOC"]
     F --> G
-    G --> H[Run commands<br/>02-Investigation]
-    H --> I[Remediate<br/>03-Hardening]
-    I --> J[Checklist<br/>04-Checklist]
-    J --> K[Case study<br/>05-kurmamedia]
+    G --> H["run commands"]
+    H --> I["remediate"]
+    I --> J["checklist"]
+    J --> K["case study"]
 ```
 
 ## Gaming Pipeline
 
 ```mermaid
 flowchart LR
-    A[Intel iGPU default<br/>laggy] --> B[Install Proton GE 11-6]
-    B --> C[Set compat tool]
-    C --> D[Launch flags<br/>PRIME offload]
-    D --> E[NVIDIA RTX 5050<br/>8GB renders]
-    E --> F[NFS Heat smooth]
-    G[Sober Flatpak 1.7.1<br/>org.vinegarhq.Sober] --> H[Wayland Hyprland]
-    H --> I[Roblox on Linux<br/>GPU passthrough]
+    A["slow on Intel"] --> B["install Proton GE"]
+    B --> C["set compat tool"]
+    C --> D["set PRIME flags"]
+    D --> E["Nvidia renders"]
+    E --> F["game smooth"]
+    G["Sober flatpak"] --> H["Wayland OK"]
+    H --> I["Roblox on Linux"]
 ```
 
 ## Folder Structure
@@ -307,20 +300,20 @@ Obsidian Vault/ (192 md files, updated 2026-09-10)
 ### Related Tags
 ```mermaid
 graph TD
-    A[#archlinux] --> B[#blackarch]
-    B --> C[#hyprland]
-    C --> D[#wayland]
-    D --> E[#caelestia]
+    A["arch"] --> B["blackarch"]
+    B --> C["hyprland"]
+    C --> D["wayland"]
+    D --> E["caelestia"]
     
-    F[#performance] --> G[#optimization]
-    G --> H[#troubleshooting]
+    F["perf"] --> G["opt"]
+    G --> H["fix"]
     
-    I[#pentesting] --> J[#cybersecurity]
-    J --> K[#security]
+    I["pentest"] --> J["cyber"]
+    J --> K["sec"]
     
-    L[#laravel] --> M[#php]
-    M --> N[#backend]
-    N --> O[#api]
+    L["laravel"] --> M["php"]
+    M --> N["backend"]
+    N --> O["api"]
 ```
 
 ## Resource Usage

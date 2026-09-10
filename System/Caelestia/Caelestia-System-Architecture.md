@@ -11,24 +11,24 @@
 ```mermaid
 flowchart TB
     subgraph Display["Display Pipeline"]
-        App[Applications] --> Comp[Compositor<br/>Hyprland]
+        App[Applications] --> Comp[Compositor Hyprland]
         Comp --> DR[Display Server]
     end
     
     subgraph Shell["Caelestia Shell"]
-        DR --> Bar[Waybar<br/>Status Bar]
-        DR --> Menu[App Launcher<br/>Wofi]
-        DR --> Scripts[Custom Scripts<br/>Auto-start]
+        DR --> Bar[Waybar status bar]
+        DR --> Menu[App launcher]
+        DR --> Scripts[Autostart scripts]
     end
     
     subgraph Hardware["Hardware"]
         GPU[GPU Rendering]
-        Audio[Audio Server<br/>PipeWire]
+        Audio[Audio PipeWire]
         Input[Input Devices]
     end
     
-    Comp <--> GPU
-    Comp <--> Audio
+    Comp --> GPU
+    Comp --> Audio
     Input --> Comp
 ```
 
@@ -74,7 +74,7 @@ sequenceDiagram
 flowchart LR
     Win[Window Rules] --> Act[Actions]
     Act -->|floating| Float[Float Window]
-    Act -->|workspace| WS[Workspace<br/>Workspace 1-10]
+    Act -->|workspace| WS[Workspace one to ten]
     Act -->|fullscreen| Full[Fullscreen]
 ```
 

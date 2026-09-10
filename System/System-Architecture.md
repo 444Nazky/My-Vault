@@ -10,7 +10,7 @@
 graph TB
     subgraph Boot["Boot Process"]
         B1[Power On]
-        B2[UEFI/BIOS]
+        B2[UEFI BIOS]
         B3[GRUB Menu]
         B4[Linux Kernel]
         B5[Systemd]
@@ -18,15 +18,15 @@ graph TB
     end
 
     subgraph Desktop["Desktop Environment"]
-        H[Hyprland<br/>Wayland]
-        C[Caelestia Shell<br/>QuickShell]
-        W[Waybar<br/>Notifications]
-        S[Sidebar<br/>Widgets]
+        H[Hyprland]
+        C[Caelestia Shell]
+        W[Waybar]
+        S[Sidebar]
     end
 
     subgraph Graphics["Graphics Stack"]
-        GPU[NVIDIA RTX 5050<br/>nvidia-open-dkms]
-        DRI[DRM/DRI]
+        GPU["RTX 5050 driver"]
+        DRI[DRM stack]
         GBM[GBM Backend]
     end
 
@@ -60,12 +60,12 @@ graph TB
 ```mermaid
 graph LR
     subgraph Config["Hyprland Config"]
-        A[hyprland.conf<br/>Main config]
-        B[hyprland.lua<br/>Lua entry]
-        C[env.lua<br/>Environment vars]
-        D[keybinds.lua<br/>Keybindings]
-        E[rules.lua<br/>Window rules]
-        F[general.lua<br/>General settings]
+        A["hyprland conf main"]
+        B["lua entry"]
+        C["env vars"]
+        D["keybinds"]
+        E["window rules"]
+        F["general settings"]
     end
 
     subgraph Caelestia["Caelestia"]
@@ -75,8 +75,8 @@ graph LR
     end
 
     subgraph Sources["Config Locations"]
-        L1[/home/nazky/.config/hypr/]
-        L2[/home/nazky/.config/caelestia/hypr/]
+        L1["hypr config dir"]
+        L2["caelestia config dir"]
     end
 
     A --> B
@@ -108,14 +108,14 @@ graph TB
     end
 
     subgraph Linux["BlackArch (nvme1n1)"]
-        L1[EFI Partition<br/>0F61-907D]
-        L2[btrfs Root<br/>67fde82c...]
+        L1["EFI Linux"]
+        L2["btrfs root"]
         L3[Swap]
     end
 
     subgraph Windows["Windows (nvme0n1)"]
-        W1[EFI Partition<br/>298C-5E1B]
-        W2[NTFS<br/>BCB6C114...]
+        W1["EFI Windows"]
+        W2["NTFS Windows"]
     end
 
     M1 --> L1
@@ -151,7 +151,7 @@ sequenceDiagram
     GBM-->>WL: Buffer ready
     WL-->>App: Surface ready
 
-    Note over GPU: NVIDIA Environment Variables:<br/>GBM_BACKEND=nvidia-drm<br/>NVIDIA_VISIBLE_DEVICES=GPU-0<br/>NVIDIA_DRIVER_CAPABILITIES=all
+    Note over GPU: env sets GBM backend plus device caps
 ```
 
 ---

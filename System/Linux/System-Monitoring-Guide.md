@@ -13,14 +13,14 @@ flowchart TB
     subgraph Resources["System Resources"]
         CPU[CPU Usage]
         MEM[Memory Usage]
-        NET[Network I/O]
-        DISK[Disk I/O]
+        NET[Network IO]
+        DISK[Disk IO]
     end
     
     subgraph Tools["Monitoring Tools"]
-        H[htop/btop]
-        M[vmstat/iostat]
-        S[systemctl/status]
+        H[htop and btop]
+        M[vmstat and iostat]
+        S[systemctl status]
     end
     
     Resources --> Tools
