@@ -2,7 +2,7 @@
 
 **Last Updated:** 2026-09-10
 **Vault:** 202 notes
-**Purpose:** one page with all explanatory diagrams. See also [[Web-Links-Hub]], [[Map of Content]], [[README]], [[System/Fixes/Visual-Guides]], [[System/System-Architecture]].
+**Purpose:** one page with all explanatory diagrams. Index: [[Map of Content]].
 
 Diagram rules used here: strict trees or stars, max 4 outgoing edges per node, plain word labels, flow only downstream.
 
@@ -77,8 +77,6 @@ flowchart TD
     CAE --> APP["Apps"]
 ```
 
-Related: [[System/System-Architecture]], [[System/Fixes/GRUB-Configuration]].
-
 ## 5. NVIDIA Driver Fix Pipeline
 
 ```mermaid
@@ -97,8 +95,6 @@ flowchart TD
     K --> L["rebuild and reboot"]
     L --> M["fixed"]
 ```
-
-Related: [[System/Fixes/NVIDIA-RTX-5050-Investigation]], [[System/Fixes/Quick-Reference]].
 
 ## 6. HDMI Monitor Fix
 
@@ -119,8 +115,6 @@ flowchart TD
 ```
 
 Detail: cmdline gets the modeset flag, bumblebee conf is disabled, then modprobe loads drm at once.
-
-Related: [[System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland]], [[System/Fixes/README]].
 
 ## 7. GRUB Menu Before After
 
@@ -148,8 +142,6 @@ graph LR
     FIXG --> AFTER
 ```
 
-Related: [[System/Fixes/GRUB-Configuration]], [[System/Fixes/GRUB-Duplicate-Entries]].
-
 ## 8. Hyprland Caelestia Config
 
 ```mermaid
@@ -170,8 +162,6 @@ graph TD
 ```
 
 Config lives under the hypr and caelestia config dirs. Trackpad sensitivity is set in input lua.
-
-Related: [[System/Caelestia/00-Overview]], [[System/Display-Server/hyprland-trackpad-sensitivity]].
 
 ## 9. Caelestia Performance Investigation
 
@@ -194,8 +184,6 @@ flowchart TD
 
 Root causes found: swappiness 100, VFS cache pressure, MariaDB and CUPS running, conflicting network managers.
 
-Related: [[System/Caelestia-Investigation/00 - Investigation Overview]], [[System/Caelestia-Investigation/Root Cause - Swappiness 100]].
-
 ## 10. Trackpad Sensitivity Fix
 
 ```mermaid
@@ -208,8 +196,6 @@ flowchart LR
 ```
 
 Repeat edit plus reload until the speed feels right.
-
-Related: [[System/Display-Server/hyprland-trackpad-sensitivity]].
 
 ## 11. NFS Heat Gaming Fix
 
@@ -227,8 +213,6 @@ flowchart TD
 
 Flags used: PRIME offload plus nvidia GL vendor, verified with smi.
 
-Related: [[System/Gaming/README]], [[System/Gaming/The-Solution]].
-
 ## 12. Roblox Sober Install
 
 ```mermaid
@@ -243,8 +227,6 @@ flowchart LR
 ```
 
 Sober 1 point 7 point 1, 18 point 5 MB, RTX passthrough confirmed.
-
-Related: [[System/roblox-sober-install]], [[System/Gaming/Troubleshooting]].
 
 ## 13. Gaming GPU Decision Tree
 
@@ -274,8 +256,6 @@ flowchart TD
 
 Vectors: vulnerable plugin, brute force, malicious upload. Persistence via htaccess, PHP backdoor, cron job, DB hook. Cloaking shows gambling content to Googlebot only.
 
-Related: [[07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis]], [[07-Incident Response/SEO-Poisoning-Analysis/01-Mod-Operandus-IoC]].
-
 ## 15. IR Remediation Pipeline
 
 ```mermaid
@@ -287,8 +267,6 @@ flowchart LR
     E --> F["reindex"]
     F --> G["checklist done"]
 ```
-
-Related: [[07-Incident Response/SEO-Poisoning-Analysis/03-Remediation-Hardening]], [[07-Incident Response/SEO-Poisoning-Analysis/04-Checklist]].
 
 ## 16. kurmamedia Case Verdict
 
@@ -305,8 +283,6 @@ graph TD
 
 Hosted on Hostinger Jakarta, DNS resolves but the server serves nothing. Likely suspended or taken down.
 
-Related: [[07-Incident Response/SEO-Poisoning-Analysis/05-Case-Study-kurmamedia]].
-
 ## 17. Cybersecurity Toolkit Pipeline
 
 ```mermaid
@@ -319,8 +295,6 @@ flowchart LR
 ```
 
 Tools per stage: nmap and amass, masscan, dirsearch and ffuf, nikto and nuclei, metasploit and burpsuite, hashcat and john and sqlmap.
-
-Related: [[Personal/Cybersecurity/Tools/Nmap]], [[Personal/Cybersecurity/Tools/Nuclei]].
 
 ## 18. Web Vuln Tool Web
 
@@ -335,8 +309,6 @@ graph TD
     VULN --> OWASP["Owasp report"]
 ```
 
-Related: [[Personal/Cybersecurity/Tools/Burpsuite]], [[Personal/Cybersecurity/Tools/Sqlmap]].
-
 ## 19. Laravel CRUD MVC
 
 ```mermaid
@@ -350,8 +322,6 @@ flowchart LR
 ```
 
 Views render from controller data and link back to routes.
-
-Related: [[Tasks/Laravel-CRUD/Laravel CRUD]], [[Tasks/Laravel-CRUD/Controller]].
 
 ## 20. E-Commerce PBO Error Map
 
@@ -370,8 +340,6 @@ flowchart TD
     F -->|"yes"| G["migrate and seed"]
     G --> H["verify app"]
 ```
-
-Related: [[Tasks/E-Commerce PBO/00 - Index]], [[Tasks/Laravel-CRUD/E-Commerce PBO - Debugging Guide]].
 
 ## 21. Nazkypedia UI Sessions
 
@@ -411,8 +379,6 @@ graph TD
 
 Each session restyles the shared Navbar and Hero components. Colors are Blue Teal Orange plus dark mode.
 
-Related: [[Tasks/Nazkypedia-UI-Improvements/README]], [[Tasks/Nazkypedia-UI-Improvements/Testing-Checklist]].
-
 ## 22. React Native Taskmanager
 
 ```mermaid
@@ -425,8 +391,6 @@ flowchart TD
     F --> G["animations"]
     G --> H["done"]
 ```
-
-Related: [[Tasks/React-Native-Taskmanager/PEMBUATAN APLIKASI TASKMANAGER]].
 
 ## 23. VSCode Theme Bug Chain
 
@@ -443,8 +407,6 @@ flowchart TD
 
 Cause was the APC Customize plugin writing bad alpha colors.
 
-Related: [[Development/VSCode Theme Bug/00 - Map of Content]], [[Development/VSCode Theme Bug/03 - Manual Fix Guide]].
-
 ## 24. Spreadsheets Auth Decision
 
 ```mermaid
@@ -456,8 +418,6 @@ flowchart TD
     D -->|"no"| F["OAuth login"]
     F --> G["compare and throttle"]
 ```
-
-Related: [[Personal/Spreadsheets-Auth/Spreadsheets Auth]], [[Personal/Spreadsheets-Auth/Google Sheets Login API Setup]].
 
 ## 25. Device Hardware Map
 
@@ -473,8 +433,6 @@ graph TB
     BOOT --> OS
 ```
 
-Related: [[Personal/Device/00 - Device Overview]], [[System/Linux/System Specifications]].
-
 ## 26. School P3 Build Order
 
 ```mermaid
@@ -486,8 +444,6 @@ flowchart LR
     E --> F["frontend pages"]
     F --> G["docs"]
 ```
-
-Related: [[Personal/School/What-to-Create]], [[Personal/School/P3]].
 
 ## 27. Timeline Web
 
