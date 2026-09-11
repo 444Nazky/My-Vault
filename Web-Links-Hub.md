@@ -6,6 +6,6 @@
 
 - [[README]]
 - [[Map of Content]]
-- [[Graph-Web-Atlas]]
+- [[Graphs/00-Graph-Index]]
 
 Tags: #graph #hub #navigation

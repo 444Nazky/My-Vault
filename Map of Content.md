@@ -184,63 +184,9 @@ graph TB
     API --> Vue
 ```
 
-## Fix Status Dashboard (Updated 2026-09-10)
+## Topic Diagrams
 
-```mermaid
-flowchart TD
-    A["NVIDIA driver"] -->|"fixed"| Z["All Green"]
-    B["GRUB menu"] -->|"fixed"| Z
-    C["Caelestia shell"] -->|"fixed"| Z
-    D["HDMI drm output"] -->|"fixed"| Z
-    E["NFS Heat PRIME"] -->|"fixed"| Z
-    F["Sober install"] -->|"done"| Z
-    G["SEO investigation"] -->|"done"| Z
-    H["Theme bug docs"] -->|"done"| Z
-    Z --> I["indexes refreshed"]
-```
-
-## Vault Growth Map
-
-```mermaid
-graph LR
-    Root["Vault 202 files"] --> SYS["System 77"]
-    Root --> ME["Personal and Dev 74"]
-    Root --> DO["Work and Ops 45"]
-    ME --> PER["Personal 45"]
-    ME --> DEV["Development 29"]
-    DO --> TSK["Tasks 37"]
-    DO --> OPS["IR plus Agents 8"]
-```
-
-## Incident Response Workflow
-
-```mermaid
-flowchart LR
-    A["SEO case opened"] --> B{"DNS active"}
-    B -->|"yes"| C["HTTP check"]
-    B -->|"no"| D["closed"]
-    C -->|"timeout"| E["host suspended"]
-    C -->|"spam found"| F["cloaking confirmed"]
-    E --> G["record IOC"]
-    F --> G
-    G --> H["run commands"]
-    H --> I["remediate"]
-    I --> J["checklist"]
-    J --> K["case study"]
-```
-
-## Gaming Pipeline
-
-```mermaid
-flowchart LR
-    A["slow on Intel"] --> B["install Proton GE"]
-    B --> C["set compat tool"]
-    C --> D["set PRIME flags"]
-    D --> E["Nvidia renders"]
-    E --> F["game smooth"]
-    G["Sober flatpak"] --> H["Wayland OK"]
-    H --> I["Roblox on Linux"]
-```
+Diagrams now live per topic in Graphs/00-Graph-Index, not merged here.
 
 ## Folder Structure
 
