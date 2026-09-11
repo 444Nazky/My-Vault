@@ -117,4 +117,28 @@ pie title Fix completion
     "SEO investigated" : 10
 ```
 
+## Notes Per Folder
+
+```mermaid
+pie title Notes per folder
+    "System" : 77
+    "Personal" : 45
+    "Tasks" : 37
+    "Development" : 29
+    "Incident Response" : 6
+    "AGENTS" : 2
+    "Root" : 6
+```
+
+## How to Navigate
+
+```mermaid
+flowchart TD
+    NEWB["new here"] --> README2["read README first"]
+    README2 --> MAP2["open Map of Content"]
+    MAP2 --> TOPIC["pick a topic folder"]
+    TOPIC --> NOTE2["read the note"]
+    NOTE2 --> GRAPHS2["see Graphs index for diagrams"]
+```
+
 Tags: #graph #overview

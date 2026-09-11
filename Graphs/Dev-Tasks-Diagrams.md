@@ -124,4 +124,34 @@ flowchart LR
     F --> G["docs"]
 ```
 
+## Git Branch Flow
+
+```mermaid
+flowchart LR
+    MAIN["main branch"] --> FEAT["feature branch"]
+    FEAT --> COMMIT2["commit often"]
+    COMMIT2 --> PUSH2["push and PR"]
+    PUSH2 --> REVIEW["review"]
+    REVIEW --> MERGE2["squash merge"]
+```
+
+## Eloquent Relation Map
+
+```mermaid
+graph TD
+    USER2["users table"] --> POSTS2["has many posts"]
+    POSTS2 --> BELONG2["belongs to user"]
+    POSTS2 --> TAGREL["many to many tags"]
+```
+
+## Sheets OAuth Flow
+
+```mermaid
+flowchart LR
+    APP3["Laravel app"] --> REDIR["redirect Google"]
+    REDIR --> CONSENT["user consent"]
+    CONSENT --> TOKEN["access token"]
+    TOKEN --> SHEETS2["read sheets"]
+```
+
 Tags: #graph #development

@@ -68,4 +68,35 @@ graph TD
     VULN --> OWASP["Owasp report"]
 ```
 
+## Nmap Scan Flow
+
+```mermaid
+flowchart TD
+    TARGET["target picked"] --> DISC["host discovery"]
+    DISC --> PORTS["port scan"]
+    PORTS --> VER3["version detect"]
+    VER3 --> VULN2["vuln scripts"]
+    VULN2 --> REPORT["report"]
+```
+
+## Password Attack Choice
+
+```mermaid
+flowchart TD
+    HASH["hash captured"] --> TYPEQ{"hash type"}
+    TYPEQ -->|"fast"| HASHCAT["hashcat GPU"]
+    TYPEQ -->|"slow"| JOHN["john CPU"]
+    TYPEQ -->|"login"| HYDRA["hydra online"]
+```
+
+## Burp Intercept Flow
+
+```mermaid
+flowchart LR
+    BROWSER["browser"] --> PROXY["burp proxy"]
+    PROXY --> REQ["inspect request"]
+    REQ --> REPLAY["repeater"]
+    REPLAY --> FIND["finding"]
+```
+
 Tags: #graph #security

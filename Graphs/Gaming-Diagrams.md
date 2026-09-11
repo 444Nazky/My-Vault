@@ -48,4 +48,25 @@ flowchart TD
 
 Roblox path is covered in the Sober diagram above.
 
+## Proton Choice Flow
+
+```mermaid
+flowchart TD
+    GAME2["new game"] --> VER2{"verified"}
+    VER2 -->|"yes"| DEFP["default Proton"]
+    VER2 -->|"no"| GE2["Proton GE"]
+    GE2 --> FLAGS2["PRIME flags"]
+    FLAGS2 --> PLAY["play"]
+```
+
+## Sober vs Manual Wine
+
+```mermaid
+graph LR
+    WANT["Roblox on Linux"] --> SOBER["Sober flatpak"]
+    WANT --> WINE["manual Wine"]
+    SOBER --> EASY["Wine bundled"]
+    WINE --> HARD["setup yourself"]
+```
+
 Tags: #graph #gaming

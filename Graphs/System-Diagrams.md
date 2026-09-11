@@ -154,4 +154,36 @@ graph TB
     BOOT --> OS
 ```
 
+## ZRAM Swap Flow
+
+```mermaid
+flowchart TD
+    PRESS["memory pressure"] --> ZRAMQ{"zram ready"}
+    ZRAMQ -->|"yes"| COMP2["compress in RAM"]
+    ZRAMQ -->|"no"| DISK2["disk swap"]
+    COMP2 --> FAST["fast reclaim"]
+    DISK2 --> SLOWD["slow reclaim"]
+```
+
+## Slow System Triage
+
+```mermaid
+flowchart TD
+    SLOW2["system slow"] --> CPUQ{"cpu high"}
+    CPUQ -->|"yes"| HTOP["check htop"]
+    CPUQ -->|"no"| MEMQ{"ram full"}
+    MEMQ -->|"yes"| FREE["check free and swap"]
+    MEMQ -->|"no"| DISKQ["check disk IO"]
+```
+
+## Service Cleanup
+
+```mermaid
+flowchart LR
+    LIST["list services"] --> USEDQ{"used"}
+    USEDQ -->|"no"| STOP["stop and disable"]
+    USEDQ -->|"yes"| KEEP["keep running"]
+    STOP --> VERIFY["verify boot faster"]
+```
+
 Tags: #graph #system
