@@ -113,6 +113,7 @@ Obsidian Vault/
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
+<!-- Last updated: 2026-09-11T09:30:14+07:00 -->
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
