@@ -11,27 +11,27 @@
 
 | Section                          | Description                    | Key Notes                                                        |
 | -------------------------------- | ------------------------------ | ---------------------------------------------------------------- |
-| [[System/Linux/]]                | System admin, CLI, BlackArch   | [[System Specifications]], [[CLI Cheatsheet]] - 12 files         |
-| [[System/Caelestia/]]            | Hyprland + Caelestia shell     | [[Caelestia System Architecture]], [[Caelestia Config Files]] - 7 files |
-| [[System/Caelestia-Investigation/]] | Performance debugging       | [[00 - Investigation Overview]], [[Root Cause - Swappiness 100]] - 31 files |
-| [[System/Fixes/]]                | System fixes and guides        | [[NVIDIA-RTX-5050-Investigation]], [[GRUB-Configuration]], [[HDMI-Monitor-Fix-NVIDIA-Wayland]] - 11 files |
-| [[System/Gaming/]]               | NFS Heat Proton GE + PRIME     | [[System-Info]], [[The-Problem]], [[README]] - 7 files           |
-| [[System/Display-Server/]]       | Wayland/Hyprland input         | [[hyprland-trackpad-sensitivity]]                                |
-| [[07-Incident Response/SEO-Poisoning-Analysis/]] | SEO Judi Slot IR | [[00-SEO-Poisoning-Analysis]], [[05-Case-Study-kurmamedia]] - 6 files, complete 2026-09-07 |
-| [[Personal/Cybersecurity/]]      | Pentesting tools and methodology | [[BlackArch Tools]], [[Blackarch]] - Blackarch 7, Requierements 6, Tools 9 |
-| [[Personal/Device/]]             | Device-specific notes          | [[00 - Device Overview]] to [[08 - Boot Configuration]] - 9 files |
-| [[Personal/School/]]             | School project docs            | [[P3]], [[What-to-Create]]                                       |
-| [[Personal/Session-Logs/]]       | Troubleshooting sessions       | [[2026-08-29-Caelestia-Session/]] - 7 files                      |
-| [[Personal/Spreadsheets-Auth/]]  | Google Sheets API auth         | [[Spreadsheets Auth]], [[Google Sheets Login API Setup]] - 4 files |
-| [[Development/Database/]]        | Laravel database management    | [[Database Management & phpMyAdmin Guide]] - 2 files             |
-| [[Development/Github/]]          | Git tutorials                  | [[GitHub - Connect Repository Tutorial]]                         |
-| [[Development/VSCode Theme Bug/]] | VSCode theme debugging        | [[Bug Report - VSCode Theme Rendering Issue]], [[00 - Map of Content]] - 19 files |
-| [[Tasks/E-Commerce PBO/]]        | Laravel E-Commerce errors      | [[00 - Index]] to [[09 - Verification]] - 10 files               |
-| [[Tasks/Laravel-CRUD/]]          | Laravel CRUD guide             | [[Laravel CRUD]], [[E-Commerce PBO - Debugging Guide]] - 10 files |
-| [[Tasks/Nazkypedia-UI-Improvements/]] | Wiki UI overhaul          | [[README]], [[Session-1-UI-Overhaul]] to Session-3 - 10 files    |
-| [[Tasks/React-Native-Taskmanager/]] | Mobile taskmanager         | [[PEMBUATAN APLIKASI TASKMANAGER]] - 4 files                     |
-| [[Tasks/]] root                  | Migration guides               | [[Arch Migration]], [[Arch Linux System Fixes]], [[Automated tools]] |
-| [[AGENTS/]]                      | AI CLI agents                  | [[AI-CLI-Agents]] - 8 tools documented                           |
+| System/Linux/                      | System admin, CLI, BlackArch   | System Specifications, CLI Cheatsheet - 12 files                 |
+| System/Caelestia/                  | Hyprland + Caelestia shell     | Caelestia System Architecture, Caelestia Config Files - 7 files  |
+| System/Caelestia-Investigation/    | Performance debugging          | 00 - Investigation Overview, Root Cause - Swappiness 100 - 31 files |
+| System/Fixes/                      | System fixes and guides        | NVIDIA-RTX-5050-Investigation, GRUB-Configuration, HDMI-Monitor-Fix-NVIDIA-Wayland - 11 files |
+| System/Gaming/                     | NFS Heat Proton GE + PRIME     | System-Info, The-Problem, README - 7 files                       |
+| System/Display-Server/             | Wayland/Hyprland input         | hyprland-trackpad-sensitivity                                    |
+| 07-Incident Response/SEO-Poisoning-Analysis/ | SEO Judi Slot IR   | 00-SEO-Poisoning-Analysis, 05-Case-Study-kurmamedia - 6 files, complete 2026-09-07 |
+| Personal/Cybersecurity/            | Pentesting tools and methodology | BlackArch Tools, Blackarch - Blackarch 7, Requierements 6, Tools 9 |
+| Personal/Device/                   | Device-specific notes          | 00 - Device Overview to 08 - Boot Configuration - 9 files        |
+| Personal/School/                   | School project docs            | P3, What-to-Create                                               |
+| Personal/Session-Logs/             | Troubleshooting sessions       | 2026-08-29-Caelestia-Session - 7 files                           |
+| Personal/Spreadsheets-Auth/        | Google Sheets API auth         | Spreadsheets Auth, Google Sheets Login API Setup - 4 files       |
+| Development/Database/              | Laravel database management    | Database Management and phpMyAdmin Guide - 2 files               |
+| Development/Github/                | Git tutorials                  | GitHub - Connect Repository Tutorial                             |
+| Development/VSCode Theme Bug/      | VSCode theme debugging         | Bug Report - VSCode Theme Rendering Issue, 00 - Map of Content - 19 files |
+| Tasks/E-Commerce PBO/              | Laravel E-Commerce errors      | 00 - Index to 09 - Verification - 10 files                       |
+| Tasks/Laravel-CRUD/                | Laravel CRUD guide             | Laravel CRUD, E-Commerce PBO - Debugging Guide - 10 files        |
+| Tasks/Nazkypedia-UI-Improvements/  | Wiki UI overhaul          | README, Session-1-UI-Overhaul to Session-3 - 10 files            |
+| Tasks/React-Native-Taskmanager/    | Mobile taskmanager         | PEMBUATAN APLIKASI TASKMANAGER - 4 files                         |
+| Tasks/ root                        | Migration guides               | Arch Migration, Arch Linux System Fixes, Automated tools         |
+| AGENTS/                            | AI CLI agents                  | AI-CLI-Agents - 8 tools documented                               |
 
 ---
 

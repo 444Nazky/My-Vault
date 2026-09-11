@@ -63,30 +63,30 @@ Obsidian Vault/
 
 | Category | Path |
 |----------|------|
-| AI Agents | [[AGENTS/AI-CLI-Agents]] |
-| System Fixes Index | [[System/Fixes/README]] |
-| NVIDIA Fix | [[System/Fixes/NVIDIA-RTX-5050-Investigation]] |
-| NVIDIA Commands | [[System/Fixes/NVIDIA-RTX-5050-Fix-Commands]] |
-| GRUB Fix | [[System/Fixes/GRUB-Configuration]] |
-| GRUB Commands | [[System/Fixes/GRUB-Duplicate-Entries-Fix-Commands]] |
-| HDMI Monitor Fix | [[System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland]] |
-| Caelestia Shell Issue | [[System/Fixes/caelestia-shell-Removal-Issues]] |
-| Caelestia Config | [[System/Caelestia/00-Overview]] |
-| System Architecture | [[System/System-Architecture]] |
-| Terminal Setup | [[System/terminal-config-backup-2026-09-09]] |
-| Niri Setup | [[System/hakuspace-niri-setup-2026-09-07]] |
-| Roblox Sober | [[System/roblox-sober-install]] |
-| Trackpad | [[System/Display-Server/hyprland-trackpad-sensitivity]] |
-| Gaming NFS Heat | [[System/Gaming/README]] |
-| Visual Guides | [[System/Fixes/Visual-Guides]] |
-| Quick Reference | [[System/Fixes/Quick-Reference]] |
-| Graph Web Atlas | [[Graph-Web-Atlas]] - 27 diagrams |
-| Web Links Hub | [[Web-Links-Hub]] - Obsidian graph web |
-| SEO Poisoning IR | [[07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis]] |
-| VSCode Theme Bug MOC | [[Development/VSCode Theme Bug/00 - Map of Content]] |
-| Device Overview | [[Personal/Device/00 - Device Overview]] |
-| E-Commerce PBO | [[Tasks/E-Commerce PBO/00 - Index]] |
-| Laravel CRUD | [[Tasks/Laravel-CRUD/Laravel CRUD]] |
+| AI Agents | AGENTS/AI-CLI-Agents |
+| System Fixes Index | System/Fixes/README |
+| NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
+| NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
+| GRUB Fix | System/Fixes/GRUB-Configuration |
+| GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
+| HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
+| Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
+| Caelestia Config | System/Caelestia/00-Overview |
+| System Architecture | System/System-Architecture |
+| Terminal Setup | System/terminal-config-backup-2026-09-09 |
+| Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
+| Roblox Sober | System/roblox-sober-install |
+| Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
+| Gaming NFS Heat | System/Gaming/README |
+| Visual Guides | System/Fixes/Visual-Guides |
+| Quick Reference | System/Fixes/Quick-Reference |
+| Graph Web Atlas | Graph-Web-Atlas - 27 diagrams |
+| Web Links Hub | Web-Links-Hub - pointer page |
+| SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
+| VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
+| Device Overview | Personal/Device/00 - Device Overview |
+| E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
+| Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
 
 ---
 
@@ -118,23 +118,23 @@ Obsidian Vault/
 ### Gaming NFS Heat - FIXED
 - Proton GE 11-6 + `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
 - Forced dGPU instead of Intel iGPU
-- See [[System/Gaming/README]]
+- See System/Gaming/README for setup
 
 ### Roblox via Sober - INSTALLED 2026-09-09
 - Flatpak `org.vinegarhq.Sober` 1.7.1, 18.5 MB
 - Wayland/Hyprland compatible, RTX 5050 passthrough confirmed
 - Wrapper at `~/.local/bin/sober`
-- See [[System/roblox-sober-install]]
+- See System/roblox-sober-install for details
 
 ### SEO Poisoning IR - INVESTIGATION COMPLETE 2026-09-07
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
-- See [[07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis]]
+- See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
 ### VSCode Theme Bug - DOCUMENTED
 - 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
-- See [[Development/VSCode Theme Bug/00 - Map of Content]]
+- See Development/VSCode Theme Bug/00 - Map of Content for the full series
 
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
@@ -145,16 +145,16 @@ Obsidian Vault/
 
 | Issue | Status | Document |
 |-------|--------|----------|
-| NVIDIA RTX 5050 Driver | FIXED | [[System/Fixes/NVIDIA-RTX-5050-Investigation]] |
-| GRUB Duplicate Entries | FIXED | [[System/Fixes/GRUB-Configuration]] |
-| GRUB Menu Order | FIXED | [[System/Fixes/GRUB-Duplicate-Entries]] |
-| HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | [[System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland]] |
-| Secure Boot | Reference | [[System/Fixes/Secure-Boot-Guide]] |
-| Caelestia Shell Removal | FIXED | [[System/Fixes/caelestia-shell-Removal-Issues]] |
-| NFS Heat Intel vs NVIDIA | FIXED | [[System/Gaming/README]] |
-| Roblox Sober Install | INSTALLED 2026-09-09 | [[System/roblox-sober-install]] |
-| SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | [[07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis]] |
-| VSCode Theme Rendering | DOCUMENTED | [[Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue]] |
+| NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
+| GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
+| GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
+| HDMI Monitor NVIDIA Wayland | FIXED 2026-09-07 | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
+| Secure Boot | Reference | System/Fixes/Secure-Boot-Guide |
+| Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
+| NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
+| Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
+| SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
+| VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
 
 ---
 
@@ -162,9 +162,9 @@ Obsidian Vault/
 
 | Document | Content |
 |---------|---------|
-| [[System/Fixes/Visual-Guides]] | Mermaid flowcharts, before/after diagrams |
-| [[System/System-Architecture]] | System diagrams, boot process, NVIDIA pipeline |
-| [[System/Fixes/Quick-Reference]] | ASCII diagrams, one-liner commands |
+| System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
+| System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
+| System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
 
 ---
 
@@ -186,7 +186,7 @@ Obsidian Vault/
 ## Maintenance
 
 To update this vault:
-1. Check [[Map of Content]] for full overview
+1. Check Map of Content for full overview
 2. Add new files to appropriate category folders
 3. Update this index when adding new categories
-4. Run [[System/Fixes/Visual-Guides]] updates when system changes
+4. Run System/Fixes/Visual-Guides updates when system changes

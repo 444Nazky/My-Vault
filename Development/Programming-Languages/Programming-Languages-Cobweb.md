@@ -14,6 +14,23 @@
 | [[Rust]] | Ownership, borrow rules, gotchas |
 | [[Comparisons]] | Safety vs control, use cases, decision tree |
 | [[Toolchain-Interop]] | Compilation pipelines, C ABI interop web |
+| [[C-Cheatsheet]] | C syntax, pointers, heap, IO |
+| [[Cpp-Cheatsheet]] | Cpp classes, STL, smart pointers |
+| [[CSharp-Cheatsheet]] | CSharp LINQ, async, properties |
+| [[Swift-Cheatsheet]] | Swift optionals, ARC, closures |
+| [[Rust-Cheatsheet]] | Rust ownership, cargo, iterators |
+| [[Go]] | Goroutines, slices, defer |
+| [[Go-Cheatsheet]] | Go syntax, structs, channels |
+| [[Python]] | Comprehensions, venv, gotchas |
+| [[Python-Cheatsheet]] | Python syntax, files, classes |
+| [[TypeScript]] | Type erasure, narrowing |
+| [[TypeScript-Cheatsheet]] | TS types, generics, async |
+| [[Java]] | JVM OOP, streams |
+| [[Java-Cheatsheet]] | Java syntax, collections, records |
+| [[PHP]] | Arrays, null coalescing, Laravel link |
+| [[PHP-Cheatsheet]] | PHP syntax, composer, classes |
+| [[Lua]] | Tables, 1-indexing, configs link |
+| [[Lua-Cheatsheet]] | Lua syntax, tables, modules |
 
 ## Mini Map
 
