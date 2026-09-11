@@ -1,6 +1,5 @@
 # Kotlin Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Kotlin]] for deeper notes
 
 ## Skeleton

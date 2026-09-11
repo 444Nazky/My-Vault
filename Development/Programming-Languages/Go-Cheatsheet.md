@@ -1,6 +1,5 @@
 # Go Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Go]] for deeper notes
 
 ## Skeleton

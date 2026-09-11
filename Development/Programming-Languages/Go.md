@@ -1,6 +1,5 @@
 # Go Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2009. Simple servers and CLIs, GC, CSP concurrency.
 
 ## Goroutines in 30 Seconds

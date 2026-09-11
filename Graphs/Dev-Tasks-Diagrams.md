@@ -1,6 +1,5 @@
 # Dev Tasks Diagrams
 
-**Part of:** [[00-Graph-Index]]
 
 ## Laravel CRUD MVC
 

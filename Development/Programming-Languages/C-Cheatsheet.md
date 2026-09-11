@@ -1,6 +1,5 @@
 # C Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[C]] for deeper notes
 
 ## Skeleton

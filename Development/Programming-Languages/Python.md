@@ -1,6 +1,5 @@
 # Python Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1991. Scripting, glue, data, ML. Slow but fast to write.
 
 ## Comprehensions Replace Loops

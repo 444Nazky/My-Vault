@@ -1,6 +1,5 @@
 # Dart Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2011. Flutter language, sound null safety, AOT plus JIT.
 
 ## Sound Null Safety

@@ -1,6 +1,5 @@
 # Gaming Diagrams
 
-**Part of:** [[00-Graph-Index]]
 
 ## NFS Heat Gaming Fix
 

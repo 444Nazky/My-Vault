@@ -1,6 +1,5 @@
 # Cpp Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1985. C with classes, then templates, RAII, zero-cost abstractions.
 
 ## RAII in 30 Seconds

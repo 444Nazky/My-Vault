@@ -1,6 +1,5 @@
 # CSharp Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[CSharp]] for deeper notes
 
 ## Skeleton

@@ -1,6 +1,5 @@
 # Haskell Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1990. Pure functional, lazy, types that prove behavior.
 
 ## Purity Means No Surprises

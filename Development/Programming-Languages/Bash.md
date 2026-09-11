@@ -1,6 +1,5 @@
 # Bash Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1989. The Arch daily driver, glue for commands, pipes, and scripts.
 
 ## Strict Mode First

@@ -1,6 +1,5 @@
 # C Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1972, Bell Labs. Portable assembler.
 
 ## Pointers in 30 Seconds

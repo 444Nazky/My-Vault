@@ -1,6 +1,5 @@
 # Rust Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2015. Safe systems, no GC, borrow checker.
 
 ## Ownership in 30 Seconds

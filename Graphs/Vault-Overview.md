@@ -1,6 +1,5 @@
 # Vault Overview Diagrams
 
-**Part of:** [[00-Graph-Index]]
 
 ## Vault Map Top
 

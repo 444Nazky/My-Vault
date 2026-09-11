@@ -1,6 +1,5 @@
 # Lua Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Lua]] for deeper notes
 
 ## Skeleton

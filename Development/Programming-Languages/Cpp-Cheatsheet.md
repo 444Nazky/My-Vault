@@ -1,6 +1,5 @@
 # Cpp Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Cpp]] for deeper notes
 
 ## Skeleton

@@ -1,6 +1,5 @@
 # Zig Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2016. C replacement with explicit allocators, comptime, no hidden control flow.
 
 ## Allocators Are Explicit

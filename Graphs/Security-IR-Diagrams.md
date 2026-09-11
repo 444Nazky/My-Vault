@@ -1,6 +1,5 @@
 # Security IR Diagrams
 
-**Part of:** [[00-Graph-Index]]
 
 ## SEO Poisoning Kill Chain
 

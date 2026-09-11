@@ -1,6 +1,5 @@
 # TypeScript Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[TypeScript]] for deeper notes
 
 ## Setup

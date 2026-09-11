@@ -1,6 +1,5 @@
 # Java Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Java]] for deeper notes
 
 ## Build and Run

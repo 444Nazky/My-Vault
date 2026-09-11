@@ -1,6 +1,5 @@
 # Zig Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Zig]] for deeper notes
 
 ## Skeleton

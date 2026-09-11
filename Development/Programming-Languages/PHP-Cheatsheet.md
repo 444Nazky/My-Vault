@@ -1,6 +1,5 @@
 # PHP Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[PHP]] for deeper notes
 
 ## Skeleton

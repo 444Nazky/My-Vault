@@ -1,6 +1,5 @@
 # SQL Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[SQL]] for deeper notes
 
 ## Query Skeleton

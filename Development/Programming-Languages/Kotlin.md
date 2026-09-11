@@ -1,6 +1,5 @@
 # Kotlin Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2011. Modern JVM language, null-safe by default, Android official.
 
 ## Null Safety in the Type System

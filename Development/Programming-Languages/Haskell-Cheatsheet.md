@@ -1,6 +1,5 @@
 # Haskell Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Haskell]] for deeper notes
 
 ## Skeleton

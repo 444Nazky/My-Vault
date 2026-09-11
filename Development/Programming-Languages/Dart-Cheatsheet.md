@@ -1,6 +1,5 @@
 # Dart Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Dart]] for deeper notes
 
 ## Skeleton

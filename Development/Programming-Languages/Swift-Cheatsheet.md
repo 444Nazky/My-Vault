@@ -1,6 +1,5 @@
 # Swift Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Swift]] for deeper notes
 
 ## Basics

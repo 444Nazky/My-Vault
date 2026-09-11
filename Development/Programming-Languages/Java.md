@@ -1,6 +1,5 @@
 # Java Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1995. Enterprise OOP on the JVM, GC, write once run anywhere.
 
 ## Everything Lives in a Class

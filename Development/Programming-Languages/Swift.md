@@ -1,6 +1,5 @@
 # Swift Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2014. Safe Apple development, ARC, optionals, protocols.
 
 ## Optionals in 30 Seconds

@@ -1,6 +1,5 @@
 # Rust Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Rust]] for deeper notes
 
 ## Skeleton

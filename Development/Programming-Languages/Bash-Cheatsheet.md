@@ -1,6 +1,5 @@
 # Bash Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Bash]] for deeper notes
 
 ## Skeleton

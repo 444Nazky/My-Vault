@@ -1,6 +1,5 @@
 # TypeScript Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2012. JavaScript with a type checker that erases at compile time.
 
 ## Types Erase, They Never Run

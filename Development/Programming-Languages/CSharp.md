@@ -1,6 +1,5 @@
 # CSharp Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 2000. Managed OOP on .NET, GC, LINQ, async/await.
 
 ## Properties in 30 Seconds

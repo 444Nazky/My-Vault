@@ -1,6 +1,5 @@
 # Lua Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1993. Tiny embeddable scripting, 1-indexed tables, powers Neovim and Hyprland lua configs.
 
 ## Tables Are Everything

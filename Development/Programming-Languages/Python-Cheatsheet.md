@@ -1,6 +1,5 @@
 # Python Cheatsheet
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Companion:** [[Python]] for deeper notes
 
 ## Skeleton

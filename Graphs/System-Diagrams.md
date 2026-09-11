@@ -1,6 +1,5 @@
 # System Diagrams
 
-**Part of:** [[00-Graph-Index]]
 
 ## Full Boot Chain
 

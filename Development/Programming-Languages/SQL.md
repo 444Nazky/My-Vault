@@ -1,6 +1,5 @@
 # SQL Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1986 standard. The query language behind every Laravel database in this vault.
 
 ## NULL Is Not a Value

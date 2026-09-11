@@ -1,6 +1,5 @@
 # PHP Notes
 
-**Part of:** [[Programming-Languages-Cobweb]]
 **Born:** 1995. The web backend behind Laravel, which this vault uses for Tasks.
 
 ## Arrays Do Everything
