@@ -15,4 +15,4 @@ Caelestia desktop environment configuration reference.
 - autostart
 
 ## Tags
-#caelestia #hyprland #configuration #linux
+#caelestia #configuration #hyprland

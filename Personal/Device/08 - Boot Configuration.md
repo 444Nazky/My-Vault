@@ -8,4 +8,4 @@ Boot settings and bootloader configuration.
 - Kernel parameters
 
 ## Tags
-#boot #grub #systemd-boot #configuration
+ #configuration

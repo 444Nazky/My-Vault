@@ -140,4 +140,4 @@ nvidia-smi
 tail -f ~/.config/hypr/hyprland.log
 ```
 
-**Tags:** #optimization #performance #tuning
+**Tags:** #performance

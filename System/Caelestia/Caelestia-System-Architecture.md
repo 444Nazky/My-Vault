@@ -79,4 +79,4 @@ flowchart LR
 ```
 
 ## Tags
-#caelestia #architecture #hyprland #wayland #desktop
+ #caelestia #hyprland

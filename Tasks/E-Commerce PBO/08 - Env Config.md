@@ -50,4 +50,4 @@ php artisan cache:clear
 ```
 
 ## Tags
-#environment #configuration #laravel #env
+#configuration

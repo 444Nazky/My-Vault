@@ -29,4 +29,4 @@ APP_KEY=base64:your-generated-key-here
 ```
 
 ## Tags
-#error #laravel #app-key #troubleshooting
+#troubleshooting

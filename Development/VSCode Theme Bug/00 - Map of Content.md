@@ -10,4 +10,4 @@ Documentation for VSCode theme bug investigation.
 - Extension Snapshot
 
 ## Tags
-#vscode #theme #documentation
+

@@ -20,4 +20,4 @@ npx expo run:ios
 - useContext for state management
 
 ## Tags
-#reactnative #cheatsheet #commands #development
+ #cheatsheet

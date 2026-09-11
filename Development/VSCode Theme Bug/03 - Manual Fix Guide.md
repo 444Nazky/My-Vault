@@ -10,4 +10,4 @@ Manual fix for VSCode theme issues.
 4. Reinstall theme
 
 ## Tags
-#vscode #fix #troubleshooting
+ #fix #troubleshooting

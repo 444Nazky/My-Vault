@@ -147,4 +147,4 @@ sudo systemctl disable mariadb
 ```
 
 ## Tags
-#automation #scripts #system #maintenance #archlinux
+ #system

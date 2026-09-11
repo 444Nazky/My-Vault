@@ -15,4 +15,4 @@ starship doctor
 ```
 
 ## Tags
-#starship #troubleshooting #debugging
+ #troubleshooting

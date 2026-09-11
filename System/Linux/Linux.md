@@ -227,4 +227,4 @@ Ctrl+Z && bg                        # Suspend and background
 ```
 
 ## Tags
-#linux #reference #system #administration #tuning
+#administration #linux #reference

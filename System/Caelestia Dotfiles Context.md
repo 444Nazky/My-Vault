@@ -8,4 +8,4 @@ Dotfiles configuration for Caelestia.
 - ~/.config/starship.toml
 
 ## Tags
-#dotfiles #caelestia #configuration
+ #caelestia #configuration

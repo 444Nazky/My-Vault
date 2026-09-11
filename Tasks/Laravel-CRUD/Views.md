@@ -114,4 +114,4 @@ resources/views/items/
 ```
 
 ## Tags
-#laravel #views #blade #crud #frontend
+#crud #frontend

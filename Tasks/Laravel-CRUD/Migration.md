@@ -83,4 +83,4 @@ php artisan migrate:fresh      # Drop all and re-run
 ```
 
 ## Tags
-#laravel #migration #database #schema
+#database

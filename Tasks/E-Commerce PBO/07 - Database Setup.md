@@ -34,4 +34,4 @@ php artisan db:seed
 - carts
 
 ## Tags
-#database #setup #laravel #migration
+#database

@@ -60,4 +60,4 @@ System requirements and specifications for cybersecurity environments.
 - Bridged for real network testing
 
 ## Tags
-#requirements #hardware #virtualization #setup
+ #hardware

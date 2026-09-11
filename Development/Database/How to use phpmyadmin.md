@@ -150,4 +150,4 @@ SELECT COUNT(*), category FROM products GROUP BY category;
 - Use appropriate column types
 
 ## Tags
-#phpmyadmin #database #mysql #tutorial
+ #database

@@ -29,4 +29,4 @@ routes/web.php
 - Delete: Remove records
 
 ## Tags
-#laravel #crud #php #mvc #backend
+#crud #php

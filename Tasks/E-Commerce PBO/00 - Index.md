@@ -37,4 +37,4 @@ Complete guide for the E-Commerce PBO (Penugasan Boostrap/OOP) project.
 - Check routes
 
 ## Tags
-#ecommerce #laravel #pbo #tutorial
+

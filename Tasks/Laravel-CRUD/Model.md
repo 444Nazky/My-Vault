@@ -109,4 +109,4 @@ public function category()
 ```
 
 ## Tags
-#laravel #model #eloquent #crud
+#crud

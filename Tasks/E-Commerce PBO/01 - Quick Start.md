@@ -56,4 +56,4 @@ php artisan serve
 Open browser: http://localhost:8000
 
 ## Tags
-#quickstart #laravel #ecommerce #pbo
+

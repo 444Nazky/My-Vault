@@ -90,4 +90,4 @@ header('Strict-Transport-Security: max-age=31536000');
 ```
 
 ## Tags
-#authentication #security #login #mfa #session
+ #security

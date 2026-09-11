@@ -28,4 +28,4 @@ Animated.timing(fadeAnim, {
 - Rotation
 
 ## Tags
-#reactnative #animations #frontend #mobile
+ #frontend

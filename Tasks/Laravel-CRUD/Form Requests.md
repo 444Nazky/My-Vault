@@ -22,4 +22,4 @@ public function rules()
 ```
 
 ## Tags
-#laravel #form-request #validation #crud
+#crud

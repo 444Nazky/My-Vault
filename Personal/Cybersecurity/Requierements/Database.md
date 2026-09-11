@@ -82,4 +82,4 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO app;
 - Test in staging first
 
 ## Tags
-#database #security #mysql #postgresql #sql
+ #database #security

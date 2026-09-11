@@ -117,4 +117,4 @@ pacman -Q | grep blackarch
 - [[BlackArch Tool Usage Cheat Sheet]]
 
 ## Tags
-#blackarch #tools #categories #security
+ #blackarch #security #tools

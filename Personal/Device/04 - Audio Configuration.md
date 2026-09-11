@@ -8,4 +8,4 @@ Audio settings and configuration.
 - 2x 2W speakers
 
 ## Tags
-#audio #sound #configuration
+ #configuration

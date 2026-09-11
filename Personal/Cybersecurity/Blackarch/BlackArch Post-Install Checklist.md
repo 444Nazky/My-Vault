@@ -185,4 +185,4 @@ sudo pacman-mirrors -f 5
 - [ ] nuclei
 
 ## Tags
-#blackarch #post-install #setup #checklist
+ #blackarch #checklist

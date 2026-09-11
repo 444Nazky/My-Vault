@@ -21,4 +21,4 @@ Project management and backlog for Task Manager app.
 8. Dark mode
 
 ## Tags
-#project #backlog #planning #development
+ #project

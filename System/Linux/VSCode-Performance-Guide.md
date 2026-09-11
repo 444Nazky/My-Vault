@@ -135,4 +135,4 @@ code --install-extension golang.go
 ```
 
 ## Tags
-#vscode #vscodium #performance #optimization #editor
+ #performance

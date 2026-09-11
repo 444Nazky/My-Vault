@@ -12,4 +12,4 @@ curl -sS https://starship.rs/install.sh | sh
 ~/.config/starship.toml
 
 ## Tags
-#starship #shell #prompt #installation
+#installation #shell

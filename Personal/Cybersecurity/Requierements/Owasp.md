@@ -84,4 +84,4 @@ The Open Web Application Security Project (OWASP) Top 10 is a standard awareness
 - Context-aware escaping
 
 ## Tags
-#owasp #security #web #vulnerabilities #pentesting
+ #pentesting #security #web

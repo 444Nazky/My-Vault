@@ -8,4 +8,4 @@ Comparing Laravel Eloquent ORM approaches.
 - Query Builder: Direct SQL
 
 ## Tags
-#laravel #eloquent #database #comparison
+ #database #laravel

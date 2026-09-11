@@ -67,4 +67,4 @@ Planning document for project deliverables and implementation tasks.
 - [[P3 - 2]]
 
 ## Tags
-#school #planning #project #todo
+ #project

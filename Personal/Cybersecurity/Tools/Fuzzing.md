@@ -115,4 +115,4 @@ sqlmap -u "http://target.com/page.php" --data="param1=a&param2=b"
 - Include backup files
 
 ## Tags
-#fuzzing #web #pentesting #vulnerabilities
+ #pentesting #web

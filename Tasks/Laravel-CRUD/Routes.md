@@ -55,4 +55,4 @@ Route::get('/users/{user}/items/{item}', ...);
 ```
 
 ## Tags
-#laravel #routes #crud #web #php
+#crud #php

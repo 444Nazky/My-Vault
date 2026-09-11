@@ -175,4 +175,4 @@ exploit
 ```
 
 ## Tags
-#blackarch #cheatsheet #pentesting #tools
+#blackarch #cheatsheet #pentesting

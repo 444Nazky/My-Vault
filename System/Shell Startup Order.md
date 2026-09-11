@@ -11,4 +11,4 @@ Order of shell initialization.
 - Initialize after shell config
 
 ## Tags
-#shell #fish #startup
+#shell

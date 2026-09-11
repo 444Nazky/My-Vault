@@ -14,4 +14,4 @@ nmcli device wifi list
 ```
 
 ## Tags
-#network #wifi #ethernet #configuration
+ #configuration

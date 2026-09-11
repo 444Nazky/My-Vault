@@ -42,4 +42,4 @@ php -m | grep -i pdo_mysql
 ```
 
 ## Tags
-#error #database #pdo #laravel #troubleshooting
+#database #troubleshooting

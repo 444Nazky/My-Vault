@@ -91,4 +91,4 @@ burpsuite
 - Review HTTP history
 
 ## Tags
-#burpsuite #web #pentesting #proxy #security
+ #pentesting #security #web

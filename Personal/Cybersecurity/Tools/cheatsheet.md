@@ -97,4 +97,4 @@ curl -H "Authorization: Bearer token" http://target.com
 ```
 
 ## Tags
-#cheatsheet #pentesting #security #tools
+#cheatsheet #pentesting #security

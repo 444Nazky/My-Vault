@@ -27,4 +27,4 @@ public function roles()
 ```
 
 ## Tags
-#laravel #eloquent #relationships #crud
+#crud

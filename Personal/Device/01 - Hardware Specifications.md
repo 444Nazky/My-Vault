@@ -13,4 +13,4 @@ Detailed hardware specifications.
 - 4800 MT/s
 
 ## Tags
-#hardware #specs #cpu #memory
+ #hardware

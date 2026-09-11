@@ -12,4 +12,4 @@ Lock screen configuration for Caelestia.
 ~/.config/caelestia/config.conf
 
 ## Tags
-#caelestia #lock #configuration
+ #caelestia #configuration

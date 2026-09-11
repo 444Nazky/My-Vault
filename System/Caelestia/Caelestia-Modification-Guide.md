@@ -15,4 +15,4 @@ Guide for modifying Caelestia configuration.
 - Document modifications
 
 ## Tags
-#caelestia #modification #customization
+ #caelestia

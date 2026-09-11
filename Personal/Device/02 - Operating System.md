@@ -9,4 +9,4 @@ Operating system configuration.
 - Desktop: Hyprland
 
 ## Tags
-#os #linux #system
+ #linux #system

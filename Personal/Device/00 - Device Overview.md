@@ -10,4 +10,4 @@ Device information for this system.
 - Storage: 238GB + 477GB NVMe
 
 ## Tags
-#device #overview #hardware
+ #device #hardware

@@ -61,4 +61,4 @@ UI improvements and bug fixes for the Nazkypedia project.
 - [[Future-Improvements]]
 
 ## Tags
-#ui #improvements #nazkypedia #frontend
+ #frontend #ui

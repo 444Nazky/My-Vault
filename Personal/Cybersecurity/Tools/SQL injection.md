@@ -120,4 +120,4 @@ $stmt->execute([$id]);
 - Restrict stored procedures
 
 ## Tags
-#sql-injection #security #pentesting #web-vulnerability
+ #pentesting #security

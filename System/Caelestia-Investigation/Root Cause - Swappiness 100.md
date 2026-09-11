@@ -13,4 +13,4 @@ sudo sysctl vm.swappiness=10
 ```
 
 ## Tags
-#swappiness #performance #linux
+ #linux #performance

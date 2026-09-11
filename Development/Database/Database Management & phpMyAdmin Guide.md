@@ -141,4 +141,4 @@ mysql -u root
 - Verify socket path in php.ini
 
 ## Tags
-#database #mysql #mariadb #phpmyadmin #administration
+ #administration #database

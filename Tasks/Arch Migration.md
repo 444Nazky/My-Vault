@@ -67,4 +67,4 @@ pacstrap /mnt hyprland waybar foot dolphin
 - Confirm disk mounting
 
 ## Tags
-#archlinux #migration #installation #system
+ #installation #system

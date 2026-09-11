@@ -13,4 +13,4 @@ Customizations applied incorrectly via extension.
 Reinstall extensions and reset settings.
 
 ## Tags
-#vscode #theme #bug #debugging
+

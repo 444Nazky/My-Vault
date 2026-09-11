@@ -24,4 +24,4 @@ public function messages()
 ```
 
 ## Tags
-#laravel #validation #crud #forms
+#crud

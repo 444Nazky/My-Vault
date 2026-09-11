@@ -96,4 +96,4 @@ python3 dirsearch.py -u http://target.com -e php,php3,php4,php5,html,js
 ```
 
 ## Tags
-#dirsearch #web #recon #pentesting #advanced
+ #pentesting #recon #web

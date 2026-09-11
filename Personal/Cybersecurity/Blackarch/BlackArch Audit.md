@@ -108,4 +108,4 @@ john --wordlist=rockyou.txt hash.txt
 5. Remediation Recommendations
 
 ## Tags
-#blackarch #audit #security #pentesting
+ #blackarch #pentesting #security

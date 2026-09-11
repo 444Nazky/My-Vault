@@ -43,4 +43,4 @@ DB::connection()->getPdo();
 ```
 
 ## Tags
-#error #database #connection #laravel #troubleshooting
+#database #troubleshooting

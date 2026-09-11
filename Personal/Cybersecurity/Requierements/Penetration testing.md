@@ -92,4 +92,4 @@ Requirements and methodology for penetration testing engagements.
 - Exploit code (if applicable)
 
 ## Tags
-#pentesting #methodology #requirements #engagement
+ #pentesting

@@ -40,4 +40,4 @@ php -m | grep mysqli
 ```
 
 ## Tags
-#error #mysqli #php #laravel #troubleshooting
+#php #troubleshooting

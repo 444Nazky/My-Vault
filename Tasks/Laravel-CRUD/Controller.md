@@ -100,4 +100,4 @@ class ItemController extends Controller
 ```
 
 ## Tags
-#laravel #controller #crud #mvc
+#crud

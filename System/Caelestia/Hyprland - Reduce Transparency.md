@@ -20,4 +20,4 @@ decoration {
 - Reduced GPU usage
 
 ## Tags
-#hyprland #transparency #performance
+ #hyprland #performance

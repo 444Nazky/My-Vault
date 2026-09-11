@@ -45,4 +45,4 @@ curl http://localhost:8000/api/categories
 - Database connection failed
 
 ## Tags
-#verification #testing #laravel #checklist
+#checklist

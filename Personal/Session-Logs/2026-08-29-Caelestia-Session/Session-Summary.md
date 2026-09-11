@@ -9,4 +9,4 @@ Summary of troubleshooting session.
 - Variables configured
 
 ## Tags
-#session #summary #troubleshooting
+ #troubleshooting

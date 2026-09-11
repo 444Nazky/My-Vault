@@ -46,4 +46,4 @@ cat ~/.config/caelestia/config.conf | grep -i geometry
 - [[Caelestia-Lag-Investigation]]
 
 ## Tags
-#caelestia #hyprland #wayland #shell #configuration
+#caelestia #configuration #hyprland

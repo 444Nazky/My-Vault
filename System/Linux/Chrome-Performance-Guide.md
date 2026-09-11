@@ -104,4 +104,4 @@ rm -rf ~/.cache/google-chrome/*
 - Disable JavaScript source maps
 
 ## Tags
-#chrome #performance #optimization #browser
+ #performance

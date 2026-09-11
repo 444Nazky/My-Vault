@@ -10,4 +10,4 @@ Colors not applying correctly.
 Reset settings.json to defaults.
 
 ## Tags
-#vscode #colors #settings #bug
+

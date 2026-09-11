@@ -157,4 +157,4 @@ pacman -Ss nmap
 ```
 
 ## Tags
-#blackarch #installation #linux #security
+#blackarch #installation #linux

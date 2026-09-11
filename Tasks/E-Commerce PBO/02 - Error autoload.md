@@ -39,4 +39,4 @@ php artisan route:clear
 - Verify composer.json is valid
 
 ## Tags
-#error #laravel #autoload #troubleshooting
+#troubleshooting

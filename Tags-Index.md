@@ -1,35 +1,48 @@
 # Tags Index
 
 **Type:** orphan reference. Zero links in or out, tags only.
-**Rule:** tags never blanket a whole folder. Folder-redundant tags were removed.
+**Rule:** folder-redundant tags removed. Max 3 tags per note.
 
-## Tag Census (top tags with file counts)
+## Taxonomy
 
-| Tag | Files | Scope |
+| Tag | Count | Scope |
 |-----|-------|-------|
-| cheatsheet | 23 | marks cheatsheet notes vault-wide |
-| laravel | 22 | Laravel tasks vs other Tasks |
-| pentesting | 21 | cybersecurity workflow notes |
-| cobweb | 20 | programming language cluster |
-| security | 16 | IR and security notes |
-| linux | 15 | system admin notes |
-| managed | 13 | managed language family |
-| scripting | 13 | scripting language family |
-| troubleshooting | 12 | fix and debug notes |
-| systems | 11 | systems language family |
-| performance | 10 | tuning guides |
-| database | 10 | DB notes |
-| fix | 6 | completed fix notes |
+| pentesting | 12 | Cybersecurity workflow notes |
+| troubleshooting | 11 | Dev, Personal, System cross-cutting |
+| security | 10 | IR and security notes |
+| caelestia | 9 | Shell/DE configs |
+| configuration | 9 | System, Task configs |
+| database | 9 | DB and Laravel DB work |
+| crud | 8 | Laravel CRUD tasks |
+| blackarch | 7 | BlackArch tools and installs |
+| performance | 6 | System performance tuning |
+| linux | 6 | System admin cross-cutting |
+| hardware | 6 | Hardware notes |
+| frontend | 6 | Web UI tasks |
+| hyprland | 5 | Display server configs |
+| system | 5 | System cross-cutting |
+| installation | 4 | Install guides |
+| fix | 4 | System fix notes |
+| php | 4 | PHP and Laravel backend |
+| web | 4 | Web enumeration and security |
+| ui | 4 | UI improvement tasks |
+| project | 3 | Project-specific work |
+| device | 3 | Device-specific notes |
+| tools | 3 | Tool documentation |
+| checklist | 3 | Checklists and procedures |
+| cheatsheet | 3 | Cheatsheet notes |
+| shell | 2 | Shell configuration |
+| administration | 2 | Admin guides |
+| reference | 2 | Reference material |
+| laravel | 2 | Non-Tasks Laravel work |
+| recon | 2 | OSINT and recon notes |
+| scanner | 2 | Scanner tool notes |
 
-## Family Tags Mirror Folders
+## Rules
 
-- systems, managed, scripting live only in Development/Programming-Languages.
-- graph, overview, gaming, security, dev, system live only in Graphs/.
-- macbook lives only in macbook-plans/.
-
-## Known Noise (left alone on purpose)
-
-- Hex color values like #FFFFFF in Nazkypedia palettes, Gruvbox theme, and terminal config are real content, not tags. Rewriting them would destroy data.
-- Single-use tags are fine. They connect nothing.
+- Max 3 tags per note.
+- Tags mirror folder topics only when they distinguish within a folder.
+- No blanket tags across entire folders.
+- Family tags (systems, managed, scripting) live only inside Programming-Languages.
 
 Tags: #tags #index #meta

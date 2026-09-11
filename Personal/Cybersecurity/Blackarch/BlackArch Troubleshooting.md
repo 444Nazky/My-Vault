@@ -220,4 +220,4 @@ help
 - Tool-specific documentation
 
 ## Tags
-#blackarch #troubleshooting #issues #solutions
+ #blackarch #troubleshooting

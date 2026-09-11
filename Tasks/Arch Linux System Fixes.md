@@ -75,4 +75,4 @@ sudo pacman -Rns $(pacman -Qtdq)
 ```
 
 ## Tags
-#archlinux #troubleshooting #system #fix
+ #fix #system #troubleshooting

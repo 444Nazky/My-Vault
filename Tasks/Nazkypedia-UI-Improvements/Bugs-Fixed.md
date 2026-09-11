@@ -62,4 +62,4 @@ Comprehensive list of bugs addressed during UI improvements.
 3. **Border visibility** - Visible borders in dark mode
 
 ## Tags
-#bug #fix #debugging #ui #frontend
+ #fix #frontend #ui

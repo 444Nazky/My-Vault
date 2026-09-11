@@ -10,4 +10,4 @@ lspci -v
 ```
 
 ## Tags
-#pci #device #hardware
+ #device #hardware
