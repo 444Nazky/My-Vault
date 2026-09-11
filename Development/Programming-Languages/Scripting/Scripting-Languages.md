@@ -20,4 +20,4 @@
 | [[Haskell]] | Purity, Maybe, laziness |
 | [[Haskell-Cheatsheet]] | Haskell syntax, lists, monads |
 
-Tags: #scripting #index
+

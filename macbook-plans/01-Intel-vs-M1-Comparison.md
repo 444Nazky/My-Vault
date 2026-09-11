@@ -36,4 +36,4 @@
 
 Pilih M1 jika mau dingin, irit, kencang, dan siap hidup di ekosistem ARM. Pilih Intel jika workload wajib x86_64 murni dan butuh storage lega.
 
-Tags: #comparison #archlinux
+

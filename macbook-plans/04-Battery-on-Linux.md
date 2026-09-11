@@ -19,4 +19,4 @@
 
 Prioritas baterai paling awet tetap macOS. Linux memberi kontrol dan lingkungan murni dengan kompromi baterai sedikit boros.
 
-Tags: #battery #linux
+

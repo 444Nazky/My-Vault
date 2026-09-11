@@ -292,4 +292,4 @@ sudo pacman -S nmap
 4. **Keep tools updated** with `blackarch-update`
 5. **Scope properly** to stay within authorization
 
-**Tags:** #blackarch #pentesting #security #tools #linux
+**Tags:** #linux #pentesting #security #tools

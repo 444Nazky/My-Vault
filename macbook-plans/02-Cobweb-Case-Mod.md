@@ -24,4 +24,4 @@
 
 Jika tujuan murni pendinginan tanpa risiko, cooling pad eksternal jauh lebih aman.
 
-Tags: #modding #cooling
+

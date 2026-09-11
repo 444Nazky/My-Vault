@@ -52,4 +52,4 @@ hydra -L users.txt -P rockyou.txt -t 4 ssh://target
 - Dedupe and sort hash files before loading GPU work.
 - Save potfile per engagement, never reuse across clients.
 
-Tags: #passwords #hashcat #pentesting
+

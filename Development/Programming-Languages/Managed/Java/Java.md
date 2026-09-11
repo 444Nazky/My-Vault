@@ -27,4 +27,4 @@ var evens = list.stream().filter(e -> e % 2 == 0).toList();
 
 **Mental model:** explicit types plus GC plus a giant standard library.
 
-Tags: #java #cobweb #managed
+

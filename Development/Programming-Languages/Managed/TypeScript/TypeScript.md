@@ -29,4 +29,4 @@ function len(x: string | string[] | null): number {
 
 **Mental model:** JS plus a proofreader that deletes itself.
 
-Tags: #typescript #cobweb #managed
+

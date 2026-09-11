@@ -26,4 +26,4 @@ flowchart TD
  A2["butuh irit baterai"] --> M1B["M1 Asahi"]
 ```
 
-Tags: #plan #index
+

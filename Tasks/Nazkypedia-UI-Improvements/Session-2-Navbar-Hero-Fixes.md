@@ -105,4 +105,4 @@ $(window).on('scroll', () => {
 
 ---
 
-Tags: #nazkypedia #ui #navbar #hero #fix
+

@@ -38,4 +38,4 @@ Standalone note. No links in or out. Passive methods only unless scoped.
 - Screenshots beat copied text for evidence.
 - Respect scope even in passive work, some sources log viewers.
 
-Tags: #osint #recon #pentesting
+

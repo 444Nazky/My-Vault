@@ -33,4 +33,4 @@ Standalone note. No links in or out.
 - Iterating a map while mutating it invalidates iterators in most languages.
 - Floats as map keys invite epsilon pain, scale to ints when possible.
 
-Tags: #datastructures #algorithms #programming
+

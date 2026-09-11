@@ -17,4 +17,4 @@
 
 Jika alur kerja dominan web, network standar, atau CTF non x86 pwn, M1 Asahi sudah sangat mumpuni.
 
-Tags: #hacking #arm
+

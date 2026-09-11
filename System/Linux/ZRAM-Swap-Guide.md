@@ -184,4 +184,4 @@ pie title RAM to ZRAM Ratio
 | 16GB | 8-16GB |
 | 32GB | 16-32GB |
 
-**Tags:** #zram #swap #performance #memory #linux #tuning
+**Tags:** #linux #memory #performance #tuning

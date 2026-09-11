@@ -68,4 +68,4 @@ graph LR
  WINE --> HARD["setup yourself"]
 ```
 
-Tags: #gaming
+

@@ -58,4 +58,4 @@ ssh -t host tmux attach -t work
 - Colors break without `set -g default-terminal tmux-256color`.
 - Kill the server only when you mean all sessions: `tmux kill-server`.
 
-Tags: #tmux #terminal #cli
+

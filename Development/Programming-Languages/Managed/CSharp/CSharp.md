@@ -33,4 +33,4 @@ Random fact: `async/await` was mainstreamed by C# 5 (2012) before JS and Python 
 
 **Mental model:** GC + LINQ + async, batteries included.
 
-Tags: #csharp #cobweb #managed
+

@@ -28,4 +28,4 @@ Pairs well with the Tasks/Laravel-CRUD/Laravel CRUD guide in this vault.
 
 **Mental model:** request in, array wrangling, response out.
 
-Tags: #php #cobweb #scripting
+

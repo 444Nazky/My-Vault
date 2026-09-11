@@ -42,4 +42,4 @@ a* (0+)  a+ (1+)  a? (0-1)  a{3}  a{2,5}  a{2,}
 - `.` never matches newline unless dotall flag is on.
 - Validate with a regex tester before shipping to code.
 
-Tags: #regex #programming #cheatsheet
+

@@ -32,4 +32,4 @@ Pairs with the Tasks/Laravel-CRUD Eloquent Relationships guide and the E-Commerc
 
 **Mental model:** sets in, sets out, NULL is a third state.
 
-Tags: #sql #cobweb #scripting
+

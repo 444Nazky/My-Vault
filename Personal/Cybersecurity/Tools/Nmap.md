@@ -203,4 +203,4 @@ sudo nmap -sA target.com
 nmap --script firewalk --script-args firewalk.payloads target.com
 ```
 
-**Tags:** #nmap #network #recon #security #scanner
+**Tags:** #network #pentesting #recon #scanner #security

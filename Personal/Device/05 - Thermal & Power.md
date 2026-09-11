@@ -228,4 +228,4 @@ Related: [[06 - USB Devices]]
 
 ---
 
-Tags: #thermal #power #hardware #device
+
