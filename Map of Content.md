@@ -3,7 +3,7 @@
 > **Vault:** Nazky's Knowledge Base
 > **Last Updated:** September 10, 2026
 > **Total Notes:** 192 markdown files
-> **System:** [[System Hardware Profile|Lenovo 83LY - Arch Linux]]
+> **System:** Lenovo 83LY - Arch Linux
 
 ---
 

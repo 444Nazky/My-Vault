@@ -1,7 +1,7 @@
 # System Fixes - Visual Guide
 
 **Last Updated:** 2026-09-10
-**See also:** [[Graph-Web-Atlas]] for full vault diagrams, [[Web-Links-Hub]] for link web.
+**See also:** Graphs/System-Diagrams for full system diagrams.
 
 ---
 
@@ -255,4 +255,4 @@ flowchart TD
     F --> G["checklist verified"]
 ```
 
-See [[07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis]], [[Graph-Web-Atlas]].
+See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the full IR framework.

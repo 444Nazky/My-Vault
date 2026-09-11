@@ -4,8 +4,8 @@
 
 ## Go to
 
-- [[README]]
-- [[Map of Content]]
-- [[Graphs/00-Graph-Index]]
+- README at vault root
+- Map of Content at vault root
+- Graphs/00-Graph-Index for per-topic diagrams
 
 Tags: #graph #hub #navigation

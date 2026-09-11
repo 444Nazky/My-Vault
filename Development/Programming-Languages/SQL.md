@@ -22,7 +22,7 @@ HAVING COUNT(o.id) > 2
 ORDER BY orders DESC;
 ```
 
-Pairs with [[Tasks/Laravel-CRUD/Eloquent Relationships]] and the E-Commerce PBO database setup.
+Pairs with the Tasks/Laravel-CRUD Eloquent Relationships guide and the E-Commerce PBO database setup.
 
 ## Gotchas
 

@@ -18,7 +18,7 @@ $name = $_GET["name"] ?? "guest";
 $conn?->query($sql);   // nullsafe call, skips when null
 ```
 
-Pairs well with [[Tasks/Laravel-CRUD/Laravel CRUD]] in this vault.
+Pairs well with the Tasks/Laravel-CRUD/Laravel CRUD guide in this vault.
 
 ## Gotchas
 
