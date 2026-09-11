@@ -1,0 +1,26 @@
+<svg width="840" height="320" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d1e5e"/><stop offset="1" stop-color="#1a1a2e"/></linearGradient></defs>
+<rect width="840" height="320" fill="url(#bg)"/>
+<text x="420" y="38" text-anchor="middle" fill="#f9ca24" font-size="22" font-weight="bold">Pentest Kill Chain</text>
+<rect x="30" y="70" width="120" height="80" rx="12" fill="#4ecca3"/>
+<text x="90" y="105" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Recon</text>
+<line x1="150" y1="110" x2="165" y2="110" stroke="#fff" stroke-width="2"/>
+<rect x="180" y="70" width="120" height="80" rx="12" fill="#f9ca24"/>
+<text x="240" y="105" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Scanning</text>
+<line x1="300" y1="110" x2="315" y2="110" stroke="#fff" stroke-width="2"/>
+<rect x="330" y="70" width="120" height="80" rx="12" fill="#ffb347"/>
+<text x="390" y="105" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Enum</text>
+<line x1="450" y1="110" x2="465" y2="110" stroke="#fff" stroke-width="2"/>
+<rect x="480" y="70" width="120" height="80" rx="12" fill="#e07be0"/>
+<text x="540" y="105" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Exploit</text>
+<line x1="600" y1="110" x2="615" y2="110" stroke="#fff" stroke-width="2"/>
+<rect x="630" y="70" width="120" height="80" rx="12" fill="#fd5656"/>
+<text x="690" y="105" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Post-Exp</text>
+<line x1="750" y1="110" x2="765" y2="110" stroke="#fff" stroke-width="2"/>
+<rect x="780" y="70" width="120" height="80" rx="12" fill="#e94560"/>
+<text x="840" y="105" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Report</text>
+<rect x="30" y="180" width="790" height="110" rx="12" fill="#0f3460" stroke="#4ecca3" stroke-width="2"/>
+<text x="425" y="212" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Tools</text>
+<text x="50" y="240" fill="#ccc" font-size="12">nmap · amass · masscan | ffuf · gobuster | metasploit · sqlmap | mimikatz · bloodhound</text>
+<text x="50" y="268" fill="#ccc" font-size="12">Write every step -> data for the final report</text>
+</svg>
