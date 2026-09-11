@@ -225,4 +225,4 @@ echo "CPU:$(top -bn1 | grepCpu(s): | awk '{print $2}' | "
 "Dis:$(df -h | awk '/$HOME/{print $5}' | tr -d '%')
 ```
 
-**Tags:** #monitoring #system #performance #linux #resources
+**Tags:** #performance #resources #system

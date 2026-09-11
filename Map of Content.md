@@ -299,4 +299,4 @@ pie title Memory Allocation
     "Cache/Buffers" : 0
 ```
 
-**Tags:** #moc #index #navigation #vault #knowledge-base
+**Tags:** #index #moc #navigation

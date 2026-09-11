@@ -3,7 +3,7 @@
 > **Target:** `kurmamedia.com` (contoh/silakan diganti)
 > **Date:** 2026-09-07
 > **Status:** Investigation Complete
-**Tags:** #incident-response #recon #security
+**Tags:** #recon #security
 
 ---
 
