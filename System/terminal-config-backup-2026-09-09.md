@@ -96,3 +96,6 @@ find-next=F3 Control+G
 - No `fish_greeting.fish` file currently present (greeting is inlined in `config.fish`)
 - Image asset `amebuu.png` located at `~/Documents/...` and `~/.config/fastfetch/amebuu.png`
 - Related context: [[hakuspace-niri-setup-2026-09-07]]
+
+## Tags
+#note-terminal-config-backup-2026-09-09

@@ -77,4 +77,5 @@ u.name();
 - `final` on a reference freezes the pointer, not the object.
 - Compare strings with `.equals`, never `==`.
 
-
+## Tags
+#note-java-cheatsheet

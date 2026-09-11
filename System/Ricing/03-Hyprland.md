@@ -19,3 +19,6 @@ Entry point that wires everything without overwriting user state:
 - Keybinds table: `System/Caelestia/Caelestia-Hyprland-Keybinds`
 - Transparency tweak history: `System/Caelestia/Hyprland - Reduce Transparency`
 - Lock behavior: `System/Caelestia/Caelestia-Lock-Settings`
+
+## Tags
+#note-hyprland

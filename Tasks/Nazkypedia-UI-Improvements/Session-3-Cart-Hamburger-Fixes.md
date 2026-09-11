@@ -131,4 +131,5 @@ menu.on('click', (e) => {
 
 ---
 
-
+## Tags
+#note-session-3-cart-hamburger-fixes

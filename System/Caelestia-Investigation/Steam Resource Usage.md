@@ -107,4 +107,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-steam-resource-usage

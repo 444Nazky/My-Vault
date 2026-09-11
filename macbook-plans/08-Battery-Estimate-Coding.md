@@ -17,4 +17,5 @@
 
 Untuk kerja mobile seharian, charger Type-C minimal 61W atau 65W tetap wajib dibawa.
 
-
+## Tags
+#note-battery-estimate-coding

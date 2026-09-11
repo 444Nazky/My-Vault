@@ -51,4 +51,5 @@ Follow [[The-Solution]] to configure Steam properly, then launch the game.
 
 ---
 
-
+## Tags
+#note-readme

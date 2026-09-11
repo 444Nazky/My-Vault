@@ -228,4 +228,5 @@ Related: [[06 - USB Devices]]
 
 ---
 
-
+## Tags
+#note-thermal-power

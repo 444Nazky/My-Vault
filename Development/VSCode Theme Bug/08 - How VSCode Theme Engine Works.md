@@ -112,3 +112,6 @@
 ---
 
 * *
+
+## Tags
+#note-how-vscode-theme-engine-works

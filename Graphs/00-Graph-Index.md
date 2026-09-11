@@ -21,4 +21,5 @@ graph TD
  IDX --> DEV["Dev Tasks Diagrams"]
 ```
 
-
+## Tags
+#note-graph-index

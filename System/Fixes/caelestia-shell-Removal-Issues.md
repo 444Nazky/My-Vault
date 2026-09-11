@@ -24,3 +24,6 @@ Removing or conflicting packages during a full system upgrade (`yay -Syu`) can l
 - **Keep a Fallback Environment:** Maintain a simple secondary desktop environment or bare-bones Hyprland config (with standard tools like `waybar` or `kitty`) so you retain a working graphical desktop if your main shell breaks.
 - **Use Btrfs Snapshots:** Since the system uses Btrfs, set up `snapper` or `timeshift` with `grub-btrfs`. If a package update breaks the system in the future, you can instantly rollback to a working snapshot directly from the GRUB menu without needing a Live ISO USB.
 - **Handle AUR Conflicts Safely:** When `yay` reports package conflicts during an upgrade, check if one package is simply replacing another as an updated dependency before choosing to remove or overwrite core system components.
+
+## Tags
+#note-caelestia-shell-removal-issues

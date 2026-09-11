@@ -151,4 +151,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-hyprland-configuration-analysis

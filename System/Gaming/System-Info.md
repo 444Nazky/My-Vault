@@ -134,3 +134,6 @@ Size: ~521MB
 ---
 
 Last Updated: 2026-09-02
+
+## Tags
+#note-system-info

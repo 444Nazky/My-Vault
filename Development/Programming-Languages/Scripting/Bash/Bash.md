@@ -27,4 +27,5 @@ cat $name # unquoted splits into two
 
 **Mental model:** commands plus quoting plus exit codes.
 
-
+## Tags
+#note-bash

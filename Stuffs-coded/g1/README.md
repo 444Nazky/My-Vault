@@ -47,3 +47,6 @@ So, you've got the basics down. What's next?
 ## Credits
 
 Huge thanks to [Akshay Saini](https://github.com/akshaymarch7) for the original video behind this project.
+
+## Tags
+#note-readme

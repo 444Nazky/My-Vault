@@ -65,3 +65,6 @@ GRUB now shows only:
 ## See Also
 
 See [[GRUB-Configuration]] for full details and [[Secure-Boot-Guide]] for Secure Boot information.
+
+## Tags
+#note-grub-duplicate-entries

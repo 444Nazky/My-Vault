@@ -10,3 +10,6 @@ Rebuild this rice on a fresh Arch + BlackArch install:
 6. **Verify** — `echo $GBM_BACKEND` → `nvidia-drm`; external monitor at 1080p60; foot opens with blurred transparency; prompt renders the Mocha powerline.
 
 > `code/` is a snapshot. The live configs are the source of truth — re-copy after any change worth keeping.
+
+## Tags
+#note-restore-guide

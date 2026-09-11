@@ -44,3 +44,6 @@ sober launch_uri rblox://...  # launch a Roblox game URI
 - The flatpak Roblox client uses its own Wine/proton environment — no separate Wine installation required on the host.
 - GPU passthrough works (RTX 5050 confirmed).
 - See: https://sober.vinegarhq.org/
+
+## Tags
+#note-roblox-sober-install

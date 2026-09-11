@@ -24,4 +24,5 @@
 
 Jika tujuan murni pendinginan tanpa risiko, cooling pad eksternal jauh lebih aman.
 
-
+## Tags
+#note-cobweb-case-mod

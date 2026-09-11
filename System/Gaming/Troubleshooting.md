@@ -235,3 +235,6 @@ When asking for help, provide:
 
 Related: [[The-Solution]] - Basic setup guide
 Related: [[Launch-Options]] - Variable explanations
+
+## Tags
+#note-troubleshooting

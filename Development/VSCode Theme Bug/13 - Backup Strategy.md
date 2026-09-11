@@ -176,3 +176,6 @@
 ---
 
 * *
+
+## Tags
+#note-backup-strategy

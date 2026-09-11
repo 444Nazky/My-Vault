@@ -149,3 +149,6 @@ You should see `__NV_PRIME_RENDER_OFFLOAD=1` in the output.
 
 Related: [[The-Solution]] - How to apply these
 Related: [[Troubleshooting]] - If problems persist
+
+## Tags
+#note-launch-options

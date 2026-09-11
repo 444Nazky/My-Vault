@@ -80,4 +80,5 @@ echo "${#s}" # length
 - `set -e` ignores failures in conditions, that is fine.
 - Filenames with spaces need quotes everywhere, no exceptions.
 
-
+## Tags
+#note-bash-cheatsheet

@@ -190,3 +190,6 @@
 ---
 
 * *
+
+## Tags
+#note-quick-reference-cheatsheet

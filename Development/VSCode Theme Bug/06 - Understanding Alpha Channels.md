@@ -81,3 +81,6 @@
 ---
 
 * *
+
+## Tags
+#note-understanding-alpha-channels

@@ -70,3 +70,6 @@ PRIME tells the NVIDIA driver: "Render this application's graphics on the dedica
 
 Related: [[The-Solution]] - How to fix this
 Related: [[Launch-Options]] - Deep dive on the variables
+
+## Tags
+#note-the-problem

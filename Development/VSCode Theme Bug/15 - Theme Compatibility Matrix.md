@@ -154,3 +154,6 @@
 ---
 
 * *
+
+## Tags
+#note-theme-compatibility-matrix

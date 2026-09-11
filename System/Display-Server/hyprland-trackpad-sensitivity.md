@@ -43,3 +43,6 @@ Then log back in.
 - Device name from `hyprctl devices` must match exactly
 - Sensitivity: 0.0 = default, positive = faster, negative = slower
 - Old config attempt was in wrong file: `~/.config/hypr/hyprland.conf` (not being read)
+
+## Tags
+#note-hyprland-trackpad-sensitivity

@@ -131,3 +131,6 @@ See: [[NVIDIA-RTX-5050-Fix-Commands]]
 
 - Arch Wiki NVIDIA: https://wiki.archlinux.org/title/NVIDIA
 - NVIDIA Wayland: https://wiki.archlinux.org/title/NVIDIA/Wayland
+
+## Tags
+#note-nvidia-rtx-5050-investigation

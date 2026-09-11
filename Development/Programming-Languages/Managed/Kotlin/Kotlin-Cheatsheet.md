@@ -74,4 +74,5 @@ runBlocking { val s = load() }
 - `?.` plus `?:` covers most null cases without ifs.
 - `is` smart-casts after the check, no cast needed.
 
-
+## Tags
+#note-kotlin-cheatsheet

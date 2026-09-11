@@ -137,3 +137,6 @@ nvme1n1 (238.5G)                    nvme0n1 (476.9G)
 - [[System/System-Architecture]] - System overview
 - [[System/Fixes/NVIDIA-RTX-5050-Investigation]] - Full NVIDIA doc
 - [[System/Fixes/GRUB-Configuration]] - Full GRUB doc
+
+## Tags
+#note-quick-reference

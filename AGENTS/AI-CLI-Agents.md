@@ -232,3 +232,6 @@ OpenAI SDK: 2.24.0
 | FreeBuff | `~/.config/freebuff/` |
 | Kilo | `~/.config/kilo/` |
 | Hermes | `~/.hermes/` |
+
+## Tags
+#note-ai-cli-agents

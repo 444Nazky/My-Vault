@@ -185,3 +185,6 @@
 ---
 
 * *
+
+## Tags
+#note-tags-index-vscode-theme-bug

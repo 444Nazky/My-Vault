@@ -68,3 +68,6 @@ ollama run llama3.2
 6. Kilo - Coding Agent
 7. Hermes - Agent Framework
 8. Ollama - Local Models
+
+## Tags
+#note-readme

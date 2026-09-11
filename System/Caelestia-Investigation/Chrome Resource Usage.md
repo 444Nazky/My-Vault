@@ -123,4 +123,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-chrome-resource-usage

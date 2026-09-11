@@ -42,4 +42,5 @@ git fsck --lost-found
 - `git clean -fdx` deletes ignored files too, preview with `-n` first.
 - Line endings via .gitattributes, not hope.
 
-
+## Tags
+#note-git-internals

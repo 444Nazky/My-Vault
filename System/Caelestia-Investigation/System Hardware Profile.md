@@ -66,4 +66,7 @@
 - 
 - - 
 - 
-- 
+-
+
+## Tags
+#note-system-hardware-profile

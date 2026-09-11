@@ -180,3 +180,6 @@ Windows
 Windows
 ...
 ```
+
+## Tags
+#note-grub-duplicate-entries-fix-commands

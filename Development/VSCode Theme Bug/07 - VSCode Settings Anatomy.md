@@ -129,3 +129,6 @@
 ---
 
 * *
+
+## Tags
+#note-vscode-settings-anatomy

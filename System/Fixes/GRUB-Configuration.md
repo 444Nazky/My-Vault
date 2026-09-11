@@ -89,3 +89,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 - [[GRUB-Duplicate-Entries-Fix-Commands]] - Detailed fix commands
 - [[Secure-Boot-Guide]] - Secure Boot considerations for gaming
+
+## Tags
+#note-grub-configuration

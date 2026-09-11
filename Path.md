@@ -99,3 +99,6 @@ SEO-Poisoning --> DNS-Check --> HTTP-Check --> IoC --> Commands --> Remediation 
 ## Dev Graph
 Laravel --> MySQL --> API --> Vue --> Vite-Build
 E-Com-PBO-errors --> Laravel-CRUD-guide --> Nazkypedia-UI --> React-Native-Taskmanager
+
+## Tags
+#note-path

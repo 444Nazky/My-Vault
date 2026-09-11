@@ -119,3 +119,6 @@ ls -l /etc/grub.d/          # Check script permissions
 | [[GRUB-Duplicate-Entries-Fix-Commands]] | GRUB fix commands |
 | [[HDMI-Monitor-Fix-NVIDIA-Wayland]] | HDMI monitor not detected on NVIDIA Wayland |
 | [[Secure-Boot-Guide]] | Secure Boot options |
+
+## Tags
+#note-readme

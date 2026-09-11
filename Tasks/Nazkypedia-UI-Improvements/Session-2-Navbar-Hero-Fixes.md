@@ -105,4 +105,5 @@ $(window).on('scroll', () => {
 
 ---
 
-
+## Tags
+#note-session-2-navbar-hero-fixes

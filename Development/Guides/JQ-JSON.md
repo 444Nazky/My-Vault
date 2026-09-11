@@ -50,4 +50,5 @@ jq -e '.ok' resp.json >/dev/null && echo pass
 - `-r` for raw output when piping into xargs or while loops.
 - `jq .` pretty-prints and validates in one move.
 
-
+## Tags
+#note-jq-json

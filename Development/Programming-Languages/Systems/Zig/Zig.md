@@ -33,4 +33,5 @@ Generics without templates, evaluated during compilation.
 
 **Mental model:** C control plus explicit memory plus comptime metaprogramming.
 
-
+## Tags
+#note-zig

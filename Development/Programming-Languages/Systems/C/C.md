@@ -31,4 +31,5 @@ flowchart LR
 
 **Mental model:** array + pointer + manual free.
 
-
+## Tags
+#note-c

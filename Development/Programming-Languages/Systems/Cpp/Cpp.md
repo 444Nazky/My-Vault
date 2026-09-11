@@ -34,4 +34,5 @@ flowchart TD
 
 **Mental model:** zero-cost abstractions, pay only for what you use.
 
-
+## Tags
+#note-cpp

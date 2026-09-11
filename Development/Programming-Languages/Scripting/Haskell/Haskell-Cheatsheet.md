@@ -77,4 +77,5 @@ do { a <- Just 2; return (a + 1) }
 - Infinite lists are fine, printing them is not.
 - Learn Hoogle, search functions by type signature.
 
-
+## Tags
+#note-haskell-cheatsheet

@@ -60,3 +60,6 @@ Edit `~/hakuspace-control/niri-custom.kdl` to override defaults without modifyin
 - Dotfiles cloned to `~/hakuspace`
 - Update with `cd ~/hakuspace && ./update.sh`
 - Rollback with `cd ~/hakuspace && ./rollback.sh`
+
+## Tags
+#note-hakuspace-niri-setup-2026-09-07

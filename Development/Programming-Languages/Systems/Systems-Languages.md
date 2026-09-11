@@ -18,4 +18,5 @@
 | [[Go]] | Goroutines, slices, defer |
 | [[Go-Cheatsheet]] | Go syntax, structs, channels |
 
-
+## Tags
+#note-systems-languages

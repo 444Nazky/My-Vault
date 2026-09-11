@@ -112,4 +112,5 @@ s.split_whitespace().collect::<Vec<_>>();
 - Match must be exhaustive, wildcard `_` covers the rest.
 - Borrow checker errors name the exact lines, read them fully.
 
-
+## Tags
+#note-rust-cheatsheet

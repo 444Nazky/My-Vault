@@ -19,3 +19,6 @@
 
 - Upstream moves fast; before pulling, `git stash` the env/input diff or it conflicts.
 - Deeper Caelestia internals live in `System/Caelestia/` (architecture, keybinds, lock, transparency).
+
+## Tags
+#note-caelestia-shell

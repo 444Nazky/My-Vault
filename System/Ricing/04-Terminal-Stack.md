@@ -20,3 +20,6 @@ Interactive-only setup:
 ## starship (`code/starship.toml`)
 
 Catppuccin Mocha powerline, single line: mauve `username` → blue `directory` (truncated to 3) → surface `time` with ♡.
+
+## Tags
+#note-terminal-stack

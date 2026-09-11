@@ -86,3 +86,6 @@ The game process should appear and show GPU utilization.
 
 Log Status: Complete
 Last Updated: 2026-09-02
+
+## Tags
+#note-setup-log

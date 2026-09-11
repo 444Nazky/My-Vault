@@ -26,4 +26,5 @@ pip install -r requirements.txt
 
 **Mental model:** batteries included, readability first, predictable slowness.
 
-
+## Tags
+#note-python

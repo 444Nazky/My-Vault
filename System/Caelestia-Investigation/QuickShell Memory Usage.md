@@ -143,4 +143,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-quickshell-memory-usage

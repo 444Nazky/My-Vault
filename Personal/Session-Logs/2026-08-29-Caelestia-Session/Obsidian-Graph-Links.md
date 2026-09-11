@@ -148,3 +148,5 @@
 
 #
 
+## Tags
+#note-obsidian-graph-links

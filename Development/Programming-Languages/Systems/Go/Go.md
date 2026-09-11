@@ -37,4 +37,5 @@ defer f.Close() // runs when function returns
 
 **Mental model:** simple syntax plus goroutines plus fast builds.
 
-
+## Tags
+#note-go

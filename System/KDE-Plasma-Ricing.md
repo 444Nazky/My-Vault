@@ -44,3 +44,6 @@
 - thunar (file manager)
 - discord (chat)
 - spotify (music)
+
+## Tags
+#note-kde-plasma-ricing

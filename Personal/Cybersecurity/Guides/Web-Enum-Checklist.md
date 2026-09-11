@@ -44,4 +44,5 @@ ffuf -u "https://target/page?FUZZ=x" -w params.txt -mc 200 -fs 1234
 - Rate limit yourself on production, watch for WAF blocks.
 - Save raw outputs, screenshots only summarize.
 
-
+## Tags
+#note-web-enum-checklist

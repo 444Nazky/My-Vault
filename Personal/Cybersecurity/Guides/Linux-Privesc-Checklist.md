@@ -51,4 +51,5 @@ systemctl list-units --type=service --state=running
 - Check bothLinEnum style scripts output by hand, tools miss context.
 - Clean up files and processes you created when done.
 
-
+## Tags
+#note-linux-privesc-checklist

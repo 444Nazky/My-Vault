@@ -203,3 +203,6 @@ Loading `nvidia-drm` manually fixes the immediate issue, but the blacklist and k
 - [NVIDIA (Arch Wiki)](https://wiki.archlinux.org/title/NVIDIA)
 - [mkinitcpio (Arch Wiki)](https://wiki.archlinux.org/title/Mkinitcpio)
 - Related: [[NVIDIA-RTX-5050-Investigation]], [[NVIDIA-RTX-5050-Fix-Commands]]
+
+## Tags
+#note-hdmi-monitor-fix-nvidia-wayland

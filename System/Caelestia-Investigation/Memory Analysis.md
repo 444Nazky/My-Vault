@@ -98,4 +98,7 @@
 - - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-memory-analysis

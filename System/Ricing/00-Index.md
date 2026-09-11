@@ -25,3 +25,6 @@ My desktop setup: Arch Linux with the BlackArch repo on top, Hyprland as composi
 | Active hypr config | `~/.config/hypr` |
 | Fish / foot / starship | `~/.config/fish`, `~/.config/foot/foot.ini`, `~/.config/starship.toml` |
 | Dotter deployment | `~/.config/caelestia/.dotter/` |
+
+## Tags
+#note-index

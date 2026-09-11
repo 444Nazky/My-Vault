@@ -188,4 +188,5 @@ Quick reference for common Linux command-line operations.
 
 ---
 
-
+## Tags
+#note-cli-cheatsheet

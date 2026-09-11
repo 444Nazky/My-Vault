@@ -98,4 +98,7 @@
 - - 
 - - 
 - - 
-- 
+-
+
+## Tags
+#note-disk-and-storage-analysis

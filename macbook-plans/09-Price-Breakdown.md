@@ -19,4 +19,5 @@
 
 Kesimpulan: Rp14jt untuk Intel modif memberi RAM lega, storage lega, baterai sehat, x86 murni, dan tampilan unik. Jauh lebih masuk akal dibanding M1 mahal dengan storage pas-pasan.
 
-
+## Tags
+#note-price-breakdown

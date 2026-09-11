@@ -148,3 +148,6 @@ If you want to enable Secure Boot later:
 
 - [[GRUB-Configuration]] - GRUB menu setup
 - Arch Wiki: Secure Boot - https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot
+
+## Tags
+#note-secure-boot-guide

@@ -128,4 +128,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-hyprland-blur-settings

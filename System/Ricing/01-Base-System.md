@@ -6,3 +6,6 @@
 - **Machine:** laptop with `eDP-1` / `eDP-2` panels plus an external `HDMI-A-1` at `1920x1080@60` (`code/hypr/monitors.conf`).
 - **Touchpad:** `elan06fa:00-04f3:327e-touchpad`, sensitivity `7.5` (`code/hypr/hyprland.conf`); pointer accel `adaptive`, sensitivity `0.6` (`code/hypr/userprefs.conf`).
 - **Session:** Wayland via `uwsm` (managed in the dotter package list), `XDG_CURRENT_DESKTOP=Hyprland`.
+
+## Tags
+#note-base-system

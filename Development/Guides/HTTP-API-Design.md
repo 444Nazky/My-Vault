@@ -45,4 +45,5 @@ GET /orders?status=paid&sort=-total&page=2&per_page=50
 - DELETE returns 204 or 200 with the deleted id echo.
 - Timestamps in UTC ISO8601, always with timezone.
 
-
+## Tags
+#note-http-api-design

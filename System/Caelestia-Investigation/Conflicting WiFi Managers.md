@@ -68,4 +68,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-conflicting-wifi-managers

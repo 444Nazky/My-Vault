@@ -168,3 +168,6 @@ gantt
     UEFI Order Fix    :done, 11:27, 1m
     Regenerate GRUB    :done, 11:28, 2m
 ```
+
+## Tags
+#note-system-architecture

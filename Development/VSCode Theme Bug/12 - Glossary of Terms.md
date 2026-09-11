@@ -78,3 +78,6 @@
 ---
 
 * *
+
+## Tags
+#note-glossary-of-terms

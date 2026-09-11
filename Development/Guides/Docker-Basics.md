@@ -77,4 +77,5 @@ docker volume prune -f
 - localhost inside a container is the container, use host.docker.internal for the host.
 - Secrets via env files with tight perms, never baked into images.
 
-
+## Tags
+#note-docker-basics

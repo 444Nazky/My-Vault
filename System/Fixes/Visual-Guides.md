@@ -249,3 +249,6 @@ flowchart TD
 ```
 
 See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the full IR framework.
+
+## Tags
+#note-visual-guides

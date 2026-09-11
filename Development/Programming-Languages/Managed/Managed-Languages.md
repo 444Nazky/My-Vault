@@ -20,4 +20,5 @@
 | [[TypeScript]] | Type erasure, narrowing |
 | [[TypeScript-Cheatsheet]] | TS types, generics, async |
 
-
+## Tags
+#note-managed-languages

@@ -185,4 +185,5 @@ flowchart LR
  STOP --> VERIFY["verify boot faster"]
 ```
 
-
+## Tags
+#note-system-diagrams

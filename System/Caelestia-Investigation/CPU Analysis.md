@@ -102,4 +102,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-cpu-analysis

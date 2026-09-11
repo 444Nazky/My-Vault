@@ -104,3 +104,6 @@
 ---
 
 * *
+
+## Tags
+#note-installed-extensions-snapshot

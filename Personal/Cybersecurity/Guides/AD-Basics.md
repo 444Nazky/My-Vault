@@ -33,4 +33,5 @@ bloodhound-python -u user -p 'pass' -d corp.local -ns 192.168.1.10
 - Time skew breaks Kerberos, sync with NTP first.
 - Lab it first: Ghost SPNs and ESC vectors vary by patch level.
 
-
+## Tags
+#note-ad-basics

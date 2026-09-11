@@ -143,4 +143,7 @@
 - 
 - 
 - 
-- 
+-
+
+## Tags
+#note-hyprland-animation-settings

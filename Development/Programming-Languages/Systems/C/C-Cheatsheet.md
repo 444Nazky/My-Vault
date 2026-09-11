@@ -110,4 +110,5 @@ fclose(f);
 - `sizeof` on a function parameter array gives pointer size.
 - Signed overflow is undefined. Free memory exactly once.
 
-
+## Tags
+#note-c-cheatsheet

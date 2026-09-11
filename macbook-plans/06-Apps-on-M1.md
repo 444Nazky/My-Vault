@@ -26,4 +26,5 @@
 
 Fokus coding, CLI, web dev, dan security harian: M1 Asahi cukup dan nyaman. Butuh VM x86 murni atau aplikasi x86 tua: Intel unggul.
 
-
+## Tags
+#note-apps-on-m1
