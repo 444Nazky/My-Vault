@@ -56,8 +56,7 @@ graph LR
         B4[UEFI Firmware Settings]
     end
 
-    style BEFORE fill:#ffcccc
-    style AFTER fill:#ccffcc
+
 ```
 
 ---
@@ -105,9 +104,7 @@ graph TB
         C2["ventoy 32M"]
     end
 
-    style nvme1n1 fill:#e6f3ff
-    style nvme0n1 fill:#fff3e6
-    style sda fill:#f0f0f0
+
 ```
 
 ---
@@ -166,11 +163,7 @@ graph TD
     S4 -->|Custom entry| M2
     S5 -->|Last| M3
 
-    style S1 fill:#ffcccc
-    style S3 fill:#ffcccc
-    style M1 fill:#ccffcc
-    style M2 fill:#ccffcc
-    style M3 fill:#ccffcc
+
 ```
 
 ---

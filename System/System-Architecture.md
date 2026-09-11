@@ -48,9 +48,7 @@ graph TB
     DRI --> GPU
     GBM --> GPU
 
-    style Boot fill:#e6f3ff
-    style Desktop fill:#fff3e6
-    style Graphics fill:#f0fff0
+
 ```
 
 ---
@@ -90,9 +88,7 @@ graph LR
     E --> G
     F --> G
 
-    style Config fill:#e6f3ff
-    style Caelestia fill:#fff3e6
-    style Sources fill:#f0f0f0
+
 ```
 
 ---
@@ -127,9 +123,7 @@ graph TB
 
     M3 --> FW[BIOS Setup]
 
-    style Boot fill:#e6f3ff
-    style Linux fill:#ccffcc
-    style Windows fill:#ffffcc
+
 ```
 
 ---

@@ -72,4 +72,4 @@
 - No unnecessary services
 
 ## Tags
-#hardware #specifications #lenovo #archlinux #performance
+#hardware #specs #lenovo #archlinux #performance

@@ -10,4 +10,4 @@ usb-devices
 ```
 
 ## Tags
-#usb #devices #hardware
+#usb #device #hardware

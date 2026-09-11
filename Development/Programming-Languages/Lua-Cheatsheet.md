@@ -28,7 +28,9 @@ local t = {}       -- table, the only compound type
 ```lua
 local msg = "hello " .. name
 string.len(s); string.sub(s, 1, 2)
-string.format("%d items", #t)
+local count = 0
+for _ in pairs(t) do count = count + 1 end
+string.format("%d items", count)
 ```
 
 ## Control Flow

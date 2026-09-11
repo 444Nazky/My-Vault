@@ -229,4 +229,4 @@ nethogs
 
 ---
 
-Tags: #arch #linux #performance #optimization
+Tags: #archlinux #linux #performance #optimization

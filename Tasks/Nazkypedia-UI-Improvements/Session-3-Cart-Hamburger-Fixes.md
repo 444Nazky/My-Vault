@@ -131,4 +131,4 @@ menu.on('click', (e) => {
 
 ---
 
-Tags: #nazkypedia #cart #hamburger #ui #fixes
+Tags: #nazkypedia #cart #hamburger #ui #fix

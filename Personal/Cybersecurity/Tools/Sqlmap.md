@@ -178,4 +178,4 @@ pie title Information Gained
 -v 6                # Full debug
 ```
 
-**Tags:** #sqlmap #sqli #injection #database #security
+**Tags:** #sqlmap #sql-injection #injection #database #security

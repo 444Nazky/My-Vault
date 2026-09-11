@@ -14,7 +14,7 @@ print(t.name)     -- sugar for t["name"]
 ## Nil Deletes Keys
 
 ```lua
-t.name = nil      -- key is gone, #t only counts the array part
+t.name = nil      -- key is gone, length counts the array part only
 ```
 
 Used across this vault in hyprland lua and env lua configs.

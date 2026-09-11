@@ -125,4 +125,4 @@ https://docs.kali.org/
 https://owasp.org/
 
 ## Tags
-#bootcamp #tools #setup #pentesting #cybersecurity
+#bootcamp #tools #setup #pentesting #security

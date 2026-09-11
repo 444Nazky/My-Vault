@@ -109,4 +109,4 @@ nuclei -u http://target.com -no-strict-schema
 ```
 
 ## Tags
-#nuclei #vulnerability #scanner #pentesting #security
+#nuclei #vulnerabilities #scanner #pentesting #security

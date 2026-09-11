@@ -13,4 +13,4 @@ Reference for Caelestia configuration files.
 - ~/.config/caelestia/keybinds.conf
 
 ## Tags
-#caelestia #config #reference
+#caelestia #configuration #reference

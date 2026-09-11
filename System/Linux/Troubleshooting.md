@@ -201,4 +201,4 @@ blkid /dev/partition
 ```
 
 ## Tags
-#troubleshooting #linux #system #fixes #debugging
+#troubleshooting #linux #system #fix #debugging

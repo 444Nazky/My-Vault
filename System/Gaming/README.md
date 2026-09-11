@@ -51,4 +51,4 @@ Follow [[The-Solution]] to configure Steam properly, then launch the game.
 
 ---
 
-Tags: #gaming #linux #arch #nfs #steam #proton #nvidia
+Tags: #gaming #linux #archlinux #nfs #steam #proton #nvidia
