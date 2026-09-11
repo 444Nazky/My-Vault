@@ -95,4 +95,4 @@ string.Join(", ", names);
 - Always `await`, never block with `.Result` in apps.
 - `IDisposable` needs `using`.
 
-Tags: #programming #csharp #cheatsheet
+Tags: #programming #csharp #cheatsheet #managed

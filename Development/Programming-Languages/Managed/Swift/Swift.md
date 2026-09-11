@@ -32,4 +32,4 @@ flowchart TD
 
 **Mental model:** optionals + ARC + protocols over inheritance.
 
-Tags: #programming #swift #cobweb
+Tags: #programming #swift #cobweb #managed

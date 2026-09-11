@@ -86,4 +86,4 @@ local mod = require("mod")
 - Comparing tables compares identity, not content.
 - `0` and empty string are truthy, only nil and false are falsy.
 
-Tags: #programming #lua #cheatsheet
+Tags: #programming #lua #cheatsheet #scripting

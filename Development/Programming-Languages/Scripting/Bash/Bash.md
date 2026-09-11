@@ -27,4 +27,4 @@ cat $name       # unquoted splits into two
 
 **Mental model:** commands plus quoting plus exit codes.
 
-Tags: #programming #bash #cobweb
+Tags: #programming #bash #cobweb #scripting

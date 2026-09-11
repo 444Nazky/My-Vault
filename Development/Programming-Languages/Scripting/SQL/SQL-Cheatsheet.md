@@ -75,4 +75,4 @@ ALTER TABLE users ADD COLUMN age INT DEFAULT 0;
 - Index foreign keys and WHERE columns or joins will crawl.
 - Never SELECT star in app code, name the columns.
 
-Tags: #programming #sql #cheatsheet
+Tags: #programming #sql #cheatsheet #scripting

@@ -31,4 +31,4 @@ flowchart LR
 
 **Mental model:** array + pointer + manual free.
 
-Tags: #programming #c #cobweb
+Tags: #programming #c #cobweb #systems

@@ -27,4 +27,4 @@ UI is immutable trees rebuilt on state change, not mutated views.
 
 **Mental model:** null-safe OOP plus reactive widget trees.
 
-Tags: #programming #dart #cobweb
+Tags: #programming #dart #cobweb #managed

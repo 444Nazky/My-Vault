@@ -99,4 +99,4 @@ catch (const std::exception& e) { }
 - `vector<bool>` is special, avoid it.
 - Prefer `unique_ptr`, reach for `shared_ptr` only when shared.
 
-Tags: #programming #cpp #cheatsheet
+Tags: #programming #cpp #cheatsheet #systems

@@ -91,4 +91,4 @@ let s = await load()
 - Closures capture self strongly, use weak self.
 - `try?` hides the error, `try!` crashes on error.
 
-Tags: #programming #swift #cheatsheet
+Tags: #programming #swift #cheatsheet #managed

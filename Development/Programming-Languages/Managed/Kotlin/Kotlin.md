@@ -27,4 +27,4 @@ Equals, hash, copy, and toString generated for free.
 
 **Mental model:** Java fixed, nulls tracked, coroutines built in.
 
-Tags: #programming #kotlin #cobweb
+Tags: #programming #kotlin #cobweb #managed

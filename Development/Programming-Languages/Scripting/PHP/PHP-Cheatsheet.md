@@ -77,4 +77,4 @@ $id = (int)($_GET["id"] ?? 0);
 - Headers must be sent before any output, watch stray whitespace.
 - `foreach` copies values, use `&$e` to mutate in place.
 
-Tags: #programming #php #cheatsheet
+Tags: #programming #php #cheatsheet #scripting

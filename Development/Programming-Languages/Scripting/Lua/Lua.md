@@ -27,4 +27,4 @@ Used across this vault in hyprland lua and env lua configs.
 
 **Mental model:** tables plus first-class functions plus almost no syntax.
 
-Tags: #programming #lua #cobweb
+Tags: #programming #lua #cobweb #scripting

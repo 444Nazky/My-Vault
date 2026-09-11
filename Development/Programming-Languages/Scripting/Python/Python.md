@@ -26,4 +26,4 @@ pip install -r requirements.txt
 
 **Mental model:** batteries included, readability first, predictable slowness.
 
-Tags: #programming #python #cobweb
+Tags: #programming #python #cobweb #scripting
