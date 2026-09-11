@@ -6,7 +6,7 @@
 
 ```kotlin
 fun main() {
-    println("hello")
+ println("hello")
 }
 ```
 
@@ -20,9 +20,9 @@ java -jar app.jar
 ## Variables and Types
 
 ```kotlin
-val fixed = 42                 // read-only
-var flex = "hi"                // mutable
-val n: Int? = null             // nullable
+val fixed = 42 // read-only
+var flex = "hi" // mutable
+val n: Int? = null // nullable
 val len = n?.toString() ?: "0"
 ```
 
@@ -47,8 +47,8 @@ val dbl = { e: Int -> e * 2 }
 
 ```kotlin
 class Task(val title: String) {
-    var done = false
-    fun complete() { done = true }
+ var done = false
+ fun complete() { done = true }
 }
 data class User(val id: Int, val name: String)
 ```
@@ -74,4 +74,4 @@ runBlocking { val s = load() }
 - `?.` plus `?:` covers most null cases without ifs.
 - `is` smart-casts after the check, no cast needed.
 
-Tags: #programming #kotlin #cheatsheet #managed
+Tags: #kotlin #cheatsheet #managed

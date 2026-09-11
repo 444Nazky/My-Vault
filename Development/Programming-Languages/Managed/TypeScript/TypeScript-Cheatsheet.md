@@ -33,8 +33,8 @@ type Role = "admin" | "user";
 function add(a: number, b = 0): number { return a + b; }
 const dbl = (e: number): number => e * 2;
 async function load(url: string): Promise<string> {
-  const r = await fetch(url);
-  return r.text();
+ const r = await fetch(url);
+ return r.text();
 }
 ```
 
@@ -49,9 +49,9 @@ interface Box<T> { value: T }
 
 ```ts
 class Task {
-  done = false;
-  constructor(public title: string) {}
-  complete() { this.done = true; }
+ done = false;
+ constructor(public title: string) {}
+ complete() { this.done = true; }
 }
 ```
 
@@ -70,4 +70,4 @@ const merged = { ...a, ...b };
 - `Array(3)` makes holes, prefer `Array.from({length: 3})`.
 - `undefined` means missing, `null` means empty on purpose.
 
-Tags: #programming #typescript #cheatsheet #managed
+Tags: #typescript #cheatsheet #managed

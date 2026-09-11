@@ -28,8 +28,8 @@ WHERE email IS NOT NULL
 ## Joins
 
 ```sql
-INNER JOIN orders o ON o.user_id = u.id   -- matches only
-LEFT JOIN orders o ON o.user_id = u.id    -- all users
+INNER JOIN orders o ON o.user_id = u.id -- matches only
+LEFT JOIN orders o ON o.user_id = u.id -- all users
 ```
 
 ## Aggregates
@@ -60,10 +60,10 @@ DELETE FROM users WHERE id = 1;
 
 ```sql
 CREATE TABLE users (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+ id INT PRIMARY KEY AUTO_INCREMENT,
+ name VARCHAR(100) NOT NULL,
+ email VARCHAR(100) UNIQUE,
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ALTER TABLE users ADD COLUMN age INT DEFAULT 0;
 ```
@@ -75,4 +75,4 @@ ALTER TABLE users ADD COLUMN age INT DEFAULT 0;
 - Index foreign keys and WHERE columns or joins will crawl.
 - Never SELECT star in app code, name the columns.
 
-Tags: #programming #sql #cheatsheet #scripting
+Tags: #sql #cheatsheet #scripting

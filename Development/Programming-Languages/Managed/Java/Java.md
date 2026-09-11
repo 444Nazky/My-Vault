@@ -6,9 +6,9 @@
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("hello");
-    }
+ public static void main(String[] args) {
+ System.out.println("hello");
+ }
 }
 ```
 
@@ -27,4 +27,4 @@ var evens = list.stream().filter(e -> e % 2 == 0).toList();
 
 **Mental model:** explicit types plus GC plus a giant standard library.
 
-Tags: #programming #java #cobweb #managed
+Tags: #java #cobweb #managed

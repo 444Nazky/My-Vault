@@ -14,8 +14,8 @@ Exits on error, undefined var, or failed pipe stage. Put it on line two.
 
 ```bash
 name="my file"
-cat "$name"     # quoted keeps it one arg
-cat $name       # unquoted splits into two
+cat "$name" # quoted keeps it one arg
+cat $name # unquoted splits into two
 ```
 
 ## Gotchas
@@ -27,4 +27,4 @@ cat $name       # unquoted splits into two
 
 **Mental model:** commands plus quoting plus exit codes.
 
-Tags: #programming #bash #cobweb #scripting
+Tags: #bash #cobweb #scripting

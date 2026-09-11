@@ -14,11 +14,11 @@
 
 ```mermaid
 graph TD
-    IDX["Graphs Index"] --> OV["Vault Overview"]
-    IDX --> SYS["System Diagrams"]
-    IDX --> GAM["Gaming Diagrams"]
-    IDX --> SEC["Security IR Diagrams"]
-    IDX --> DEV["Dev Tasks Diagrams"]
+ IDX["Graphs Index"] --> OV["Vault Overview"]
+ IDX --> SYS["System Diagrams"]
+ IDX --> GAM["Gaming Diagrams"]
+ IDX --> SEC["Security IR Diagrams"]
+ IDX --> DEV["Dev Tasks Diagrams"]
 ```
 
-Tags: #graph #index
+Tags: #index

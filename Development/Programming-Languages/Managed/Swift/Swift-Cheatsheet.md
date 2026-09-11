@@ -5,8 +5,8 @@
 ## Basics
 
 ```swift
-let fixed = 42               // constant
-var flex = "hi"              // variable
+let fixed = 42 // constant
+var flex = "hi" // variable
 print("value \(fixed)")
 ```
 
@@ -22,9 +22,9 @@ let arr = [1, 2, 3]; let dict = ["a": 1]
 
 ```swift
 var name: String? = nil
-if let n = name { print(n) }        // unwrap
-guard let n = name else { return }  // early exit
-let u = name?.uppercased() ?? "NA"  // chain plus default
+if let n = name { print(n) } // unwrap
+guard let n = name else { return } // early exit
+let u = name?.uppercased() ?? "NA" // chain plus default
 ```
 
 ## Control Flow
@@ -32,7 +32,7 @@ let u = name?.uppercased() ?? "NA"  // chain plus default
 ```swift
 if x > 0 { } else { }
 for e in arr { }
-for k in 0..<n { }                  // half-open range
+for k in 0..<n { } // half-open range
 while cond { }
 switch x { case 1: print("one"); default: break }
 ```
@@ -48,8 +48,8 @@ arr.map(dbl).filter { $0 > 2 }.sorted()
 ## Struct vs Class
 
 ```swift
-struct Point { var x = 0, y = 0 }    // value, copied
-class Store { var items: [String] = [] }  // reference, shared
+struct Point { var x = 0, y = 0 } // value, copied
+class Store { var items: [String] = [] } // reference, shared
 ```
 
 ## Protocols and Extensions
@@ -63,8 +63,8 @@ extension String { var shouty: String { uppercased() + "!" } }
 
 ```swift
 class Owner {
-    weak var delegate: AnyObject?    // weak breaks cycles
-    lazy var data = load()           // built on first use
+ weak var delegate: AnyObject? // weak breaks cycles
+ lazy var data = load() // built on first use
 }
 ```
 
@@ -74,7 +74,7 @@ class Owner {
 enum Fail: Error { case bad }
 func risky() throws { throw Fail.bad }
 do { try risky() } catch { print(error) }
-let ok = try? risky()               // nil on error
+let ok = try? risky() // nil on error
 ```
 
 ## Async
@@ -91,4 +91,4 @@ let s = await load()
 - Closures capture self strongly, use weak self.
 - `try?` hides the error, `try!` crashes on error.
 
-Tags: #programming #swift #cheatsheet #managed
+Tags: #swift #cheatsheet #managed

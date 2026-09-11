@@ -6,10 +6,10 @@
 
 ```python
 def main() -> None:
-    print("hello")
+ print("hello")
 
 if __name__ == "__main__":
-    main()
+ main()
 ```
 
 ## Types
@@ -42,17 +42,17 @@ while cond: pass
 
 ```python
 def add(a: int, b: int = 0) -> int:
-    return a + b
+ return a + b
 
 def first(*args, key=None, **kwargs):
-    pass
+ pass
 ```
 
 ## Files and JSON
 
 ```python
 with open("a.txt") as f:
-    text = f.read()
+ text = f.read()
 import json
 data = json.loads(text)
 ```
@@ -61,22 +61,22 @@ data = json.loads(text)
 
 ```python
 try:
-    risky()
+ risky()
 except ValueError as e:
-    print(e)
+ print(e)
 finally:
-    cleanup()
+ cleanup()
 ```
 
 ## Classes
 
 ```python
 class Task:
-    def __init__(self, title: str):
-        self.title = title
-        self.done = False
-    def complete(self):
-        self.done = True
+ def __init__(self, title: str):
+ self.title = title
+ self.done = False
+ def complete(self):
+ self.done = True
 ```
 
 ## Gotchas
@@ -86,4 +86,4 @@ class Task:
 - Integer division `//` floors, `/` always floats.
 - Check `if x is None`, not truthiness, for sentinels.
 
-Tags: #programming #python #cheatsheet #scripting
+Tags: #python #cheatsheet #scripting

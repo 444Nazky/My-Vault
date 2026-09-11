@@ -8,7 +8,7 @@
 var name: String? = nil
 name = "nazky"
 if let n = name {
-    print("hello \(n)")
+ print("hello \(n)")
 }
 let upper = name?.uppercased() ?? "UNKNOWN"
 ```
@@ -19,9 +19,9 @@ Optionals are just `enum Optional { case none, some(T) }`.
 
 ```mermaid
 flowchart TD
-    S["strong ref"] --> CY["cycle risk"]
-    CY --> W["use weak"]
-    W --> OK["no leak"]
+ S["strong ref"] --> CY["cycle risk"]
+ CY --> W["use weak"]
+ W --> OK["no leak"]
 ```
 
 ## Gotchas
@@ -32,4 +32,4 @@ flowchart TD
 
 **Mental model:** optionals + ARC + protocols over inheritance.
 
-Tags: #programming #swift #cobweb #managed
+Tags: #swift #cobweb #managed

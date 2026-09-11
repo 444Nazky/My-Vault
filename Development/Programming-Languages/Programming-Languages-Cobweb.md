@@ -17,11 +17,11 @@
 
 ```mermaid
 graph TD
-    IDX["Programming Languages Cobweb"] --> SYS["Systems family"]
-    IDX --> MGD["Managed family"]
-    IDX --> SCR["Scripting family"]
-    IDX --> CMP["Comparisons"]
-    IDX --> TOOL["Toolchain Interop"]
+ IDX["Programming Languages Cobweb"] --> SYS["Systems family"]
+ IDX --> MGD["Managed family"]
+ IDX --> SCR["Scripting family"]
+ IDX --> CMP["Comparisons"]
+ IDX --> TOOL["Toolchain Interop"]
 ```
 
-Tags: #programming #cobweb #index
+Tags: #cobweb #index

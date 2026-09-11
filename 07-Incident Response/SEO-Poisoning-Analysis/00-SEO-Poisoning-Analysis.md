@@ -3,7 +3,7 @@
 > **Target:** `kurmamedia.com` (contoh/silakan diganti)
 > **Date:** 2026-09-07
 > **Status:** Investigation Complete
-> **Tags:** #security #seo-poisoning #incident-response #malware-analysis
+> **Tags:** #security #incident-response #malware-analysis
 
 ---
 

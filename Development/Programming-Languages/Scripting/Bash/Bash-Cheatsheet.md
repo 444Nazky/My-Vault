@@ -14,8 +14,8 @@ echo "hello"
 
 ```bash
 bash main.sh
-bash -x main.sh        # trace every command
-shellcheck main.sh     # lint before asking why
+bash -x main.sh # trace every command
+shellcheck main.sh # lint before asking why
 ```
 
 ## Variables
@@ -48,8 +48,8 @@ while read -r line; do echo "$line"; done < file.txt
 
 ```bash
 greet() {
-    local name="${1:-guest}"
-    echo "hi $name"
+ local name="${1:-guest}"
+ echo "hi $name"
 }
 greet "ana"
 ```
@@ -58,19 +58,19 @@ greet "ana"
 
 ```bash
 cmd > out.txt 2> err.txt
-cmd >> out.txt              # append
-cmd1 | cmd2                 # pipe stdout
-cmd < in.txt                # stdin from file
-diff <(cmd1) <(cmd2)        # process substitution
+cmd >> out.txt # append
+cmd1 | cmd2 # pipe stdout
+cmd < in.txt # stdin from file
+diff <(cmd1) <(cmd2) # process substitution
 ```
 
 ## Strings
 
 ```bash
 s="hello world"
-echo "${s:0:5}"             # hello
+echo "${s:0:5}" # hello
 echo "${s/world/there}"
-echo "${#s}"                # length
+echo "${#s}" # length
 ```
 
 ## Gotchas
@@ -80,4 +80,4 @@ echo "${#s}"                # length
 - `set -e` ignores failures in conditions, that is fine.
 - Filenames with spaces need quotes everywhere, no exceptions.
 
-Tags: #programming #bash #cheatsheet #scripting
+Tags: #bash #cheatsheet #scripting

@@ -7,9 +7,9 @@
 ```cpp
 #include <memory>
 struct File {
-    FILE* f;
-    File(const char* p) { f = fopen(p, "r"); }
-    ~File() { if (f) fclose(f); } // cleanup on scope exit
+ FILE* f;
+ File(const char* p) { f = fopen(p, "r"); }
+ ~File() { if (f) fclose(f); } // cleanup on scope exit
 };
 auto p = std::make_unique<int>(42); // freed automatically
 ```
@@ -20,9 +20,9 @@ Destructors run in reverse order of construction. That is the whole trick.
 
 ```mermaid
 flowchart TD
-    RAW["raw new delete"] --> UNIQ["unique ptr"]
-    UNIQ --> SHR["shared ptr"]
-    SHR --> WK["weak ptr"]
+ RAW["raw new delete"] --> UNIQ["unique ptr"]
+ UNIQ --> SHR["shared ptr"]
+ SHR --> WK["weak ptr"]
 ```
 
 ## Gotchas
@@ -34,4 +34,4 @@ flowchart TD
 
 **Mental model:** zero-cost abstractions, pay only for what you use.
 
-Tags: #programming #cpp #cobweb #systems
+Tags: #cpp #cobweb #systems

@@ -6,9 +6,9 @@
 
 ```csharp
 public class Task {
-    public string Title { get; set; } = "";
-    public bool Done { get; private set; }
-    public void Complete() => Done = true;
+ public string Title { get; set; } = "";
+ public bool Done { get; private set; }
+ public void Complete() => Done = true;
 }
 var t = new Task { Title = "ship it" };
 t.Complete();
@@ -18,9 +18,9 @@ t.Complete();
 
 ```mermaid
 flowchart LR
-    A["async method"] --> B["await IO"]
-    B --> C["continuation"]
-    C --> D["result"]
+ A["async method"] --> B["await IO"]
+ B --> C["continuation"]
+ C --> D["result"]
 ```
 
 Random fact: `async/await` was mainstreamed by C# 5 (2012) before JS and Python copied the pattern.
@@ -33,4 +33,4 @@ Random fact: `async/await` was mainstreamed by C# 5 (2012) before JS and Python 
 
 **Mental model:** GC + LINQ + async, batteries included.
 
-Tags: #programming #csharp #cobweb #managed
+Tags: #csharp #cobweb #managed

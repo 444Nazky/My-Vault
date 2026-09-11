@@ -6,20 +6,20 @@
 
 ```c
 int x = 42;
-int *p = &x;   // address of x
-*p = 43;       // mutate through pointer
+int *p = &x; // address of x
+*p = 43; // mutate through pointer
 char *buf = malloc(64);
 if (!buf) return 1;
-free(buf);     // forget = leak, twice = crash
+free(buf); // forget = leak, twice = crash
 ```
 
 ## Memory Map
 
 ```mermaid
 flowchart LR
-    S["Stack"] --> H["Heap"]
-    H --> G["Globals"]
-    G --> T["Code"]
+ S["Stack"] --> H["Heap"]
+ H --> G["Globals"]
+ G --> T["Code"]
 ```
 
 ## Gotchas
@@ -31,4 +31,4 @@ flowchart LR
 
 **Mental model:** array + pointer + manual free.
 
-Tags: #programming #c #cobweb #systems
+Tags: #c #cobweb #systems

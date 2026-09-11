@@ -10,7 +10,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("hello")
+ fmt.Println("hello")
 }
 ```
 
@@ -28,7 +28,7 @@ go fmt ./...
 
 ```go
 var i int = 42
-s := "hi"                 // shorthand, funcs only
+s := "hi" // shorthand, funcs only
 const Pi = 3.14
 var arr [3]int
 sl := []int{1, 2, 3}
@@ -48,8 +48,8 @@ switch x { case 1: fmt.Println("one"); default: }
 
 ```go
 func div(a, b int) (int, error) {
-    if b == 0 { return 0, errors.New("zero") }
-    return a / b, nil
+ if b == 0 { return 0, errors.New("zero") }
+ return a / b, nil
 }
 ```
 
@@ -70,7 +70,7 @@ func big(s Shaper) bool { return s.Area() > 100 }
 ## Concurrency
 
 ```go
-ch := make(chan int, 2)   // buffered
+ch := make(chan int, 2) // buffered
 go worker(ch)
 v := <-ch
 close(ch)
@@ -80,7 +80,7 @@ close(ch)
 
 ```go
 defer f.Close()
-if r := recover(); r != nil { }   // inside deferred func
+if r := recover(); r != nil { } // inside deferred func
 ```
 
 ## Gotchas
@@ -90,4 +90,4 @@ if r := recover(); r != nil { }   // inside deferred func
 - Time format uses the reference date `2006-01-02 15:04:05`.
 - JSON tags steer marshaling: `json:"name"`.
 
-Tags: #programming #go #cheatsheet #systems
+Tags: #go #cheatsheet #systems

@@ -22,9 +22,9 @@ dotnet test
 ```csharp
 int i = 42; double d = 3.14; bool b = true;
 string s = "hi"; char c = 'a';
-int? maybe = null;                 // nullable value
-string? name = null;               // nullable reference
-int v = maybe ?? 0;                // default when null
+int? maybe = null; // nullable value
+string? name = null; // nullable reference
+int v = maybe ?? 0; // default when null
 ```
 
 ## Control Flow
@@ -41,9 +41,9 @@ switch (x) { case 1: break; default: break; }
 
 ```csharp
 public class Task {
-    public string Title { get; set; } = "";
-    public bool Done { get; private set; }
-    public void Complete() => Done = true;
+ public string Title { get; set; } = "";
+ public bool Done { get; private set; }
+ public void Complete() => Done = true;
 }
 var t = new Task { Title = "ship" };
 ```
@@ -68,7 +68,7 @@ var first = list.FirstOrDefault(e => e > 2);
 
 ```csharp
 async Task<string> FetchAsync(HttpClient c, string url) {
-    return await c.GetStringAsync(url);
+ return await c.GetStringAsync(url);
 }
 await FetchAsync(client, url);
 ```
@@ -78,7 +78,7 @@ await FetchAsync(client, url);
 ```csharp
 try { File.ReadAllText("a.txt"); }
 catch (IOException e) { Console.WriteLine(e.Message); }
-using var f = File.OpenRead("a.txt");   // disposed at scope end
+using var f = File.OpenRead("a.txt"); // disposed at scope end
 ```
 
 ## String Interpolation
@@ -95,4 +95,4 @@ string.Join(", ", names);
 - Always `await`, never block with `.Result` in apps.
 - `IDisposable` needs `using`.
 
-Tags: #programming #csharp #cheatsheet #managed
+Tags: #csharp #cheatsheet #managed

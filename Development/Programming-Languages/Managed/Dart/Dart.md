@@ -5,8 +5,8 @@
 ## Sound Null Safety
 
 ```dart
-String a = "hi";     // never null, compiler proves it
-String? b;           // nullable, checked before use
+String a = "hi"; // never null, compiler proves it
+String? b; // nullable, checked before use
 int len = b?.length ?? 0;
 ```
 
@@ -27,4 +27,4 @@ UI is immutable trees rebuilt on state change, not mutated views.
 
 **Mental model:** null-safe OOP plus reactive widget trees.
 
-Tags: #programming #dart #cobweb #managed
+Tags: #dart #cobweb #managed

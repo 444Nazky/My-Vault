@@ -26,4 +26,4 @@
 
 Rencana copot casing dulu plus bor presisi sudah tepat dan realistis. Hasilnya: suhu jauh lebih dingin di Arch Linux plus estetika kustom.
 
-Tags: #macbook #modding #plan
+Tags: #modding #plan

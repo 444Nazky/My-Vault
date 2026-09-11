@@ -20,4 +20,4 @@
 | [[TypeScript]] | Type erasure, narrowing |
 | [[TypeScript-Cheatsheet]] | TS types, generics, async |
 
-Tags: #programming #managed #index
+Tags: #managed #index

@@ -8,7 +8,7 @@
 const std = @import("std");
 
 pub fn main() !void {
-    std.debug.print("hello\n", .{});
+ std.debug.print("hello\n", .{});
 }
 ```
 
@@ -23,12 +23,12 @@ zig test main.zig
 ## Variables and Types
 
 ```zig
-const fixed = 42;          // comptime-known constant
-var flex: i32 = -7;        // signed, bit width in name
+const fixed = 42; // comptime-known constant
+var flex: i32 = -7; // signed, bit width in name
 var u: u8 = 255;
 var f: f64 = 3.14;
 var ok: bool = true;
-var opt: ?i32 = null;      // optional
+var opt: ?i32 = null; // optional
 ```
 
 ## Control Flow
@@ -70,4 +70,4 @@ for (sl) |*e| { e.* += 1; }
 - `undefined` means garbage on purpose, init before reading.
 - Builtins start with `@`: `@import`, `@ intCast`, `@panic`.
 
-Tags: #programming #zig #cheatsheet #systems
+Tags: #zig #cheatsheet #systems

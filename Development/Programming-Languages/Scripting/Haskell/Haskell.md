@@ -28,4 +28,4 @@ safeHead (x:_) = Just x
 
 **Mental model:** functions plus types plus managed effects.
 
-Tags: #programming #haskell #cobweb #scripting
+Tags: #haskell #cobweb #scripting

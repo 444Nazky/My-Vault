@@ -16,8 +16,8 @@ Cheap threads multiplexed on OS threads. Share via channels, not locks.
 ## Slices Grow, Arrays Do Not
 
 ```go
-a := [3]int{1, 2, 3}      // fixed array
-s := []int{1, 2}          // slice, grows
+a := [3]int{1, 2, 3} // fixed array
+s := []int{1, 2} // slice, grows
 s = append(s, 3)
 ```
 
@@ -25,7 +25,7 @@ s = append(s, 3)
 
 ```go
 f, _ := os.Open("a.txt")
-defer f.Close()           // runs when function returns
+defer f.Close() // runs when function returns
 ```
 
 ## Gotchas
@@ -37,4 +37,4 @@ defer f.Close()           // runs when function returns
 
 **Mental model:** simple syntax plus goroutines plus fast builds.
 
-Tags: #programming #go #cobweb #systems
+Tags: #go #cobweb #systems

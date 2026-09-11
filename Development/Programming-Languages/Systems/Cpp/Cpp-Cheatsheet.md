@@ -7,8 +7,8 @@
 ```cpp
 #include <iostream>
 int main() {
-    std::cout << "hello\n";
-    return 0;
+ std::cout << "hello\n";
+ return 0;
 }
 ```
 
@@ -30,20 +30,20 @@ std::string s; std::getline(std::cin, s);
 ## References and Auto
 
 ```cpp
-int v = 1, &r = v;      // r aliases v
-const auto& cr = v;     // read-only view, preferred in loops
-auto n = 42;            // deduced int
+int v = 1, &r = v; // r aliases v
+const auto& cr = v; // read-only view, preferred in loops
+auto n = 42; // deduced int
 ```
 
 ## Class Basics
 
 ```cpp
-struct Point { int x = 0, y = 0; };   // public by default
+struct Point { int x = 0, y = 0; }; // public by default
 class Bank {
-    double bal = 0;                   // private by default
+ double bal = 0; // private by default
 public:
-    Bank(double b) : bal(b) {}        // constructor
-    void deposit(double d) { bal += d; }
+ Bank(double b) : bal(b) {} // constructor
+ void deposit(double d) { bal += d; }
 };
 ```
 
@@ -51,9 +51,9 @@ public:
 
 ```cpp
 #include <memory>
-auto u = std::make_unique<int>(5);    // single owner
-auto s = std::make_shared<int>(5);    // shared owner
-std::weak_ptr<int> w = s;             // breaks cycles
+auto u = std::make_unique<int>(5); // single owner
+auto s = std::make_shared<int>(5); // shared owner
+std::weak_ptr<int> w = s; // breaks cycles
 ```
 
 ## STL Containers
@@ -99,4 +99,4 @@ catch (const std::exception& e) { }
 - `vector<bool>` is special, avoid it.
 - Prefer `unique_ptr`, reach for `shared_ptr` only when shared.
 
-Tags: #programming #cpp #cheatsheet #systems
+Tags: #cpp #cheatsheet #systems

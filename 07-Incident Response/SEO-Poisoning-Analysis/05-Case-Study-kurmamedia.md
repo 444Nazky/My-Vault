@@ -15,11 +15,11 @@ Analisis OSINT terhadap `kurmamedia.com` menunjukkan domain aktif di DNS dan hos
 ## Domain Information
 
 ```
-Registrar:         VeriSign Global Registry Services
-Registered:        2023-11-18
-Expires:           2026-11-18
-Status:            clientTransferProhibited
-Last Updated:      2025-11-17
+Registrar: VeriSign Global Registry Services
+Registered: 2023-11-18
+Expires: 2026-11-18
+Status: clientTransferProhibited
+Last Updated: 2025-11-17
 ```
 
 ---
@@ -40,18 +40,18 @@ Last Updated:      2025-11-17
 
 ```
 ┌─────────────────────────────────────────────────┐
-│         kurmamedia.com INFRASTRUCTURE            │
+│ kurmamedia.com INFRASTRUCTURE │
 ├─────────────────────────────────────────────────┤
-│                                                  │
-│   Domain Registrar: VeriSign                     │
-│           │                                      │
-│           ▼                                      │
-│   DNS: 72.61.209.233                           │
-│           │                                      │
-│           ▼                                      │
-│   Hostinger Cloud (Jakarta, ID)                 │
-│   srv1156729.hstgr.cloud                        │
-│                                                  │
+│ │
+│ Domain Registrar: VeriSign │
+│ │ │
+│ ▼ │
+│ DNS: 72.61.209.233 │
+│ │ │
+│ ▼ │
+│ Hostinger Cloud (Jakarta, ID) │
+│ srv1156729.hstgr.cloud │
+│ │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -101,8 +101,8 @@ $ curl -v https://kurmamedia.com/
 ### Dorking Results
 
 ```
-site:kurmamedia.com slot        → No results
-site:kurmamedia.com casino      → No results
+site:kurmamedia.com slot → No results
+site:kurmamedia.com casino → No results
 site:kurmamedia.com "judi slot" → No results
 site:kurmamedia.com filetype:php → No results
 ```
@@ -130,24 +130,24 @@ Based on the infrastructure (Indonesian hosting, WordPress-compatible hostname),
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                    POSSIBLE TIMELINE                          │
+│ POSSIBLE TIMELINE │
 ├──────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Nov 2023    Domain registered                               │
-│      │                                                          │
-│      ▼                                                          │
-│  Early 2024   Site launched / compromised                     │
-│      │                                                          │
-│      ▼                                                          │
-│  Mid 2024     SEO Poisoning campaign active                   │
-│      │         - Cloaking detected by Google                   │
-│      │         - Domain flagged in Search Console               │
-│      ▼                                                          │
-│  Late 2024     Decline / Suspected cleanup                    │
-│      │                                                          │
-│      ▼                                                          │
-│  Sep 2026     Current: Server offline, domain still registered │
-│                                                               │
+│ │
+│ Nov 2023 Domain registered │
+│ │ │
+│ ▼ │
+│ Early 2024 Site launched / compromised │
+│ │ │
+│ ▼ │
+│ Mid 2024 SEO Poisoning campaign active │
+│ │ - Cloaking detected by Google │
+│ │ - Domain flagged in Search Console │
+│ ▼ │
+│ Late 2024 Decline / Suspected cleanup │
+│ │ │
+│ ▼ │
+│ Sep 2026 Current: Server offline, domain still registered │
+│ │
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -158,19 +158,19 @@ Based on the infrastructure (Indonesian hosting, WordPress-compatible hostname),
 ### Immediate Actions
 
 1. **Cek Wayback Machine** untuk historical snapshots:
-   ```
-   https://web.archive.org/web/2024*/https://kurmamedia.com/
-   ```
+ ```
+ https://web.archive.org/web/2024*/https://kurmamedia.com/
+ ```
 
 2. **Monitor Domain** untuk aktivitas baru:
-   - Setup DNS monitoring
-   - Alert jika IP berubah
-   - Alert jika HTTP mulai responsif
+ - Setup DNS monitoring
+ - Alert jika IP berubah
+ - Alert jika HTTP mulai responsif
 
 3. **Report ke Hostinger** jika ditemukan abuse:
-   ```
-   https://www.hostinger.com/report-abuse
-   ```
+ ```
+ https://www.hostinger.com/report-abuse
+ ```
 
 ### For Other Similar Domains
 
@@ -199,4 +199,4 @@ echo "=== Keywords ===" && curl -s https://$TARGET/ | grep -iE "slot|judi|casino
 
 ## Tags
 
-#case-study #kurmamedia #osint #hostinger #indonesia #seo-poisoning
+#case-study #kurmamedia #osint #hostinger #indonesia 

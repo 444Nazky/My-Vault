@@ -50,16 +50,16 @@ match ($x) { 1 => "one", default => "?" };
 
 ```php
 function add(int $a, int $b = 0): int { return $a + $b; }
-$dbl = fn($e) => $e * 2;   // arrow fn, auto-captures
+$dbl = fn($e) => $e * 2; // arrow fn, auto-captures
 ```
 
 ## Classes
 
 ```php
 class Task {
-    public function __construct(public string $title) {}
-    public bool $done = false;
-    public function complete(): void { $this->done = true; }
+ public function __construct(public string $title) {}
+ public bool $done = false;
+ public function complete(): void { $this->done = true; }
 }
 ```
 
@@ -77,4 +77,4 @@ $id = (int)($_GET["id"] ?? 0);
 - Headers must be sent before any output, watch stray whitespace.
 - `foreach` copies values, use `&$e` to mutate in place.
 
-Tags: #programming #php #cheatsheet #scripting
+Tags: #php #cheatsheet #scripting

@@ -18,4 +18,4 @@
 | [[Go]] | Goroutines, slices, defer |
 | [[Go-Cheatsheet]] | Go syntax, structs, channels |
 
-Tags: #programming #systems #index
+Tags: #systems #index

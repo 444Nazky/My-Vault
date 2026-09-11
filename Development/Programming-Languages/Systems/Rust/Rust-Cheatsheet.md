@@ -6,7 +6,7 @@
 
 ```rust
 fn main() {
-    println!("hello");
+ println!("hello");
 }
 ```
 
@@ -24,8 +24,8 @@ cargo clippy
 ## Variables and Types
 
 ```rust
-let x = 5;               // immutable
-let mut y = 5; y += 1;   // mutable
+let x = 5; // immutable
+let mut y = 5; y += 1; // mutable
 let s: String = "hi".into();
 let v: Vec<i32> = vec![1, 2, 3];
 let t: (i32, bool) = (1, true);
@@ -36,9 +36,9 @@ const MAX: u32 = 100;
 
 ```rust
 let a = String::from("hi");
-let b = a;               // moved, a is gone
-let c = &b;              // borrow, b still usable
-let d = b.clone();       // explicit deep copy
+let b = a; // moved, a is gone
+let c = &b; // borrow, b still usable
+let d = b.clone(); // explicit deep copy
 ```
 
 ## Control Flow
@@ -57,14 +57,14 @@ match x { 1 => "one", _ => "other" }
 let o: Option<i32> = Some(3);
 let v = o.unwrap_or(0);
 let r: Result<i32, String> = Ok(1);
-let n = r?;              // propagate error, needs Result return
+let n = r?; // propagate error, needs Result return
 if let Some(n) = o { println!("{n}"); }
 ```
 
 ## Functions
 
 ```rust
-fn add(a: i32, b: i32) -> i32 { a + b }   // no semicolon = return
+fn add(a: i32, b: i32) -> i32 { a + b } // no semicolon = return
 fn fail() -> Result<i32, String> { Err("bad".into()) }
 ```
 
@@ -74,9 +74,9 @@ fn fail() -> Result<i32, String> { Err("bad".into()) }
 struct Point { x: f64, y: f64 }
 enum Shape { Dot, Circle(f64) }
 impl Point {
-    fn dist(&self, o: &Point) -> f64 {
-        ((self.x - o.x).powi(2) + (self.y - o.y).powi(2)).sqrt()
-    }
+ fn dist(&self, o: &Point) -> f64 {
+ ((self.x - o.x).powi(2) + (self.y - o.y).powi(2)).sqrt()
+ }
 }
 ```
 
@@ -85,7 +85,7 @@ impl Point {
 ```rust
 trait Loud { fn loud(&self) -> String; }
 impl Loud for Point {
-    fn loud(&self) -> String { format!("{:?}", (self.x, self.y)) }
+ fn loud(&self) -> String { format!("{:?}", (self.x, self.y)) }
 }
 ```
 
@@ -112,4 +112,4 @@ s.split_whitespace().collect::<Vec<_>>();
 - Match must be exhaustive, wildcard `_` covers the rest.
 - Borrow checker errors name the exact lines, read them fully.
 
-Tags: #programming #rust #cheatsheet #systems
+Tags: #rust #cheatsheet #systems

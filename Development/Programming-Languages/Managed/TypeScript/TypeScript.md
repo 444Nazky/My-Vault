@@ -15,8 +15,8 @@ No runtime cost, no runtime guarantee. Validate at boundaries with a schema lib.
 
 ```ts
 function len(x: string | string[] | null): number {
-  if (x == null) return 0;
-  return x.length;   // narrowed to string or array
+ if (x == null) return 0;
+ return x.length; // narrowed to string or array
 }
 ```
 
@@ -29,4 +29,4 @@ function len(x: string | string[] | null): number {
 
 **Mental model:** JS plus a proofreader that deletes itself.
 
-Tags: #programming #typescript #cobweb #managed
+Tags: #typescript #cobweb #managed

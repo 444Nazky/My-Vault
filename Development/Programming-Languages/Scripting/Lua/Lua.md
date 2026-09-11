@@ -6,14 +6,14 @@
 
 ```lua
 local t = { 10, 20, name = "ana" }
-print(t[1])       -- 10, arrays start at 1
-print(t.name)     -- sugar for t["name"]
+print(t[1]) -- 10, arrays start at 1
+print(t.name) -- sugar for t["name"]
 ```
 
 ## Nil Deletes Keys
 
 ```lua
-t.name = nil      -- key is gone, length counts the array part only
+t.name = nil -- key is gone, length counts the array part only
 ```
 
 Used across this vault in hyprland lua and env lua configs.
@@ -27,4 +27,4 @@ Used across this vault in hyprland lua and env lua configs.
 
 **Mental model:** tables plus first-class functions plus almost no syntax.
 
-Tags: #programming #lua #cobweb #scripting
+Tags: #lua #cobweb #scripting

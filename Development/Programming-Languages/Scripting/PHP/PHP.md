@@ -7,14 +7,14 @@
 ```php
 $list = [1, 2, 3];
 $map = ["a" => 1];
-$users[] = $u;   // append, arrays grow and double as dicts
+$users[] = $u; // append, arrays grow and double as dicts
 ```
 
 ## Null Coalescing Everywhere
 
 ```php
 $name = $_GET["name"] ?? "guest";
-$conn?->query($sql);   // nullsafe call, skips when null
+$conn?->query($sql); // nullsafe call, skips when null
 ```
 
 Pairs well with the Tasks/Laravel-CRUD/Laravel CRUD guide in this vault.
@@ -28,4 +28,4 @@ Pairs well with the Tasks/Laravel-CRUD/Laravel CRUD guide in this vault.
 
 **Mental model:** request in, array wrangling, response out.
 
-Tags: #programming #php #cobweb #scripting
+Tags: #php #cobweb #scripting

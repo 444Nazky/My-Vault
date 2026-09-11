@@ -5,8 +5,8 @@
 ## Null Safety in the Type System
 
 ```kotlin
-var a: String = "hi"   // never null
-var b: String? = null  // nullable, checked at compile time
+var a: String = "hi" // never null
+var b: String? = null // nullable, checked at compile time
 val len = b?.length ?: 0
 ```
 
@@ -27,4 +27,4 @@ Equals, hash, copy, and toString generated for free.
 
 **Mental model:** Java fixed, nulls tracked, coroutines built in.
 
-Tags: #programming #kotlin #cobweb #managed
+Tags: #kotlin #cobweb #managed

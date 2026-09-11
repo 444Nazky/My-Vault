@@ -12,14 +12,14 @@ print("hello")
 
 ```bash
 lua main.lua
-luac -p main.lua   # syntax check only
+luac -p main.lua # syntax check only
 ```
 
 ## Variables and Types
 
 ```lua
 local i = 42; local s = "hi"; local b = true; local n = nil
-local t = {}       -- table, the only compound type
+local t = {} -- table, the only compound type
 ```
 
 ## Strings
@@ -40,8 +40,8 @@ elseif x == 0 then
 else
 end
 for k = 1, n do end
-for k, v in ipairs(t) do end   -- array part
-for k, v in pairs(t) do end    -- all keys
+for k, v in ipairs(t) do end -- array part
+for k, v in pairs(t) do end -- all keys
 while cond do end
 ```
 
@@ -86,4 +86,4 @@ local mod = require("mod")
 - Comparing tables compares identity, not content.
 - `0` and empty string are truthy, only nil and false are falsy.
 
-Tags: #programming #lua #cheatsheet #scripting
+Tags: #lua #cheatsheet #scripting

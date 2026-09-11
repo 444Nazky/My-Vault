@@ -9,10 +9,10 @@ cd /forensics/kurmamedia-$(date +%Y%m%d)
 
 # Download full site untuk perbandingan
 wget -r -np -nH --cut-dirs=1 \
-     --user-agent="Mozilla/5.0 ForensicBackup" \
-     --domains kurmamedia.com \
-     -e robots=off \
-     https://kurmamedia.com/
+ --user-agent="Mozilla/5.0 ForensicBackup" \
+ --domains kurmamedia.com \
+ -e robots=off \
+ https://kurmamedia.com/
 
 # Checksum semua file legitimate
 find /var/www/kurmamedia.com -type f -exec md5sum {} \; > file_hashes_$(date +%Y%m%d).txt
@@ -26,11 +26,11 @@ find /var/www/kurmamedia.com -type f -exec md5sum {} \; > file_hashes_$(date +%Y
 ```bash
 # PHP backdoor signatures
 grep -rElE "(eval\s*\(|base64_decode|system\(|exec\(|shell_exec\(|passthru\(|popen\(|assert\(|preg_replace.*e)" \
-     /var/www/kurmamedia.com/public_html/ 2>/dev/null > suspicious_files.txt
+ /var/www/kurmamedia.com/public_html/ 2>/dev/null > suspicious_files.txt
 
 # Obfuscation patterns
 grep -rElE "chr\(|str_rot13|gzinflate|strrev|hex2bin" \
-     /var/www/kurmamedia.com/public_html/ 2>/dev/null >> suspicious_files.txt
+ /var/www/kurmamedia.com/public_html/ 2>/dev/null >> suspicious_files.txt
 ```
 
 ### Cek .htaccess Modification
@@ -64,7 +64,7 @@ echo "<html><body><h1>Site Under Maintenance</h1></body></html>" > /var/www/kurm
 ### Step 2: Backup Original Compromised Files
 ```bash
 tar -czvf compromised_backup_$(date +%Y%m%d).tar.gz \
-     /var/www/kurmamedia.com/
+ /var/www/kurmamedia.com/
 ```
 
 ### Step 3: Reset Semua Credentials
@@ -100,17 +100,17 @@ RewriteRule . /index.php [L]
 
 # Security Headers
 <IfModule mod_headers.c>
-    Header set X-Content-Type-Options "nosniff"
-    Header set X-Frame-Options "SAMEORIGIN"
-    Header set X-XSS-Protection "1; mode=block"
+ Header set X-Content-Type-Options "nosniff"
+ Header set X-Frame-Options "SAMEORIGIN"
+ Header set X-XSS-Protection "1; mode=block"
 </IfModule>
 
 # Disable PHP execution in uploads
 <Directory "wp-content/uploads">
-    <FilesMatch "\.php$">
-        Order Deny,Allow
-        Deny from all
-    </FilesMatch>
+ <FilesMatch "\.php$">
+ Order Deny,Allow
+ Deny from all
+ </FilesMatch>
 </Directory>
 EOF
 ```
@@ -150,8 +150,8 @@ wp plugin install better-wp-security --activate
 ```bash
 echo "# Disable XML-RPC
 <FilesMatch \"xmlrpc.php$\">
-    Order Deny,Allow
-    Deny from all
+ Order Deny,Allow
+ Deny from all
 </FilesMatch>" >> .htaccess
 ```
 
@@ -171,19 +171,19 @@ aide --check
 ```bash
 cat > /etc/fail2ban/jail.local << 'EOF'
 [nginx-http-auth]
-enabled  = true
-port     = http,https
-filter   = nginx-http-auth
-logpath  = /var/log/nginx/error.log
+enabled = true
+port = http,https
+filter = nginx-http-auth
+logpath = /var/log/nginx/error.log
 maxretry = 5
 
 [wordpress-login]
-enabled  = true
-port     = http,https
-filter   = wordpress-login
-logpath  = /var/log/nginx/access.log
+enabled = true
+port = http,https
+filter = wordpress-login
+logpath = /var/log/nginx/access.log
 maxretry = 3
-bantime  = 3600
+bantime = 3600
 EOF
 ```
 
@@ -226,15 +226,15 @@ ALERT_EMAIL="security@example.com"
 # Check untuk file baru yang mencurigakan
 NEW_FILES=$(find /var/www -type f -mtime -1 | grep -vE "\.(jpg|png|css|js)$")
 if [ -n "$NEW_FILES" ]; then
-    echo "$(date) - New files detected: $NEW_FILES" >> $LOG
-    echo "WARNING: New files detected" | mail -s "Security Alert" $ALERT_EMAIL
+ echo "$(date) - New files detected: $NEW_FILES" >> $LOG
+ echo "WARNING: New files detected" | mail -s "Security Alert" $ALERT_EMAIL
 fi
 
 # Check untuk perubahan .htaccess
 HTCHECK=$(aide --check | grep -E "\.htaccess")
 if [ -n "$HTCHECK" ]; then
-    echo "$(date) - .htaccess changed!" >> $LOG
-    echo "CRITICAL: .htaccess modified" | mail -s "Security Alert" $ALERT_EMAIL
+ echo "$(date) - .htaccess changed!" >> $LOG
+ echo "CRITICAL: .htaccess modified" | mail -s "Security Alert" $ALERT_EMAIL
 fi
 EOF
 

@@ -5,21 +5,21 @@
 ### Basic Header Check (Googlebot UA)
 ```bash
 curl -I -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" \
-     -H "Accept: text/html,application/xhtml+xml" \
-     https://kurmamedia.com/ 2>/dev/null | head -20
+ -H "Accept: text/html,application/xhtml+xml" \
+ https://kurmamedia.com/ 2>/dev/null | head -20
 ```
 
 ### Full HTML Response (Googlebot)
 ```bash
 curl -s -A "Googlebot/2.1 (+http://www.google.com/bot.html)" \
-     https://kurmamedia.com/ | head -100
+ https://kurmamedia.com/ | head -100
 ```
 
 ### Simulasi Googlebot dengan IP Spoofing
 ```bash
 curl -I -A "Googlebot/2.1" \
-     -H "X-Forwarded-For: 66.249.66.1" \
-     https://kurmamedia.com/
+ -H "X-Forwarded-For: 66.249.66.1" \
+ https://kurmamedia.com/
 ```
 
 ### Bandingkan User vs Googlebot
@@ -39,7 +39,7 @@ curl -Lv -A "Googlebot/2.1" https://kurmamedia.com/ 2>&1 | grep -E "Location:|< 
 ### Cek Hidden Content / Cloaked Sections
 ```bash
 curl -s -A "Googlebot/2.1" https://kurmamedia.com/ | \
-     grep -iE "display:\s*none|visibility:\s*hidden|opacity:\s*0" -A2 -B2
+ grep -iE "display:\s*none|visibility:\s*hidden|opacity:\s*0" -A2 -B2
 ```
 
 ### Cek External Links Mencurigakan
@@ -98,15 +98,15 @@ dig kurmamedia.com MX
 ### VirusTotal Check
 ```bash
 curl -s "https://www.virustotal.com/api/v3/urls" \
-     -H "x-apikey: YOUR_API_KEY" \
-     -d "url=https://kurmamedia.com"
+ -H "x-apikey: YOUR_API_KEY" \
+ -d "url=https://kurmamedia.com"
 ```
 
 ### URLScan.io
 ```bash
 curl -s "https://urlscan.io/api/v1/scan/" \
-     -H "Content-Type: application/json" \
-     -d '{"url": "https://kurmamedia.com", "visibility": "public"}'
+ -H "Content-Type: application/json" \
+ -d '{"url": "https://kurmamedia.com", "visibility": "public"}'
 ```
 
 ### Cek Sitemap untuk URL Mencurigakan
@@ -125,10 +125,10 @@ cd /forensics/kurmamedia-$(date +%Y%m%d)
 
 # Download full site
 wget -r -np -nH --cut-dirs=1 \
-     --user-agent="Mozilla/5.0 ForensicBackup" \
-     --domains kurmamedia.com \
-     -e robots=off \
-     https://kurmamedia.com/
+ --user-agent="Mozilla/5.0 ForensicBackup" \
+ --domains kurmamedia.com \
+ -e robots=off \
+ https://kurmamedia.com/
 
 # Generate checksum
 find . -type f -exec md5sum {} \; > file_hashes.txt
@@ -164,13 +164,13 @@ find . -type f -exec md5sum {} \; > file_hashes.txt
 ### IP Geolocation (72.61.209.233)
 ```json
 {
-  "ip": "72.61.209.233",
-  "hostname": "srv1156729.hstgr.cloud",
-  "city": "Jakarta",
-  "region": "Jakarta",
-  "country": "ID",
-  "org": "AS47583 Hostinger International Limited",
-  "loc": "-6.2146,106.8451"
+ "ip": "72.61.209.233",
+ "hostname": "srv1156729.hstgr.cloud",
+ "city": "Jakarta",
+ "region": "Jakarta",
+ "country": "ID",
+ "org": "AS47583 Hostinger International Limited",
+ "loc": "-6.2146,106.8451"
 }
 ```
 
@@ -191,29 +191,29 @@ Domain `kurmamedia.com`:
 - **Server mati/offline** - tidak serve HTTP content
 - **Tidak ada di Google index** - tidak ada cached version
 - **Kemungkinan scenario**:
-  1. Server dihack → attacker take down
-  2. Hosting suspended karena abuse
-  3.涊 Dibersihkan owner → masih dalam proses
-  4. Domain parked/squatted
+ 1. Server dihack → attacker take down
+ 2. Hosting suspended karena abuse
+ 3.涊 Dibersihkan owner → masih dalam proses
+ 4. Domain parked/squatted
 
 ### Rekomendasi Lanjutan
 
 1. **Cek Wayback Machine** untuk historical content:
-   ```
-   https://web.archive.org/web/*/https://kurmamedia.com/
-   ```
+ ```
+ https://web.archive.org/web/*/https://kurmamedia.com/
+ ```
 
 2. **Cek IP reputation** secara langsung:
-   - AbuseIPDB
-   - Shodan
-   - Censys
+ - AbuseIPDB
+ - Shodan
+ - Censys
 
 3. **Monitoring** - set up alert jika domain become active again
 
 4. **Hostinger Abuse Report** - Jika domain di-host di Hostinger:
-   ```
-   https://www.hostinger.com/report-abuse
-   ```
+ ```
+ https://www.hostinger.com/report-abuse
+ ```
 
 ---
 

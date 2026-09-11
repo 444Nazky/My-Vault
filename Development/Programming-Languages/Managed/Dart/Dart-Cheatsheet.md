@@ -6,7 +6,7 @@
 
 ```dart
 void main() {
-  print("hello");
+ print("hello");
 }
 ```
 
@@ -22,10 +22,10 @@ flutter run
 
 ```dart
 var i = 42;
-final fixed = "hi";      // set once
-const pi = 3.14;         // compile-time
-String? maybe;           // nullable
-late String loaded;      // set before use
+final fixed = "hi"; // set once
+const pi = 3.14; // compile-time
+String? maybe; // nullable
+late String loaded; // set before use
 ```
 
 ## Control Flow
@@ -41,8 +41,8 @@ switch (x) { case 1: print("one"); break; default: }
 ## Functions
 
 ```dart
-int add(int a, [int b = 0]) => a + b;   // optional positional
-void greet({required String name}) {}   // named required
+int add(int a, [int b = 0]) => a + b; // optional positional
+void greet({required String name}) {} // named required
 ```
 
 ## Collections
@@ -56,10 +56,10 @@ final m = {"a": 1};
 
 ```dart
 class Task {
-  Task(this.title);
-  final String title;
-  bool done = false;
-  void complete() => done = true;
+ Task(this.title);
+ final String title;
+ bool done = false;
+ void complete() => done = true;
 }
 ```
 
@@ -67,8 +67,8 @@ class Task {
 
 ```dart
 Future<String> load() async {
-  await Future.delayed(Duration(milliseconds: 100));
-  return "data";
+ await Future.delayed(Duration(milliseconds: 100));
+ return "data";
 }
 final s = await load();
 ```
@@ -80,4 +80,4 @@ final s = await load();
 - Spread `...` and null-aware `...?` unpack lists.
 - `is` checks type and promotes, no cast needed after.
 
-Tags: #programming #dart #cheatsheet #managed
+Tags: #dart #cheatsheet #managed

@@ -18,7 +18,7 @@ No malloc hiding, no GC. Every allocation names its allocator.
 
 ```zig
 fn makeType(comptime N: usize) type {
-    return [N]u8;
+ return [N]u8;
 }
 ```
 
@@ -33,4 +33,4 @@ Generics without templates, evaluated during compilation.
 
 **Mental model:** C control plus explicit memory plus comptime metaprogramming.
 
-Tags: #programming #zig #cobweb #systems
+Tags: #zig #cobweb #systems

@@ -21,12 +21,12 @@
 
 ## Phase 3: Cleaning
 - [ ] Reset semua credentials:
-  - [ ] FTP/SFTP password
-  - [ ] SSH keys/passwords
-  - [ ] Database credentials
-  - [ ] CMS admin passwords
-  - [ ] Hosting/cPanel passwords
-  - [ ] Any API keys exposed
+ - [ ] FTP/SFTP password
+ - [ ] SSH keys/passwords
+ - [ ] Database credentials
+ - [ ] CMS admin passwords
+ - [ ] Hosting/cPanel passwords
+ - [ ] Any API keys exposed
 
 - [ ] Remove backdoor files
 - [ ] Clean injected database content
@@ -116,4 +116,4 @@ chmod 440 wp-config.php
 
 ## Tags
 
-#checklist #incident-response #seo-poisoning #cleanup
+#checklist #incident-response #cleanup

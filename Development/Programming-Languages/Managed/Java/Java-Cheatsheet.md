@@ -15,7 +15,7 @@ java Main
 int i = 42; double d = 3.14; boolean b = true;
 String s = "hi"; char c = 'a';
 int[] a = {1, 2, 3};
-var inferred = "text";   // Java 10 plus
+var inferred = "text"; // Java 10 plus
 ```
 
 ## Strings
@@ -40,10 +40,10 @@ switch (x) { case 1 -> System.out.println("one"); default -> {} }
 
 ```java
 public class Task {
-    private boolean done = false;
-    public Task(String title) { this.title = title; }
-    public String title;
-    public void complete() { done = true; }
+ private boolean done = false;
+ public Task(String title) { this.title = title; }
+ public String title;
+ public void complete() { done = true; }
 }
 ```
 
@@ -77,4 +77,4 @@ u.name();
 - `final` on a reference freezes the pointer, not the object.
 - Compare strings with `.equals`, never `==`.
 
-Tags: #programming #java #cheatsheet #managed
+Tags: #java #cheatsheet #managed

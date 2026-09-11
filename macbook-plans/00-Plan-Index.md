@@ -20,10 +20,10 @@
 
 ```mermaid
 flowchart TD
-    A["butuh x86 murni"] --> B{"storage besar"}
-    B -->|"ya"| INTEL["Intel i7 2020 modif"]
-    B -->|"tidak"| M1A["M1 Asahi"]
-    A2["butuh irit baterai"] --> M1B["M1 Asahi"]
+ A["butuh x86 murni"] --> B{"storage besar"}
+ B -->|"ya"| INTEL["Intel i7 2020 modif"]
+ B -->|"tidak"| M1A["M1 Asahi"]
+ A2["butuh irit baterai"] --> M1B["M1 Asahi"]
 ```
 
-Tags: #macbook #plan #index
+Tags: #plan #index
