@@ -6,7 +6,50 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:Orphans",
+      "color": {
+        "a": 1,
+        "rgb": 16747520
+      }
+    },
+    {
+      "query": "path:attachments",
+      "color": {
+        "a": 1,
+        "rgb": 13073899
+      }
+    },
+    {
+      "query": "path:System",
+      "color": {
+        "a": 1,
+        "rgb": 5164179
+      }
+    },
+    {
+      "query": "path:Personal",
+      "color": {
+        "a": 1,
+        "rgb": 15287648
+      }
+    },
+    {
+      "query": "path:Development",
+      "color": {
+        "a": 1,
+        "rgb": 6201075
+      }
+    },
+    {
+      "query": "path:Tasks",
+      "color": {
+        "a": 1,
+        "rgb": 16370212
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
