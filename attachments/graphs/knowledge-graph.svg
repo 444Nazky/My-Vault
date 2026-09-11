@@ -1,0 +1,29 @@
+<svg width="650" height="300" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2d1b4e"/><stop offset="1" stop-color="#12081f"/></linearGradient></defs>
+<rect width="650" height="300" fill="url(#bg)"/>
+<text x="325" y="36" text-anchor="middle" fill="#ffb347" font-size="22" font-weight="bold">Knowledge Graph</text>
+<circle cx="95" cy="120" r="34" fill="#4ecca3"/>
+<text x="95" y="118" text-anchor="middle" fill="#1a1a2e" font-size="12" font-weight="bold">Tasks</text>
+<text x="95" y="132" text-anchor="middle" fill="#1a1a2e" font-size="9">10 files</text>
+<circle cx="250" cy="65" r="34" fill="#f9ca24"/>
+<text x="250" y="63" text-anchor="middle" fill="#1a1a2e" font-size="12" font-weight="bold">System</text>
+<text x="250" y="77" text-anchor="middle" fill="#1a1a2e" font-size="9">12 files</text>
+<circle cx="405" cy="120" r="34" fill="#e94560"/>
+<text x="405" y="118" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">Security</text>
+<text x="405" y="132" text-anchor="middle" fill="#fff" font-size="9">16 files</text>
+<circle cx="560" cy="65" r="34" fill="#e07be0"/>
+<text x="560" y="63" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">Dev</text>
+<text x="560" y="77" text-anchor="middle" fill="#fff" font-size="9">20 files</text>
+<circle cx="560" cy="190" r="34" fill="#4ecca3"/>
+<text x="560" y="188" text-anchor="middle" fill="#1a1a2e" font-size="12" font-weight="bold">Graphs</text>
+<text x="560" y="202" text-anchor="middle" fill="#1a1a2e" font-size="9">6 files</text>
+<circle cx="250" cy="190" r="34" fill="#ffb347"/>
+<text x="250" y="188" text-anchor="middle" fill="#1a1a2e" font-size="12" font-weight="bold">Macbook</text>
+<text x="250" y="202" text-anchor="middle" fill="#1a1a2e" font-size="9">9 files</text>
+<line x1="129" y1="110" x2="216" y2="80" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+<line x1="284" y1="80" x2="371" y2="105" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+<line x1="439" y1="105" x2="526" y2="80" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+<line x1="129" y1="130" x2="216" y2="180" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+<line x1="371" y1="130" x2="526" y2="180" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+<line x1="284" y1="176" x2="216" y2="184" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+</svg>

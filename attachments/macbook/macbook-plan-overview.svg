@@ -1,0 +1,30 @@
+<svg width="660" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b1e47"/><stop offset="1" stop-color="#120d1f"/></linearGradient></defs>
+<rect width="660" height="360" fill="url(#bg)"/>
+<text x="330" y="36" text-anchor="middle" fill="#e07be0" font-size="22" font-weight="bold">MacBook Plan Overview</text>
+<rect x="40" y="60" width="150" height="60" rx="12" fill="#4ecca3"/>
+<text x="115" y="88" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">M1 Choice</text>
+<text x="115" y="106" text-anchor="middle" fill="#1a1a2e" font-size="10">vs Intel</text>
+<rect x="250" y="60" width="150" height="60" rx="12" fill="#f9ca24"/>
+<text x="325" y="88" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Cobweb Mod</text>
+<text x="325" y="106" text-anchor="middle" fill="#1a1a2e" font-size="10">case mod</text>
+<rect x="460" y="60" width="150" height="60" rx="12" fill="#ffb347"/>
+<text x="535" y="88" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Sleeve Plan</text>
+<text x="535" y="106" text-anchor="middle" fill="#1a1a2e" font-size="10">modular</text>
+<rect x="40" y="135" width="150" height="60" rx="12" fill="#e94560"/>
+<text x="115" y="163" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">Linux Batt</text>
+<text x="115" y="181" text-anchor="middle" fill="#fff" font-size="10">battery on M1</text>
+<rect x="250" y="135" width="150" height="60" rx="12" fill="#e07be0"/>
+<text x="325" y="163" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">Sec Tools</text>
+<text x="325" y="181" text-anchor="middle" fill="#fff" font-size="10">on M1</text>
+<rect x="460" y="135" width="150" height="60" rx="12" fill="#4ecca3"/>
+<text x="535" y="163" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="bold">Apps on M1</text>
+<text x="535" y="181" text-anchor="middle" fill="#1a1a2e" font-size="10">compat</text>
+<rect x="250" y="215" width="160" height="60" rx="12" fill="#f9ca24" opacity="0.9"/>
+<text x="330" y="243" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="bold">Verdict</text>
+<text x="330" y="261" text-anchor="middle" fill="#1a1a2e" font-size="10">M1 approved</text>
+<rect x="40" y="290" width="580" height="15" rx="7" fill="#4ecca3" opacity="0.9"/>
+<rect x="40" y="305" width="430" height="15" rx="7" fill="#f9ca24" opacity="0.9"/>
+<rect x="40" y="320" width="300" height="15" rx="7" fill="#e94560" opacity="0.9"/>
+<text x="40" y="289" fill="#fff" font-size="9">research done - plan drafted - next: shopping</text>
+</svg>
