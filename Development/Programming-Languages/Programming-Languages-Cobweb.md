@@ -31,6 +31,18 @@
 | [[PHP-Cheatsheet]] | PHP syntax, composer, classes |
 | [[Lua]] | Tables, 1-indexing, configs link |
 | [[Lua-Cheatsheet]] | Lua syntax, tables, modules |
+| [[Kotlin]] | Null safety, data class, coroutines |
+| [[Kotlin-Cheatsheet]] | Kotlin syntax, collections, coroutines |
+| [[Zig]] | Explicit allocators, comptime |
+| [[Zig-Cheatsheet]] | Zig syntax, errors, slices |
+| [[Bash]] | Strict mode, quoting, exit codes |
+| [[Bash-Cheatsheet]] | Bash syntax, loops, redirects |
+| [[SQL]] | NULL logic, joins, grouping |
+| [[SQL-Cheatsheet]] | SQL queries, schema, transactions |
+| [[Dart]] | Null safety, widget trees |
+| [[Dart-Cheatsheet]] | Dart syntax, futures, cascades |
+| [[Haskell]] | Purity, Maybe, laziness |
+| [[Haskell-Cheatsheet]] | Haskell syntax, lists, monads |
 
 ## Mini Map
 
