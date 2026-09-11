@@ -76,7 +76,7 @@ echo "${#s}"                # length
 ## Gotchas
 
 - Always quote `"$var"`, brace `"${var}"` next to text.
-- `=` in `[[ ]]`, `-eq` for numbers in `[ ]`.
+- `=` in double brackets, `-eq` for numbers in single brackets.
 - `set -e` ignores failures in conditions, that is fine.
 - Filenames with spaces need quotes everywhere, no exceptions.
 
