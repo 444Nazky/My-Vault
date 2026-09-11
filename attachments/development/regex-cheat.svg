@@ -1,0 +1,22 @@
+<svg width="640" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4a3b1e"/><stop offset="1" stop-color="#1a1a2e"/></linearGradient></defs>
+<rect width="640" height="360" fill="url(#bg)"/>
+<text x="320" y="36" text-anchor="middle" fill="#f9ca24" font-size="22" font-weight="bold">Regex Quick Reference</text>
+<rect x="30" y="55" width="285" height="145" rx="12" fill="#0f3460" stroke="#f9ca24" stroke-width="2"/>
+<text x="172" y="82" text-anchor="middle" fill="#f9ca24" font-size="14" font-weight="bold">Quantifiers</text>
+<text x="50" y="110" fill="#ccc" font-size="12">*  0 or more</text>
+<text x="50" y="132" fill="#ccc" font-size="12">+  1 or more</text>
+<text x="50" y="154" fill="#ccc" font-size="12">?  0 or 1</text>
+<text x="50" y="176" fill="#ccc" font-size="12">{n,m}  n to m</text>
+<rect x="335" y="55" width="285" height="145" rx="12" fill="#0f3460" stroke="#4ecca3" stroke-width="2"/>
+<text x="477" y="82" text-anchor="middle" fill="#4ecca3" font-size="14" font-weight="bold">Classes</text>
+<text x="355" y="110" fill="#ccc" font-size="12">\d  digit</text>
+<text x="355" y="132" fill="#ccc" font-size="12">\w  word char</text>
+<text x="355" y="154" fill="#ccc" font-size="12">\s  whitespace</text>
+<text x="355" y="176" fill="#ccc" font-size="12">[abc]  set</text>
+<rect x="30" y="220" width="590" height="120" rx="12" fill="#0f3460" stroke="#e07be0" stroke-width="2"/>
+<text x="325" y="250" text-anchor="middle" fill="#e07be0" font-size="14" font-weight="bold">Anchors &amp; Groups</text>
+<text x="50" y="278" fill="#ccc" font-size="12">^ start   $ end</text>
+<text x="50" y="300" fill="#ccc" font-size="12">() capture   (?:) non-capturing</text>
+<text x="50" y="322" fill="#ccc" font-size="12">| OR   \b word boundary</text>
+</svg>
