@@ -6,50 +6,7 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:Orphans",
-      "color": {
-        "a": 1,
-        "rgb": 16747520
-      }
-    },
-    {
-      "query": "path:attachments",
-      "color": {
-        "a": 1,
-        "rgb": 13860010
-      }
-    },
-    {
-      "query": "path:System",
-      "color": {
-        "a": 1,
-        "rgb": 5198093
-      }
-    },
-    {
-      "query": "path:Personal",
-      "color": {
-        "a": 1,
-        "rgb": 15287648
-      }
-    },
-    {
-      "query": "path:Development",
-      "color": {
-        "a": 1,
-        "rgb": 5746550
-      }
-    },
-    {
-      "query": "path:Tasks",
-      "color": {
-        "a": 1,
-        "rgb": 16299958
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
@@ -60,6 +17,6 @@
   "repelStrength": 15.2368121048813,
   "linkStrength": 0.559308641975309,
   "linkDistance": 363,
-  "scale": 0.07665659441646575,
+  "scale": 0.09176664965243661,
   "close": false
 }
