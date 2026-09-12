@@ -1,8 +1,8 @@
 # Master Map of Content
 
 > **Vault:** Nazky's Knowledge Base
-> **Last Updated:** September 11, 2026
-> **Total Notes:** 275 markdown files
+> **Last Updated:** September 12, 2026
+> **Total Notes:** 283 markdown files
 > **System:** Lenovo 83LY - Arch Linux
 
 ---
@@ -214,15 +214,19 @@ Obsidian Vault/ (275 md files, updated 2026-09-11)
 ├── 07-Incident Response/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                # 3 files: AI-CLI-Agents, README, LLM-Setup
-├── Graphs/                # 6 files: 00-Index + Vault, System, Gaming, Security, Dev
+├── Graphs/                # 7 files: 00-Index + 5 colored diagram pages
+│   ├── attachments/       # orange-nodes visual (PNG + SVG + README)
+│   └── orange-nodes-README.md
+├── attachments/           # root attachments (orange-nodes-overview.png)
 ├── macbook-plans/         # 10 files: 00-Index + comparison to price (Bahasa Indonesia)
 │
-├── System/                # 83 files
+├── System/                # 90 files
 │   ├── Linux/            # Arch-Perf, BlackArch, Hyprland, ZRAM, CLI, Monitoring
 │   ├── Caelestia/        # 7 files: 00-Overview, Architecture, Keybinds, Lock, Mod-Guide, Config-Ref
 │   ├── Caelestia-Investigation/  # 31 files: perf debugging
 │   ├── Fixes/            # 11 files: NVIDIA x2, GRUB x3, HDMI, Secure-Boot, Quick-Ref, Visuals, README
 │   ├── Gaming/           # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
+│   ├── WiFi Troubleshooting/   # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
 │   ├── Display-Server/   # hyprland-trackpad-sensitivity.md
 │   ├── Ricing/           # 6 files: 00-Index to Restore-Guide
 │   ├── Starship Installation.md
@@ -234,7 +238,6 @@ Obsidian Vault/ (275 md files, updated 2026-09-11)
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
 │   ├── roblox-sober-install.md  # 2026-09-09
-│   └── WiFi Troubleshooting/   # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
 │
 ├── Personal/
 │   ├── Cybersecurity/

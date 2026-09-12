@@ -83,7 +83,8 @@ flowchart TD
  F["Sober install"] -->|"done"| Z
  G["SEO investigation"] -->|"done"| Z
  H["Theme bug docs"] -->|"done"| Z
- Z --> I["indexes refreshed"]
+ I["WiFi AX211 fix"] -->|"fixed"| Z
+ Z --> J["indexes refreshed"]
  style A fill:#27AE60,stroke:#27AE60,color:#fff
  style B fill:#27AE60,stroke:#27AE60,color:#fff
  style C fill:#27AE60,stroke:#27AE60,color:#fff
@@ -92,6 +93,7 @@ flowchart TD
  style F fill:#27AE60,stroke:#27AE60,color:#fff
  style G fill:#27AE60,stroke:#27AE60,color:#fff
  style H fill:#27AE60,stroke:#27AE60,color:#fff
+ style I fill:#27AE60,stroke:#27AE60,color:#fff
  style Z fill:#2D9CDB,stroke:#2D9CDB,color:#fff
 ```
 
@@ -180,7 +182,7 @@ pie title Fix completion
 
 ```mermaid
 pie title Notes per folder
- "System" : 77
+ "System" : 90
  "Personal" : 45
  "Tasks" : 37
  "Development" : 29

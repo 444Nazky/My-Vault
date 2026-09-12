@@ -88,6 +88,16 @@ sudo pacman -Rns $(pacman -Qtdq)
   ```
 - **Key logs:** `probe with driver iwlwifi failed with error -110`
 
+## Related Notes
+
+- [[WiFi Troubleshooting/00-Overview]] — Full investigation of WiFi fix (2026-09-12)
+- [[WiFi Troubleshooting/01-Device-Inventory]] — Hardware inventory
+- [[WiFi Troubleshooting/02-Diagnosis]] — Diagnostic steps
+- [[WiFi Troubleshooting/03-Root-Cause]] — Why WiFi failed
+- [[WiFi Troubleshooting/04-Fix]] — How it was fixed
+- [[WiFi Troubleshooting/05-Lessons-Learned]] — Takeaways
+- [[WiFi Troubleshooting/06-Quick-Reference]] — Command cheat sheet
+
 ### USB WiFi Adapter Misidentification
 - Some USB devices advertised as "WiFi adapters" are actually wireless HID devices (keyboard/mouse receivers)
 - **Check:** `lsusb -v -d <vendor>:<product>` — look for `HID Device`, `Keyboard`, `Mouse` in interface classes
