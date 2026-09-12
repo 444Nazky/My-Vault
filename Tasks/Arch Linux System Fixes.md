@@ -74,5 +74,25 @@ sudo pacman -Qtdq
 sudo pacman -Rns $(pacman -Qtdq)
 ```
 
+### WiFi Driver Timeout (Intel AX211 / iwlwifi)
+- **Symptom:** `iw dev` returns nothing, no `wlan` interface, `iwlwifi` probe fails with `error -110` (ETIMEDOUT)
+- **Cause:** PCI device left in disabled/off state (D4/S4), `enable: 0` in sysfs, ACPI CNVW disabled
+- **Fix:** Reboot the system — restores proper PCI device initialization
+- **Diagnosis commands:**
+  ```bash
+  cat /sys/bus/pci/devices/0000:00:14.3/enable  # check if 0 = disabled
+  journalctl -b | grep iwlwifi                  # check for probe timeout
+  iw dev                                        # check for wireless interfaces
+  rfkill list                                   # check rfkill blocks
+  acpi -t                                       # check thermal/wake states (CNVW)
+  ```
+- **Key logs:** `probe with driver iwlwifi failed with error -110`
+
+### USB WiFi Adapter Misidentification
+- Some USB devices advertised as "WiFi adapters" are actually wireless HID devices (keyboard/mouse receivers)
+- **Check:** `lsusb -v -d <vendor>:<product>` — look for `HID Device`, `Keyboard`, `Mouse` in interface classes
+- A real WiFi adapter over USB uses `rndis_host`, `cdc_ether`, or dedicated WiFi drivers (e.g., `rt2800usb`, `rtl8xxxu`)
+- **Example:** Kanata Wireless WG9 (32c2:001a) = wireless keyboard/mouse, NOT WiFi
+
 ## Tags
  #fix #system #troubleshooting

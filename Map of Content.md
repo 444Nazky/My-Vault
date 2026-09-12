@@ -233,7 +233,8 @@ Obsidian Vault/ (275 md files, updated 2026-09-11)
 │   ├── KDE-Plasma-Ricing.md
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
-│   └── roblox-sober-install.md  # 2026-09-09
+│   ├── roblox-sober-install.md  # 2026-09-09
+│   └── WiFi Troubleshooting/   # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
 │
 ├── Personal/
 │   ├── Cybersecurity/
