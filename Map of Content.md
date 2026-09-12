@@ -16,6 +16,7 @@
 | System/Caelestia-Investigation/    | Performance debugging          | 00 - Investigation Overview, Root Cause - Swappiness 100 - 31 files |
 | System/Fixes/                      | System fixes and guides        | NVIDIA-RTX-5050-Investigation, GRUB-Configuration, HDMI-Monitor-Fix-NVIDIA-Wayland - 11 files |
 | System/Gaming/                     | NFS Heat Proton GE + PRIME     | System-Info, The-Problem, README - 7 files                       |
+| System/WiFi Troubleshooting/       | WiFi investigation notes       | 00-Overview to 06-Quick-Reference - 7 files                     |
 | System/Display-Server/             | Wayland/Hyprland input         | hyprland-trackpad-sensitivity                                    |
 | 07-Incident Response/SEO-Poisoning-Analysis/ | SEO Judi Slot IR   | 00-SEO-Poisoning-Analysis, 05-Case-Study-kurmamedia - 6 files, complete 2026-09-07 |
 | Personal/Cybersecurity/            | Pentesting tools and methodology | Blackarch 7, Tools 9, Requierements 6, Guides 8 - 30 files       |
@@ -32,7 +33,7 @@
 | Tasks/React-Native-Taskmanager/    | Mobile taskmanager         | PEMBUATAN APLIKASI TASKMANAGER - 4 files                         |
 | Tasks/ root                        | Migration guides               | Arch Migration, Arch Linux System Fixes, Automated tools         |
 | AGENTS/                            | AI CLI agents                  | AI-CLI-Agents, README, LLM-Setup - 3 files                       |
-| Graphs/                            | Per-topic diagrams             | 00-Graph-Index plus System, Gaming, Security, Dev, Overview - 6 files |
+| Graphs/                            | Per-topic diagrams             | 00-Graph-Index (all colored), orange-nodes visual - 6 files    |
 | macbook-plans/                     | MacBook purchase and mod plans | 00-Plan-Index plus comparison, mod, battery, verdict - 10 files  |
 | Development/Programming-Languages/ | 17 languages plus cheatsheets  | Systems, Managed, Scripting families - 40 files                  |
 | Development/Guides/                | Coding guides, zero links      | Regex, HTTP API, Data Structures, Git, Docker, JQ, Tmux, CSS - 8 files |
@@ -214,10 +215,8 @@ Obsidian Vault/ (275 md files, updated 2026-09-11)
 ├── 07-Incident Response/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                # 3 files: AI-CLI-Agents, README, LLM-Setup
-├── Graphs/                # 7 files: 00-Index + 5 colored diagram pages
-│   ├── attachments/       # orange-nodes visual (PNG + SVG + README)
-│   └── orange-nodes-README.md
-├── attachments/           # root attachments (orange-nodes-overview.png)
+├── Graphs/                # 6 files: 00-Index + 5 colored diagram pages
+├── attachments/           # visual assets, SVG diagrams (orange-nodes-overview.png/svg + subfolders)
 ├── macbook-plans/         # 10 files: 00-Index + comparison to price (Bahasa Indonesia)
 │
 ├── System/                # 90 files

@@ -11,17 +11,12 @@
 | [[Gaming-Diagrams]] | NFS Heat, Sober, GPU decisions |
 | [[Security-IR-Diagrams]] | Kill chain, remediation, toolkit |
 | [[Dev-Tasks-Diagrams]] | Laravel, UI sessions, apps, guides |
-| [[attachments/orange-nodes-README\|Orange Nodes]] | Visual reference for colored nodes (#F2994A) |
-
----
 
 ## Orange Nodes Visual
 
 ![Orange Nodes Overview](../attachments/orange-nodes-overview.png)
 
-All orange (`#F2994A`) nodes across diagrams: tools, hardware, categories, and intermediate states.
-
-> See [[System/WiFi Troubleshooting/00-Overview]] for WiFi investigation notes.
+> See [[System/WiFi Troubleshooting/00-Overview\|WiFi Investigation]] for details on the Intel AX211 fix.
 
 ```mermaid
 %%{init: {'theme': 'default', 'themeVariables': { 'primaryColor': '#2D9CDB', 'lineColor': '#2D9CDB'}}}%%
