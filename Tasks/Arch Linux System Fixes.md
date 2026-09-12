@@ -90,13 +90,13 @@ sudo pacman -Rns $(pacman -Qtdq)
 
 ## Related Notes
 
-- [[WiFi Troubleshooting/00-Overview]] — Full investigation of WiFi fix (2026-09-12)
-- [[WiFi Troubleshooting/01-Device-Inventory]] — Hardware inventory
-- [[WiFi Troubleshooting/02-Diagnosis]] — Diagnostic steps
-- [[WiFi Troubleshooting/03-Root-Cause]] — Why WiFi failed
-- [[WiFi Troubleshooting/04-Fix]] — How it was fixed
-- [[WiFi Troubleshooting/05-Lessons-Learned]] — Takeaways
-- [[WiFi Troubleshooting/06-Quick-Reference]] — Command cheat sheet
+- [[../System/WiFi Troubleshooting/00-Overview\|WiFi Troubleshooting Overview]] — Full investigation of WiFi fix (2026-09-12)
+- [[../System/WiFi Troubleshooting/01-Device-Inventory\|Device Inventory]] — Hardware inventory
+- [[../System/WiFi Troubleshooting/02-Diagnosis\|Diagnostic steps]]
+- [[../System/WiFi Troubleshooting/03-Root-Cause\|Why WiFi failed]]
+- [[../System/WiFi Troubleshooting/04-Fix\|How it was fixed]]
+- [[../System/WiFi Troubleshooting/05-Lessons-Learned\|Takeaways]]
+- [[../System/WiFi Troubleshooting/06-Quick-Reference\|Command cheat sheet]]
 
 ### USB WiFi Adapter Misidentification
 - Some USB devices advertised as "WiFi adapters" are actually wireless HID devices (keyboard/mouse receivers)

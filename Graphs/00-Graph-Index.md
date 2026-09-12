@@ -34,5 +34,13 @@ graph TD
  style DEV fill:#56CCF2,stroke:#56CCF2,color:#fff
 ```
 
+## Graph SVG Assets
+
+| File | Description |
+|------|-------------|
+| [[auto-vault\|Auto Vault]] | Automated vault workflow |
+| [[knowledge-graph\|Knowledge Graph]] | Knowledge graph structure |
+| [[vault-stack\|Vault Stack]] | Vault technology stack |
+
 ## Tags
 #note-graph-index

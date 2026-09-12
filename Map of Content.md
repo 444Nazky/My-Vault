@@ -2,7 +2,7 @@
 
 > **Vault:** Nazky's Knowledge Base
 > **Last Updated:** September 12, 2026
-> **Total Notes:** 283 markdown files
+> **Total Notes:** 301 markdown files
 > **System:** Lenovo 83LY - Arch Linux
 
 ---
@@ -33,8 +33,8 @@
 | Tasks/React-Native-Taskmanager/    | Mobile taskmanager         | PEMBUATAN APLIKASI TASKMANAGER - 4 files                         |
 | Tasks/ root                        | Migration guides               | Arch Migration, Arch Linux System Fixes, Automated tools         |
 | AGENTS/                            | AI CLI agents                  | AI-CLI-Agents, README, LLM-Setup - 3 files                       |
-| Graphs/                            | Per-topic diagrams             | 00-Graph-Index (all colored), orange-nodes visual - 6 files    |
-| macbook-plans/                     | MacBook purchase and mod plans | 00-Plan-Index plus comparison, mod, battery, verdict - 10 files  |
+| Graphs/                            | Per-topic diagrams             | 00-Graph-Index + 5 pages + 3 SVGs + 3 notes - 12 files  |
+| plans/                           | MacBook purchase and mod plans | 00-Plan-Index plus comparison, mod, battery, verdict - 10 files  |
 | Development/Programming-Languages/ | 17 languages plus cheatsheets  | Systems, Managed, Scripting families - 40 files                  |
 | Development/Guides/                | Coding guides, zero links      | Regex, HTTP API, Data Structures, Git, Docker, JQ, Tmux, CSS - 8 files |
 | Personal/Cybersecurity/Guides/     | Security guides, zero links    | Methodology, Privesc, Passwords, Reporting, Enum, Shells, OSINT, AD - 8 files |
@@ -215,9 +215,9 @@ Obsidian Vault/ (275 md files, updated 2026-09-11)
 ├── 07-Incident Response/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                # 3 files: AI-CLI-Agents, README, LLM-Setup
-├── Graphs/                # 6 files: 00-Index + 5 colored diagram pages
-├── attachments/           # visual assets, SVG diagrams (orange-nodes-overview.png/svg + subfolders)
-├── macbook-plans/         # 10 files: 00-Index + comparison to price (Bahasa Indonesia)
+├── Graphs/                # 12 files: 00-Index + 5 diagrams + 3 SVGs + 3 SVG notes
+├── attachments/           # visual assets (orange-nodes PNG/SVG/README, network/docker/git SVGs, subfolders)
+├── plans/             # 10 files: 00-Plan-Index to 09-Price-Breakdown (MacBook, Bahasa)
 │
 ├── System/                # 90 files
 │   ├── Linux/            # Arch-Perf, BlackArch, Hyprland, ZRAM, CLI, Monitoring

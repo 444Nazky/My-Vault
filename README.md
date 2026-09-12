@@ -1,8 +1,8 @@
 # Obsidian Vault Index
 
 **Location:** `~/Documents/Obsidian Vault/`
-**Last Updated:** 2026-09-10
-**Total Notes:** 192 markdown files
+**Last Updated:** 2026-09-12
+**Total Notes:** 301 markdown files
 
 ---
 
@@ -12,28 +12,58 @@
 Obsidian Vault/
 ├── 07-Incident Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
-├── AGENTS/                    # AI CLI agents documentation
+├── AGENTS/                      # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
 │   └── README.md
-├── Development/               # Development projects & guides
-│   ├── Database/              # 2 files: phpMyAdmin guides
-│   ├── Github/                # GitHub connect tutorial
-│   ├── Prompts/               # empty
-│   ├── VSCode/                # empty
-│   └── VSCode Theme Bug/      # 19 files: 00-MOC to 15-Matrix + Bug Report + Tags
-├── Personal/                  # Personal notes & logs
-│   ├── Cybersecurity/         # Blackarch (7), Requierements (6), Tools (9)
-│   ├── Device/                # 00-Overview to 08-Boot Configuration (9 files)
-│   ├── School/                # P3, P3-2, What-to-Create
-│   ├── Session-Logs/          # 2026-08-29-Caelestia-Session (7 files)
-│   └── Spreadsheets-Auth/     # 4 files: Sheets API auth
-├── System/                    # System configurations & fixes
-│   ├── Caelestia/             # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
-│   ├── Caelestia-Investigation/ # 31 files: perf debugging
-│   ├── Display-Server/        # hyprland-trackpad-sensitivity
-│   ├── Fixes/                 # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot, Visuals
-│   ├── Gaming/                # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
-│   ├── Linux/                 # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
+├── attachments/                 # visual assets (orange-nodes, SVGs, subfolders)
+│   ├── cybersecurity/           # SVG diagrams
+│   ├── development/             # SVG diagrams
+│   ├── macbook/                 # SVG diagrams
+│   ├── system/                  # SVG diagrams
+│   ├── orange-nodes-overview.png
+│   ├── orange-nodes-overview.svg
+│   └── orange-nodes-README.md
+├── Development/                 # Development projects & guides
+│   ├── Database/                # 2 files: phpMyAdmin guides
+│   ├── Github/                  # GitHub connect tutorial
+│   ├── Guides/                  # coding guides (zero external links)
+│   ├── Programming-Languages/   # 17 languages + cheatsheets
+│   │   ├── Managed/             # CSharp, Java, Kotlin, Swift, Dart, TypeScript
+│   │   ├── Scripting/           # Python, PHP, Lua, Bash, SQL, Haskell
+│   │   └── Systems/             # C, Cpp, Rust, Zig, Go
+│   ├── Database/                # 2 files
+│   ├── Github/                  # 1 file
+│   ├── VSCode Theme Bug/        # 18 files: 00-MOC to 15-Matrix + Bug Report + Tags
+│   └── Prompts/                 # (removed)
+├── Graphs/                      # 12 files: diagrams + SVGs + notes
+│   ├── 00-Graph-Index.md
+│   ├── Vault-Overview.md
+│   ├── System-Diagrams.md
+│   ├── Gaming-Diagrams.md
+│   ├── Security-IR-Diagrams.md
+│   ├── Dev-Tasks-Diagrams.md
+│   ├── auto-vault.md / .svg
+│   ├── knowledge-graph.md / .svg
+│   └── vault-stack.md / .svg
+├── Orphans/                     # unattached notes
+├── Personal/                    # Personal notes & logs
+│   ├── Cybersecurity/           # Blackarch (7), Tools (9), Requierements (6), Guides (8)
+│   ├── Device/                  # 00-Overview to 08-Boot (9 files)
+│   ├── School/                  # P3, P3-2, What-to-Create
+│   ├── Session-Logs/            # 2026-08-29-Caelestia-Session (7 files)
+│   └── Spreadsheets-Auth/       # 4 files
+├── plans/                       # 10 files: 00-Plan-Index to 09-Price-Breakdown (MacBook, Bahasa)
+├── Stuffs-coded/                # misc coded projects
+│   └── g1/                      # data.json, index.js, package.json, README
+├── System/                      # System configurations & fixes
+│   ├── Caelestia/               # 7 files: Overview, Arch, Keybinds, Lock, Mod-Guide, Config-Ref
+│   ├── Caelestia-Investigation/ # 31 files: perf debugging, WiFi managers
+│   ├── Display-Server/          # hyprland-trackpad-sensitivity
+│   ├── Fixes/                   # 11 files: NVIDIA, GRUB, HDMI, Secure-Boot
+│   ├── Gaming/                  # 7 files: NFS Heat, Sober, GPU decisions
+│   ├── Linux/                   # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
+│   ├── Ricing/                  # 6 files + code configs
+│   ├── WiFi Troubleshooting/    # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
@@ -43,18 +73,28 @@ Obsidian Vault/
 │   ├── hakuspace-niri-setup-2026-09-07.md
 │   ├── terminal-config-backup-2026-09-09.md
 │   └── roblox-sober-install.md  # NEW 2026-09-09: Sober Flatpak 1.7.1
-├── Tasks/                     # Project tasks
+├── Tasks/                       # Project tasks
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
-│   ├── E-Commerce PBO/        # 10 files: 00-Index to 09-Verification
-│   ├── Laravel-CRUD/          # 10 files: Model to Debugging Guide
-│   ├── Nazkypedia-UI-Improvements/ # 10 files: Sessions 1-3 + specs
-│   └── React-Native-Taskmanager/ # 4 files: Taskmanager app
+│   ├── E-Commerce PBO/          # 10 files: 00-Index to 09-Verification
+│   ├── Laravel-CRUD/            # 10 files: Model to Debugging Guide
+│   ├── Nazkypedia-UI-Improvements/ # 10 files
+│   └── React-Native-Taskmanager/  # 4 files
+├── Graphs/                      # per-topic diagrams
+│   ├── 00-Graph-Index.md
+│   ├── Vault-Overview.md
+│   ├── System-Diagrams.md
+│   ├── Gaming-Diagrams.md
+│   ├── Security-IR-Diagrams.md
+│   └── Dev-Tasks-Diagrams.md
 ├── PROMPTS.md
-├── README.md                  # YOU ARE HERE
-├── Map of Content.md
-└── Path.md
+│   Path.md
+├── Map of Content.md            # MASTER INDEX
+├── README.md                    # YOU ARE HERE
+├── Tags-Index.md
+├── GitHub-Cheatsheet.md
+└── Web-Links-Hub.md
 ```
 
 ---
@@ -63,34 +103,48 @@ Obsidian Vault/
 
 | Category | Path |
 |----------|------|
-| AI Agents | AGENTS/AI-CLI-Agents |
+| WiFi Troubleshooting | System/WiFi Troubleshooting/00-Overview |
+| Orange Nodes Visual | attachments/orange-nodes-overview.png |
+| Graphs Index | Graphs/00-Graph-Index |
 | System Fixes Index | System/Fixes/README |
 | NVIDIA Fix | System/Fixes/NVIDIA-RTX-5050-Investigation |
-| NVIDIA Commands | System/Fixes/NVIDIA-RTX-5050-Fix-Commands |
 | GRUB Fix | System/Fixes/GRUB-Configuration |
-| GRUB Commands | System/Fixes/GRUB-Duplicate-Entries-Fix-Commands |
 | HDMI Monitor Fix | System/Fixes/HDMI-Monitor-Fix-NVIDIA-Wayland |
 | Caelestia Shell Issue | System/Fixes/caelestia-shell-Removal-Issues |
-| Caelestia Config | System/Caelestia/00-Overview |
-| System Architecture | System/System-Architecture |
-| Terminal Setup | System/terminal-config-backup-2026-09-09 |
-| Niri Setup | System/hakuspace-niri-setup-2026-09-07 |
-| Roblox Sober | System/roblox-sober-install |
-| Trackpad | System/Display-Server/hyprland-trackpad-sensitivity |
-| Gaming NFS Heat | System/Gaming/README |
-| Visual Guides | System/Fixes/Visual-Guides |
-| Quick Reference | System/Fixes/Quick-Reference |
-| Graphs Index | Graphs/00-Graph-Index - per-topic diagrams |
-| Web Links Hub | Web-Links-Hub - pointer page |
+| MacBook Plans | plans/00-Plan-Index |
+| Graph SVGs | Graphs/auto-vault, knowledge-graph, vault-stack |
+| Graph Index | Graphs/00-Graph-Index |
+| Web Links Hub | Web-Links-Hub |
 | SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
 | VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
 | Device Overview | Personal/Device/00 - Device Overview |
 | E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
+| WiFi Troubleshooting | System/WiFi Troubleshooting/00-Overview |
 
 ---
 
-## Status: All Fixes Complete (Updated 2026-09-10)
+## Recent Additions (2026-09-12)
+
+### WiFi Fix - COMPLETE
+- Intel AX211 WiFi card was in D4 power state (PCI disabled, ACPI S4)
+- Driver probe timed out (`error -110`)
+- Fixed via system reboot - proper PCI reinitialization
+- Now connected to Gladi_ASTS6 (5GHz, 22 dBm)
+
+### Graph Coloring - COMPLETE
+- All 6 diagram files in Graphs/ now have Mermaid color theming
+- 8-color palette: Blue (processes), Green (fixed), Red (problems), Yellow (decisions), Purple (data), Orange (tools), Cyan (network), Pink (UI)
+- Orange nodes visual attachment created
+
+---
+
+## Status: All Fixes Complete (Updated 2026-09-12)
+
+### WiFi Intel AX211 - FIXED
+- PCI device enabled, driver loaded, probe successful
+- Connected to Gladi_ASTS6 (5GHz)
+- See System/WiFi Troubleshooting/ for full investigation
 
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
@@ -113,7 +167,7 @@ Obsidian Vault/
 - UKI cmdline fixed: `nvidia-drm.modeset=1` added to `/etc/kernel/cmdline`
 - Bumblebee blacklist disabled
 - `options nvidia-drm modeset=1` in `/etc/modprobe.d/nvidia.conf`
-<!-- Last updated: 2026-09-11T09:30:14+07:00 -->
+<!-- Last updated: 2026-09-12T01:00:00+07:00 -->
 - Verified with `modprobe nvidia-drm`
 
 ### Gaming NFS Heat - FIXED
@@ -134,8 +188,13 @@ Obsidian Vault/
 - See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
 ### VSCode Theme Bug - DOCUMENTED
-- 19 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
+- 18 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
 - See Development/VSCode Theme Bug/00 - Map of Content for the full series
+
+### WiFi Troubleshooting - DOCUMENTED 2026-09-12
+- Intel AX211 D4 power state issue diagnosed and fixed
+- Orange nodes visual reference created
+- Full investigation in System/WiFi Troubleshooting/
 
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
@@ -146,6 +205,7 @@ Obsidian Vault/
 
 | Issue | Status | Document |
 |-------|--------|----------|
+| WiFi Intel AX211 | FIXED 2026-09-12 | System/WiFi Troubleshooting/00-Overview |
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
@@ -155,7 +215,8 @@ Obsidian Vault/
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
 | Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
 | SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
-| VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report - VSCode Theme Rendering Issue |
+| VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report |
+| WiFi Troubleshooting | DOCUMENTED 2026-09-12 | System/WiFi Troubleshooting/00-Overview |
 
 ---
 
@@ -166,6 +227,8 @@ Obsidian Vault/
 | System/Fixes/Visual-Guides | Mermaid flowcharts, before/after diagrams |
 | System/System-Architecture | System diagrams, boot process, NVIDIA pipeline |
 | System/Fixes/Quick-Reference | ASCII diagrams, one-liner commands |
+| Graphs/ | 6 diagram pages, all colored (Graphs/00-Graph-Index) |
+| attachments/orange-nodes-overview.png | Orange node visual across all diagrams |
 
 ---
 
