@@ -33,13 +33,13 @@
 | Tasks/React-Native-Taskmanager/    | Mobile taskmanager         | PEMBUATAN APLIKASI TASKMANAGER - 4 files                         |
 | Tasks/ root                        | Migration guides               | Arch Migration, Arch Linux System Fixes, Automated tools         |
 | AGENTS/                            | AI CLI agents                  | AI-CLI-Agents, README, LLM-Setup - 3 files                       |
-| Graphs/                            | Per-topic diagrams             | 00-Graph-Index + 5 pages + 3 SVGs + 3 notes - 12 files  |
+| Graphs/                            | Per-topic diagrams             | 00-Graph-Index + 5 pages + 3 SVG notes (all colored)  |
 | plans/                           | MacBook purchase and mod plans | 00-Plan-Index plus comparison, mod, battery, verdict - 10 files  |
 | Development/Programming-Languages/ | 17 languages plus cheatsheets  | Systems, Managed, Scripting families - 40 files                  |
 | Development/Guides/                | Coding guides, zero links      | Regex, HTTP API, Data Structures, Git, Docker, JQ, Tmux, CSS - 8 files |
 | Personal/Cybersecurity/Guides/     | Security guides, zero links    | Methodology, Privesc, Passwords, Reporting, Enum, Shells, OSINT, AD - 8 files |
 | System/Ricing/                     | Desktop ricing guides          | 00-Index plus Base, Caelestia, Hyprland, Terminal, Restore - 6 files |
-| Root files                         | Vault indexes and cheatsheets  | GitHub-Cheatsheet, Tags-Index, Web-Links-Hub stub                |
+| Root files                         | Vault indexes and cheatsheets  | GitHub-Cheatsheet, Tags-Index, Web-Links-Hub, Orange Nodes      |
 
 ---
 
@@ -133,8 +133,7 @@ gantt
     section Sep 11
     Language families       :done, 2026-09-11, 2h
     MacBook plans           :done, 2026-09-11, 1h
-    LLM setup note          :done, 2026-09-11, 30m
-    Orphan guides           :done, 2026-09-11, 1h
+LLM setup note          :done, 2026-09-11, 30m
     
     section This Week
     Arch Migration      :done, 2026-08-25, 2d
@@ -207,7 +206,7 @@ Diagrams now live per topic in Graphs/00-Graph-Index, not merged here.
 ## Folder Structure
 
 ```
-Obsidian Vault/ (275 md files, updated 2026-09-11)
+Obsidian Vault/ (301 md files, updated 2026-09-12)
 ├── Map of Content.md     <-- YOU ARE HERE
 ├── README.md / Path.md / PROMPTS.md
 ├── GitHub-Cheatsheet.md / Tags-Index.md / Web-Links-Hub.md (stub)
@@ -215,8 +214,8 @@ Obsidian Vault/ (275 md files, updated 2026-09-11)
 ├── 07-Incident Response/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                # 3 files: AI-CLI-Agents, README, LLM-Setup
-├── Graphs/                # 12 files: 00-Index + 5 diagrams + 3 SVGs + 3 SVG notes
-├── attachments/           # visual assets (orange-nodes PNG/SVG/README, network/docker/git SVGs, subfolders)
+├── Graphs/                # 9 .md files: 00-Index + 5 diagrams + 3 SVG notes
+├── attachments/           # visual assets (orange-nodes, SVGs, subfolders)
 ├── plans/             # 10 files: 00-Plan-Index to 09-Price-Breakdown (MacBook, Bahasa)
 │
 ├── System/                # 90 files
@@ -252,8 +251,6 @@ Obsidian Vault/ (275 md files, updated 2026-09-11)
 ├── Development/           # 69 files
 │   ├── Database/         # 2 files
 │   ├── Github/           # 1 file
-│   ├── Prompts/          # empty
-│   ├── VSCode/           # empty
 │   ├── VSCode Theme Bug/ # 18 files
 │   ├── Guides/           # 8 files: zero-link orphans
 │   └── Programming-Languages/  # 40 files
