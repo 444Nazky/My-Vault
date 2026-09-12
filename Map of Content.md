@@ -30,6 +30,7 @@
 | Tasks/E-Commerce PBO/              | Laravel E-Commerce errors      | 00 - Index to 09 - Verification - 10 files                       |
 | Tasks/Laravel-CRUD/                | Laravel CRUD guide             | Laravel CRUD, E-Commerce PBO - Debugging Guide - 10 files        |
 | Tasks/Nazkypedia-UI-Improvements/  | Wiki UI overhaul          | README, Session-1-UI-Overhaul to Session-3 - 10 files            |
+| Tasks/Portfolio-3rddummy/          | Portfolio site rebuild    | README, Session-1-Build - 2 files (Next.js 16 + Tailwind v4)     |
 | Tasks/React-Native-Taskmanager/    | Mobile taskmanager         | PEMBUATAN APLIKASI TASKMANAGER - 4 files                         |
 | Tasks/ root                        | Migration guides               | Arch Migration, Arch Linux System Fixes, Automated tools         |
 | AGENTS/                            | AI CLI agents                  | AI-CLI-Agents, README, LLM-Setup - 3 files                       |
@@ -260,11 +261,12 @@ Obsidian Vault/ (301 md files, updated 2026-09-12)
 │       ├── Programming-Languages-Cobweb.md (slim top index)
 │       ├── Comparisons.md / Toolchain-Interop.md
 │
-└── Tasks/                 # 37 files
+└── Tasks/                 # 39 files
     ├── Arch Migration.md / Arch Linux System Fixes.md / Automated tools.md
     ├── E-Commerce PBO/   # 10 files
     ├── Laravel-CRUD/     # 10 files
     ├── Nazkypedia-UI-Improvements/  # 10 files
+    ├── Portfolio-3rddummy/   # 2 files
     └── React-Native-Taskmanager/    # 4 files
 ```
 

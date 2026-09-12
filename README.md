@@ -80,6 +80,7 @@ Obsidian Vault/
 │   ├── E-Commerce PBO/          # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/            # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files
+│   ├── Portfolio-3rddummy/         # 2 files: README, Session-1-Build
 │   └── React-Native-Taskmanager/  # 4 files
 ├── Graphs/                      # per-topic diagrams
 │   ├── 00-Graph-Index.md
@@ -125,6 +126,11 @@ Obsidian Vault/
 ---
 
 ## Recent Additions (2026-09-12)
+
+### Portfolio 3rddummy - BUILT
+- New developer portfolio in `~/RPL/Dummies/3rddummy/` (Next.js 16 + Tailwind v4)
+- Ultra-dark cyber theme, all 8 sections, production build + lint + typecheck pass
+- See Tasks/Portfolio-3rddummy/ for the full session breakdown
 
 ### WiFi Fix - COMPLETE
 - Intel AX211 WiFi card was in D4 power state (PCI disabled, ACPI S4)
