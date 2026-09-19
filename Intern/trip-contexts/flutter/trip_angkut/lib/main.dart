@@ -20,10 +20,14 @@ import 'features/auth/auth_provider.dart';
 import 'features/trip/trip_provider.dart';
 
 // Screens
+import 'features/splash_screen.dart';
 import 'features/auth/login_screen.dart';
 import 'features/trip/home_screen.dart';
 import 'features/trip/create_trip_screen.dart';
+import 'features/trip/trip_history_screen.dart';
+import 'features/trip/trip_detail_screen.dart';
 import 'features/vehicle/input_vehicle_screen.dart';
+import 'features/vehicle/trip_summary_screen.dart';
 
 // Widgets
 import 'widgets/loading_indicator.dart';
@@ -132,12 +136,17 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        home: const AuthWrapper(),
+        initialRoute: '/',
+        home: const SplashScreen(),
         routes: {
+          '/': (context) => const AuthWrapper(),
           '/login': (context) => const LoginScreen(),
           '/home': (context) => const HomeScreen(),
           '/create-trip': (context) => const CreateTripScreen(),
           '/input-vehicle': (context) => const InputVehicleScreen(),
+          '/trip-history': (context) => const TripHistoryScreen(),
+          '/trip-detail': (context) => const TripDetailScreen(),
+          '/trip-summary': (context) => const TripSummaryScreen(),
         },
       ),
     );
