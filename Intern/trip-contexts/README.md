@@ -1,116 +1,91 @@
-# Trip Angkutan - Complete Documentation Index
+# Trip Angkutan Plantation - Documentation Index
 
-## Overview
+## Core Documents
 
-Sistem Informasi Angkutan Plantation adalah aplikasi untuk mendigitalisasi pencatatan Angkutan di kawasan perkebunan.
+| File | Description |
+|------|-------------|
+| [01-penjelasan.md](01-penjelasan.md) | Penjelasan lengkap untuk mentor |
+| [02-konsep.md](02-konsep.md) | Konsep dan arsitektur sistem |
 
-## Document Structure
+## Architecture
 
-```
-trip-contexts/
-|
-|-- 00-project-overview.md          # Ringkasan proyek lengkap
-|-- trip-angkut-app.md              # Dokumentasi original
-|
-|-- database/                       # Schema database
-|   |-- 00-overview.md             # ERD dan hubungan
-|   |-- users.md                   # Tabel users
-|   |-- regions.md                 # Tabel regions
-|   |-- tariffs.md                 # Tabel tariffs
-|   |-- trips.md                   # Tabel trips
-|   |-- trip_kendaraan.md          # Tabel trip_kendaraan
-|
-|-- flutter/                        # Implementasi Flutter
-|   |-- 00-overview.md             # Struktur proyek
-|   |-- services.md                # LocationService, CameraService, dll
-|   |-- models.md                 # Data models
-|   |-- providers.md               # State management
-|   |-- screens.md                 # Screen implementations
-|   |-- offline-sync.md            # Strategi offline-first
-|
-|-- api/                            # Dokumentasi API
-|   |-- 00-overview.md            # Base URL, format response
-|   |-- auth.md                    # Authentication endpoints
-|   |-- trips.md                   # Trip CRUD endpoints
-|   |-- vehicles.md                # Vehicle CRUD endpoints
-|   |-- reports.md                 # Report endpoints
-|   |-- admin.md                   # Admin endpoints
-|
-|-- web-dashboard/                  # Dokumentasi Web
-|   |-- screens.md                 # Screen specifications & code
-|
-|-- mockups/                       # Wireframes
-|   |-- mobile-mockups.md         # Mobile UI mockups
-|
-|-- architecture/                    # Arsitektur sistem
-|   |-- 00-overview.md            # High-level architecture
-|   |-- dfd.md                    # Data Flow Diagram
-|   |-- use-case.md               # Use Case Diagram
-|
-|-- firebase/                       # Firebase integration
-|   |-- firebase-auth.md          # Firebase Auth
-|   |-- maps-integration.md      # Google Maps API
-|
-|-- requirements/                  # Kebutuhan sistem
-|   |-- functional.md             # Functional requirements
-|   |-- non-functional.md        # Non-functional requirements
-|
-|-- edge-cases/                    # Edge cases & error handling
-|   |-- error-handling.md         # Error handling patterns
-|   |-- scenarios.md             # Special scenarios
-|
-|-- methodology/                   # Development methodology
-|   |-- development.md           # Waterfall process
-|
-|-- testing.md                     # Testing checklist
-```
+| File | Description |
+|------|-------------|
+| [architecture/use-case.md](architecture/use-case.md) | Use Case Diagram |
+| [architecture/dfd.md](architecture/dfd.md) | Data Flow Diagram |
 
-## Key Features from PDF
+## Database
 
-### Mobile App (Flutter/Android)
-1. Login dengan PIN 6 digit (Firebase Auth)
-2. Input data Angkutan dengan:
-   - Status muatan (Ada Muatan / Kosong)
-   - Foto selfie kendaraan (wajib)
-   - Koordinat GPS (wajib)
-   - Keterangan + foto kondisi jika Kosong
-   - Golongan, Jenis kendaraan, Plat nomor
-3. Sistem Trip:
-   - Generate nomor trip otomatis
-   - Multiple kendaraan per trip
-   - Konfirmasi sebelum selesai
-   - GPS endpoint coordinates
-4. Offline-first dengan background sync
+| File | Description |
+|------|-------------|
+| [database/00-overview.md](database/00-overview.md) | ERD dan schema |
 
-### Web Dashboard
-1. Dashboard monitoring real-time
-2. Laporan harian/mingguan/bulanan/custom
-3. Export PDF/Excel/CSV
-4. Manajemen user
-5. Manajemen region
-6. Manajemen tarif
+## Flutter Mobile
 
-### Teknologi
-| Komponen | Teknologi |
-|----------|----------|
-| Mobile App | Flutter (Android only) |
-| Backend API | Laravel / Node.js |
-| Database | PostgreSQL |
-| Authentication | Firebase Auth |
-| Maps | Google Maps API |
-| File Storage | Firebase Storage |
-| Web Dashboard | Vue.js / React |
+| File | Description |
+|------|-------------|
+| [flutter/00-overview.md](flutter/00-overview.md) | Struktur proyek dan implementasi |
+| [flutter/offline-sync.md](flutter/offline-sync.md) | Strategi offline-first |
 
-## Status Dokumen
+## API
 
-- [x] Database Schema
-- [x] Flutter Implementation
-- [x] API Documentation
-- [x] Web Dashboard
-- [x] Mobile Mockups
-- [x] Architecture Diagrams
-- [x] Firebase Integration
-- [x] Requirements
-- [x] Edge Cases
-- [x] Testing Checklist
-- [x] Development Methodology
+| File | Description |
+|------|-------------|
+| [api/00-overview.md](api/00-overview.md) | Endpoint API documentation |
+
+## Firebase
+
+| File | Description |
+|------|-------------|
+| [firebase/auth.md](firebase/auth.md) | Firebase Authentication |
+
+## UI/UX
+
+| File | Description |
+|------|-------------|
+| [mockups/screens.md](mockups/screens.md) | Screen specifications |
+
+## Requirements
+
+| File | Description |
+|------|-------------|
+| [requirements/functional.md](requirements/functional.md) | Functional requirements |
+
+## Methodology
+
+| File | Description |
+|------|-------------|
+| [methodology/waterfall.md](methodology/waterfall.md) | Development process |
+
+## Edge Cases
+
+| File | Description |
+|------|-------------|
+| [edge-cases/handling.md](edge-cases/handling.md) | Error handling |
+
+---
+
+## Quick Summary
+
+**Project:** Sistem Informasi Angkutan Plantation
+
+**Tujuan:** Digitalisasi pencatatan Angkutan di perkebunan
+
+**Komponen:**
+1. Mobile App (Flutter) - Input data di lapangan
+2. REST API (Laravel/Node.js) - Backend service
+3. Web Dashboard (Vue.js) - Monitoring & laporan
+
+**Fitur Utama:**
+- Login dengan PIN 6 digit
+- Input kendaraan dengan foto & GPS
+- Offline-first dengan background sync
+- Dashboard real-time
+- Export laporan
+
+**Teknologi:**
+- Flutter, Laravel, Vue.js
+- PostgreSQL, Firebase Auth
+- Hive, Workmanager
+
+**Durasi:** 14 minggu (Waterfall)
