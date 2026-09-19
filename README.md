@@ -10,7 +10,7 @@
 
 ```
 Obsidian Vault/
-├── 07-Incident Response/        # IR cases
+├── 07-Incident-Response/        # IR cases
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                      # AI CLI agents documentation
 │   ├── AI-CLI-Agents.md
@@ -33,7 +33,7 @@ Obsidian Vault/
 │   │   └── Systems/             # C, Cpp, Rust, Zig, Go
 │   ├── Database/                # 2 files
 │   ├── Github/                  # 1 file
-│   ├── VSCode Theme Bug/        # 18 files: 00-MOC to 15-Matrix + Bug Report + Tags
+│   ├── VSCode-Theme-Bug/        # 18 files: 00-MOC to 15-Matrix + Bug Report + Tags
 │   └── Prompts/                 # (removed)
 ├── Graphs/                      # 12 files: diagrams + SVGs + notes
 │   ├── 00-Graph-Index.md
@@ -47,7 +47,7 @@ Obsidian Vault/
 │   └── vault-stack.md / .svg
 ├── Orphans/                     # unattached notes
 ├── Personal/                    # Personal notes & logs
-│   ├── Cybersecurity/           # Blackarch (7), Tools (9), Requierements (6), Guides (8)
+│   ├── Cybersecurity/           # Blackarch (7), Tools (9), Requirements (6), Guides (8)
 │   ├── Device/                  # 00-Overview to 08-Boot (9 files)
 │   ├── School/                  # P3, P3-2, What-to-Create
 │   ├── Session-Logs/            # 2026-08-29-Caelestia-Session (7 files)
@@ -63,7 +63,7 @@ Obsidian Vault/
 │   ├── Gaming/                  # 7 files: NFS Heat, Sober, GPU decisions
 │   ├── Linux/                   # 12 files: Arch perf, BlackArch, Hyprland, ZRAM, CLI
 │   ├── Ricing/                  # 6 files + code configs
-│   ├── WiFi Troubleshooting/    # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
+│   ├── WiFi-Troubleshooting/    # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
 │   ├── Starship Installation.md
 │   ├── Shell Startup Order.md
 │   ├── System-Architecture.md
@@ -77,7 +77,7 @@ Obsidian Vault/
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
-│   ├── E-Commerce PBO/          # 10 files: 00-Index to 09-Verification
+│   ├── E-Commerce-PBO/          # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/            # 10 files: Model to Debugging Guide
 │   ├── Nazkypedia-UI-Improvements/ # 10 files
 │   ├── Portfolio-3rddummy/         # 2 files: README, Session-1-Build
@@ -104,7 +104,7 @@ Obsidian Vault/
 
 | Category | Path |
 |----------|------|
-| WiFi Troubleshooting | System/WiFi Troubleshooting/00-Overview |
+| WiFi Troubleshooting | System/WiFi-Troubleshooting/00-Overview |
 | Orange Nodes Visual | attachments/orange-nodes-overview.png |
 | Graphs Index | Graphs/00-Graph-Index |
 | System Fixes Index | System/Fixes/README |
@@ -116,12 +116,12 @@ Obsidian Vault/
 | Graph SVGs | Graphs/auto-vault, knowledge-graph, vault-stack |
 | Graph Index | Graphs/00-Graph-Index |
 | Web Links Hub | Web-Links-Hub |
-| SEO Poisoning IR | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
-| VSCode Theme Bug MOC | Development/VSCode Theme Bug/00 - Map of Content |
+| SEO Poisoning IR | 07-Incident-Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
+| VSCode Theme Bug MOC | Development/VSCode-Theme-Bug/00 - Map of Content |
 | Device Overview | Personal/Device/00 - Device Overview |
-| E-Commerce PBO | Tasks/E-Commerce PBO/00 - Index |
+| E-Commerce PBO | Tasks/E-Commerce-PBO/00 - Index |
 | Laravel CRUD | Tasks/Laravel-CRUD/Laravel CRUD |
-| WiFi Troubleshooting | System/WiFi Troubleshooting/00-Overview |
+| WiFi Troubleshooting | System/WiFi-Troubleshooting/00-Overview |
 
 ---
 
@@ -150,7 +150,7 @@ Obsidian Vault/
 ### WiFi Intel AX211 - FIXED
 - PCI device enabled, driver loaded, probe successful
 - Connected to Gladi_ASTS6 (5GHz)
-- See System/WiFi Troubleshooting/ for full investigation
+- See System/WiFi-Troubleshooting/ for full investigation
 
 ### NVIDIA RTX 5050 - FIXED
 - DKMS rebuilt
@@ -191,16 +191,16 @@ Obsidian Vault/
 - Target `kurmamedia.com` (72.61.209.233, Hostinger ID)
 - HTTP down, DNS active - likely suspended/taken down
 - Full framework: Modus/IoC, Commands, Remediation, Checklist, Case Study
-- See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
+- See 07-Incident-Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the framework
 
 ### VSCode Theme Bug - DOCUMENTED
 - 18 files: root cause (APC Customize UI++ alpha), fix guide, prevention, matrix
-- See Development/VSCode Theme Bug/00 - Map of Content for the full series
+- See Development/VSCode-Theme-Bug/00 - Map of Content for the full series
 
 ### WiFi Troubleshooting - DOCUMENTED 2026-09-12
 - Intel AX211 D4 power state issue diagnosed and fixed
 - Orange nodes visual reference created
-- Full investigation in System/WiFi Troubleshooting/
+- Full investigation in System/WiFi-Troubleshooting/
 
 ### Secure Boot - INFO
 - Keep disabled for gaming compatibility
@@ -211,7 +211,7 @@ Obsidian Vault/
 
 | Issue | Status | Document |
 |-------|--------|----------|
-| WiFi Intel AX211 | FIXED 2026-09-12 | System/WiFi Troubleshooting/00-Overview |
+| WiFi Intel AX211 | FIXED 2026-09-12 | System/WiFi-Troubleshooting/00-Overview |
 | NVIDIA RTX 5050 Driver | FIXED | System/Fixes/NVIDIA-RTX-5050-Investigation |
 | GRUB Duplicate Entries | FIXED | System/Fixes/GRUB-Configuration |
 | GRUB Menu Order | FIXED | System/Fixes/GRUB-Duplicate-Entries |
@@ -220,9 +220,9 @@ Obsidian Vault/
 | Caelestia Shell Removal | FIXED | System/Fixes/caelestia-shell-Removal-Issues |
 | NFS Heat Intel vs NVIDIA | FIXED | System/Gaming/README |
 | Roblox Sober Install | INSTALLED 2026-09-09 | System/roblox-sober-install |
-| SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
-| VSCode Theme Rendering | DOCUMENTED | Development/VSCode Theme Bug/Bug Report |
-| WiFi Troubleshooting | DOCUMENTED 2026-09-12 | System/WiFi Troubleshooting/00-Overview |
+| SEO Poisoning kurmamedia | INVESTIGATED 2026-09-07 | 07-Incident-Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis |
+| VSCode Theme Rendering | DOCUMENTED | Development/VSCode-Theme-Bug/Bug Report |
+| WiFi Troubleshooting | DOCUMENTED 2026-09-12 | System/WiFi-Troubleshooting/00-Overview |
 
 ---
 

@@ -2,7 +2,7 @@
 # Last Updated: 2026-09-10 - 192 markdown files
 
 Obsidian Vault/
-├── 07-Incident Response/
+├── 07-Incident-Response/
 │   └── SEO-Poisoning-Analysis/          # 6 files - COMPLETE 2026-09-07
 │       ├── 00-SEO-Poisoning-Analysis.md
 │       ├── 01-Mod-Operandus-IoC.md
@@ -21,7 +21,7 @@ Obsidian Vault/
 │   │   └── GitHub - Connect Repository Tutorial.md
 │   ├── Prompts/                         # empty
 │   ├── VSCode/                          # empty
-│   └── VSCode Theme Bug/                # 19 files - DOCUMENTED
+│   └── VSCode-Theme-Bug/                # 19 files - DOCUMENTED
 │       ├── 00 - Map of Content.md
 │       ├── 01 to 15 - guides, cheatsheets, matrix
 │       ├── Bug Report - VSCode Theme Rendering Issue.md
@@ -30,7 +30,7 @@ Obsidian Vault/
 │   ├── Cybersecurity/
 │   │   ├── Blackarch/                   # 7 files
 │   │   ├── Tools/                       # 9 files: Burpsuite, Dirsearch x2, Fuzzing, Nmap, Nuclei, SQLi, Sqlmap, cheatsheet
-│   │   └── Requierements/               # 6 files: Bootcamp, Database, Login Auth, Owasp, Pentest, SysReq
+│   │   └── Requirements/               # 6 files: Bootcamp, Database, Login Auth, Owasp, Pentest, SysReq
 │   ├── Device/                          # 9 files
 │   │   ├── 00 - Device Overview.md
 │   │   └── 01 to 08 - Hardware to Boot Configuration
@@ -80,7 +80,7 @@ Obsidian Vault/
 │   ├── Arch Migration.md
 │   ├── Arch Linux System Fixes.md
 │   ├── Automated tools.md
-│   ├── E-Commerce PBO/                  # 10 files: 00-Index to 09-Verification
+│   ├── E-Commerce-PBO/                  # 10 files: 00-Index to 09-Verification
 │   ├── Laravel-CRUD/                    # 10 files
 │   ├── Nazkypedia-UI-Improvements/      # 10 files: Sessions 1-3
 │   └── React-Native-Taskmanager/        # 4 files

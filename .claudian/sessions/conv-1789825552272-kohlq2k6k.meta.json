@@ -1,0 +1,22 @@
+{
+  "id": "conv-1789825552272-kohlq2k6k",
+  "providerId": "claude",
+  "title": "Tidy Obsidian folders, skip trip-contexts",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789825552275,
+  "lastActivityAt": 1789825880198,
+  "sessionId": "32d206ba-86d5-426c-bdcc-7ce3f7cd4760",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "32d206ba-86d5-426c-bdcc-7ce3f7cd4760"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 265,
+    "cacheReadInputTokens": 42751,
+    "contextWindow": 1000000,
+    "contextTokens": 43016,
+    "percentage": 4
+  }
+}

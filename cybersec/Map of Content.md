@@ -16,18 +16,18 @@
 | System/Caelestia-Investigation/    | Performance debugging          | 00 - Investigation Overview, Root Cause - Swappiness 100 - 31 files |
 | System/Fixes/                      | System fixes and guides        | NVIDIA-RTX-5050-Investigation, GRUB-Configuration, HDMI-Monitor-Fix-NVIDIA-Wayland - 11 files |
 | System/Gaming/                     | NFS Heat Proton GE + PRIME     | System-Info, The-Problem, README - 7 files                       |
-| System/WiFi Troubleshooting/       | WiFi investigation notes       | 00-Overview to 06-Quick-Reference - 7 files                     |
+| System/WiFi-Troubleshooting/       | WiFi investigation notes       | 00-Overview to 06-Quick-Reference - 7 files                     |
 | System/Display-Server/             | Wayland/Hyprland input         | hyprland-trackpad-sensitivity                                    |
-| 07-Incident Response/SEO-Poisoning-Analysis/ | SEO Judi Slot IR   | 00-SEO-Poisoning-Analysis, 05-Case-Study-kurmamedia - 6 files, complete 2026-09-07 |
-| Personal/Cybersecurity/            | Pentesting tools and methodology | Blackarch 7, Tools 9, Requierements 6, Guides 8 - 30 files       |
+| 07-Incident-Response/SEO-Poisoning-Analysis/ | SEO Judi Slot IR   | 00-SEO-Poisoning-Analysis, 05-Case-Study-kurmamedia - 6 files, complete 2026-09-07 |
+| Personal/Cybersecurity/            | Pentesting tools and methodology | Blackarch 7, Tools 9, Requirements 6, Guides 8 - 30 files       |
 | Personal/Device/                   | Device-specific notes          | 00 - Device Overview to 08 - Boot Configuration - 9 files        |
 | Personal/School/                   | School project docs            | P3, What-to-Create                                               |
 | Personal/Session-Logs/             | Troubleshooting sessions       | 2026-08-29-Caelestia-Session - 7 files                           |
 | Personal/Spreadsheets-Auth/        | Google Sheets API auth         | Spreadsheets Auth, Google Sheets Login API Setup - 4 files       |
 | Development/Database/              | Laravel database management    | Database Management and phpMyAdmin Guide - 2 files               |
 | Development/Github/                | Git tutorials                  | GitHub - Connect Repository Tutorial                             |
-| Development/VSCode Theme Bug/      | VSCode theme debugging         | Bug Report, 00 - Map of Content - 18 files                       |
-| Tasks/E-Commerce PBO/              | Laravel E-Commerce errors      | 00 - Index to 09 - Verification - 10 files                       |
+| Development/VSCode-Theme-Bug/      | VSCode theme debugging         | Bug Report, 00 - Map of Content - 18 files                       |
+| Tasks/E-Commerce-PBO/              | Laravel E-Commerce errors      | 00 - Index to 09 - Verification - 10 files                       |
 | Tasks/Laravel-CRUD/                | Laravel CRUD guide             | Laravel CRUD, E-Commerce PBO - Debugging Guide - 10 files        |
 | Tasks/Nazkypedia-UI-Improvements/  | Wiki UI overhaul          | README, Session-1-UI-Overhaul to Session-3 - 10 files            |
 | Tasks/Portfolio-3rddummy/          | Portfolio site rebuild    | README, Session-1-Build - 2 files (Next.js 16 + Tailwind v4)     |
@@ -212,7 +212,7 @@ Obsidian Vault/ (301 md files, updated 2026-09-12)
 ├── README.md / Path.md / PROMPTS.md
 ├── GitHub-Cheatsheet.md / Tags-Index.md / Web-Links-Hub.md (stub)
 │
-├── 07-Incident Response/
+├── 07-Incident-Response/
 │   └── SEO-Poisoning-Analysis/  # 6 files: 00-Overview to 05-Case-Study
 ├── AGENTS/                # 3 files: AI-CLI-Agents, README, LLM-Setup
 ├── Graphs/                # 9 .md files: 00-Index + 5 diagrams + 3 SVG notes
@@ -225,7 +225,7 @@ Obsidian Vault/ (301 md files, updated 2026-09-12)
 │   ├── Caelestia-Investigation/  # 31 files: perf debugging
 │   ├── Fixes/            # 11 files: NVIDIA x2, GRUB x3, HDMI, Secure-Boot, Quick-Ref, Visuals, README
 │   ├── Gaming/           # 7 files: NFS Heat on Proton GE + NVIDIA PRIME
-│   ├── WiFi Troubleshooting/   # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
+│   ├── WiFi-Troubleshooting/   # 7 files: 00-Overview to 06-Quick-Reference (2026-09-12)
 │   ├── Display-Server/   # hyprland-trackpad-sensitivity.md
 │   ├── Ricing/           # 6 files: 00-Index to Restore-Guide
 │   ├── Starship Installation.md
@@ -242,7 +242,7 @@ Obsidian Vault/ (301 md files, updated 2026-09-12)
 │   ├── Cybersecurity/
 │   │   ├── Blackarch/    # 7 files
 │   │   ├── Tools/        # 9 files: Burp, Nmap, Nuclei, Sqlmap, Dirsearch, Fuzzing
-│   │   ├── Requierements/ # 6 files: Owasp, Pentest, Auth, DB
+│   │   ├── Requirements/ # 6 files: Owasp, Pentest, Auth, DB
 │   │   └── Guides/       # 8 files: zero-link orphans
 │   ├── Device/           # 9 files: 00-Overview to 08-Boot
 │   ├── School/           # P3, P3-2, What-to-Create
@@ -252,7 +252,7 @@ Obsidian Vault/ (301 md files, updated 2026-09-12)
 ├── Development/           # 69 files
 │   ├── Database/         # 2 files
 │   ├── Github/           # 1 file
-│   ├── VSCode Theme Bug/ # 18 files
+│   ├── VSCode-Theme-Bug/ # 18 files
 │   ├── Guides/           # 8 files: zero-link orphans
 │   └── Programming-Languages/  # 40 files
 │       ├── Systems/      # C, Cpp, Rust, Zig, Go (note + cheatsheet each)
@@ -263,7 +263,7 @@ Obsidian Vault/ (301 md files, updated 2026-09-12)
 │
 └── Tasks/                 # 39 files
     ├── Arch Migration.md / Arch Linux System Fixes.md / Automated tools.md
-    ├── E-Commerce PBO/   # 10 files
+    ├── E-Commerce-PBO/   # 10 files
     ├── Laravel-CRUD/     # 10 files
     ├── Nazkypedia-UI-Improvements/  # 10 files
     ├── Portfolio-3rddummy/   # 2 files

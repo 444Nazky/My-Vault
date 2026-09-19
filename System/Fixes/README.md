@@ -8,6 +8,7 @@
 
 | Issue | Status | Priority |
 |-------|--------|----------|
+| [[AI-API-Keys/2026-09-14-What-Was-Done-Bug-Fixes]] | FIXED | Done |
 | [[NVIDIA-RTX-5050-Investigation]] | FIXED | Done |
 | [[GRUB-Configuration]] | FIXED | Done |
 | [[GRUB-Duplicate-Entries]] | Fixed | Done |

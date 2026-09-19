@@ -248,7 +248,7 @@ flowchart TD
     F --> G["checklist verified"]
 ```
 
-See 07-Incident Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the full IR framework.
+See 07-Incident-Response/SEO-Poisoning-Analysis/00-SEO-Poisoning-Analysis for the full IR framework.
 
 ## Tags
 #note-visual-guides

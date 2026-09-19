@@ -16,7 +16,7 @@
 
 ![Orange Nodes Overview](../attachments/orange-nodes-overview.png)
 
-> See [[System/WiFi Troubleshooting/00-Overview\|WiFi Investigation]] for details on the Intel AX211 fix.
+> See [[System/WiFi-Troubleshooting/00-Overview\|WiFi Investigation]] for details on the Intel AX211 fix.
 
 ```mermaid
 %%{init: {'theme': 'default', 'themeVariables': { 'primaryColor': '#2D9CDB', 'lineColor': '#2D9CDB'}}}%%

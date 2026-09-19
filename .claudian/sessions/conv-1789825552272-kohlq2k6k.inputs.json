@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789825552272-kohlq2k6k",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789825552422-3i5ku21",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789825552266-99jclkn",
+      "timestamp": 1789825552266,
+      "rawDisplayText": "ttidy up all of the folders inside obsidian, but dont to anything or move trip-contexts since edit is still ongoing.",
+      "canonicalText": "ttidy up all of the folders inside obsidian, but dont to anything or move trip-contexts since edit is still ongoing.",
+      "images": [],
+      "contentDigest": "599b03fffbc2c22fdb0c0c9b89cac97e13fa037acb323f83106ab848a7ef611f",
+      "providerUserMessageId": "1d2d7a5d-d64c-4157-9582-1694b96452b0",
+      "providerAssistantMessageId": "caee798a-8fcc-44f6-b2a8-f904d93f2988"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789825628215-oyfp9ru",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789825628211-vdzo3ru",
+      "timestamp": 1789825628211,
+      "rawDisplayText": "tidy tbem up by moving those files on a specified folder based on the topic except trip-contexts.",
+      "canonicalText": "tidy tbem up by moving those files on a specified folder based on the topic except trip-contexts.",
+      "images": [],
+      "contentDigest": "6c2fe8d72d625105e24e9d6779fc39bb2391cc6f3d79a5536cf5fe53b430d2bd",
+      "providerUserMessageId": "84b9393b-5d67-4df4-871b-1922694f746b",
+      "providerAssistantMessageId": "339edd37-dcbe-4c7e-afef-b5fbadabd035"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789825736441-ego9tvg",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1789825736437-olceqiv",
+      "timestamp": 1789825736437,
+      "rawDisplayText": "tidy up those files including AGENTS, attachments, COntext etc by creating a folder based on the topic. and put the matching topic files inside",
+      "canonicalText": "tidy up those files including AGENTS, attachments, COntext etc by creating a folder based on the topic. and put the matching topic files inside",
+      "images": [],
+      "contentDigest": "1401e25500ff05158d731a38f40993aa097a2e361f13222e886c217206eb600b",
+      "providerUserMessageId": "a17a21a0-e096-495d-8420-e50d0ad1a94e",
+      "providerAssistantMessageId": "df7bf49d-67c2-4a03-ade9-38c230af65cc"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789825831836-kdvbz1c",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1789825831830-h2nrx83",
+      "timestamp": 1789825831830,
+      "rawDisplayText": "minimalize again for the folder. except the trip-context",
+      "canonicalText": "minimalize again for the folder. except the trip-context",
+      "images": [],
+      "contentDigest": "744e3475b9b13bb323b8aee0f22056dd61df30106aa56a8ef3eb1bc2855fe354",
+      "providerUserMessageId": "4d85abfa-57c0-4ca0-b6ac-519e7b835630",
+      "providerAssistantMessageId": "59336e9a-a3b7-4f29-84a9-236a1da4c6ea"
+    }
+  ]
+}
