@@ -84,8 +84,8 @@ Offline-first adalah pendekatan desain di mana aplikasi mengasumsikan bahwa kone
 ```
                     LOCAL STORAGE
                     +------------+
-                    |   HIVE     |
-                    | (Primary) |
+                    |   SQLite   |
+                    | (Ionic)   |
                     +------+-----+
                            |
            +---------------+---------------+
@@ -119,25 +119,25 @@ Sistem menggunakan konsep eventual consistency - data akan konsisten di semua te
 |                    PRESENTATION LAYER                       |
 |  +------------------+      +---------------------------+   |
 |  |  Mobile App     |      |    Web Dashboard         |   |
-|  |  (Flutter)      |      |    (Vue.js)              |   |
+|  |  (Ionic/Angular)|      |    (Vue.js)              |   |
 |  +------------------+      +---------------------------+   |
 +----------------------------------------------------------+
 |                      BUSINESS LAYER                         |
 |  +------------------+      +---------------------------+   |
 |  |  Service Layer  |      |    RESTful API          |   |
 |  |  - LocationSvc   |      |    /auth/*, /trips/*   |   |
-|  |  - CameraSvc     |      |    /vehicles/*         |   |
-|  |  - SyncSvc       |      |    /reports/*          |   |
+|  |  - CameraSvc    |      |    /vehicles/*         |   |
+|  |  - SyncSvc      |      |    /reports/*          |   |
 |  +------------------+      +---------------------------+   |
 +----------------------------------------------------------+
 |                       DATA LAYER                           |
 |  +------------------+      +---------------------------+   |
 |  |  Local Storage   |      |    Remote Database       |   |
-|  |  (Hive)         |      |    (PostgreSQL)        |   |
+|  |  (SQLite)       |      |    (PostgreSQL)        |   |
 |  +------------------+      +---------------------------+   |
 |  +------------------+      +---------------------------+   |
 |  |  Firebase       |      |    Firebase Storage     |   |
-|  |  Firestore      |      |    (Photos)            |   |
+|  |  Auth           |      |    (Photos)            |   |
 |  +------------------+      +---------------------------+   |
 +----------------------------------------------------------+
 ```
@@ -156,13 +156,13 @@ tariffs (1) ----> (N) trip_kendaraan
 
 | Komponen | Teknologi |
 |----------|----------|
-| Mobile App | Flutter (Android) |
+| Mobile App | Ionic (Angular/TypeScript) |
 | Backend API | Laravel / Node.js |
 | Database | PostgreSQL |
 | Authentication | Firebase Auth |
 | Maps | Google Maps API |
 | Web Dashboard | Vue.js |
-| Local Storage | Hive |
+| Local Storage | SQLite (@ionic-native/sqlite) |
 
 ## 5. Security
 
@@ -196,3 +196,4 @@ Login Flow:
 | **Offline-First** | Paradigma desain dengan asumsi offline sebagai default |
 | **Eventual Consistency** | Kondisi data yang konsisten pada akhirnya |
 | **Background Sync** | Sinkronisasi yang berjalan di latar belakang |
+| **Ionic** | Framework mobile hybrid untuk Android dan iOS |

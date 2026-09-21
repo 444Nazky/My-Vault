@@ -14,17 +14,17 @@ Selain permasalahan umum tersebut, kawasan perkebunan memiliki tantangan khusus 
 
 ## Solusi yang Ditawarkan
 
-Untuk mengatasi masalah-masalah tersebut, saya membangun sistem yang terdiri dari tiga komponen utama. Komponen pertama adalah aplikasi mobile untuk petugas lapangan menggunakan Flutter. Komponen kedua adalah RESTful API sebagai backend service. Komponen ketiga adalah web dashboard untuk supervisor dan admin menggunakan Vue.js.
+Untuk mengatasi masalah-masalah tersebut, saya membangun sistem yang terdiri dari tiga komponen utama. Komponen pertama adalah aplikasi mobile untuk petugas lapangan menggunakan Ionic. Komponen kedua adalah RESTful API sebagai backend service. Komponen ketiga adalah web dashboard untuk supervisor dan admin menggunakan Vue.js.
 
 ## Arsitektur Sistem
 
-Secara arsitektur, sistem ini menggunakan pendekatan tiga layer. Layer presentasi terdiri dari mobile app dan web dashboard. Layer business terdiri dari service layer dan REST API. Layer data terdiri dari local storage menggunakan Hive di mobile dan PostgreSQL di server, serta Firebase untuk autentikasi dan penyimpanan file.
+Secara arsitektur, sistem ini menggunakan pendekatan tiga layer. Layer presentasi terdiri dari mobile app dan web dashboard. Layer business terdiri dari service layer dan REST API. Layer data terdiri dari local storage menggunakan SQLite di mobile dan PostgreSQL di server, serta Firebase untuk autentikasi dan penyimpanan file.
 
 Yang unik dari sistem ini adalah desain offline-first, artinya aplikasi dirancang untuk bekerja optimal saat offline. Data disimpan terlebih dahulu di penyimpanan lokal perangkat, kemudian disinkronkan ke server saat koneksi tersedia. Ini penting sekali karena kawasan perkebunan memang memiliki masalah konektivitas.
 
 ## Aplikasi Mobile
 
-Aplikasi mobile yang saya bangun menggunakan Flutter untuk Android. Berikut alur kerjanya.
+Aplikasi mobile yang saya bangun menggunakan Ionic untuk Android dan iOS. Berikut alur kerjanya.
 
 ### Login
 
@@ -56,7 +56,7 @@ Ini adalah bagian paling penting dari sistem ini. Offline-first berarti aplikasi
 
 ### Penyimpanan Lokal
 
-Aplikasi menggunakan Hive, yaitu database lokal yang ringan dan cepat untuk Flutter. Setiap data yang diinput petugas langsung disimpan ke Hive. Data ditandai dengan status isSynced, jika false berarti belum dikirim ke server.
+Aplikasi menggunakan SQLite melalui plugin @ionic-native/sqlite, yaitu database lokal yang robust untuk aplikasi mobile. Setiap data yang diinput petugas langsung disimpan ke SQLite. Data ditandai dengan status isSynced, jika false berarti belum dikirim ke server.
 
 ### Sinkronisasi
 
@@ -96,7 +96,7 @@ Admin dapat mengelola user yaitu menambah, mengedit, mereset PIN, dan mengaktifk
 
 ## Teknologi yang Digunakan
 
-Untuk mobile app, saya menggunakan Flutter karena bisa membuat satu codebase untuk Android dengan performa native. State management menggunakan Provider karena sederhana dan intuitif. Local storage menggunakan Hive yang ringan dan cepat. Location service menggunakan Geolocator untuk akses GPS, dan Workmanager untuk sinkronisasi di background.
+Untuk mobile app, saya menggunakan Ionic karena bisa membuat satu codebase untuk Android dan iOS sekaligus. Ionic menggunakan Angular sebagai framework dengan TypeScript. Local storage menggunakan SQLite melalui plugin @ionic-native/sqlite yang robust dan bisa query kompleks. Location service menggunakan @ionic-native/geolocation untuk akses GPS, dan @ionic-native/background-mode untuk sinkronisasi di background.
 
 Untuk backend, menggunakan Laravel atau Node.js dengan PostgreSQL sebagai database. Autentikasi menggunakan Firebase Auth untuk infrastruktur yang robust, dan Firebase Storage untuk menyimpan foto.
 
@@ -120,4 +120,4 @@ Manfaat bagi supervisor adalah akses ke data real-time melalui dashboard, kemamp
 
 ## Ringkasan
 
-Jadi intinya, proyek ini membangun sistem digital end-to-end untuk mencatat kendaraan Angkutan di perkebunan dengan pendekatan offline-first. Petugas lapangan menggunakan aplikasi mobile untuk input data dilengkapi foto dan GPS, data disimpan lokal dan disinkronkan saat online, supervisor dapat monitoring melalui web dashboard, dan admin dapat mengelola master data. Sistem ini mengatasi masalah pencatatan manual dan memungkinkan operasional yang lebih efisien bahkan di area dengan konektivitas terbatas.
+Jadi intinya, proyek ini membangun sistem digital end-to-end untuk mencatat kendaraan Angkutan di perkebunan dengan pendekatan offline-first. Petugas lapangan menggunakan aplikasi mobile dengan Ionic untuk input data dilengkapi foto dan GPS, data disimpan lokal dan disinkronkan saat online, supervisor dapat monitoring melalui web dashboard, dan admin dapat mengelola master data. Sistem ini mengatasi masalah pencatatan manual dan memungkinkan operasional yang lebih efisien bahkan di area dengan konektivitas terbatas.

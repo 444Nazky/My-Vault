@@ -13,6 +13,8 @@
 |------|-------------|
 | [architecture/use-case.md](architecture/use-case.md) | Use Case Diagram |
 | [architecture/dfd.md](architecture/dfd.md) | Data Flow Diagram |
+| [architecture/database-linking.md](architecture/database-linking.md) | Database integration diagram |
+| [architecture/step-by-step-flow.md](architecture/step-by-step-flow.md) | Step-by-step data flow dari mobile ke dashboard |
 
 ## Database
 
@@ -20,12 +22,13 @@
 |------|-------------|
 | [database/00-overview.md](database/00-overview.md) | ERD dan schema |
 
-## Flutter Mobile
+## Mobile App (Ionic)
 
 | File | Description |
 |------|-------------|
-| [flutter/00-overview.md](flutter/00-overview.md) | Struktur proyek dan implementasi |
-| [flutter/offline-sync.md](flutter/offline-sync.md) | Strategi offline-first |
+| [ionic/00-overview.md](ionic/00-overview.md) | Struktur proyek Ionic dan implementasi |
+| [ionic/screens.md](ionic/screens.md) | Screen specifications (HTML templates) |
+| [ionic/offline-sync.md](ionic/offline-sync.md) | Strategi offline-first dengan SQLite |
 
 ## API
 
@@ -43,7 +46,7 @@
 
 | File | Description |
 |------|-------------|
-| [mockups/screens.md](mockups/screens.md) | Screen specifications |
+| [mockups/screens.md](mockups/screens.md) | Wireframe screens |
 
 ## Requirements
 
@@ -71,21 +74,68 @@
 
 **Tujuan:** Digitalisasi pencatatan Angkutan di perkebunan
 
-**Komponen:**
-1. Mobile App (Flutter) - Input data di lapangan
-2. REST API (Laravel/Node.js) - Backend service
-3. Web Dashboard (Vue.js) - Monitoring & laporan
+### Komponen Sistem
 
-**Fitur Utama:**
+| Komponen | Teknologi | Lokasi |
+|----------|----------|---------|
+| Mobile App | Ionic/Angular/TypeScript | `/home/nazky/RPL/Intern/Aplikasi-Trip-Ionic/` |
+| Web Dashboard | Vue.js/TypeScript | `/home/nazky/RPL/Intern/Aplikasi-Trip-Dashboard/` |
+| Backend API | Laravel/Node.js | (belum dibuat) |
+| Database | PostgreSQL | (belum dibuat) |
+
+### Fitur Utama
 - Login dengan PIN 6 digit
-- Input kendaraan dengan foto & GPS
-- Offline-first dengan background sync
+- Input kendaraan dengan foto selfie & GPS
+- Offline-first dengan SQLite storage
+- Geofencing validasi lokasi
 - Dashboard real-time
-- Export laporan
+- Export laporan PDF/Excel/CSV
+- Manajemen user, tariff, region
 
-**Teknologi:**
-- Flutter, Laravel, Vue.js
-- PostgreSQL, Firebase Auth
-- Hive, Workmanager
+### Database Linking
+
+```
+Mobile (Ionic)                    Backend API                    Database
+    │                              │                            │
+    │─── Login (PIN + device_id) ─>│                            │
+    │                              │─── Validate PIN ──────────>│ PostgreSQL
+    │                              │<── User Data + Tariffs ────│
+    │<── Token + Tariffs ──────────│                            │
+    │                              │                            │
+    │─── Input Trip (offline) ──>│ Local SQLite                │
+    │    └── SQLite               │                            │
+    │                              │                            │
+    │─── Sync (quenue) ────────>│─── Store Trip ───────────>│ PostgreSQL
+    │                              │─── Upload Photo ────────>│ Firebase Storage
+    │                              │                            │
+    │<── Sync Status ──────────────│<── Confirmed ────────────│
+    │                              │                            │
+Web Dashboard                     │                            │
+    │                              │                            │
+    │────────────────────────────>│─── Read Trips ───────────>│ PostgreSQL
+    │<────────────────────────────│<── Dashboard Data ────────│
+    │                              │                            │
+    │────────────────────────────>│─── CRUD User/Tariff ────>│ PostgreSQL
+    │────────────────────────────>│─── Export Reports ───────>│ PostgreSQL
+```
+
+### Teknologi
+
+**Mobile (Ionic):**
+- Ionic 7 + Angular 17
+- TypeScript
+- @ionic/storage (SQLite)
+- @capacitor/geolocation, camera, network
+
+**Web Dashboard (Vue.js):**
+- Vue.js 3 + TypeScript
+- Pinia (state management)
+- Tailwind CSS
+- Chart.js
+
+**Backend:**
+- Laravel / Node.js
+- PostgreSQL
+- Firebase Auth + Storage
 
 **Durasi:** 14 minggu (Waterfall)
