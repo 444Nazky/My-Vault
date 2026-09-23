@@ -11,60 +11,60 @@
 
 | File | Description |
 |------|-------------|
-| [architecture/use-case.md](architecture/use-case.md) | Use Case Diagram |
-| [architecture/dfd.md](architecture/dfd.md) | Data Flow Diagram |
-| [architecture/database-linking.md](architecture/database-linking.md) | Database integration diagram |
-| [architecture/step-by-step-flow.md](architecture/step-by-step-flow.md) | Step-by-step data flow dari mobile ke dashboard |
+| [architecture/use-case.md](use-case.md) | Use Case Diagram |
+| [architecture/dfd.md](dfd.md) | Data Flow Diagram |
+| [architecture/database-linking.md](database-linking.md) | Database integration diagram |
+| [architecture/step-by-step-flow.md](step-by-step-flow.md) | Step-by-step data flow dari mobile ke dashboard |
 
 ## Database
 
 | File | Description |
 |------|-------------|
-| [database/00-overview.md](database/00-overview.md) | ERD dan schema |
+| [database/00-overview.md](Intern/Aplikasi-Trip/database/00-overview.md) | ERD dan schema |
 
 ## Mobile App (Ionic)
 
 | File | Description |
 |------|-------------|
-| [ionic/00-overview.md](ionic/00-overview.md) | Struktur proyek Ionic dan implementasi |
-| [ionic/screens.md](ionic/screens.md) | Screen specifications (HTML templates) |
-| [ionic/offline-sync.md](ionic/offline-sync.md) | Strategi offline-first dengan SQLite |
+| [ionic/00-overview.md](Intern/Aplikasi-Trip/ionic/00-overview.md) | Struktur proyek Ionic dan implementasi |
+| [ionic/screens.md](Intern/Aplikasi-Trip/ionic/screens.md) | Screen specifications (HTML templates) |
+| [ionic/offline-sync.md](offline-sync.md) | Strategi offline-first dengan SQLite |
 
 ## API
 
 | File | Description |
 |------|-------------|
-| [api/00-overview.md](api/00-overview.md) | Endpoint API documentation |
+| [api/00-overview.md](Intern/Aplikasi-Trip/api/00-overview.md) | Endpoint API documentation |
 
 ## Firebase
 
 | File | Description |
 |------|-------------|
-| [firebase/auth.md](firebase/auth.md) | Firebase Authentication |
+| [firebase/auth.md](auth.md) | Firebase Authentication |
 
 ## UI/UX
 
 | File | Description |
 |------|-------------|
-| [mockups/screens.md](mockups/screens.md) | Wireframe screens |
+| [mockups/screens.md](Intern/Aplikasi-Trip/mockups/screens.md) | Wireframe screens |
 
 ## Requirements
 
 | File | Description |
 |------|-------------|
-| [requirements/functional.md](requirements/functional.md) | Functional requirements |
+| [requirements/functional.md](functional.md) | Functional requirements |
 
 ## Methodology
 
 | File | Description |
 |------|-------------|
-| [methodology/waterfall.md](methodology/waterfall.md) | Development process |
+| [methodology/waterfall.md](waterfall.md) | Development process |
 
 ## Edge Cases
 
 | File | Description |
 |------|-------------|
-| [edge-cases/handling.md](edge-cases/handling.md) | Error handling |
+| [edge-cases/handling.md](handling.md) | Error handling |
 
 ---
 
