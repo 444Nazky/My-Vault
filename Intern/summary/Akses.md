@@ -12,3 +12,6 @@ update lagi dong untuk dummy. aku mau bikin 3 user dengan akses yang berbeda ter
 REGION 1 DERMAGA 1 = budi santoso
 REGION 1 DERMAGA 2 = andi pratama
 REGION 1 DERMAGA 1 DAN 2 (user 2 kaki/dual access) = Dewi Kusuma
+
+# FN
+untuk saat ini, jangan gunakan nama rute/region maupun dermaga terlebih dahulu. rename aja sebagai dermaga 1, dermaga 2. region 1. supaya ga pusing sama konteks sebelumnya sekaligus biar gak miss komunikasi atau miss informasi
