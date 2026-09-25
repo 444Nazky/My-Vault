@@ -87,7 +87,12 @@ di bagian beranda => mulai trip => harusnya pilih muatan dulu, kosong atau ada a
 ## tipis tipis
 hilangin icon ionic di localhost:8000 alias halaman admin. soalnya kan admin dashboard pakainya codeigniter bukan ionic
 
+## bugs
+Ada bug di bagian scan plat nomor, harusnya B1001ZZZ. tapi sistem cuma ngebaca nomor. dan sekarang setelah di kasih fungsi untuk baca huruf juga malah jadi ngaco bacanya, sering meleset atau miss dari nomor plat yang asli
 
+
+## region
+tiap region punya rute beda. untuk admin berikan akses ke master rute
 
 
 ---
