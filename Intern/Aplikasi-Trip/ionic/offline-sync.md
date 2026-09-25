@@ -1,5 +1,7 @@
 # Offline Sync Strategy - Ionic
 
+> **Status — 25 September 2026:** konsep di bawah (antrian sync → kirim saat online) **masih berlaku** dan sudah diimplementasikan di `src/services/sync.ts` dengan **localStorage** (bukan Ionic Storage/SQLite) dan **tanpa Background Mode Plugin**. Foto disimpan lokal (data-URL), bukan Firebase Storage. Retry memakai antrian lokal saat aplikasi dibuka/sinkron manual.
+
 ## Problem Statement
 
 Area perkebunan sering memiliki sinyal internet yang buruk atau tidak ada sama sekali. Aplikasi Ionic harus tetap bisa digunakan secara offline dan melakukan sync ketika koneksi tersedia.

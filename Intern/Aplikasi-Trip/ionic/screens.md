@@ -1,18 +1,46 @@
 # Ionic Screen Templates
 
-## Screen List
+> **Status:** daftar layar & alur di bawah sudah disesuaikan dengan implementasi React aktual — 25 September 2026.
+> (Template HTML `ion-*` di bagian bawah adalah **mockup awal** — aplikasi berjalan dengan React + Tailwind, bukan komponen Ionic Web Components.)
 
-1. **Splash** - Logo + loading
-2. **Login** - Input PIN 6 digit
-3. **Tabs** - Bottom navigation (Home, History, Profile)
-4. **Home** - Dashboard ringkas
-5. **Create Trip** - Form trip baru
-6. **Input Vehicle** - Form kendaraan
-7. **Success Dialog** - Konfirmasi simpan
-8. **History** - Daftar trip
-9. **Profile** - Info user
+## Screen List (aktual — `src/pages/mobile/`)
 
-## Login Page
+1. **LoginPage** — login username/password (admin & member)
+2. **HomeScreen** — beranda petugas, tombol **Mulai Trip**
+3. **TripConditionScreen** — **pilih status muatan dulu**: “Kosong / Tidak Ada Muatan” atau “Ada Angkutan”
+4. **RouteSelectScreen** — pilih rute; **trip kosong → rute dikunci hanya SJRE → SBDZ**; ada muatan → bebas
+5. **VehicleFormScreen** — 2 langkah: (1) No. Polisi + jenis kendaraan → (2) **Detail Informasi Tambahan** (kategori + foto wajib); kartu **“No. Polisi Sudah Diinput”** (ketuk → detail + foto dokumentasi + isi ulang form)
+6. **CameraScreen** — **hanya capture kamera** (tanpa galeri); dipakai untuk foto kendaraan & bukti trip
+7. **TripSummaryScreen** — ringkasan; **“Submit Trip” terkunci sampai foto kamera ada**
+8. **TripActiveScreen / TripCompleteScreen** — trip berjalan & selesai
+9. **HistoryScreen / HistoryDetailScreen** — riwayat & detail (tanpa tampilan tarif)
+10. **ProfileScreen / SettingsScreen** — profil & pengaturan
+11. **OfficerSwitchScreen / PinVerifyScreen** — ganti petugas (sinkron real-time dengan admin: status aktif/nonaktif & akses wilayah)
+
+## Alur Mulai Trip (revisi spesifikasi 25 Sep 2026)
+
+```
+Beranda
+  └─ Mulai Trip
+       └─ Status Muatan?
+            ├─ Kosong / Tidak Ada Muatan ──> Rute DIKUNCI: hanya SJRE → SBDZ
+            └─ Ada Angkutan ──────────────> Rute bebas
+                 └─ Input Kendaraan (Langkah 1)
+                      └─ Detail Informasi Tambahan (Langkah 2, muncul setelah langkah 1)
+                           └─ Ambil Foto KAMERA (wajib)
+                                └─ Ringkasan → Submit Trip (terkunci tanpa foto)
+                                     └─ Trip Aktif → Selesai
+```
+
+Aturan kunci:
+- **Seluruh tampilan tarif disembunyikan** di mobile (nilai hanya disimpan di objek trip untuk sinkron & laporan admin).
+- **Wajib foto kamera** sebelum “Simpan Data Kendaraan” / “Submit Trip”.
+- Daftar plat yang sudah diinput bisa **diklik** untuk melihat detail + foto dokumentasi.
+- Layar Ganti Petugas menarik daftar **paksa** dari `GET /officers/my-region` (sinkron dengan admin).
+
+---
+
+## Login Page (mockup awal)
 
 ```html
 <ion-page>

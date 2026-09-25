@@ -2,6 +2,29 @@
 
 Dokumen ini menjelaskan alur data lengkap dari input petugas lapangan di mobile hingga data terlihat di dashboard admin.
 
+> ## ⚠️ Koreksi Implementasi — 25 September 2026
+>
+> Diagram di bawah adalah **desain awal**. Kenyataannya:
+>
+> | Aspek | Desain awal | Implementasi aktual |
+> |-------|-------------|---------------------|
+> | Mobile | Ionic (Angular/Flutter) | **Ionic + React + Tailwind** (`src/pages/mobile/`) |
+> | Penyimpanan lokal | SQLite/Ionic Storage | **localStorage** + antrian sync (`src/services/sync.ts`) |
+> | Auth | Firebase Auth + device binding | **JWT** (HS256, 24 jam) — `/auth/member-login`, `/auth/login` (PIN), `/auth/admin-login`, `/auth/refresh` |
+> | Database | PostgreSQL + Firebase Storage | **SQLite via sql.js** (`backend/data/trip.db`), foto disimpan lokal (base64/data-URL) |
+> | Trip ID | `TRP-DDMMYY-SEQ` | `TRP-YYYY-NNNN` |
+> | GPS/geofencing | wajib | **tidak dipakai** |
+> | Admin dashboard | SPA React penuh | React build → **file statis** disajikan entry `admin-ci/index.php` (CodeIgniter) |
+>
+> ### Alur aktual (ringkas)
+> 1. **Admin** kelola master tarif, tarif region (`region_tariffs`: Internal=0 · Lokal=cadangan · Eksternal=region), registrasi plat, petugas (aktif/nonaktif + akses wilayah many-to-many `officer_regions`).
+> 2. **Petugas login** → JWT; buka aplikasi → tarik daftar petugas paksa (`GET /officers/my-region`) + refresh klaim (`POST /auth/refresh`).
+> 3. **Mulai trip**: pilih **status muatan dulu** — *Kosong → rute dikunci SJRE → SBDZ*; *Ada Angkutan → rute bebas* → input kendaraan (langkah 1) → detail tambahan + foto kamera (langkah 2) → ringkasan → **submit terkunci tanpa foto kamera**.
+> 4. **Sync** → `POST /api/trips` + `POST /api/trips/:id/vehicles` (tarif dihitung server dari master tarif + tarif region).
+> 5. **Dashboard admin** (`:8000`): laporan dengan tempat/tanggal WIB, filter golongan & jenis kendaraan, ekspor Excel `.xlsx`, tema/font/aksen di tab Pengaturan.
+>
+> Endpoint lengkap: [[../../Aplikasi-Trip/api/00-overview|API Overview]]. Status poin per poin: [[../../Aplikasi-Trip/Additionals/Todo|Todo]] (bagian Status Implementasi).
+
 ---
 
 ## Overview Sistem

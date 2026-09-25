@@ -4,6 +4,23 @@ Panduan langkah demi langkah untuk mereplikasi konfigurasi infrastruktur, stagin
 
 ---
 
+## Persiapan: Koneksi ke Server via SSH
+
+Jalankan perintah berikut di terminal komputer lokal untuk masuk ke server:
+
+```bash
+# Format: ssh <user>@<ip_server>
+ssh server@192.168.1.2
+
+# Jika menggunakan custom port (misal 2222)
+# ssh -p 2222 server@192.168.1.2
+
+# Jika menggunakan SSH Key
+# ssh -i ~/.ssh/id_rsa server@192.168.1.2
+```
+
+---
+
 ## Tahap 1: Setup Infrastruktur & MariaDB
 
 ### 1. Konfigurasi Firewall (UFW)
