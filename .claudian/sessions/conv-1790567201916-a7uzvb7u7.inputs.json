@@ -15,6 +15,19 @@
       "contentDigest": "cfff56eac841f161c5b0a2e156538aeae312fef478d109a6e958636318dd204f",
       "providerUserMessageId": "c29d9f9b-5272-44f3-9442-54227bf1054d",
       "providerAssistantMessageId": "0705cc41-3e10-42d7-be07-b5b296da664e"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790567405641-fh2gw7b",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1790567405634-qtleq1w",
+      "timestamp": 1790567405634,
+      "rawDisplayText": "maksudnya buat supaya file di dalam Aplikasi-Trip jadi lebih ringkas dan di kelompokkan berdasarkan pembahasan. supaya gak terllau banyak file",
+      "canonicalText": "maksudnya buat supaya file di dalam Aplikasi-Trip jadi lebih ringkas dan di kelompokkan berdasarkan pembahasan. supaya gak terllau banyak file",
+      "images": [],
+      "contentDigest": "1c9609db65535235ec299bdc8ec48ccd7e292d43ddb777814800412f1a5949b3",
+      "providerUserMessageId": "c25f6f9b-7615-412e-a908-0c4a3480c1a9"
     }
   ]
 }
