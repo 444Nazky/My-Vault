@@ -10,68 +10,30 @@ git config user.name
 git config user.email
 ````
 
-## 2. Daftar Akun Git Tersedia
 
-Berikut adalah konfigurasi identitas untuk masing-masing akun:
-
-  
-
-- **4444Nazky (Utama)**
-    
-      
-    
-    Bash
-    
+- **Daftar Akun Git Tersedia
     ```
     git config user.name "4444Nazky"
-    git config user.email "nazky@proton.me"
-    "naruzky.naz@gmail.com"
+    git config user.email "naruzky.naz@gmail.com"
     ```
-    
-- **nazky-karyamas**
-    
-      
-    
-    Bash
     
     ```
     git config user.name "nazky-karyamas"
     git config user.email "nazky-karyamas@users.noreply.github.com"
     ```
     
-- **tahugorengkamis**
-    
-      
-    
-    Bash
-    git config --global user.name "namakamu"
-git config --global user.email "emailmu@example.com"
     ```
-    git config user.name "tahugorengkamis"
-    git config user.email "tahugorengkamis@users.noreply.github.com"
+    git config user.name "Haku Imaku"
+    git config user.email "fufufaselamatkanku@gmail.com"
     ```
-    
-- **fufufaselmatku**
-    
-      
-    
-    Bash
-    
-    ```
-    git config user.name "fufufaselamatku"
-    git config user.email "fufufaselamatku@users.noreply.github.com"
-    ```
-    
-- **Piscok**
-    
-      
-    
-    Bash
     
     ```
     git config user.name "manusiasetengahpiscok"
     git config user.email "arpeggionazky@gmail.com"
     ```
+
+
+
 ## 3. Cara Mendapatkan Email Noreply GitHub
 
 1. Buka halaman [GitHub Settings Emails](https://github.com/settings/emails?utm_source=gemini).

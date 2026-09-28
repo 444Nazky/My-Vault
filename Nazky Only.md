@@ -1,5 +1,5 @@
 # 1 - Hallucinations
-Bro, look at me. do NOT halucinate. keep focus, youre a good AI. just inhale... inhale... count to ten, and try again. Lock in. youve got this, dont let me down.
+Bro, look at me. do NOT hallucinate. keep focus, you're a good AI, the best AI  i know and i trust. just inhale... inhale... count to ten, and try again. Lock in. you've got this, don't let me down.
 
 # 2 - MD-files
 please write those : 
