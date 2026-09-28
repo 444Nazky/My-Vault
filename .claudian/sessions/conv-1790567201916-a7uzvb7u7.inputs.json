@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1790567201916-a7uzvb7u7",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790567202119-ac2d67t",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1790567201911-vvi1evh",
+      "timestamp": 1790567201911,
+      "rawDisplayText": "/home/nazky/Documents/Obsidian Vault/Intern/Aplikasi-Trip\n\n tolong di buat jadi simpel dan ringkas. jangan edit yang lain selain itu dan kelompokkan menjadi folder berdasarkan pembahasan",
+      "canonicalText": "/home/nazky/Documents/Obsidian Vault/Intern/Aplikasi-Trip\n\n tolong di buat jadi simpel dan ringkas. jangan edit yang lain selain itu dan kelompokkan menjadi folder berdasarkan pembahasan",
+      "images": [],
+      "contentDigest": "cfff56eac841f161c5b0a2e156538aeae312fef478d109a6e958636318dd204f",
+      "providerUserMessageId": "c29d9f9b-5272-44f3-9442-54227bf1054d"
+    }
+  ]
+}
