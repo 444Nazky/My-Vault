@@ -23,8 +23,8 @@ git config user.email
     ```
     
     ```
-    git config user.name "Haku Imaku"
-    git config user.email "fufufaselamatkanku@gmail.com"
+    git config user.name "fufufafaselamatkanku"
+    git config user.email "nazkynarutana@gmail.com"
     ```
     
     ```

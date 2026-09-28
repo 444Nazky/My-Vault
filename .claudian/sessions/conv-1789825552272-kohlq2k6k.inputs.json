@@ -210,6 +210,34 @@
       "contentDigest": "bf3608e20caa57559d5be1074c441490d20ba95ea7b1bd86f3637a187809d05c",
       "providerUserMessageId": "e0a6a857-9631-4764-b42e-aaf21b9bb039",
       "providerAssistantMessageId": "c875cca9-aeac-4bbf-9e34-19d5ac7dec89"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790566539854-20ub1to",
+      "userTurnOrdinal": 16,
+      "state": "accepted",
+      "localMessageId": "msg-1790566539832-86mfsy7",
+      "timestamp": 1790566539832,
+      "rawDisplayText": "/home/nazky/Documents/Obsidian Vault/Intern/Aplikasi-Trip kelompokkan menjadi folder berdasarkan pembahasan dan tolong di buat jadi simpel dan ringkas. jangan edit yang lain selain itu",
+      "canonicalText": "/home/nazky/Documents/Obsidian Vault/Intern/Aplikasi-Trip kelompokkan menjadi folder berdasarkan pembahasan dan tolong di buat jadi simpel dan ringkas. jangan edit yang lain selain itu",
+      "images": [],
+      "contentDigest": "0a23f6dc10d39e27e60ac9a941b67f7d2864d5a2d8cdaed5367c72ebce9782a3",
+      "providerUserMessageId": "62829d1c-ba18-4c62-a4e9-b14c4fbc485e",
+      "providerAssistantMessageId": "8eb61071-c584-4c15-bfdd-b05f760b66b8"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790566649859-1dlfjsx",
+      "userTurnOrdinal": 17,
+      "state": "accepted",
+      "localMessageId": "msg-1790566649832-l77qs0a",
+      "timestamp": 1790566649832,
+      "rawDisplayText": "lebih minimalis",
+      "canonicalText": "lebih minimalis",
+      "images": [],
+      "contentDigest": "318d29b7a06653b4076f52bc603c89518a722e1691814d78a95a620498c88f34",
+      "providerUserMessageId": "de98066f-2f7c-40e4-a592-a8c47a33529e",
+      "providerAssistantMessageId": "81423e1c-3552-4956-a43e-381d348f80a4"
     }
   ]
 }
