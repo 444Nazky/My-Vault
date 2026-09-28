@@ -67,10 +67,11 @@ Staging     : https://192.168.1.2/api        (lihat src/environments/)
 ### Petugas (`/officers`) — many-to-many via `officer_regions`
 | Method | Endpoint | Akses | Deskripsi |
 |--------|----------|-------|-----------|
-| GET | `/officers` | admin | Semua petugas + daftar `regions[]` (fallback kolom lama) |
+| GET | `/officers` | admin | Semua petugas + daftar `regions[]` **dan `dermagas[]`** (id, code, name — akses D1/D2 yang menentukan rute petugas) |
 | GET | `/officers/my-region` | **officer** | Petugas yang **berbagi ≥1 wilayah** dengan peminta (dipakai layar Ganti Petugas) |
-| POST | `/officers` | admin | Buat petugas (`regionIds[]` → junction) |
+| POST | `/officers` | admin | Buat petugas (`regionIds[]` → junction + opsional `dermagaIds[]` → `officer_dermagas`) |
 | PUT | `/officers/:id/regions` | admin | **Pindah/atur akses wilayah** (ganti seluruh junction + `region_id` pertama) |
+| PUT | `/officers/:id/dermagas` | admin | **Atur akses dermaga** (`dermagaIds[]`) → hasil akhir = daftar rute di `GET /routes/mine` |
 | PUT | `/officers/:id/pin` | admin | Ganti PIN (bcrypt) |
 | PUT | `/officers/:id/status` | admin | **Aktif/Nonaktif** `{isActive}` |
 | DELETE | `/officers/:id` | admin | Hapus petugas + junction |

@@ -5,7 +5,7 @@
 
 ## Screen List (aktual — `src/pages/mobile/`)
 
-1. **LoginPage** — login username/password (admin & member)
+1. **LoginPage** — login 2 langkah: Login Wilayah (kode + password) → Pilih Petugas (kartu per wilayah, Region Lock) → **Verifikasi PIN via keypad**; mode Administrator lewat tautan bawah
 2. **HomeScreen** — beranda petugas, tombol **Mulai Trip**
 3. **TripConditionScreen** — **pilih status muatan dulu**: “Kosong / Tidak Ada Muatan” atau “Ada Angkutan”
 4. **RouteSelectScreen** — pilih rute; **trip kosong → rute dikunci hanya SJRE → SBDZ**; ada muatan → bebas
@@ -41,6 +41,10 @@ Aturan kunci:
 ---
 
 ## Login Page (mockup awal)
+
+> ⚠️ **ARSIP** — mockup ini memakai input kolom PIN lama. Implementasi terkini memakai
+> **keypad/numpad** (6 dot indicator + tombol angka + Konfirmasi) ala desain terbaru;
+> login juga sudah 2 langkah (wilayah → petugas → PIN). Lihat [[docs/flow#1.1 Inisiasi Awal & Login]].
 
 ```html
 <ion-page>

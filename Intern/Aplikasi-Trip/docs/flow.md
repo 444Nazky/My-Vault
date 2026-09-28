@@ -10,7 +10,7 @@ Dokumen ini mendeskripsikan alur kerja aplikasi mobile (petugas lapangan) dan we
 | Step | Screen | Deskripsi |
 |------|--------|-----------|
 | 1 | Splash/Entry | Cek session lokal (`trip.session.v1`) |
-| 2 | LoginPage | Input PIN 6-digit + `officerId`; device ID auto-generate & simpan lokal |
+| 2 | LoginPage | **Login 2 langkah (Revisi #4):** langkah 1 kode wilayah + password wilayah (`POST /auth/region-login`) → langkah 2 pilih petugas (kartu avatar + badge Aktif, tersaring per wilayah) → langkah 3 **keypad PIN 6-digit** (dot indicator + numpad + Konfirmasi, terkunci sampai 6 digit) |
 | 3 | **Region Lock** | Perangkat **terkunci permanen** ke region petugas setelah login pertama (mis. BADAU). Tidak bisa ganti region tanpa reset data. |
 | 4 | HomeScreen | Dashboard: info petugas, region, koneksi, trip hari ini, menu navigasi |
 
@@ -111,7 +111,7 @@ TripActiveScreen → TripCompleteScreen → Selesai + Sync
 | Fitur | Screen | Deskripsi |
 |-------|--------|-----------|
 | **Ganti Petugas** | OfficerSwitchScreen | Daftar petugas region yang sama; pilih → PinVerifyScreen |
-| **Verifikasi PIN** | PinVerifyScreen | Input PIN 6-digit petugas target; sukses → setOfficerId + refreshBackendSession |
+| **Verifikasi PIN** | PinVerifyScreen | **Numpad 6-digit** (dot indicator, ikon gembok, tombol Konfirmasi — sama dengan layar PIN login); sukses → setOfficerId + refreshBackendSession |
 | **Region Lock** | LoginPage + store.ts | Device ID terkunci ke region petugas login pertama; tidak bisa ganti region |
 | **Auto Sync Officer** | store.ts:356-360 | Saat app start: `refreshOfficers(true)` → fetch officers dari server → merge lokal |
 

@@ -6,7 +6,8 @@
 
 1. **Login Wilayah** — kode wilayah + password wilayah (contoh: `BADAU` / `badau123`)
 2. **Pilih Petugas** — daftar petugas **aktif milik wilayah tersebut** (berbeda tiap wilayah)
-3. **Verifikasi PIN** — PIN masing-masing petugas → masuk aplikasi
+3. **Verifikasi PIN** — PIN masing-masing petugas **via keypad** (6 dot indicator +
+   numpad + tombol Konfirmasi, terkunci sampai 6 digit) → masuk aplikasi
 
 > Login username/password lama (`budi/123456`) sudah tidak dipakai untuk petugas.
 > Mode **Administrator** masih ada lewat tautan "Login Administrator" di bawah kartu login.
@@ -62,7 +63,8 @@ oleh aplikasi petugas saat layar Pilih Rute dibuka (endpoint `GET /api/routes/mi
 
 - Relasi petugas ↔ dermaga: tabel junction **`officer_dermagas`** (banyak-ke-banyak).
 - Relasi petugas ↔ wilayah: tabel junction **`officer_regions`**.
-- Status aktif/nonaktif petugas & pemindahan wilayah dikelola di tab **Petugas** admin;
-  perubahan langsung memengaruhi login mobile (refresh JWT / daftar petugas region).
+- Status aktif/nonaktif petugas, **pemindahan wilayah**, dan **atur akses dermaga (D1/D2)**
+  dikelola di tab **Petugas** admin (checklist wilayah + checklist dermaga) — perubahan
+  langsung memengaruhi login mobile dan daftar rute petugas (`GET /routes/mine`).
 
 Terkait: [[Revisi]] · [[01 - Fixes/Master Rute Wilayah dan Login Region]]

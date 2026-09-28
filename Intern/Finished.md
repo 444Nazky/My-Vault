@@ -1,25 +1,3 @@
-# INI BELOM 
-
-# mobile version
-pastikan kembali kalau tampilan mobile sudah responsive karena target utama adalah perangkat mobile. lalu hilangkan opsi login as administrator di http://localhost:5173/ atau versi mobile. jangan lupa hilangkan jam dan icon wifi beserta wifi/system status bar yang ada di tampilan mobile, kayak itu buat apaan? nanti takutnya waktu di export jadi aplikasi mobile nanti 
-
-improvisasi animasi saat menclick tombol dan pindah halaman. stop menggunakan fade setiap kali pindah halaman
-
-# admin dashboard
-tambahkan filter output berdasarkan tanggal, serta hilangkan SBDZ dan SJRE dari dashboard admin halaman petugas, karena SBDZ dan SJRE itu bukan region maupun dermaga. kemudian tambahkan entikong sebagai region juga dermaga 1 dengan rute 1 yaitu A4A4 -> B8B8 dan rute 2 B8B8 -> A4A4. dan untuk dermaga 2 rute 1 = C3C3 -> D6D6 dan rute 2 D6D6 -> C3C3. dan izinkan admin dashboard untuk mengubah nama rute.
-
- dan Halaman Dashboard sebaiknya difungsikan sebagai pusat informasi cepat (_at-a-glance_) tanpa menampilkan tabel data mentah yang menumpuk, melainkan diisi dengan kartu metrik penting seperti statistik total trip hari ini, pendapatan harian, atau status petugas aktif, serta tabel ringkas yang hanya memuat lima trip terbaru secara _real-time_. Sementara itu, halaman Laporan dijadikan pusat data dan analisis mendalam yang dilengkapi dengan tabel data _gird_ lengkap yang dapat difilter berdasarkan Golongan dan Jenis Kendaraan, lengkap dengan fitur ekspor data serta grafik statistik atau diagram analitik di bagian atas tabel agar tampilannya benar-benar terasa sebagai laporan yang utuh dan bukan sekadar duplikat dari halaman depan.
-
-
-
-
-
-
-
-
-
-
----
 # INI UDAH ✅
 # 1 Inputs
 di bagian input kendaraan, buat ui menjadi lebih minimalis dan tidak heboh. pastikan semuanya WAJIB terisi baru boleh simpan dan tambah kendaraan lain. untuk kategori dan jenis kendaraan itu WAJIB diisi dan bukan opsional
