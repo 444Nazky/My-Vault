@@ -1,0 +1,1 @@
+untuk platform mobile menggunakan framework ionic. dan untuk bagian database/admin dashboard menggunakan codeigniter versi 2.2.4

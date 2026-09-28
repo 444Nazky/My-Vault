@@ -83,7 +83,8 @@
       "canonicalText": "yang ini aja /home/nazky/Documents/Obsidian Vault/Intern/Aplikasi-Trip",
       "images": [],
       "contentDigest": "acf4ac77d0e95b220e3eeef992562e05250ee4f0801622e54cb512faf4db9a3a",
-      "providerUserMessageId": "e2ef479f-7a0f-4fdb-b7e2-dc63cba0291c"
+      "providerUserMessageId": "e2ef479f-7a0f-4fdb-b7e2-dc63cba0291c",
+      "providerAssistantMessageId": "6baf560b-5383-4d44-9590-a4c83517ba54"
     },
     {
       "schemaVersion": 1,
@@ -238,6 +239,20 @@
       "contentDigest": "318d29b7a06653b4076f52bc603c89518a722e1691814d78a95a620498c88f34",
       "providerUserMessageId": "de98066f-2f7c-40e4-a592-a8c47a33529e",
       "providerAssistantMessageId": "81423e1c-3552-4956-a43e-381d348f80a4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790568110872-akn4hfl",
+      "userTurnOrdinal": 18,
+      "state": "accepted",
+      "localMessageId": "msg-1790568110807-riehp0h",
+      "timestamp": 1790568110807,
+      "rawDisplayText": "undo lebih jauh",
+      "canonicalText": "undo lebih jauh",
+      "images": [],
+      "contentDigest": "14ddbd688f78594f057b93d464ef86c1a36070c5da109c230e3b38963764d615",
+      "providerUserMessageId": "1a736bb1-7d95-4d1b-970a-ccb002cf618d",
+      "providerAssistantMessageId": "3c48e344-94ad-4d2e-bd3c-303d24b369d5"
     }
   ]
 }

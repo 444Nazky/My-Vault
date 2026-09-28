@@ -4,7 +4,7 @@
   "title": "Tidy Obsidian folders, skip trip-contexts",
   "titleGenerationStatus": "success",
   "createdAt": 1789825552275,
-  "lastActivityAt": 1790566689778,
+  "lastActivityAt": 1790568169696,
   "sessionId": "32d206ba-86d5-426c-bdcc-7ce3f7cd4760",
   "selectedModel": "opus",
   "providerState": {
@@ -12,11 +12,11 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 477,
+    "inputTokens": 76876,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 74363,
+    "cacheReadInputTokens": 0,
     "contextWindow": 1000000,
-    "contextTokens": 74840,
-    "percentage": 7
+    "contextTokens": 76876,
+    "percentage": 8
   }
 }

@@ -4,7 +4,7 @@
   "title": "Restructure Aplikasi-Trip directory",
   "titleGenerationStatus": "success",
   "createdAt": 1790567202007,
-  "lastActivityAt": 1790567405634,
+  "lastActivityAt": 1790567897374,
   "sessionId": "afa5eb3a-3056-4430-b3d4-2a1cc77b3e3b",
   "selectedModel": "opus",
   "providerState": {
@@ -12,11 +12,11 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 512,
+    "inputTokens": 72,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 45691,
+    "cacheReadInputTokens": 69435,
     "contextWindow": 1000000,
-    "contextTokens": 46203,
-    "percentage": 5
+    "contextTokens": 69507,
+    "percentage": 7
   }
 }

@@ -27,7 +27,64 @@
       "canonicalText": "maksudnya buat supaya file di dalam Aplikasi-Trip jadi lebih ringkas dan di kelompokkan berdasarkan pembahasan. supaya gak terllau banyak file",
       "images": [],
       "contentDigest": "1c9609db65535235ec299bdc8ec48ccd7e292d43ddb777814800412f1a5949b3",
-      "providerUserMessageId": "c25f6f9b-7615-412e-a908-0c4a3480c1a9"
+      "providerUserMessageId": "c25f6f9b-7615-412e-a908-0c4a3480c1a9",
+      "providerAssistantMessageId": "8499f44e-cacb-4a61-9fce-2f1b00394c63"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790567508931-uwm8htz",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1790567508923-kgsfxhg",
+      "timestamp": 1790567508923,
+      "rawDisplayText": "undo. bukan itu yang saya maksud",
+      "canonicalText": "undo. bukan itu yang saya maksud",
+      "images": [],
+      "contentDigest": "310ffda77ee935bbbc0327d248f2ffe56d48d25f2b5e2d68e26d50658188268b",
+      "providerUserMessageId": "23e3584d-6d2f-4423-8d13-469df30aea06",
+      "providerAssistantMessageId": "4cdec573-2d54-4264-a731-328a8da97fa4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790567576604-8w3wg76",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1790567576598-mm5jguh",
+      "timestamp": 1790567576598,
+      "rawDisplayText": "mana file Aplikasi-Trip nya????!!!",
+      "canonicalText": "mana file Aplikasi-Trip nya????!!!",
+      "images": [],
+      "contentDigest": "299367be70415aa52be47deea7af268d13835eda7ab248250a3aee82c1e8c3d4",
+      "providerUserMessageId": "a45206be-7c4f-4f97-a366-1e7d5c3643d9",
+      "providerAssistantMessageId": "6598ed4c-c44d-47cc-9b99-671b83f410cc"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790567825938-8qdifk7",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1790567825910-4kwcwi4",
+      "timestamp": 1790567825910,
+      "rawDisplayText": "recovery yang asli. atau buat yang sekarang jadi lebih detail. jangan gunakan nomor 1-7. buat jadi professional dan minimalis",
+      "canonicalText": "recovery yang asli. atau buat yang sekarang jadi lebih detail. jangan gunakan nomor 1-7. buat jadi professional dan minimalis",
+      "images": [],
+      "contentDigest": "d395323734e017fc6e0a9e7f8e02948fd65f91d834ba7b925eb750c648c2d281",
+      "providerUserMessageId": "3017da66-916d-4c70-94e9-c77cf8bbeb43",
+      "providerAssistantMessageId": "acd2d291-3bc4-42f8-93be-64e6284ca362"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790567878147-kwmlowy",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1790567878138-g1tyxx4",
+      "timestamp": 1790567878138,
+      "rawDisplayText": "jangan terlalu banyak file",
+      "canonicalText": "jangan terlalu banyak file",
+      "images": [],
+      "contentDigest": "51985cd18f5be0273bac376a5276cbd9e311e95c5c5420460c7abcaca25aec2d",
+      "providerUserMessageId": "20f677a6-8b6a-4799-8810-34b3b3cbfbf5",
+      "providerAssistantMessageId": "6819fc41-536b-4c1a-8786-eff4c518a67c"
     }
   ]
 }
