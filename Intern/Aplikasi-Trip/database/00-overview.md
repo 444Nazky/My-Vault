@@ -100,6 +100,8 @@ tariffs (1) -------> (N) vehicles      [tariff_id saat tarif dihitung server]
 | no_trip | TEXT | Nomor trip **`TRP-YYYY-NNNN`** |
 | officer_id | TEXT FK | Petugas pembuat |
 | region_id | TEXT FK | Region trip |
+| dermaga_id | TEXT FK **nullable** | Dermaga terkait. Diisi **otomatis oleh server** dari penugasan petugas (`officer_dermagas`) → dermaga region → `null`. Kolom ini awalnya `NOT NULL` padahal klien mobile tak pernah mengirimnya → setiap `POST /trips` gagal 500 (diperbaiki 25 Sep: derive server-side + migrasi jadi nullable) |
+| route_id | TEXT FK nullable | Rute terpilih (opsional) |
 | status_muatan | TEXT | `muatan` / `kosong` |
 | route_from / route_to | TEXT | Kode rute (trip kosong = SJRE → SBDZ) |
 | keterangan | TEXT | Keterangan trip |

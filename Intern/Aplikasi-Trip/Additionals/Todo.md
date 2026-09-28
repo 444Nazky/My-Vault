@@ -139,6 +139,43 @@ tiap region punya rute beda. untuk admin berikan akses ke master rute
 - ✅ **Tab Pengaturan → “Tema & Tampilan”**: tema Terang/Gelap, Ukuran Font 90–125%, warna aksen, Reset — persist `localStorage` (`src/services/theme.ts`).
 - ✅ Verifikasi: `tsc` · `ng lint` · `ng build` · E2E Chromium CDP 8/8 · endpoint live 200.
 
+---
+
+## 🐞 AUDIT ERROR — 25 September 2026 (sore)
+
+> Smoke-test 24 endpoint + baca log backend + verifikasi data DB terhadap spesifikasi.
+> **4 bug nyata ditemukan & diperbaiki**, 6 hal ternyata tidak rusak, 6 masalah masih terbuka.
+
+### Bug yang DIPERBAIKI
+
+| # | Error | Akar masalah | Perbaikan | Status |
+|---|-------|--------------|-----------|--------|
+| 1 | **`POST /trips` → 500** `NOT NULL constraint failed: trips.dermaga_id` | Commit `a2e8b88` “revisi akses” menambah `dermaga_id NOT NULL` ke skema tapi tak mengubah INSERT; mobile tak pernah kirim dermaga | derive `dermaga_id` server-side (penugasan petugas → dermaga region → null) + migrasi jadikan kolom **nullable** | ✅ `POST` → **201** |
+| 2 | **Nama tempat laporan = `null`**; region jadi “Region 1..4” | Commit sama mengubah seed wilayah asli (`BADAU`/`SJRE`/`SBDZ`/`ENTIKONG`) jadi placeholder `R1`–`R4` → join kode rute mobile gagal | rename region di DB ke kode asli (nama: Badau/Sijangkung/Sabadi/Entikong — ikut label mobile) + **kembalikan seed** & seed rute pakai kode `SJRE`/`SBDZ`/`BDAU` | ✅ **0/16 trip** nama kosong |
+| 3 | **Data historis hilang** (DB utama 3 trip / 0 plat, 2 trip uji); **istilah lama balik** (`Eksternal (Berganji)`, `Eksternal (Tanpa Garansi)`); **trip yatim** (`officer_id="1"`, region asing) | DB asli cuma bertahan di worktree `.kilo/worktrees/admitted-steel/`; DB utama ikut ter-reset saat seed berubah | skrip migrasi (backend dimatikan): salin **13 trip + 26 kendaraan + 3 plat**, petakan ID legacy→UUID, perbaiki trip yatim, normalisasi istilah | ✅ **16 trip · 32 kendaraan · 3 plat · 0 yatim · 0 istilah lama** |
+| 4 | **Regresi label kategori mobile** — picker kategori di `VehicleFormScreen.tsx` kembali menampilkan `Eksternal (Berganji)` / `Eksternal (Tanpa Garansi)` | File dipulihkan dari stash yang berasal **sebelum** perbaikan istilah (commit terakhir file `7d9911d` 11:25, perbaikan istilah ~13:00) — perbaikan saya tertimpa | kembalikan label ke `Internal · Eksternal · Eksternal Bebas` + komentar penanda | ✅ 0 istilah lama di source & bundle |
+
+> **Pelajaran:** perbaikan yang hanya hidup di working tree bisa **hilang diam-diam** kalau ada proses lain yang `checkout`/`stash pop`/`reset`. Setelah merge/restore, wajib audit ulang (`grep` istilah terlarang) — jangan asumsi perbaikan masih ada.
+
+Backup: `data/trip.db.bak-20260925-160737` · Migrasi: `/tmp/migrate-data.js`
+
+### Yang dicek ternyata TIDAK rusak
+
+- **Filter golongan & jenis** — bekerja: `golongan=I`→1 (Motor), `II`→0, `IV`→1 (Truck Sedang), `vehicleType=Motor`→1.
+- **24 endpoint lain** — 200/201 semua (satu-satunya kegagalan = Bug 1). `/officers/my-region` + token admin → 401 *by design*.
+- **Ekspor xlsx** — `downloadXlsx` client-side, 2 sheet, ZIP valid 42.763 bytes. `/reports/trips/export` memang sengaja CSV (cadangan).
+- **Sinkron petugas** (aktif/nonaktif/pindah region) — lulus uji sesi sebelumnya.
+- **Ikon Ionicons** — 0 di DOM/bundle (lulus E2E 11/11).
+
+### ⚠️ Masih TERBUKA (belum disentuh)
+
+- [ ] **Race antar-proses**: layanan mati mendadak (`EADDRINUSE`, log bersih tapi proses hilang), `admin-ci/` sempat hilang-regenerasi — ada proses lain menjalankan `restart-all.sh` + auto-commit. **Perlu satu pemilik proses.**
+- [ ] `restart-all.sh` memakai `pkill` sehingga ikut mematikan `:8000` & `:5173` yang sehat — jangan dipakai untuk restart sebagian.
+- [ ] **Rute mobile masih statis** (`ROUTES` di `src/pages/data.ts`), `fetchRoutes()` tak pernah dipanggil — DB sudah berisi rute berkode benar.
+- [ ] 3 plat hasil salinan belum diverifikasi ulang terhadap aturan Internal=0 · Lokal=cadangan · Eksternal=region.
+- [ ] DB masih SQLite (MariaDB belum).
+- [ ] `data/trip.db` **di-track git** (3 salinan DB berbeda) — pertimbangkan `.gitignore` + backup terpisah agar data tak tertimpa commit.
+
 
 
 

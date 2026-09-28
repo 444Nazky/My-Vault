@@ -1,5 +1,10 @@
 # Konsep Sistem Informasi Angkutan Plantation
 
+> ⚪ **ARSIP RANCANGAN AWAL** — dokumen ini ditulis sebelum stack final dipilih.
+> Konsep awal sistem. Untuk penjelasan sesuai implementasi lihat `Aplikasi-Trip/requirements/functional.md`.
+> **Jangan jadikan acuan teknis** — lihat `Aplikasi-Trip/requirements/functional.md`
+> untuk stack & perilaku nyata. Penanda ditambahkan 25 Sep 2026.
+
 ## 1. Pendahuluan
 
 ### 1.1 Latar Belakang Masalah

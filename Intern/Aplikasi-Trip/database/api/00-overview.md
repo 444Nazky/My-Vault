@@ -82,6 +82,18 @@ Staging     : https://192.168.1.2/api        (lihat src/environments/)
 | GET | `/regions` | token | Daftar region |
 | POST | `/regions` | admin | Tambah region |
 
+> **Kode & nama region (aktual, 25 Sep 2026):**
+> `BADAU` = Badau · `SJRE` = Sijangkung · `SBDZ` = Sabadi · `ENTIKONG` = Entikong.
+> Nama mengikuti label rute di aplikasi mobile, supaya `route_from_name`/`route_to_name`
+di laporan konsisten dengan yang dilihat petugas.
+>
+> **Alias rute:** kode `BDAU` (dipakai mobile) dipetakan ke region `BADAU` oleh
+> `ROUTE_CODE_ALIAS` di `backend/src/routes/reports.js`.
+>
+> ⚠️ **Regresi yang pernah terjadi:** seed sempat diganti jadi placeholder `R1`–`R4`,
+> akibatnya nama tempat di laporan kosong (null). Jangan ubah kode region di `seedData()`
+tanpa menyesuaikan kode rute mobile.
+
 ### Reports (`/reports`) — admin-only
 | Method | Endpoint | Deskripsi |
 |--------|----------|-----------|

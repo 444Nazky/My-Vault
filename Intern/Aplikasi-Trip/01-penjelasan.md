@@ -1,5 +1,10 @@
 # Sistem Informasi Angkutan Plantation - Penjelasan Lengkap
 
+> ⚪ **ARSIP RANCANGAN AWAL** — dokumen ini ditulis sebelum stack final dipilih.
+> Narasi awal proyek. Untuk penjelasan sesuai implementasi lihat `Aplikasi-Trip/requirements/functional.md`.
+> **Jangan jadikan acuan teknis** — lihat `Aplikasi-Trip/requirements/functional.md`
+> untuk stack & perilaku nyata. Penanda ditambahkan 25 Sep 2026.
+
 ## Gambaran Umum Proyek
 
 Proyek yang saya kerjakan adalah Sistem Informasi Angkutan Plantation, yaitu aplikasi digital untuk mencatat kendaraan Angkutan di kawasan perkebunan. Selama ini pencatatan dilakukan secara manual dengan buku catatan, dan tujuan proyek ini adalah mendigitalisasi proses tersebut.

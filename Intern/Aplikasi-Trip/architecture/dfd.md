@@ -1,5 +1,10 @@
 # Data Flow Diagram
 
+> ⚪ **ARSIP RANCANGAN AWAL** — dokumen ini ditulis sebelum stack final dipilih.
+> Level & proses tetap valid; nama teknologi (Firebase/PostgreSQL) di dalamnya sudah tidak dipakai.
+> **Jangan jadikan acuan teknis** — lihat `Aplikasi-Trip/requirements/functional.md`
+> untuk stack & perilaku nyata. Penanda ditambahkan 25 Sep 2026.
+
 ## Level 0 (Context Diagram)
 
 ```

@@ -1,5 +1,10 @@
 # Firebase Authentication Integration
 
+> ⚪ **ARSIP RANCANGAN AWAL** — dokumen ini ditulis sebelum stack final dipilih.
+> Firebase Auth **tidak dipakai** — implementasi nyata memakai JWT (HS256) + bcrypt di `backend/src/middleware/auth.js`.
+> **Jangan jadikan acuan teknis** — lihat `Aplikasi-Trip/requirements/functional.md`
+> untuk stack & perilaku nyata. Penanda ditambahkan 25 Sep 2026.
+
 ## Overview
 
 Firebase Auth digunakan untuk autentikasi mobile app dengan metode PIN 6 digit.

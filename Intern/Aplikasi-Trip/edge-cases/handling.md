@@ -67,6 +67,48 @@
 
 ---
 
+## Kasus Backend & Data (ditemukan 25 Sep 2026 sore)
+
+### Scenario: `POST /trips` gagal 500 — `NOT NULL constraint failed: trips.dermaga_id`
+
+**Penyebab:** skema `trips.dermaga_id` NOT NULL, tapi klien mobile tak pernah mengirim dermaga
+(layar mobile tidak memilih dermaga) dan INSERT tidak menyertakan kolom itu.
+**Dampak:** semua trip gagal tersinkron → laporan & ekspor kosong.
+
+**Penanganan:**
+1. Server derive `dermaga_id`: `req.body.dermagaId` → dermaga penugasan petugas (`officer_dermagas`) → dermaga pertama region → `null`.
+2. Migrasi `relaxTripsDermagaNotNull()` di `db.js` menjadikan kolom **nullable** (SQLite butuh rebuild tabel).
+
+**Deteksi:** log backend → `Create trip error: NOT NULL constraint failed: trips.dermaga_id`.
+
+### Scenario: Nama tempat di laporan kosong (`route_from_name` = null)
+
+**Penyebab:** kode rute mobile (`SJRE`/`SBDZ`/`BDAU`) tidak ada di tabel `regions`
+— seed pernah berubah jadi placeholder `R1`–`R4`.
+
+**Penanganan:** rename region ke kode asli (BADAU/SJRE/SBDZ/ENTIKONG) + kembalikan seed.
+**Pencegahan:** jangan ubah kode region di `seedData()` tanpa menyesuaikan kode rute mobile.
+
+### Scenario: Data trip/plat hilang karena DB ikut ter-reset
+
+**Penyebab:** `data/trip.db` di-track git; seed berubah → DB ikut ter-regenerasi.
+Data asli hanya bertahan di salinan worktree.
+
+**Penanganan:** salin ulang trips/vehicles/plates dari worktree sambil memetakan ID legacy → UUID,
+perbaiki trip yatim (`officer_id` numerik / `region_id` asing), normalisasi istilah kategori.
+**Deteksi:** trip yatim tak tampil di laporan (JOIN gagal) — cek dengan
+`LEFT JOIN officers/regions ... WHERE ... IS NULL`.
+
+### Scenario: Label kategori kembali ke istilah lama (regresi)
+
+**Penyebab:** proses lain melakukan checkout/restore dari versi sebelum perbaikan.
+**Penanganan:** audit ulang setelah merge/restore — jangan asumsi perbaikan masih ada:
+```bash
+grep -rn "Berganji\|Tanpa Garansi\|Bergaransi" src/ backend/src/
+```
+
+---
+
 ## Location Edge Cases (RENCANA — belum diimplementasikan)
 > GPS/geofencing/device binding **tidak dipakai** dalam versi ini. Bagian di bawah hanya rancangan awal.
 

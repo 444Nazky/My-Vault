@@ -1,5 +1,10 @@
 # Database Linking Architecture
 
+> ⚪ **ARSIP RANCANGAN AWAL** — dokumen ini ditulis sebelum stack final dipilih.
+> Rancangan PostgreSQL + Firebase Storage — **belum diimplementasikan**; realitanya satu file SQLite + foto base64 lokal.
+> **Jangan jadikan acuan teknis** — lihat `Aplikasi-Trip/requirements/functional.md`
+> untuk stack & perilaku nyata. Penanda ditambahkan 25 Sep 2026.
+
 ## Overview
 
 Sistem terdiri dari 3 komponen utama yang terhubung melalui REST API:

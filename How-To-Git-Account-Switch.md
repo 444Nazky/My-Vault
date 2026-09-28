@@ -25,6 +25,7 @@ Berikut adalah konfigurasi identitas untuk masing-masing akun:
     ```
     git config user.name "4444Nazky"
     git config user.email "nazky@proton.me"
+    "naruzky.naz@gmail.com"
     ```
     
 - **nazky-karyamas**
@@ -43,7 +44,8 @@ Berikut adalah konfigurasi identitas untuk masing-masing akun:
       
     
     Bash
-    
+    git config --global user.name "namakamu"
+git config --global user.email "emailmu@example.com"
     ```
     git config user.name "tahugorengkamis"
     git config user.email "tahugorengkamis@users.noreply.github.com"
@@ -56,11 +58,20 @@ Berikut adalah konfigurasi identitas untuk masing-masing akun:
     Bash
     
     ```
-    git config user.name "fufufaselmatku"
-    git config user.email "fufufaselmatku@users.noreply.github.com"
+    git config user.name "fufufaselamatku"
+    git config user.email "fufufaselamatku@users.noreply.github.com"
     ```
     
-
+- **Piscok**
+    
+      
+    
+    Bash
+    
+    ```
+    git config user.name "manusiasetengahpiscok"
+    git config user.email "arpeggionazky@gmail.com"
+    ```
 ## 3. Cara Mendapatkan Email Noreply GitHub
 
 1. Buka halaman [GitHub Settings Emails](https://github.com/settings/emails?utm_source=gemini).

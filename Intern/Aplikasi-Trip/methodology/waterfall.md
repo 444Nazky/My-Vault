@@ -1,5 +1,10 @@
 # Development Methodology - Waterfall
 
+> ⚪ **ARSIP RANCANGAN AWAL** — dokumen ini ditulis sebelum stack final dipilih.
+> Metodologi Waterfall 14 minggu — tetap berlaku sebagai acuan penulisan laporan.
+> **Jangan jadikan acuan teknis** — lihat `Aplikasi-Trip/requirements/functional.md`
+> untuk stack & perilaku nyata. Penanda ditambahkan 25 Sep 2026.
+
 ## Timeline: 14 Minggu (1 Semester)
 
 ### Fase 1: Requirements Gathering (2 minggu)

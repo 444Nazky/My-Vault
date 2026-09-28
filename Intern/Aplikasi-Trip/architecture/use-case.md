@@ -1,5 +1,10 @@
 # Use Case Diagram
 
+> ⚪ **ARSIP RANCANGAN AWAL** — dokumen ini ditulis sebelum stack final dipilih.
+> Isi use case tetap mencerminkan fungsi aplikasi; teknologi di dalamnya bisa sudah berubah.
+> **Jangan jadikan acuan teknis** — lihat `Aplikasi-Trip/requirements/functional.md`
+> untuk stack & perilaku nyata. Penanda ditambahkan 25 Sep 2026.
+
 ## Aktor
 
 | Aktor | Deskripsi |
