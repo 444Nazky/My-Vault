@@ -6,6 +6,9 @@
 ```
 regions (1) -----> (N) officers
 regions (1) <-----> (N) officers        [junction: officer_regions — many-to-many]
+regions (1) -----> (N) dermagas         [D1, D2 per wilayah]
+dermagas (1) -----> (N) routes          [Master Rute — Revisi #3]
+dermagas (1) <-----> (N) officers       [junction: officer_dermagas — akses rute petugas]
 regions (1) -----> (N) trips
 regions (1) -----> (N) region_tariffs   [tarif lokal/eksternal per region — konfigurasi terpusat]
 regions (1) -----> (N) vehicle_plates   [registrasi plat: region asal]
@@ -23,6 +26,7 @@ tariffs (1) -------> (N) vehicles      [tariff_id saat tarif dihitung server]
 | id | TEXT PK | UUID region |
 | name | TEXT UNIQUE | Nama region (Badau, Entikong, …) |
 | code | TEXT UNIQUE | Kode singkatan (BADAU, ENTIKONG, SBDZ, SJRE) |
+| password | TEXT | **bcrypt** password wilayah untuk login 2 langkah (Revisi #4). Default `<kode>123`, mis. `BADAU` → `badau123` — bisa diganti tanpa ubah kode |
 | created_at | DATETIME | Waktu buat |
 
 > Catatan alias: kode rute `BDAU` dipetakan ke region `BADAU` saat laporan dibuat.
@@ -44,6 +48,40 @@ tariffs (1) -------> (N) vehicles      [tariff_id saat tarif dihitung server]
 | region_id | TEXT FK | → regions |
 
 > Sumber kebenaran akses wilayah petugas. Baris lama tanpa junction fallback ke `officers.region_id`.
+
+### dermagas (dermaga per wilayah — Revisi #3)
+| Kolom | Tipe | Deskripsi |
+|-------|------|-----------|
+| id | TEXT PK | UUID |
+| region_id | TEXT FK | → regions |
+| name | TEXT | Nama dermaga (Dermaga 1, Dermaga 2) |
+| code | TEXT | `D1` / `D2` (unik per region) |
+| created_at | DATETIME | Waktu buat |
+
+### officer_dermagas (junction petugas ↔ dermaga — banyak-ke-banyak)
+| Kolom | Tipe | Deskripsi |
+|-------|------|-----------|
+| officer_id | TEXT FK | → officers |
+| dermaga_id | TEXT FK | → dermagas |
+
+> Menentukan rute apa yang dilihat petugas di layar Pilih Rute (`GET /routes/mine`)
+> dan dermaga bawaan saat submit trip. Satu petugas bisa lebih dari satu dermaga
+> (mis. Dewi Kusuma: D1 + D2).
+
+### routes (Master Rute — Revisi #3, dikelola dinamis dari tab admin)
+| Kolom | Tipe | Deskripsi |
+|-------|------|-----------|
+| id | TEXT PK | UUID |
+| dermaga_id | TEXT FK | → dermagas |
+| name | TEXT | Nama rute — **bisa diganti admin** tanpa ubah kode (mis. "Sijangkung → Sabadi") |
+| route_from | TEXT | Kode asal (SJRE, AAAA, …) — jadi `routeCode` di mobile |
+| route_to | TEXT | Kode tujuan |
+| distance | TEXT nullable | Jarak (mis. "42 km"); kosong = tampil `—` |
+| duration | TEXT nullable | Durasi (mis. "1j 10m"); kosong = progress ETA default 60 dtk |
+| created_at | DATETIME | Waktu buat |
+
+> Seed mengisi **tepat 12 rute** sesuai spesifikasi (3 wilayah × 2 dermaga × 2 arah)
+> dan **menghapus rute placeholder** di dermaga spec kecuali masih dipakai `trips.route_id`.
 
 ### tariffs (master tarif — dikelola admin)
 | Kolom | Tipe | Deskripsi |

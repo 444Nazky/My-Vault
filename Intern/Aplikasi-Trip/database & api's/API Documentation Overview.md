@@ -25,7 +25,8 @@ Staging     : https://192.168.1.2/api        (lihat src/environments/)
 | Method | Endpoint | Akses | Deskripsi |
 |--------|----------|-------|-----------|
 | POST | `/auth/admin-login` | publik | Login admin `{username, password}` → JWT admin |
-| POST | `/auth/member-login` | publik | Login petugas `{username, password}` → JWT officer |
+| POST | `/auth/region-login` | publik | **Revisi #4 — langkah 1:** `{regionCode, password}` (mis. `BADAU`/`badau123`) → `{region, officers[]}` (hanya petugas **aktif** wilayah itu, tanpa PIN). Tanpa petugas aktif → `officers: []` |
+| POST | `/auth/member-login` | publik | Login petugas `{username, password}` → JWT officer (jalur lama, mobile tak lagi memakainya) |
 | POST | `/auth/login` | publik | Login PIN `{officerId, pin}` → JWT officer — **ditolak 401 bila Nonaktif** |
 | POST | `/auth/refresh` | officer | Terbit ulang JWT dari **klaim DB terbaru** (wilayah & status ikut terbaru) tanpa PIN — 401 bila akun nonaktif |
 | GET | `/auth/verify` | token | Validasi token + info officer |
@@ -79,6 +80,23 @@ Staging     : https://192.168.1.2/api        (lihat src/environments/)
 |--------|----------|-------|-----------|
 | GET | `/regions` | token | Daftar region |
 | POST | `/regions` | admin | Tambah region |
+
+### Dermagas (`/dermagas`)
+| Method | Endpoint | Akses | Deskripsi |
+|--------|----------|-------|-----------|
+| GET/POST/PUT/DELETE | `/dermagas[/:id]` | admin | CRUD dermaga per region (D1, D2) |
+
+### Master Rute (`/routes`) — Revisi #3
+| Method | Endpoint | Akses | Deskripsi |
+|--------|----------|-------|-----------|
+| GET | `/routes/mine` | **officer** | Rute milik petugas login (via `officer_dermagas`) + `dermaga_code` — dipakai layar Pilih Rute agar sinkron dengan edit admin |
+| GET | `/routes` | admin | Semua rute + `dermaga_name`, `dermaga_code`, `region_name` |
+| POST | `/routes` | admin | Tambah rute `{dermaga_id, name, route_from, route_to, distance?, duration?}` |
+| PUT | `/routes/:id` | admin | Ubah rute (nama bisa diganti dinamis dari tab Master Rute) |
+| DELETE | `/routes/:id` | admin | Hapus rute |
+
+> **Catatan:** `GET /routes/mine` wajib dijalankan dengan backend yang sudah di-restart
+> setelah kode diubah (Node tidak hot-reload) — kalau belum, balasan `404 Cannot GET`.
 
 > **Kode & nama region (aktual, 25 Sep 2026):**
 > `BADAU` = Badau · `SJRE` = Sijangkung · `SBDZ` = Sabadi · `ENTIKONG` = Entikong.

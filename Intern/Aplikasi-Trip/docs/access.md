@@ -1,26 +1,58 @@
-# Master Dashboard
+# Master Dashboard — Akses Wilayah, Dermaga & Rute
+
+> Terakhir diperbarui: 28 September 2026 · data sesuai Revisi #3 (Master Rute) & #4 (login wilayah)
 
 ## 1 - Struktur Wilayah dan Rute
-| Region | Dermaga | Rute Tersedia |
+
+| Wilayah | Dermaga | Rute Tersedia |
 | :--- | :--- | :--- |
-| Region 1 | Dermaga 1 | Rute 1 (A -> B \| B -> A), Rute 2 (C -> D \| D -> C) |
-| Region 1 | Dermaga 2 | Rute 3 (E -> F \| F -> E), Rute 4 (G -> H \| H -> G) |
+| **Badau** (`BADAU`) | Dermaga 1 (`D1`) | SJRE → SBDZ · SBDZ → SJRE |
+| **Badau** (`BADAU`) | Dermaga 2 (`D2`) | AAAA → BBBB · BBBB → AAAA |
+| **Belitung** (`BELITUNG`) | Dermaga 1 (`D1`) | CCCC → DDDD · DDDD → CCCC |
+| **Belitung** (`BELITUNG`) | Dermaga 2 (`D2`) | EEEE → FFFF · FFFF → EEEE |
+| **Kelapa Kampit** (`KELAPAKAMPIT`) | Dermaga 1 (`D1`) | GGGG → HHHH · HHHH → GGGG |
+| **Kelapa Kampit** (`KELAPAKAMPIT`) | Dermaga 2 (`D2`) | IIII → JJJJ · JJJJ → IIII |
+
+> Nama rute bisa diubah dinamis dari dashboard admin → tab **Master Rute**.
+> Relasi disimpan di tabel `dermagas` + junction `officer_dermagas`.
 
 ## 2 - User Mobile Access Rule
-* Pegawai hanya dapat mengakses rute berdasarkan pengaturan region dan dermaga dari admin[cite: 2].
-* Contoh: Budi diset di Region 1 Dermaga 1, maka otomatis hanya bisa mengakses Rute 1 (A -> B dan B -> A). Region, dermaga, dan rute lain disembunyikan (hide) atau tidak diberikan akses[cite: 2].
 
-## 3 - Double Access
-* User 2 kaki yang memiliki izin akses ke Region 1 dengan Dermaga 1 dan Dermaga 2 sekaligus memiliki fitur spesial[cite: 2].
-* Karena user 2 kaki bisa akses rute 1 dan rute 2, tiap kali user 2 kaki login, sistem wajib menanyakan terlebih dahulu dermaga mana yang ingin dipilih untuk sesi aktif tersebut[cite: 2].
+* Pegawai hanya melihat rute dari **dermaga yang diaksesnya** — diambil dari
+  `GET /api/routes/mine` saat layar Pilih Rute dibuka.
+* Contoh: Budi Santoso diset di Badau **Dermaga 1**, maka hanya melihat
+  `SJRE → SBDZ` dan `SBDZ → SJRE`. Rute Dermaga 2 wilayah lain **tidak tampil**.
+* **Trip kosong** (tanpa muatan): rute dikunci hanya `SJRE → SBDZ` —
+  bila dermaga petugas tak punya rute itu, aplikasi memakai rute statis cadangan.
+
+## 3 - Double Access (akses ganda)
+
+* Petugas dengan dua dermaga (mis. **Dewi Kusuma** = Badau D1 + D2) melihat
+  **semua rute kedua dermaga** di layar Pilih Rute (`/routes/mine` mengembalikan 4 rute).
+* Saat alur **Ganti Petugas** (`PinVerifyScreen` → `DermagaSelectScreen`),
+  pemimpin sistem menanyakan dermaga mana yang dipakai untuk sesi aktif
+  (`POST /auth/select-dermaga`).
 
 ## 4 - Tahap Percobaan (Dummy Users)
-| No | Nama Pegawai | Region & Dermaga | Akses Rute |
-| :--- | :--- | :--- | :--- |
-| 1 | Budi Santoso[cite: 2] | Region 1, Dermaga 1[cite: 2] | Rute 1 (A ⇄ B)[cite: 2] |
-| 2 | Andi Pratama[cite: 2] | Region 1, Dermaga 2[cite: 2] | Rute 3 (E ⇄ F)[cite: 2] |
-| 3 | Dewi Kusuma[cite: 2] | Region 1, Dermaga 1 & 2 (Dual Access)[cite: 2] | Rute 1, 2, 3, 4[cite: 2] |
+
+| No | Nama | Wilayah | Dermaga | Akses Rute | PIN |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Budi Santoso | Badau | D1 | SJRE ⇄ SBDZ | 123456 |
+| 2 | Andi Pratama | Badau | D2 | AAAA ⇄ BBBB | 123456 |
+| 3 | Dewi Kusuma | Badau | D1 & D2 (dual) | SJRE ⇄ SBDZ, AAAA ⇄ BBBB | 123456 |
+| 4 | Siti Rahayu | Badau | D1 | SJRE ⇄ SBDZ | 123456 |
+| 5 | Agung Suntoso | Belitung | D1 | CCCC ⇄ DDDD | 123456 |
+| 6 | Rahmat Hidayat | Belitung | D2 | EEEE ⇄ FFFF | 123456 |
+| 7 | Hendra Gunawan | Kelapa Kampit | D1 | GGGG ⇄ HHHH | 123456 |
+| 8 | Maya Sari | Kelapa Kampit | D2 | IIII ⇄ JJJJ | 123456 |
+
+Login sekarang 2 langkah: **wilayah + password** → pilih petugas → **PIN**.
 
 ## 5 - UI Mobile & Credentials
-* Revisi tombol di halaman profil: Ubah dari tombol **Ganti Petugas** menjadi tombol **Logout** (sesuai ralat terbaru).
-* Seluruh kredensial akun (user dan password) untuk Budi Santoso, Andi Pratama, dan Dewi Kusuma wajib dicatat pada direktori: `/home/nazky/Documents/Obsidian Vault/Intern/summary/Accounts.md`[cite: 2].
+
+* Tombol di halaman profil memakai **Logout** (bukan "Ganti Petugas");
+  pergantian petugas dilakukan lewat layar **Ganti Petugas** di shell mobile.
+* Kredensial wilayah & petugas lengkap ada di:
+  **`Intern/accounts and regions.md`** (file lama `summary/Accounts.md` sudah tidak dipakai).
+
+Terkait: [[../accounts and regions]] · [[../Revisi]]

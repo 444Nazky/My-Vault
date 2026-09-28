@@ -13,15 +13,16 @@ src/
 ├── index.html             # entry build
 ├── environments/          # apiBaseUrl (dev localhost:3000 / staging)
 ├── pages/
-│   ├── LoginPage.tsx      # login username/password (admin & member)
+│   ├── LoginPage.tsx      # login 2 langkah: wilayah+password → pilih petugas → PIN (Revisi #4)
 │   ├── store.tsx          # context React (draft trip, petugas, tarif, sinkron)
-│   ├── data.ts            # data statis: rute, master tarif awal, seed
+│   ├── data.ts            # data statis (rute cadangan, master tarif) + helper activeRoutes()
 │   ├── types.ts           # tipe MobileScreen dll.
 │   ├── mobile/            # layar aplikasi petugas
 │   │   ├── MobileApp.tsx / MobileShell.tsx / StatusBar.tsx / FloatingBottomNav.tsx
 │   │   ├── HomeScreen.tsx
 │   │   ├── TripConditionScreen.tsx     # pilih status muatan (revisi alur)
-│   │   ├── RouteSelectScreen.tsx       # rute; kosong → kunci SJRE→SBDZ
+│   │   ├── RouteSelectScreen.tsx       # rute dari backend (/routes/mine + refresh);
+│   │   │                               #  kosong → kunci SJRE→SBDZ
 │   │   ├── VehicleFormScreen.tsx       # 2 langkah + daftar plat sudah diinput
 │   │   ├── CameraScreen.tsx            # wajib kamera (tanpa galeri)
 │   │   ├── TripSummaryScreen.tsx       # submit terkunci tanpa foto
@@ -31,12 +32,13 @@ src/
 │   │   └── OfficerSwitchScreen.tsx / PinVerifyScreen.tsx   # ganti petugas (sinkron admin)
 │   └── admin/
 │       └── AdminDashboard.tsx          # dashboard admin (tab: Dashboard, Master Tarif,
-│                                       #  Master Plat, Petugas, Laporan, Pengaturan)
+│                                       #  Master Plat, Master Rute, Petugas, Laporan, Pengaturan)
 └── services/
-    ├── api.ts       # HTTP client + JWT
-    ├── auth.ts      # memberLogin, loginWithPin, ensureBackendSession, refreshBackendSession
+    ├── api.ts       # HTTP client + JWT + timeout 12 detik
+    ├── auth.ts      # regionLogin, loginWithPin, refreshStoredRoutes, ensureBackendSession
     ├── sync.ts      # antrian sinkron trip offline
     ├── officers.ts  # tarik daftar petugas (/officers/my-region) + cache
+    ├── dermagas.ts  # rute/dermaga/region (CRUD untuk tab Master Rute)
     ├── trips.ts     # laporan trip + filter + format tanggal WIB
     ├── tariffs.ts / regions.ts / plates.ts
     ├── ocr.ts       # pembacaan plat dari foto
@@ -52,12 +54,14 @@ backend/src/
 ├── db.js             # sql.js wrapper (SQLite file data/trip.db)
 ├── middleware/auth.js# authenticate (JWT) + requireAdmin
 └── routes/
-    ├── auth.js       # member-login, admin-login, login (PIN), refresh, verify
+    ├── auth.js       # region-login, member-login, admin-login, login (PIN), refresh, verify
     ├── trips.js      # trip + kendaraan
     ├── vehicles.js / tariffs.js / region-tariffs.js
     ├── plates.js     # registrasi & cek plat (internal/lokal/eksternal)
     ├── officers.js   # CRUD + my-region + regions + status (many-to-many)
     ├── regions.js
+    ├── dermagas.js   # CRUD dermaga per wilayah
+    ├── routes.js     # Master Rute: CRUD (admin) + GET /mine (petugas)
     └── reports.js    # summary, trips, filters, export
 ```
 

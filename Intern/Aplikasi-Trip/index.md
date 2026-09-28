@@ -1,48 +1,49 @@
 # Trip Angkutan — Dokumentasi
 
+> Terakhir diperbarui: 28 September 2026
+
 ## Struktur
 
 ```
 Aplikasi-Trip/
-├── requirements/     # Kebutuhan fungsional (sumber kebenaran)
-├── database/         # Skema & API
-├── ionic/            # Mobile app (layar, alur, offline)
-├── architecture/     # Arsitektur & alur data
-├── edge-cases/       # Error handling & kasus khusus
-└── debugging/        # Bug fix & troubleshooting
+├── docs/               # panduan utama: setup, alur, deploy, akses, README
+├── database & api's/   # skema DB & dokumentasi endpoint (sumber kebenaran teknis)
+├── ionic/              # mobile app (ringkasan, layar, offline sync)
+├── architecture/       # alur data end-to-end
+├── Debugging/          # troubleshooting, edge cases, port guide
+└── Extras/             # arsip arsitektur/rundown/skill
 ```
+
+> Struktur lama (`requirements/`, `database/`, `edge-cases/`, `debugging/`) sudah
+> digabung ke folder di atas. Catatan perbaikan & kesalahan ada di level `Intern/`:
+> **`../01 - Fixes/`** dan **`../02 - Mistakes/`**.
 
 ## Mulai dari Sini
 
 | Dokumen | Isi |
 |---------|-----|
-| [[functional]] | Kebutuhan fungsional (sumber kebenaran implementasi) |
-| [[API Documentation Overview]] | Semua endpoint API |
-| [[Intern/Aplikasi-Trip/database & api's/# Database Schema Overview]] | Skema DB aktual |
+| [[docs/functional]] | Kebutuhan fungsional (sumber kebenaran implementasi) |
+| [[database & api's/API Documentation Overview]] | Semua endpoint API |
+| [[database & api's/Database Schema Overview]] | Skema DB aktual |
+| [[ionic/00-overview]] | Struktur kode mobile & backend |
 | [[ionic/screens]] | Daftar layar mobile |
 | [[ionic/offline-sync]] | Alur sync offline |
-| [[Edge Cases & Error Handling]] | Error handling & edge cases |
 | [[architecture/step-by-step-flow]] | Alur data end-to-end |
+| [[docs/README]] | Overview proyek |
 
 ## Setup & Debugging
 
 | Dokumen | Isi |
 |---------|-----|
-| [[debugging/Port-Debug-Guide]] | Port services & restart |
-| [[debugging/Sync-Connection]] | Bug: login stuck, API connection |
+| [[docs/setup]] | Instalasi & menjalankan layanan |
+| [[Debugging/handling]] | Edge cases & kasus bug (dermaga_id 500, regresi istilah, dll.) |
+| [[Debugging/offline-sync]] | Bug sinkron offline |
 
 ## Catatan Penting
 
-1. **Kode region:** BADAU, SJRE, SBDZ, ENTIKONG (jangan ubah seedData() tanpa menyesuaikan mobile)
-2. **DB tracked git:** data/trip.db ikut commit — backup terpisah
-3. **After merge/restore:** `grep` for regressions (termuati 25 Sep)
-4. **Stack nyata:** Ionic+React | Node+Express+sql.js | React build+CI admin
-
-## Credentials
-
-| Role | Username | Password | Akses |
-|------|----------|----------|--------|
-| Budi | budi | 123456 | BADAU - Dermaga 1 |
-| Andi | andi | 123456 | BADAU - Dermaga 2 |
-| Dewi | dewi | 123456 | BADAU - Dermaga 1 & 2 (dual) |
-| Admin | admin | admin123 | Dashboard |
+1. **Kode region:** `BADAU` (Badau), `BELITUNG`, `KELAPAKAMPIT` + region lama `SJRE`/`SBDZ`/`ENTIKONG` — jangan ubah seed tanpa menyesuaikan mobile
+2. **Master Rute (Revisi #3):** 12 rute spec dikelola dari tab **Master Rute** admin → mobile ambil via `GET /routes/mine`
+3. **Login 2 langkah (Revisi #4):** wilayah+password → pilih petugas → PIN. Lihat [[../accounts and regions]]
+4. **Backend tidak hot-reload:** ubah kode backend → **wajib restart** `node src/index.js` (kalau tidak: 404 aneh)
+5. **DB tracked git:** `data/trip.db` ikut commit — backup sebelum migrasi
+6. **Stack nyata:** React+Tailwind (build Angular CLI) | Node+Express+sql.js | CodeIgniter `admin-ci/`
