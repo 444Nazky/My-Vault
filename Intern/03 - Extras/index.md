@@ -9,14 +9,14 @@ Proyek utama: **Trip Angkutan** — aplikasi mobile (Ionic/React) + admin dashbo
 
 ## 🟢 Mulai dari sini (dokumen terkini)
 
-| Dokumen | Isi |
-|---|---|
-| [[Dokumentasi]] | **Ringkasan utama**: arsitektur, endpoint, daftar bug yang diperbaiki, masalah terbuka |
-| [[Aplikasi-Trip/Additionals/Todo]] | **Status tiap permintaan** — tabel revisi spesifikasi + audit error |
-| [[Aplikasi-Trip/requirements/functional]] | Kebutuhan fungsional sesuai implementasi nyata |
-| [[Intern/Aplikasi-Trip/database/api/00-overview]] | Semua endpoint + aturan akses (admin/officer) |
-| [[Aplikasi-Trip/database/00-overview]] | Skema DB aktual dari SQLite |
-| [[Aplikasi-Trip/ionic/00-overview]] | Struktur proyek mobile & perintah build |
+| Dokumen                                           | Isi                                                                                    |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [[Dokumentasi]]                                   | **Ringkasan utama**: arsitektur, endpoint, daftar bug yang diperbaiki, masalah terbuka |
+| [[Aplikasi-Trip/Additionals/Todo]]                | **Status tiap permintaan** — tabel revisi spesifikasi + audit error                    |
+| [[Aplikasi-Trip/requirements/functional]]         | Kebutuhan fungsional sesuai implementasi nyata                                         |
+| [[Intern/Aplikasi-Trip/database/api/00-overview]] | Semua endpoint + aturan akses (admin/officer)                                          |
+| [[Aplikasi-Trip/database/00-overview]]            | Skema DB aktual dari SQLite                                                            |
+| [[Aplikasi-Trip/ionic/00-overview]]               | Struktur proyek mobile & perintah build                                                |
 
 ## 🟢 Referensi operasional
 

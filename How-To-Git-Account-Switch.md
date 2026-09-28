@@ -24,7 +24,7 @@ git config user.email
     
     ```
     git config user.name "fufufafaselamatkanku"
-    git config user.email "nazkynarutana@gmail.com"
+    git config user.email "nazkynarutama@gmail.com"
     ```
     
     ```
