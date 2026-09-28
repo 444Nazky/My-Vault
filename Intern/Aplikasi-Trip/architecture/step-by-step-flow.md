@@ -23,7 +23,7 @@ Dokumen ini menjelaskan alur data lengkap dari input petugas lapangan di mobile 
 > 4. **Sync** → `POST /api/trips` + `POST /api/trips/:id/vehicles` (tarif dihitung server dari master tarif + tarif region).
 > 5. **Dashboard admin** (`:8000`): laporan dengan tempat/tanggal WIB, filter golongan & jenis kendaraan, ekspor Excel `.xlsx`, tema/font/aksen di tab Pengaturan.
 >
-> Endpoint lengkap: [[Intern/Aplikasi-Trip/database/api/00-overview|API Overview]]. Status poin per poin: [[../../Aplikasi-Trip/Additionals/Todo|Todo]] (bagian Status Implementasi).
+> Endpoint lengkap: [[API Documentation Overview|API Overview]]. Status poin per poin: [[../../Aplikasi-Trip/Additionals/Todo|Todo]] (bagian Status Implementasi).
 
 ---
 

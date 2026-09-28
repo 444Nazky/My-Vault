@@ -1,5 +1,3 @@
-# API Documentation Overview
-
 > **Status:** disesuaikan dengan backend aktual — 25 September 2026
 > Implementasi: **Node.js + Express + SQLite (sql.js)** · `backend/src/`
 

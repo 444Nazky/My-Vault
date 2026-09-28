@@ -1,5 +1,3 @@
-# Database Schema Overview
-
 > **Status:** disesuaikan dengan schema aktual — 25 September 2026
 > Engine: **SQLite** (`backend/data/trip.db`) via **sql.js** — wrapper `backend/src/db.js` (mengonversi bind `undefined` → `null`).
 

@@ -12,7 +12,7 @@
 
 | File | Description |
 |------|-------------|
-| [requirements/functional.md](requirements/functional.md) | **Kebutuhan fungsional sesuai implementasi nyata** |
+| [requirements/functional.md](functional.md) | **Kebutuhan fungsional sesuai implementasi nyata** |
 | [../summary/Summary.md](Dokumentasi.md) | Ringkasan sistem + daftar bug diperbaiki & masalah terbuka |
 | [Additionals/Todo.md](Additionals/Todo.md) | Status tiap permintaan revisi + audit error |
 
@@ -20,12 +20,12 @@
 
 | File | Description |
 |------|-------------|
-| [api/00-overview.md](Intern/Aplikasi-Trip/database/api/00-overview.md) | Endpoint API + aturan akses |
-| [database/00-overview.md](database/00-overview.md) | Skema DB aktual (SQLite) |
+| [api/00-overview.md](API%20Documentation%20Overview.md) | Endpoint API + aturan akses |
+| [database/00-overview.md](Intern/Aplikasi-Trip/database%20&%20api's/#%20Database%20Schema%20Overview.md) | Skema DB aktual (SQLite) |
 | [ionic/00-overview.md](ionic/00-overview.md) | Struktur proyek mobile & perintah build |
 | [ionic/screens.md](ionic/screens.md) | Daftar layar + alur navigasi |
 | [ionic/offline-sync.md](ionic/offline-sync.md) | Strategi offline-first (konsep berlaku, implementasi localStorage) |
-| [edge-cases/handling.md](edge-cases/handling.md) | Pesan error & penanganan kasus |
+| [edge-cases/handling.md](Edge%20Cases%20&%20Error%20Handling.md) | Pesan error & penanganan kasus |
 | [architecture/step-by-step-flow.md](architecture/step-by-step-flow.md) | Alur data mobile → backend → dashboard |
 
 ---
@@ -33,7 +33,7 @@
 ## ⚪ Arsip Rancangan Awal
 
 > Dokumen ini ditulis **sebelum** stack final dipilih. Nilainya sebagai arsip desain/relasi magang.
-> **Jangan jadikan acuan teknis** — lihat [requirements/functional.md](requirements/functional.md) untuk kenyataan.
+> **Jangan jadikan acuan teknis** — lihat [requirements/functional.md](functional.md) untuk kenyataan.
 
 | File | Description | Catatan |
 |------|-------------|---------|
@@ -45,7 +45,7 @@
 | [firebase/auth.md](auth.md) | Firebase Authentication | **tidak dipakai** (realita: JWT) |
 | [methodology/waterfall.md](methodology/waterfall.md) | Development process (14 minggu) | metodologi |
 | [mockups/screens.md](mockups/screens.md) | Wireframe screens | arsip visual |
-| [design-skills.md](design-skills.md) | Spesifikasi desain UI | label bisa tidak sinkron |
+| [design-skills.md](Intern/Aplikasi-Trip/Extras/design-skills.md) | Spesifikasi desain UI | label bisa tidak sinkron |
 | [README.md](README.md) | Indeks ini | — |
 
 ---
@@ -66,7 +66,7 @@
 | Autentikasi | **JWT (HS256, 24 jam)** — bukan Firebase Auth | `backend/src/middleware/auth.js` |
 
 > **Arsip:** versi rancangan menyebut Vue.js / Laravel / PostgreSQL / Firebase Storage.
-> Itu **tidak jadi** — lihat [requirements/functional.md](requirements/functional.md).
+> Itu **tidak jadi** — lihat [requirements/functional.md](functional.md).
 
 ### Fitur Utama (sudah diimplementasikan)
 

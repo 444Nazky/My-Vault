@@ -13,9 +13,9 @@ Proyek utama: **Trip Angkutan** — aplikasi mobile (Ionic/React) + admin dashbo
 | ------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | [[Dokumentasi]]                                   | **Ringkasan utama**: arsitektur, endpoint, daftar bug yang diperbaiki, masalah terbuka |
 | [[Aplikasi-Trip/Additionals/Todo]]                | **Status tiap permintaan** — tabel revisi spesifikasi + audit error                    |
-| [[Aplikasi-Trip/requirements/functional]]         | Kebutuhan fungsional sesuai implementasi nyata                                         |
-| [[Intern/Aplikasi-Trip/database/api/00-overview]] | Semua endpoint + aturan akses (admin/officer)                                          |
-| [[Aplikasi-Trip/database/00-overview]]            | Skema DB aktual dari SQLite                                                            |
+| [[functional]]         | Kebutuhan fungsional sesuai implementasi nyata                                         |
+| [[API Documentation Overview]] | Semua endpoint + aturan akses (admin/officer)                                          |
+| [[Intern/Aplikasi-Trip/database & api's/# Database Schema Overview]]            | Skema DB aktual dari SQLite                                                            |
 | [[Aplikasi-Trip/ionic/00-overview]]               | Struktur proyek mobile & perintah build                                                |
 
 ## 🟢 Referensi operasional
@@ -28,7 +28,7 @@ Proyek utama: **Trip Angkutan** — aplikasi mobile (Ionic/React) + admin dashbo
 | [[summary/Port-Debug-Guide]] | Panduan cek port & debug |
 | [[summary/Deploy-Admin-CodeIgniter]] | Deploy dashboard admin |
 | [[Aplikasi-Trip/ionic/screens]] | Daftar layar + alur navigasi |
-| [[Aplikasi-Trip/edge-cases/handling]] | Pesan error & penanganan kasus |
+| [[Edge Cases & Error Handling]] | Pesan error & penanganan kasus |
 | [[Aplikasi-Trip/architecture/step-by-step-flow]] | Alur data mobile → backend → dashboard |
 
 ## 🟡 Masih berlaku sebagian (ada catatan status)
@@ -44,7 +44,7 @@ Proyek utama: **Trip Angkutan** — aplikasi mobile (Ionic/React) + admin dashbo
 ## ⚪ Arsip rancangan awal (stack lama: Firebase/Flutter/PostgreSQL/Vue)
 
 > Dokumen ini adalah **desain sebelum implementasi**. Jangan dijadikan acuan teknis —
-> stack nyata ada di [[Aplikasi-Trip/requirements/functional]].
+> stack nyata ada di [[functional]].
 
 | Dokumen | Isi |
 |---|---|
@@ -65,7 +65,7 @@ Proyek utama: **Trip Angkutan** — aplikasi mobile (Ionic/React) + admin dashbo
 | [[LAPORAN_PEKERJAAN]] | Laporan pekerjaan (proyek terpisah) |
 | [[TUTORIAL_LANGKAH_KERJA]] | Tutorial langkah kerja server |
 | [[Network debugging]] | Catatan debug jaringan |
-| [[Rundown]] | Task list — **proyek magang lain**, bukan Trip Angkutan |
+| [[Backups/03 - Extras/Rundown]] | Task list — **proyek magang lain**, bukan Trip Angkutan |
 | [[CI & Ionic]] | Catatan CI & Ionic |
 
 ---
