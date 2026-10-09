@@ -18,8 +18,8 @@ git config user.email
     ```
     
     ```
-    git config user.name "nazky-karyamas"
-    git config user.email "nazky-karyamas@users.noreply.github.com"
+    git config user.name "bebekkrenyes"
+    git config user.email "nazkykaryamas@gmail.com"
     ```
     
     ```
@@ -32,6 +32,10 @@ git config user.email
     git config user.email "arpeggionazky@gmail.com"
     ```
 
+    ```
+    git config user.name "tahugorengkamis"
+    git config user.email "narutamazril22@gmail.com"
+    ```
 
 
 ## 3. Cara Mendapatkan Email Noreply GitHub

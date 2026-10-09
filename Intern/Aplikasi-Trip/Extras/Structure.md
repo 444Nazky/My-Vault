@@ -62,7 +62,20 @@ src/
 │   ├── types.ts            # Type definitions (MobileScreen, AdminTab)
 │   ├── store.tsx           # State management (Context + localStorage persistence)
 │   ├── admin/
-│   │   └── AdminDashboard.tsx  # Admin: Overview, Tarif, Plat, Petugas, Laporan, Pengaturan
+│   │   ├── AdminDashboard.tsx   # Shell: header, nav tab, state global, toast (216 baris)
+│   │   ├── tabs/                # Satu file per tab — semua <1.000 baris
+│   │   │   ├── OverviewTab.tsx      # Dashboard at-a-glance: kartu metrik + 5 trip terbaru
+│   │   │   ├── ReportsTab.tsx       # Laporan: filter tanggal/golongan/jenis, grafik, ekspor Excel
+│   │   │   ├── OfficersTab.tsx      # Petugas: wilayah + dermaga + rute yang tampil
+│   │   │   ├── TariffTab.tsx        # Master Tarif + Konfigurasi Tarif Terpusat
+│   │   │   ├── RoutesTab.tsx        # Master Rute (ubah nama rute)
+│   │   │   ├── PlatesTab.tsx        # Master Plat (internal/lokal/eksternal)
+│   │   │   └── SettingsTab.tsx      # Pengaturan (tema, font)
+│   │   └── components/
+│   │       ├── types.ts             # Tipe bersama antar tab
+│   │       ├── Toast.tsx            # Notifikasi admin
+│   │       ├── CurrencyDisplay.tsx  # Sensor nominal (Rp •••••• → klik untuk lihat)
+│   │       └── PhotoViewer.tsx      # Preview foto dokumentasi trip
 │   └── mobile/
 │       ├── MobileApp.tsx           # Wrapper mobile app
 │       ├── MobileShell.tsx         # Shell dengan navigation
@@ -75,7 +88,7 @@ src/
 │       ├── PinVerifyScreen.tsx     # Verifikasi PIN 6-digit
 │       ├── ProfileScreen.tsx       # Profil user & device info
 │       ├── RouteSelectScreen.tsx   # Pilih rute (terkunci SJRE→SBDZ untuk trip kosong)
-│       ├── StatusBar.tsx           # Status bar custom (koneksi, GPS, battery)
+│       ├── (StatusBar.tsx sudah dihapus)  # jam/wifi/baterai palsu — biar sistem HP asli
 │       ├── TripActiveScreen.tsx    # Perjalanan aktif: timer, GPS, tombol Selesai
 │       ├── TripCompleteScreen.tsx  # Selesai perjalanan: ringkasan + trigger sync
 │       ├── TripConditionScreen.tsx # Status Muatan: Kosong vs Ada Muatan

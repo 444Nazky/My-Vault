@@ -34,4 +34,4 @@ kedua titik entry PIN kini seragam.
 | PIN benar via keypad (`123456`) → dashboard "Siap bertugas?" | ✅ |
 | `tsc` 0 error · `ng lint` pass · `ng build` sukses · `admin-ci` tersinkron | ✅ |
 
-Terkait: [[Revisi]] · [[01 - Fixes/Petugas Master Akses Dermaga dan Rute]]
+Terkait: [[Revisi]] · [[Petugas Master Akses Dermaga dan Rute]]

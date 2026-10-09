@@ -31,12 +31,17 @@
 - Ringkasan menampilkan status foto + kendaraan (foto, badge status plat)
 
 ### FR-005: Sinkronisasi Offline
-- Antrian sync (`src/services/sync.ts`) → `POST /api/trips` + `POST /api/trips/:id/vehicles`
-- Penanda `synced` per trip; daftar petugas di-refresh paksa saat aplikasi/layar ganti petugas dibuka
+- Antrian sync (`src/services/sync.ts`) → `POST /api/trips/complete` (multipart: manifest + seluruh foto)
+- Penanda `synced` per trip; **pemantau jaringan**: event `online`/`offline`, listener native **Capacitor Network**, dan polling pengaman 15 detik
+- **Auto-push**: begitu koneksi pulih → `handleReconnect()` memberi jatah percobaan baru ke seluruh antrean lalu flush otomatis — tanpa intervensi user; antrean juga ditarik ulang saat aplikasi dibuka
+- Item gagal tidak pernah dibuang (backoff + retry), jadi tidak ada trip hilang saat offline lama
 
 ### FR-006: Ganti Petugas (sinkron dengan admin)
-- Daftar dari `GET /api/officers/my-region` (hanya petugas yang berbagi wilayah)
+- Daftar dari `GET /api/officers/my-region` (hanya petugas yang berbagi wilayah, kini termasuk **`username`** → tampil `@username`)
 - Status **Aktif/Nonaktif** dan **akses wilayah** langsung mengikuti admin
+- **Prefetch saat login online**: `login('member')` memanggil `refreshOfficers(true)` → daftar rekan (region + dermaga irisan) diunduh ke `trip.officers.v1` **sebelum** dipakai
+- **Mode offline**: layar Ganti Petugas tetap jalan dari cache + badge "Mode offline — menampilkan data hasil prefetch…"; filter region & dermaga irisan tetap berlaku
+- Saat koneksi kembali (`online`), daftar petugas ditarik ulang otomatis → perubahan admin (aktif/nonaktif, pindah region) sinkron real-time
 - Akun dinonaktifkan admin → refresh token ditolak (401) → **sesi mobile otomatis berakhir**
 
 ---
@@ -51,7 +56,9 @@
 - Daftar trip + panel detail + baris expandable (kendaraan)
 - **Detail tempat & tanggal akurat**: `route_from_name`/`route_to_name` (join region, termasuk alias kode rute `BDAU`↔`BADAU`) + tanggal-jam **WIB**
 - **Filter Golongan & Jenis Kendaraan** (`GET /reports/trips/filters`, server-side)
-- **Ekspor Excel `.xlsx`** (2 sheet: Laporan Trip + Detail Kendaraan) — `src/services/xlsx.ts`, nol dependency baru
+- **Ekspor Spreadsheet (utama)** — buka `#/sheet` (Spreadsheet Live): tabel dari database + sinkron otomatis 15 detik, filter, lembar Trip/Kendaraan, salin TSV — **tanpa unduh/impor**
+- **Ekspor Excel `.xlsx` (opsional)** (2 sheet: Laporan Trip + Detail Kendaraan) — `src/services/xlsx.ts`, nol dependency baru
+- **Rekap Wilayah** (`GET /reports/recap`): trip dari petugas **berbeda** dengan region + dermaga sama **digabung jadi satu baris** rekap — Tempat · Dermaga · Trip · Unit · Pendapatan · **Petugas (metadata)** berisi `Nama (@username)` semua penyumbang; ikut filter tanggal/golongan/jenis
 
 ### FR-103: Master Tarif & Konfigurasi Tarif Terpusat
 - CRUD master tarif (golongan, jenis, tarif muatan/kosong) — admin-only (`authenticate + requireAdmin`)
@@ -65,7 +72,10 @@
 - `POST /plates/check` → status tarif mengikuti aturan registrasi & region pos
 
 ### FR-105: Tema & Tampilan (baru, tab Pengaturan)
-- Tema **Terang/Gelap**, **Ukuran Font** 90/100/110/125%, **warna aksen** (Biru/Hijau/Ungu/Kuning), Reset
+- Tema **Terang/Gelap**, **Ukuran Font** 90/100/110/125%, **warna aksen** (**Biru** default / Hitam / Hijau / Ungu / Kuning), Reset
+- Persist di `localStorage` (`src/services/theme.ts`), CSS di-scope `html[data-admin]` — mobile tidak terpengaruh; diterapkan otomatis saat dashboard dibuka
+- **FR-105a:** seluruh kontrol aksen (tombol utama, tab sidebar, grafik, toast) memakai utility biru yang di-remap ke `var(--admin-accent)` — pilihan warna langsung mengubah seluruh UI
+- **FR-105b:** ikon wajib lucide, emoji dilarang di admin (`Sun`/`Moon`, `Check`/`X`, `Camera`)
 - Persist di `localStorage` (`src/services/theme.ts`), CSS di-scope `html[data-admin]` — mobile tidak terpengaruh
 - Perbaikan pendukung: scroll halaman aktif (override CSS Ionic `body{position:fixed;overflow:hidden}`), favicon Ionic dihapus dari `:8000`
 

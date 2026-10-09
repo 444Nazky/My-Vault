@@ -5,7 +5,7 @@
 
 ## Screen List (aktual — `src/pages/mobile/`)
 
-1. **LoginPage** — login 2 langkah: Login Wilayah (kode + password) → Pilih Petugas (kartu per wilayah, Region Lock) → **Verifikasi PIN via keypad**; mode Administrator lewat tautan bawah
+1. **LoginPage** — login 2 langkah: Login Wilayah (kode + password) → Pilih Petugas (kartu per wilayah, Region Lock) → **Verifikasi PIN via keypad**; opsi Administrator sudah dihapus (dashboard admin hanya lewat build `:8000`)
 2. **HomeScreen** — beranda petugas, tombol **Mulai Trip**
 3. **TripConditionScreen** — **pilih status muatan dulu**: “Kosong / Tidak Ada Muatan” atau “Ada Angkutan”
 4. **RouteSelectScreen** — pilih rute; **trip kosong → rute dikunci hanya SJRE → SBDZ**; ada muatan → bebas

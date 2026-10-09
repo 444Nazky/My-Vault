@@ -35,4 +35,4 @@ seluruh asersi gagal `NOT FOUND` padahal kodenya benar.
    dan pastikan skrip pembersihannya benar-benar jalan (cek hasil `DELETE`),
    jangan hanya mengira sukses.
 
-Terkait: [[01 - Fixes/Petugas Master Akses Dermaga dan Rute]] · [[02 - Mistakes/Skrip Uji Mengedit Baris yang Salah]]
+Terkait: [[Petugas Master Akses Dermaga dan Rute]] · [[02 - Mistakes/Skrip Uji Mengedit Baris yang Salah]]

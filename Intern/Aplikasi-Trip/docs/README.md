@@ -46,7 +46,7 @@
 | [methodology/waterfall.md](methodology/waterfall.md) | Development process (14 minggu) | metodologi |
 | [mockups/screens.md](mockups/screens.md) | Wireframe screens | arsip visual |
 | [design-skills.md](Intern/Aplikasi-Trip/Extras/design-skills.md) | Spesifikasi desain UI | label bisa tidak sinkron |
-| [README.md](README.md) | Indeks ini | — |
+| [README.md](Intern/README.md) | Indeks ini | — |
 
 ---
 

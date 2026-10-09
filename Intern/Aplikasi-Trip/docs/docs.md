@@ -71,7 +71,8 @@ Tanggal: 24 September 2026
     
       
     
-- **Ekspor xlsx** — memakai `downloadXlsx` **client-side** (2 sheet, ZIP valid 42.763 bytes). Endpoint `/reports/trips/export` memang sengaja CSV (cadangan) — bukan bug.
+- **Ekspor Spreadsheet (baru, utama)** — tombol **Ekspor Spreadsheet** di Laporan me-`redirect` ke `#/sheet`: halaman **Spreadsheet Live** (`src/pages/admin/ReportSheet.tsx`) yang menarik data langsung dari `GET /reports/trips` dan **sinkron ulang tiap 15 detik** — tanpa unduh/impor berkas, tanpa file sementara di server. Isi: 2 lembar tab (Laporan Trip / Detail Kendaraan), filter tanggal+golongan+jenis, total baris, aksi **Salin (TSV)** siap tempel ke Google Sheets/Excel, dan segarkan manual. Ikon tab baru (`ExternalLink`) tetap tersedia sebagai opsional.
+- **Ekspor xlsx (opsional, cara lama)** — tombol `.xlsx` di Laporan tetap ada memakai `downloadXlsx` **client-side** (2 sheet, ZIP valid). Endpoint `/reports/trips/export` memang sengaja CSV (cadangan) — bukan bug.
     
       
     
@@ -199,7 +200,10 @@ Alur final: `Beranda → Status Muatan → Pilih Rute → (Kendaraan → Detail)
     
       
     
-- **Baru — tab Pengaturan → “Tema & Tampilan”** (`src/services/theme.ts`): tema Terang/Gelap, Ukuran Font 90–125%, warna aksen (Biru/Hijau/Ungu/Kuning), Reset; persist `localStorage`.
+- **Baru — tab Pengaturan → “Tema & Tampilan”** (`src/services/theme.ts`): tema Terang/Gelap, Ukuran Font 90–125%, warna aksen (**Biru**/Hitam/Hijau/Ungu/Kuning — Biru default), Reset; persist `localStorage`. Tema diterapkan otomatis saat dashboard dibuka (`applyTheme` di `AdminDashboard`), bukan hanya saat tab Pengaturan dikunjungi.
+- **Kelas aksen:** tombol/tab aktif memakai utility `bg-blue-600` / `text-blue-600` / `bg-blue-50` yang di-remap CSS ke `var(--admin-accent)` oleh `html[data-admin][data-accent="…"]` — ganti aksen = seluruh dashboard ikut, tanpa ubah kode.
+- **Ikon, bukan emoji:** semua emoji admin diganti lucide (☀️/🌙 → `Sun`/`Moon`, ✓/✕ toast → `Check`/`X`, 📷 → `Camera`).
+- **Hierarki visual:** latar halaman admin `bg-slate-50` (off-white), semua kartu/panel `bg-white` + `border-slate-200` + `shadow-sm` — batas antar elemen jelas tanpa kehilangan tampilan minimalis.
     
       
     
@@ -339,11 +343,12 @@ Alur final: `Beranda → Status Muatan → Pilih Rute → (Kendaraan → Detail)
 |GET/POST/PUT/DELETE|`/api/officers`|CRUD petugas (admin)|
 |PUT|`/api/officers/:id/regions`|Pindah akses wilayah (many-to-many)|
 |PUT|`/api/officers/:id/status`|Aktif/nonaktif petugas|
-|GET|`/api/officers/my-region`|Daftar petugas 1 wilayah (token petugas) _(baru 25 Sep)_|
+|GET|`/api/officers/my-region`|Daftar petugas 1 wilayah (token petugas) + `username` _(baru 25 Sep, username 30 Sep)_|
 |GET|`/api/regions`|Daftar region|
 |GET|`/api/reports/trips`|Laporan rinci dengan vehicles|
 |GET|`/api/reports/trips/filters`|Opsi filter golongan & jenis _(baru 25 Sep)_|
 |GET|`/api/reports/summary`|Statistik ringkas (admin)|
+|GET|`/api/reports/recap`|**Rekap wilayah**: trip lintas petugas digabung per region+dermaga (petugas sbg metadata) _(baru 30 Sep)_|
 
 ## 2. Tutorial Teknis Sinkronisasi (Tutorial.md)
 
@@ -590,14 +595,15 @@ const handleLogin = async () => {
     
       
     
-- `getPendingCount()` - Hitung trip belum sync
+- `getPendingCount()` - Hitung trip belum sync- Auto-retry max 3x
     
       
-    
-- Auto-retry max 3x
+    - **Auto-push saat kembali online** — `handleReconnect()` (event `online`, listener native Capacitor Network, polling pengaman 15 dtk) memberi jatah percobaan baru lalu flush seluruh antrean tanpa intervensi user
     
       
+    - Online/offline detection
     
-- Online/offline detection
+      
+    - **Prefetch petugas saat login online** (`store.tsx` → `refreshOfficers(true)`) — daftar rekan sekawasan disimpan ke `trip.officers.v1` agar layar Ganti Petugas tetap berfungsi offline; ditarik ulang otomatis tiap koneksi pulih
     
       

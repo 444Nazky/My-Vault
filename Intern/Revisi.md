@@ -1,76 +1,86 @@
-# INI BELOM 
-
-# mobile version
-pastikan kembali kalau tampilan mobile sudah responsive karena target utama adalah perangkat mobile. lalu hilangkan opsi login as administrator di http://localhost:5173/ atau versi mobile. jangan lupa hilangkan jam dan icon wifi beserta wifi/system status bar yang ada di tampilan mobile, kayak itu buat apaan? nanti takutnya waktu di export jadi aplikasi mobile nanti 
-
-improvisasi animasi saat menclick tombol dan pindah halaman. stop menggunakan fade setiap kali pindah halaman
-
-# admin dashboard
-tambahkan filter output berdasarkan tanggal, serta hilangkan SBDZ dan SJRE dari dashboard admin halaman petugas, karena SBDZ dan SJRE itu bukan region maupun dermaga. kemudian tambahkan entikong sebagai region juga dermaga 1 dengan rute 1 yaitu A4A4 -> B8B8 dan rute 2 B8B8 -> A4A4. dan untuk dermaga 2 rute 1 = C3C3 -> D6D6 dan rute 2 D6D6 -> C3C3. dan izinkan admin dashboard untuk mengubah nama rute.
-
- dan Halaman Dashboard sebaiknya difungsikan sebagai pusat informasi cepat (_at-a-glance_) tanpa menampilkan tabel data mentah yang menumpuk, melainkan diisi dengan kartu metrik penting seperti statistik total trip hari ini, pendapatan harian, atau status petugas aktif, serta tabel ringkas yang hanya memuat lima trip terbaru secara _real-time_. Sementara itu, halaman Laporan dijadikan pusat data dan analisis mendalam yang dilengkapi dengan tabel data _gird_ lengkap yang dapat difilter berdasarkan Golongan dan Jenis Kendaraan, lengkap dengan fitur ekspor data serta grafik statistik atau diagram analitik di bagian atas tabel agar tampilannya benar-benar terasa sebagai laporan yang utuh dan bukan sekadar duplikat dari halaman depan.
 
 
 
 
 
 
+# updates
+terdaapat error/bug di setelah update, karena jika pengguna menarik update kedua tidak ada perubahan, jadi user harus clear data dulu baru bisa update ke versi terbaru. aplikasi hanya bisa update sekali, pada update kedua terjadi error karena tidak ada perubahan. mohon untuk di setting setelah update versi, versi lama di hapus. dan untuk versi chunk buat jadi versi yang dapat di lihat manusia seperti 1.0.1 atau 1.0.2 bukan 1920938
+
+
+# double pic
+Bertindaklah sebagai Senior Frontend Developer untuk merombak total halaman _Ringkasan Trip_ di aplikasi _mobile_ agar menghapus mutlak elemen kartu swafoto penutup yang masih muncul ganda atau redundan, sehingga hanya tersisa tepat satu komponen kartu interaktif yang dinamis—berubah menjadi status hijau dengan pratinjau foto setelah diambil dan mengaktifkan tombol _'Kirim Saja'_ menuju halaman trip selesai tanpa ada sisa elemen DOM yang bertumpuk.
+
+
+
+### **Pembersihan Total UI Trip Kosong (Hapus Detail Kendaraan & Slot Foto Kosong Redundan)**
+
+> "Bertindaklah sebagai Senior Frontend & UI/UX Developer. Lakukan perbaikan logika render secara tuntas pada komponen halaman detail riwayat dan ringkasan trip (_Trip Detail / History Screen_) di aplikasi _mobile_ Ionic/React pada direktori `/home/nazky/RPL/Intern/Aplikasi-Trip-Ionic` dengan instruksi mutlak berikut:
+> 
+> 1. **Sembunyikan Total Bagian Kendaraan untuk Trip Kosong:** Jika kondisi trip bernilai **'Kosong'**, pastikan blok komponen atau kartu yang bertuliskan _"Detail Kendaraan"_ beserta seluruh elemen turunannya **tidak dirender sama sekali** dari DOM. Trip kosong murni hanya mencatat rute, waktu, dan bukti foto kondisi kapal.
+>     
+> 2. **Hapus Slot Placeholder Foto Redundan:** Pada bagian _Foto Dokumentasi_, hapus mutlak kotak placeholder atau kotak kosong berlabel angka ganjil seperti `-1 — BELUM ADA FOTO`.
+>     
+> 3. **Tampilkan Foto Bukti Tunggal Secara Bersih:** Pastikan hanya foto bukti valid kondisi kapal kosong yang benar-benar ada isinya saja yang dirender secara rapi dan proporsional tanpa ada kotak kosong sisa _looping_ array yang rusak."
+>
 
 
 
 
----
-# INI UDAH ✅
-# 1 Inputs
-di bagian input kendaraan, buat ui menjadi lebih minimalis dan tidak heboh. pastikan semuanya WAJIB terisi baru boleh simpan dan tambah kendaraan lain. untuk kategori dan jenis kendaraan itu WAJIB diisi dan bukan opsional
 
-# 2 Laporan dashboard
-Halaman Laporan Trip dirancang ulang agar tampilannya lebih intuitif, padat, dan mudah dipahami selayaknya _spreadsheets_ modern. Meskipun tata letak dan strukturnya diperbarui menjadi lebih rapi, fitur filter utama seperti Golongan dan Jenis Kendaraan tetap dipertahankan di bagian atas agar proses penyaringan data tidak dihilangkan.
 
-# 3 Master Rute Wilayah Operasional
-## 1. Badau
-### Dermaga 1
-- **Rute 1:** SJRE -> SBDZ
-- **Rute 2:** SBDZ -> SJRE
-### Dermaga 2
-- **Rute 1:** AAAA -> BBBB
-- **Rute 2:** BBBB -> AAAA
----
-## 2. Belitung
-### Dermaga 1
-- **Rute 1:** CCCC -> DDDD
-- **Rute 2:** DDDD -> CCCC
-### Dermaga 2
-- **Rute 1:** EEEE -> FFFF
-- **Rute 2:** FFFF -> EEEE
----
-## 3. Kelapa Kampit
-### Dermaga 1
-- **Rute 1:** GGGG -> HHHH
-- **Rute 2:** HHHH -> GGGG
-### Dermaga 2
-- **Rute 1:** IIII -> JJJJ
-- **Rute 2:** JJJJ -> IIII
-## Pengaturan Admin
-- Nama rute dapat diubah secara dinamis melalui dashboard admin pada halaman **Master Rute**.
----
-# 4 Revisi alur login
-pada saat login page, ubah dari login karyawan menjadi login region beserta password region, contoh : Login = BADAU password = badau123. lalu kemudian setelah berhasil login lewat akun region, baru muncul pilihan pekerjanya, contoh : di dalam akun region BADAU ada user petugas : Budi Santoso, Andi Pratama, Siti Rahayu. dan seterusnya. namun jika yang login adalah region BELITUNG, akun petugas yang tampil juga berbeda, karena belum ada akunnya, anda bisa buat akun contoh : Agung suntoso, ataupun nama yang lainnya, minimal 2. dan tiap petugas memiliki pin masing masing untuk verifikasi![[Pasted image 20260928101635.png|228]]
- ![[Pasted image 20260928101233.png|215]]
 
----
 
-# ✅ Status Implementasi — 28 September 2026
 
-| #   | Revisi                                               | Status    | Catatan                                                                                                                                                                                                     |
-| --- | ---------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Input kendaraan minimalis, semua field wajib         | ✅ Selesai | Kategori & jenis **bukan opsional**; tombol simpan terkunci sampai 4/4 terisi. Lihat [[01 - Fixes/Form Input Kendaraan Wajib Total dan Laporan Spreadsheet]]                                                |
-| 2   | Laporan gaya spreadsheet + filter Golongan/Jenis     | ✅ Selesai | Header sticky, baris zebra, expand detail, baris total; filter tetap di atas                                                                                                                                |
-| 3   | Master Rute Wilayah Operasional                      | ✅ Selesai | Seed 12 rute persis spec; tab **Master Rute** di admin (edit nama dinamis, tambah/hapus); mobile ambil via `GET /routes/mine` + refresh otomatis. Lihat [[01 - Fixes/Master Rute Wilayah dan Login Region]] |
-| 4   | Revisi alur login (wilayah → petugas → PIN)          | ✅ Selesai | `POST /auth/region-login`; petugas berbeda per wilayah; PIN masing-masing **via keypad** (dot + numpad + Konfirmasi). Kredensial: [[accounts and regions]]                                                  |
-| 5   | Admin — Petugas Master (data baru + pilihan dermaga) | ✅ Selesai | Kolom **Dermaga** & **Rute yang Tampil**; form tambah/edit berchecklist wilayah + dermaga; endpoint `PUT /officers/:id/dermagas`. Lihat [[01 - Fixes/Petugas Master Akses Dermaga dan Rute]]                |
 
-**Verifikasi:** `tsc` 0 error · `ng lint` pass · `ng build` sukses · E2E Chromium (login 2 langkah + keypad PIN, rute terkunci trip kosong, edit nama rute → mobile langsung terpakai tanpa re-login, edit dermaga petugas → `/routes/mine` ikut berubah).
 
-# 5 admin dashboard - Petugas Master
-bagian petugas master jangan lupa di update juga, karena masih tertera menggunakan data lama dan belum berubah ke yang baru. selain region, buat juga pilihan dermaga. jadi tidak hanya region saja. contoh : Region 1 = agung, budi.  dermaga 1 = agung. dermaga 2 = budi. dan seterusnya. dan untuk rute yang tampil sama seperti penjelasan sebelumnya
+
+
+
+
+
+
+
+# Revisi (aktif)
+lokasi kode = /home/nazky/RPL/Intern/Aplikasi-Trip-Ionic
+
+
+setelah trip berhasil diisi, hilangkan "belum ada foto di trip kosong". serta hilangkan detail kendaraan juga, karena ini trip kosong. intinya kalau trip kosong hanya muncul bukti foto kalau memang benar2 kosong kapalnya, tidak ada kendaraan
+
+hilangkan informasi internet online / offline di detail trip yang sudah terkirim, karena fitur ini sudah ada sebelumnya di bagian kanan atas
+
+hilangkan fitur scan plat di halaman input kendaraan
+
+# 1
+Tolong rancang, perbaiki, dan implementasikan arsitektur logika aplikasi mobile Trip Angkutan agar beroperasi secara dominan offline-first berdasarkan alur kerja dan validasi berikut:
+
+1. **Inisialisasi & Tarik Data Awal (Kondisi: Online):**
+   - Saat perangkat terhubung ke internet, aplikasi wajib menarik seluruh data master (pengguna, dermaga, rute, dan konfigurasi) dari Web Admin ke penyimpanan lokal perangkat (IndexedDB/SQLite/LocalStorage)[cite: 9].
+
+2. **Autentikasi Pengguna (Kondisi: Offline):**
+   - Proses Login & Pass divalidasi secara lokal dengan mencocokkan *scope* akses (Dermaga dan Rute) yang sudah tersimpan di penyimpanan lokal perangkat[cite: 9].
+
+3. **Alur Trip - Muatan Kosong (Kondisi: Offline):**
+   - Validasi geofencing dan penyesuaian rute dilakukan secara offline[cite: 9].
+   - Hapus durasi, wajib mengambil foto bukti, lalu lakukan *submit* (selesai) tanpa perlu memicu proses *end trip* yang rumit secara langsung[cite: 9].
+
+4. **Alur Trip - Ada Muatan (Kondisi: Offline):**
+   - Validasi geofencing dan rute berjalan secara lokal[cite: 9].
+   - Input data kendaraan, ambil foto bukti, dan sediakan opsi pengulangan (looping) input data kendaraan beserta foto jika diperlukan[cite: 9].
+   - Setelah semua selesai, wajib melakukan swafoto (*selfie* wajib), baru kemudian jalankan fungsi *End Trip* secara lokal[cite: 9].
+
+5. **Manajemen Riwayat / History (Kondisi: Offline):**
+   - Tampilkan data riwayat trip dari basis data lokal (pastikan penanganan state data trip yang belum tampil sepenuhnya dapat dimuat dengan benar dari cache lokal)[cite: 9].
+
+6. **Sinkronisasi Akhir (Kondisi: Online):**
+   - Saat koneksi internet kembali aktif (*Online*), jalankan sinkronisasi dua arah: mengambil perubahan data master terbaru dari web serta mengunggah (*upload*) seluruh antrean data lokal mobile ke web admin[cite: 9].
+
+
+
+
+
+
+
+
+
+

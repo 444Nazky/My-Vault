@@ -9,16 +9,19 @@ src/
 ├── main.tsx               # ReactDOM.createRoot → #root
 ├── App.tsx                # routing utama: LoginPage | MobileApp | AdminDashboard
 ├── index.css    (styles)  # Tailwind + aturan admin (html[data-admin]: scroll, tema, aksen)
+│                            # + .screen-scroll: padding-top calc(--ion-safe-area-top + env(safe-area-inset-top) + 12px)
+│                            #   → hero tak menabrak notch saat native, ±16px di HP
 ├── global.scss, theme/variables.scss
 ├── index.html             # entry build
 ├── environments/          # apiBaseUrl (dev localhost:3000 / staging)
 ├── pages/
 │   ├── LoginPage.tsx      # login 2 langkah: wilayah+password → pilih petugas → PIN (Revisi #4)
+│   │                       #  + opsi "Login Administrator" sudah DIHAPUS dari aplikasi mobile
 │   ├── store.tsx          # context React (draft trip, petugas, tarif, sinkron)
 │   ├── data.ts            # data statis (rute cadangan, master tarif) + helper activeRoutes()
 │   ├── types.ts           # tipe MobileScreen dll.
 │   ├── mobile/            # layar aplikasi petugas
-│   │   ├── MobileApp.tsx / MobileShell.tsx / StatusBar.tsx / FloatingBottomNav.tsx
+│   │   ├── MobileApp.tsx / MobileShell.tsx / FloatingBottomNav.tsx
 │   │   ├── HomeScreen.tsx
 │   │   ├── TripConditionScreen.tsx     # pilih status muatan (revisi alur)
 │   │   ├── RouteSelectScreen.tsx       # rute dari backend (/routes/mine + refresh);

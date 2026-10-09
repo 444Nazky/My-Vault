@@ -60,5 +60,5 @@ elemennya (mis. `div.bg-red-50` / teksnya), atau cek `tagName` — jangan simpul
 
 ## Terkait
 
-Fix lengkapnya: [[Login Stuck Memverifikasi]] · kasus dev server:
+Fix lengkapnya: [[Intern/01 - Fixes/Login Stuck Memverifikasi]] · kasus dev server:
 [[Dev Server Masih Berjalan dari Folder Terhapus]]

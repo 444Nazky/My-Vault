@@ -35,5 +35,5 @@ User reported WiFi not working while using a USB WiFi adapter. No wireless inter
 - Connection: `Gladi_ASTS6`, channel 149, 5745 MHz, 22 dBm
 ## Related
 
-- [[../../Tasks/Arch Linux System Fixes\|Arch Linux System Fixes]]
+- [[Arch Linux System Fixes\|Arch Linux System Fixes]]
 - [[../Troubleshooting Steps\|Troubleshooting Steps]]

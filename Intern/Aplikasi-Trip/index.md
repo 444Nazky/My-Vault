@@ -1,6 +1,6 @@
 # Trip Angkutan — Dokumentasi
 
-> Terakhir diperbarui: 28 September 2026
+> Terakhir diperbarui: 8 Oktober 2026
 
 ## Struktur
 
@@ -28,6 +28,7 @@ Aplikasi-Trip/
 | [[ionic/00-overview]] | Struktur kode mobile & backend |
 | [[ionic/screens]] | Daftar layar mobile |
 | [[ionic/offline-sync]] | Alur sync offline |
+| [[ionic/android-capacitor]] | Build APK Android (Capacitor) + fix JDK 21 |
 | [[architecture/step-by-step-flow]] | Alur data end-to-end |
 | [[docs/README]] | Overview proyek |
 
@@ -36,14 +37,16 @@ Aplikasi-Trip/
 | Dokumen | Isi |
 |---------|-----|
 | [[docs/setup]] | Instalasi & menjalankan layanan |
-| [[Debugging/handling]] | Edge cases & kasus bug (dermaga_id 500, regresi istilah, dll.) |
-| [[Debugging/offline-sync]] | Bug sinkron offline |
+| [[Intern/Debugging/handling]] | Edge cases & kasus bug (dermaga_id 500, regresi istilah, dll.) |
+| [[Intern/Debugging/offline-sync]] | Bug sinkron offline |
 
 ## Catatan Penting
 
 1. **Kode region:** `BADAU` (Badau), `BELITUNG`, `KELAPAKAMPIT` + region lama `SJRE`/`SBDZ`/`ENTIKONG` — jangan ubah seed tanpa menyesuaikan mobile
 2. **Master Rute (Revisi #3):** 12 rute spec dikelola dari tab **Master Rute** admin → mobile ambil via `GET /routes/mine`
-3. **Login 2 langkah (Revisi #4):** wilayah+password → pilih petugas → PIN. Lihat [[../accounts and regions]]
-4. **Backend tidak hot-reload:** ubah kode backend → **wajib restart** `node src/index.js` (kalau tidak: 404 aneh)
-5. **DB tracked git:** `data/trip.db` ikut commit — backup sebelum migrasi
-6. **Stack nyata:** React+Tailwind (build Angular CLI) | Node+Express+sql.js | CodeIgniter `admin-ci/`
+3. **Login Mobile (Revisi #13):** Form username + password. Gunakan `npx ng build --configuration=development` untuk dev bundle. [[Intern/Finished ✅|#13 Revisi Total Login]]
+4. **Switch Account Filter (Revisi #13):** Region SAMA + dermaga irisan wajib. Budi (D1) → hanya Andi (D1+D2) & Dewi (D1); Siti (D2) difilter.
+5. **Backend tidak hot-reload:** ubah kode backend → **wajib restart** `node src/index.js` (kalau tidak: 404 aneh)
+6. **DB tracked git:** `data/trip.db` ikut commit — backup sebelum migrasi
+7. **Stack nyata:** React+Tailwind (build Angular CLI) | Node+Express+sql.js | CodeIgniter `admin-ci/`
+8. **`clientTripId` (2026-10-08):** `POST /trips/complete` kini **upsert** — trip dengan `client_trip_id` sama di-UPDATE (edit pasca-kirim ikut terkirim), bukan diduplikat. Lihat [[../01 - Fixes/Edit Trip Terkirim Upsert clientTripId|Fixes: Edit Trip Terkirim]].

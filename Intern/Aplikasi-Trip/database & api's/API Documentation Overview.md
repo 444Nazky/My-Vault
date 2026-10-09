@@ -114,8 +114,8 @@ tanpa menyesuaikan kode rute mobile.
 ### Reports (`/reports`) — admin-only
 | Method | Endpoint | Deskripsi |
 |--------|----------|-----------|
-| GET | `/reports/summary` | Statistik ringkas (filter tanggal/region) |
-| GET | `/reports/trips` | Laporan rinci: `route_from_name`, `route_to_name`, jam **WIB**, kendaraan per trip; filter `startDate`, `endDate`, `golongan`, `vehicleType` |
+| GET | `/reports/summary` | Statistik ringkas (filter tanggal/region) — kini dipakai kartu metrik **Dashboard** (`startDate`+`endDate` = hari ini → `totalTrips`, `totalVehicles`, `totalRevenue`) |
+| GET | `/reports/trips` | Laporan rinci: `route_from_name`, `route_to_name`, jam **WIB**, kendaraan per trip; filter `startDate`, `endDate`, `golongan`, `vehicleType` (filter tanggal hanya diterapkan bila **keduanya** ada — frontend melengkapi otomatis) |
 | GET | `/reports/trips/filters` | Opsi filter **golongan & jenis kendaraan** (dari master tarif) |
 | GET | `/reports/trips/export` | Export server-side (fallback) |
 

@@ -56,4 +56,4 @@
 - Endpoint yang dipanggil frontend tapi tidak ada di backend **harus di-smoke-test
   lewat API** (dulu senyap 404 karena tak ada yang menguji).
 
-Terkait: [[01 - Fixes/Master Rute Wilayah dan Login Region]] · [[accounts and regions]]
+Terkait: [[Master Rute Wilayah dan Login Region]] · [[Intern/datas/Accounts]]
