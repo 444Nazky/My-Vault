@@ -13,7 +13,7 @@ git config user.email
 
 - **Daftar Akun Git Tersedia
     ```
-    git config user.name "4444Nazky"
+    git config user.name "444Nazky"
     git config user.email "naruzky.naz@gmail.com"
     ```
     
