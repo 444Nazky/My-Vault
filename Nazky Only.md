@@ -58,7 +58,6 @@ dan mengenai penjelasan hal yang anda bingung dan sempat tanyakan sebelumnya sil
 # 15 base follow up
 silahkan update /home/nazky/Documents/Obsidian Vault/
 
-# git remote set-url origin https://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@github.com/444Nazky/Aplikasi-Trip-Ionic.git
 
 
 # hall invoke
