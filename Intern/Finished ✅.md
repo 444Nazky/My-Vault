@@ -1,3 +1,38 @@
+setelah trip berhasil diisi, hilangkan "belum ada foto di trip kosong". serta hilangkan detail kendaraan juga, karena ini trip kosong. intinya kalau trip kosong hanya muncul bukti foto kalau memang benar2 kosong kapalnya, tidak ada kendaraan
+
+hilangkan informasi internet online / offline di detail trip yang sudah terkirim, karena fitur ini sudah ada sebelumnya di bagian kanan atas
+
+hilangkan fitur scan plat di halaman input kendaraan
+
+
+### **Hapus Rekap Wilayah di Admin Dashboard & Deploy Ulang ke Firebase**
+
+> "Bertindaklah sebagai Senior Fullstack Web Developer. Lakukan modifikasi dan _deployment_ pada basis kode proyek _Admin Dashboard_ (React/Vue/Next.js/Node yang terhubung ke Firebase) dengan instruksi mutlak berikut:
+> 
+> 1. **Hapus Komponen Rekap Wilayah:** Periksa halaman laporan atau _report page_ pada _admin dashboard_ (seperti yang terlihat pada menu 'Laporan'). Hapus secara total blok komponen, kartu, beserta fungsi _query/fetching_ data yang berkaitan dengan **'Rekap Wilayah'** (tabel rekap lintas petugas per region dan dermaga), sehingga tata letak halaman langsung bersih dari bagian tersebut tanpa merusak grafik 'Trip per Hari' atau tabel daftar trip di bawahnya.
+>     
+> 2. **Bersihkan State & Import Terkait:** Pastikan tidak ada variabel, _state_, atau _dependency import_ yang yatim (_dead code_) yang tertinggal setelah penghapusan komponen Rekap Wilayah.
+>     
+> 3. **Build & Deploy Ulang ke Firebase:** Jalankan proses _build_ produksi proyek web admin, lalu lakukan _deployment_ ulang secara bersih ke Firebase Hosting (`firebase deploy --only hosting`) agar perubahan langsung naik ke _production URL_ (`aplikasi-trip.web.app`)."
+
+
+
+
+
+### **Pembersihan Total UI Trip Kosong (Hapus Detail Kendaraan & Slot Foto Kosong Redundan)**
+
+> "Bertindaklah sebagai Senior Frontend & UI/UX Developer. Lakukan perbaikan logika render secara tuntas pada komponen halaman detail riwayat dan ringkasan trip (_Trip Detail / History Screen_) di aplikasi _mobile_ Ionic/React pada direktori `/home/nazky/RPL/Intern/Aplikasi-Trip-Ionic` dengan instruksi mutlak berikut:
+> 
+> 1. **Sembunyikan Total Bagian Kendaraan untuk Trip Kosong:** Jika kondisi trip bernilai **'Kosong'**, pastikan blok komponen atau kartu yang bertuliskan _"Detail Kendaraan"_ beserta seluruh elemen turunannya **tidak dirender sama sekali** dari DOM. Trip kosong murni hanya mencatat rute, waktu, dan bukti foto kondisi kapal.
+>     
+> 2. **Hapus Slot Placeholder Foto Redundan:** Pada bagian _Foto Dokumentasi_, hapus mutlak kotak placeholder atau kotak kosong berlabel angka ganjil seperti `-1 — BELUM ADA FOTO`.
+>     
+> 3. **Tampilkan Foto Bukti Tunggal Secara Bersih:** Pastikan hanya foto bukti valid kondisi kapal kosong yang benar-benar ada isinya saja yang dirender secara rapi dan proporsional tanpa ada kotak kosong sisa _looping_ array yang rusak."
+>
+
+
+
+
 
 # 2 dermaga
 error untuk petugas 2 kaki/2 dermaga. pada saat mode offline tidak bisa pilih dermaga sebelum memulai trip

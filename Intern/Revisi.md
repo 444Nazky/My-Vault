@@ -1,55 +1,46 @@
 
+# geofencing
+Rancang dan implementasikan fitur validasi geofencing berbasis koordinat GPS secara ketat di sisi klien (_mobile application_) dengan batasan radius maksimal 100 meter dari titik lokasi rute yang telah ditentukan. Sebagai contoh implementasi awal untuk wilayah pengujian _Badau Dermaga 1_, sistem wajib mendeteksi posisi GPS pengguna secara _real-time_: apabila pengguna berada di titik koordinat area Rute 2 (`-6.1891005, 106.8371641`), aplikasi harus mengunci pilihan rute hanya pada trayek SJRE ke SBDZ dan melarang keras penginputan atau pengiriman formulir (_submit_) untuk rute lain. Sebaliknya, jika pengguna terdeteksi berada di area Rute 1 (`-6.2389899548617285, 106.97475839406252`), sistem hanya mengizinkan pengiriman formulir untuk trayek SBDZ ke SJRE dengan validasi mutlak tanpa kompromi. Selain itu, integrasikan modul pengaturan kustomisasi koordinat titik lokasi (_geofencing configuration_) ke dalam panel _Admin Dashboard_, sehingga supervisor memiliki hak akses penuh untuk menambah, mengubah, atau mengatur titik koordinat dan radius wilayah validasi secara dinamis tanpa perlu mengubah kode sumber secara manual.
 
 
 
 
+# geofencing
+// geofencing based on location coordinates, for example: if the user is within a certain radius of a specific location,
+// the app can trigger certain actions or notifications. This can be useful for location-based services, such as sending alerts when a user enters or leaves a designated area.
+// if the user is not on the specified area for example route 1. the userr cannot submit the form. and the only route exist is the one that on his current location. for example
+// if the user was on the route2 or https://www.google.com/maps?q=-6.1891005,106.8371641. he can only submit the form on that route, SJRE -> SBDZ. he cant input another route while on his current lcoation
+
+// and if the user was on the route1 https://www.google.com/maps?q=-6.2389899548617285,106.97475839406252. the user only can input on the route1 or SBDZ -> SJRE.
+// and cannot submit the form on the route2 or https://www.google.com/maps?q=-6.1891005,106.8371641. he can only submit the form on that route, SBDZ -> SJRE.
+// he cant input another route while on his current locaation.
+
+for the maximum range is 100m. and make sure to make it strict
+
+
+# data petugas
+data petugas yang baru gagal atau bahkan tidak terkirim ke mobile, menyebabkan pada saat admin menambahkan user dan password baru, tidak dapat di gunakan untuk login.
 
 # updates
-terdaapat error/bug di setelah update, karena jika pengguna menarik update kedua tidak ada perubahan, jadi user harus clear data dulu baru bisa update ke versi terbaru. aplikasi hanya bisa update sekali, pada update kedua terjadi error karena tidak ada perubahan. mohon untuk di setting setelah update versi, versi lama di hapus. dan untuk versi chunk buat jadi versi yang dapat di lihat manusia seperti 1.0.1 atau 1.0.2 bukan 1920938
+Arsitektur pembaruan aplikasi (_OTA update_) saat ini mengalami cacat fatal pada mekanisme pengelolaan _cache_ dan pengunduhan berkas, di mana sistem gagal mendeteksi pembaruan sekunder apabila struktur _chunk_ sebelumnya tidak mengalami perubahan mutlak, sehingga memaksa pengguna untuk melakukan _clear data_ secara manual di perangkat. Lebih parahnya lagi, logika pembaruan parsial atau setengah-setengah sering kali memicu galat integritas berkas di lapangan. Oleh karena itu, sistem manajemen OTA wajib dirombak secara total dengan menerapkan mekanisme unduhan paket penuh (_full-package update_) pada setiap siklus pembaruan. Setiap kali versi baru dirilis, skrip harus secara otomatis membersihkan (_auto-purge_) seluruh direktori _cache_ dan versi _bundle_ lama sebelum mengunduh dan menerapkan _full build_ yang baru. Pendekatan unduhan utuh ini dipilih demi meminimalisir celah kegagalan sinkronisasi, memastikan stabilitas absolut di sisi klien, serta menjamin bahwa pengguna dapat menerima pembaruan secara berkelanjutan tanpa hambatan teknis sekecil apa pun.
+
+
 
 
 # double pic
-Bertindaklah sebagai Senior Frontend Developer untuk merombak total halaman _Ringkasan Trip_ di aplikasi _mobile_ agar menghapus mutlak elemen kartu swafoto penutup yang masih muncul ganda atau redundan, sehingga hanya tersisa tepat satu komponen kartu interaktif yang dinamis—berubah menjadi status hijau dengan pratinjau foto setelah diambil dan mengaktifkan tombol _'Kirim Saja'_ menuju halaman trip selesai tanpa ada sisa elemen DOM yang bertumpuk.
+swafoto masih double. jadi setelah foto pertama malah di suruh ambil foto lagi sebelum submit/kirim trip. tolong perbaiki dan ubah hanya menjadi sekali foto saja. teks pertama yang muncul adalah foto bukti trip belum diambil, setelah berhasil foto muncul lagi dengan tulisan swafoto penutup belum diambil
+
+
+# halaman settings
+lakukan improvisasi halaman settings jangan terlalu banyak warna, sesuaikan tema dengan aplikasinya. untuk saat ini masih terlalu polos, tanpa gradient, kemudian tombol cek pembaruan tidak berfungsi
+
+# scan
+hilangkan tombol scan di samping nomor plat pada halaman inpuit kendaraan. kemudian pada halaman riwayat trip. serta hilangkan status koneksi "terhubung ke server" karena fitur itu sudah ada di kanan atas.
 
 
 
-### **Pembersihan Total UI Trip Kosong (Hapus Detail Kendaraan & Slot Foto Kosong Redundan)**
+https://www.google.com/maps?q=-6.1891005,106.8371641
 
-> "Bertindaklah sebagai Senior Frontend & UI/UX Developer. Lakukan perbaikan logika render secara tuntas pada komponen halaman detail riwayat dan ringkasan trip (_Trip Detail / History Screen_) di aplikasi _mobile_ Ionic/React pada direktori `/home/nazky/RPL/Intern/Aplikasi-Trip-Ionic` dengan instruksi mutlak berikut:
-> 
-> 1. **Sembunyikan Total Bagian Kendaraan untuk Trip Kosong:** Jika kondisi trip bernilai **'Kosong'**, pastikan blok komponen atau kartu yang bertuliskan _"Detail Kendaraan"_ beserta seluruh elemen turunannya **tidak dirender sama sekali** dari DOM. Trip kosong murni hanya mencatat rute, waktu, dan bukti foto kondisi kapal.
->     
-> 2. **Hapus Slot Placeholder Foto Redundan:** Pada bagian _Foto Dokumentasi_, hapus mutlak kotak placeholder atau kotak kosong berlabel angka ganjil seperti `-1 — BELUM ADA FOTO`.
->     
-> 3. **Tampilkan Foto Bukti Tunggal Secara Bersih:** Pastikan hanya foto bukti valid kondisi kapal kosong yang benar-benar ada isinya saja yang dirender secara rapi dan proporsional tanpa ada kotak kosong sisa _looping_ array yang rusak."
->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Revisi (aktif)
-lokasi kode = /home/nazky/RPL/Intern/Aplikasi-Trip-Ionic
-
-
-setelah trip berhasil diisi, hilangkan "belum ada foto di trip kosong". serta hilangkan detail kendaraan juga, karena ini trip kosong. intinya kalau trip kosong hanya muncul bukti foto kalau memang benar2 kosong kapalnya, tidak ada kendaraan
-
-hilangkan informasi internet online / offline di detail trip yang sudah terkirim, karena fitur ini sudah ada sebelumnya di bagian kanan atas
-
-hilangkan fitur scan plat di halaman input kendaraan
 
 # 1
 Tolong rancang, perbaiki, dan implementasikan arsitektur logika aplikasi mobile Trip Angkutan agar beroperasi secara dominan offline-first berdasarkan alur kerja dan validasi berikut:

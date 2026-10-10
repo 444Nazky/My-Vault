@@ -1,6 +1,6 @@
 # Ionic Screen Templates
 
-> **Status:** daftar layar & alur di bawah sudah disesuaikan dengan implementasi React aktual — 25 September 2026.
+> **Status:** daftar layar & alur di bawah sudah disesuaikan dengan implementasi React aktual — 9 Oktober 2026.
 > (Template HTML `ion-*` di bagian bawah adalah **mockup awal** — aplikasi berjalan dengan React + Tailwind, bukan komponen Ionic Web Components.)
 
 ## Screen List (aktual — `src/pages/mobile/`)
@@ -10,14 +10,14 @@
 3. **TripConditionScreen** — **pilih status muatan dulu**: “Kosong / Tidak Ada Muatan” atau “Ada Angkutan”
 4. **RouteSelectScreen** — pilih rute; **trip kosong → rute dikunci hanya SJRE → SBDZ**; ada muatan → bebas
 5. **VehicleFormScreen** — 2 langkah: (1) No. Polisi + jenis kendaraan → (2) **Detail Informasi Tambahan** (kategori + foto wajib); kartu **“No. Polisi Sudah Diinput”** (ketuk → detail + foto dokumentasi + isi ulang form)
-6. **CameraScreen** — **hanya capture kamera** (tanpa galeri); dipakai untuk foto kendaraan & bukti trip
-7. **TripSummaryScreen** — ringkasan; **“Submit Trip” terkunci sampai foto kamera ada**
-8. **TripActiveScreen / TripCompleteScreen** — trip berjalan & selesai
+6. **CameraScreen** — **hanya capture kamera** (tanpa galeri); dipakai untuk foto kendaraan & bukti trip + swafoto penutup
+7. **TripSummaryScreen** — ringkasan; **hanya 1 kartu foto dinamis**: berubah hijau + thumbnail setelah bukti trip/swafoto siap, lalu tombol utama aktif (`Kirim Saja` untuk muatan, `Langsung Selesaikan Trip Kosong` untuk kosong)
+8. **TripCompleteScreen** — selesai; ringkasan minimal tanpa sisa elemen kartu foto double/redundan
 9. **HistoryScreen / HistoryDetailScreen** — riwayat & detail (tanpa tampilan tarif)
 10. **ProfileScreen / SettingsScreen** — profil & pengaturan
 11. **OfficerSwitchScreen / PinVerifyScreen** — ganti petugas (sinkron real-time dengan admin: status aktif/nonaktif & akses wilayah)
 
-## Alur Mulai Trip (revisi spesifikasi 25 Sep 2026)
+## Alur Mulai Trip (revisi spesifikasi 9 Okt 2026)
 
 ```
 Beranda
@@ -28,13 +28,18 @@ Beranda
                  └─ Input Kendaraan (Langkah 1)
                       └─ Detail Informasi Tambahan (Langkah 2, muncul setelah langkah 1)
                            └─ Ambil Foto KAMERA (wajib)
-                                └─ Ringkasan → Submit Trip (terkunci tanpa foto)
-                                     └─ Trip Aktif → Selesai
+                                └─ Ringkasan → 1 kartu foto dinamis
+                                     ├─ Belum lengkap → kartu amber + tombol Ambil Foto / Ambil Swafoto / Lengkapi Foto
+                                     └─ Lengkap → kartu hijau + thumbnail → tombol Kirim Saja aktif
+                                          └─ Kirim Saja → Trip Selesai
 ```
 
 Aturan kunci:
 - **Seluruh tampilan tarif disembunyikan** di mobile (nilai hanya disimpan di objek trip untuk sinkron & laporan admin).
-- **Wajib foto kamera** sebelum “Simpan Data Kendaraan” / “Submit Trip”.
+- **Wajib foto kamera** sebelum "Simpan Data Kendaraan" / "Submit Trip".
+- Swafoto penutup adalah 1 slot foto wajib khusus petugas (trip bermuatan), disimpan terpisah dari foto kendaraan & foto bukti trip.
+- **Hanya 1 kartu foto** di Ringkasan Trip; tidak ada kartu swafoto ganda/redundan.
+- Setelah swafoto berhasil, kartu berubah hijau + thumbnail, dan tombol utama langsung "Kirim Saja" menuju halaman Trip Selesai.
 - Daftar plat yang sudah diinput bisa **diklik** untuk melihat detail + foto dokumentasi.
 - Layar Ganti Petugas menarik daftar **paksa** dari `GET /officers/my-region` (sinkron dengan admin).
 
@@ -292,6 +297,126 @@ Aturan kunci:
   </ion-content>
 </ion-page>
 ```
+
+## Ringkasan Trip (mockup ringkas)
+
+```html
+<ion-page>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/tabs/home"></ion-back-button>
+      </ion-buttons>
+      <ion-title>Ringkasan Trip</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <!-- Kartu detail trip -->
+    <ion-card>
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            <ion-label position="stacked">Rute</ion-label>
+            <ion-text color="medium">SJRE → SBDZ</ion-text>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Kondisi</ion-label>
+            <ion-text color="medium">Ada Muatan</ion-text>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+    <!-- SATU KARTU FOTO DINAMIS -->
+    <ion-card [class.ready]="docsReady">
+      <ion-card-content>
+        <div class="foto-row">
+          <div class="ikon">
+            <ion-icon [name]="docsReady ? 'checkmark-circle' : 'camera'"></ion-icon>
+          </div>
+          <div class="teks">
+            <ion-text [color]="docsReady ? 'success' : 'warning'">
+              <h3>{{ docsReady ? 'Foto kamera siap' : 'Foto belum lengkap' }}</h3>
+            </ion-text>
+            <ion-text color="medium">{{ docsReady ? 'Bukti trip tersimpan — siap dikirim' : 'Wajib diambil sebelum trip dikirim' }}</ion-text>
+          </div>
+          <ion-button *ngIf="!docsReady" expand="block" fill="outline">
+            {{ fotoActionLabel }}
+          </ion-button>
+        </div>
+        <img *ngIf="docsReady && tripPhotoUrl" class="thumbnail" [src]="tripPhotoUrl">
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Tombol utama -->
+    <ion-button expand="block" color="primary" [disabled]="!docsReady">
+      <ion-icon slot="start" name="play"></ion-icon>
+      {{ mainButtonLabel }}
+    </ion-button>
+  </ion-content>
+</ion-page>
+```
+
+Kartu foto hanya muncul sekali. Status:
+- **Amber**: foto bukti trip belum diambil, atau swafoto penutup belum diambil (muatan), atau foto kendaraan belum lengkap.
+- **Hijau + thumbnail**: semua dokumen lengkap; tombol utama langsung aktif.
+- Tombol utama: `Kirim Saja` (muatan) atau `Langsung Selesaikan Trip Kosong` (kosong), lalu ke halaman Trip Selesai.
+
+## Trip Selesai (mockup ringkas)
+
+```html
+<ion-page>
+  <ion-content class="ion-padding">
+    <div class="selesai-header">
+      <ion-icon name="checkmark-circle" class="check-big"></ion-icon>
+      <h2>Trip Selesai!</h2>
+      <p>Trip {{ tripId }} berhasil dicatat dan disimpan</p>
+    </div>
+
+    <ion-card>
+      <ion-card-content>
+        <ion-grid>
+          <ion-row>
+            <ion-col>Rute</ion-col>
+            <ion-col>{{ routeLabel }}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>Durasi</ion-col>
+            <ion-col>{{ duration }}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>Kendaraan</ion-col>
+            <ion-col>{{ unitCount > 0 ? unitCount + ' unit' : 'Kosong' }}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>Kondisi</ion-col>
+            <ion-col>{{ load }}</ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card color="light">
+      <ion-card-content>
+        <ion-icon name="checkmark" color="success"></ion-icon>
+        Tersimpan di Perangkat — sinkronisasi berjalan di background
+      </ion-card-content>
+    </ion-card>
+
+    <div class="aksi">
+      <ion-button expand="block" fill="outline" routerLink="/history-detail">
+        Lihat Detail
+      </ion-button>
+      <ion-button expand="block" color="primary" routerLink="/tabs/home">
+        Kembali ke Home
+      </ion-button>
+    </div>
+  </ion-content>
+</ion-page>
+```
+
+---
 
 ## Ionic Components Reference
 

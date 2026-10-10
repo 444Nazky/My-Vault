@@ -1,4 +1,4 @@
-# Mobile Updates Cheatsheet
+fi# Mobile Updates Cheatsheet
 
 Cara kirim update ke aplikasi mobile Trip Angkutan (Ionic/React + Capacitor).
 Verifikasi: 2026-10-08. Repo: `https://github.com/444Nazky/Aplikasi-Trip-Ionic`.
