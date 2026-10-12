@@ -1,3 +1,10 @@
+
+
+# geofencing
+Rancang dan implementasikan fitur validasi geofencing berbasis koordinat GPS secara ketat di sisi klien (_mobile application_) dengan batasan radius maksimal 100 meter dari titik lokasi rute yang telah ditentukan. Sebagai contoh implementasi awal untuk wilayah pengujian _Badau Dermaga 1_, sistem wajib mendeteksi posisi GPS pengguna secara _real-time_: apabila pengguna berada di titik koordinat area Rute 2 (`-6.1891005, 106.8371641`), aplikasi harus mengunci pilihan rute hanya pada trayek SJRE ke SBDZ dan melarang keras penginputan atau pengiriman formulir (_submit_) untuk rute lain. Sebaliknya, jika pengguna terdeteksi berada di area Rute 1 (`-6.2389899548617285, 106.97475839406252`), sistem hanya mengizinkan pengiriman formulir untuk trayek SBDZ ke SJRE dengan validasi mutlak tanpa kompromi. Selain itu, integrasikan modul pengaturan kustomisasi koordinat titik lokasi (_geofencing configuration_) ke dalam panel _Admin Dashboard_, sehingga supervisor memiliki hak akses penuh untuk menambah, mengubah, atau mengatur titik koordinat dan radius wilayah validasi secara dinamis tanpa perlu mengubah kode sumber secara manual.
+
+
+
 setelah trip berhasil diisi, hilangkan "belum ada foto di trip kosong". serta hilangkan detail kendaraan juga, karena ini trip kosong. intinya kalau trip kosong hanya muncul bukti foto kalau memang benar2 kosong kapalnya, tidak ada kendaraan
 
 hilangkan informasi internet online / offline di detail trip yang sudah terkirim, karena fitur ini sudah ada sebelumnya di bagian kanan atas
@@ -17,6 +24,19 @@ hilangkan fitur scan plat di halaman input kendaraan
 
 
 
+# double pic
+swafoto masih double. jadi setelah foto pertama malah di suruh ambil foto lagi sebelum submit/kirim trip. tolong perbaiki dan ubah hanya menjadi sekali foto saja. teks pertama yang muncul adalah foto bukti trip belum diambil, setelah berhasil foto muncul lagi dengan tulisan swafoto penutup belum diambil
+
+
+# halaman settings
+lakukan improvisasi halaman settings jangan terlalu banyak warna, sesuaikan tema dengan aplikasinya. untuk saat ini masih terlalu polos, tanpa gradient, kemudian tombol cek pembaruan tidak berfungsi
+
+# scan
+hilangkan tombol scan di samping nomor plat pada halaman inpuit kendaraan. kemudian pada halaman riwayat trip. serta hilangkan status koneksi "terhubung ke server" karena fitur itu sudah ada di kanan atas.
+
+
+
+https://www.google.com/maps?q=-6.1891005,106.8371641
 
 
 ### **Pembersihan Total UI Trip Kosong (Hapus Detail Kendaraan & Slot Foto Kosong Redundan)**

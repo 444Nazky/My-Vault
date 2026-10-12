@@ -108,4 +108,174 @@ cp -r www/* admin-ci/  # Copy ke admin-ci untuk deployment
 
 ---
 
-Last Updated: 2026-09-30
+## Kesalahan Agent & Perbaikan (2026-10-12) — Audit Geofence/Petugas/OTA
+
+### Context
+Sesi ini: audit penuh untuk menyelesaikan 3 masalah dari README (`current problem`) — geofencing master, sinkronisasi petugas baru, dan overhaul OTA. Kesalahan-kesalahan di bawah terjadi saat implementasi, dan cara mengatasinya dicatat agar tidak terulang.
+
+### Kesalahan 1: Sintaks TS di file JS backend
+- **Apa yang salah**: menulis `new Set<string>()` di `endpoint-trip/backend/src/routes/officers.js` (JavaScript murni, CommonJS). Sintaks generic TypeScript langsung `SyntaxError` saat `node --check`.
+- **Penyebab**: kebiasaan menulis di file `.ts` mobile; tidak memeriksa ekstensi/ekosistem file target.
+- **Cara mengatasi**: hapus generic → `new Set()`; sejak itu selalu tandai ekosistem target (TS vs JS, ESM vs CommonJS) sebelum edit, dan jalankan `node --check` untuk setiap file JS yang diedit sebagai gerbang minimum.
+
+### Kesalahan 2: Fitur baru tidak terhubung (missing glue)
+- **Apa yang salah**: `syncGeofenceConfig()` dibuat di mobile `geofence.ts`, tapi tidak ada pemanggil apa pun — config hasil sync tidak pernah dipakai `location.ts`. Typecheck lulus, fitur mati secara diam-diam.
+- **Penyebab**: berhenti di “kode compiles” tanpa menelusuri alur pemakaian end-to-end.- **Cara mengatasi**: tanya ulang sebelum klaim selesai: “siapa yang memanggil fungsi baru ini dan kapan?” Fix: panggil dari `adminPull.syncOnResume()` dan refactor `location.ts` dari konstanta statis ke pembacaan config hasil sync (`activeConfig()`).
+
+### Kesalahan 3: Path bug pada `cd` beruntun
+- **Apa yang salah**: `cd "A" && x ; cd "B" && y` — `cd "B"` dieksekusi relatif dari dalam A, bukan project root → “No such file or directory” pada beberapa command verifikasi.
+- **Cara mengatasi**: gunakan path absolut untuk cd beruntun (`/home/nazky/RPL/Intern/...`) atau pecah command verifikasi per direktori.
+
+### Kesalahan 4: Typo heading README (paste artifact)
+- **Apa yang salah**: heading README sempat memuat karakter non-Latin dari paste.
+- **Cara mengatasi**: koreksi segera + verifikasi via grep. Pelajaran: selalu baca ulang file hasil edit besar sebelum menyatakan selesai.
+
+### Kesalahan 5 (proses): lupa verifikasi berulang pasca-repair
+- Setiap kali ada file yang direvisi setelah pengecekan awal (mis. `location.ts` setelah tsc lulus pertama), hasil lama TIDAK lagi berlaku — jalankan ulang check yang terdampak (tsc/vitest/node-check). Sesi ini tsc final dijalankan ulang 2× karena ada edit berlanjut.
+
+### Kesimpulan pola
+1. **Cek ekosistem file** sebelum menulis (TS/JS, ESM/CJS) — berlaku untuk semua backend poliglot.
+2. **Ikuti alur end-to-end**, bukan hanya make it compile: fungsi tanpa caller = fitur tidak ada.
+3. **Verifikasi ulang setiap edit berikutnya** — hasil check lama tidak berlaku surut untuk file yang berubah.
+4. **Path absolut** untuk `cd` beruntun di script verifikasi.
+
+---
+
+## Hardware & Resource Optimization (2026-10-12)
+
+### System Profile
+- **OS**: Arch Linux
+- **RAM**: 15 GB (13 GB used, 2.1 GB available)
+- **Swap**: 4 GB (fully utilized - WARNING)
+- **GPU**: NVIDIA RTX 5050 Laptop (8 GB VRAM)
+- **Display**: Hyprland (Wayland)
+- **DE**: VS Code + Chromium-based editors
+
+### Critical Issues Found
+
+#### 1. Swappiness Mismatch
+- **Konfigurasi file** (`/etc/sysctl.d/99-ram-optimization.conf`): `vm.swappiness = 10`
+- **Aktual system**: `vm.swappiness = 180` ❌
+- **Dampak**: Sistem menggunakan swap secara agresif → OOM crash risk tinggi
+- **Solusi**: Jalankan `sudo sysctl --system` atau reboot untuk apply konfigurasi
+
+#### 2. zswap Disabled
+- **Kernel cmdline**: `zswap.enabled=0`
+- **Dampak**: Swap tidak dikompresi hardware → RAM pressure lebih tinggi
+- **Solusi**: Edit GRUB_CMDLINE_LINUX di `/etc/default/grub` → reboot
+
+#### 3. Swap Penuh (4 GB)
+- **Swap used**: 4.0 GB / 4.0 GB (100%)
+- **Dampak**: Tidak ada ruang swap tersisa → OOM saat spike
+- **Solusi**: Tambah zram swap + optimalkan swappiness
+
+### Konfigurasi yang Diterapkan
+
+#### Memory Settings (`/etc/sysctl.d/99-ram-optimization.conf`)
+```bash
+# Optimized for 15GB+ RAM desktop system
+vm.vfs_cache_pressure = 50     # Keep more file cache (default: 100)
+vm.swappiness = 10              # Minimal swap usage (default: 60)
+vm.dirty_ratio = 10             # Limit dirty page writeback
+vm.dirty_background_ratio = 5
+vm.zone_reclaim_mode = 0        # Disable NUMA zone reclaim
+```
+
+#### zram Configuration (`/etc/systemd/zram-generator.conf`)
+```bash
+[zram0]
+zram-size = ram / 2            # 7.5 GB compressed swap
+compression-algorithm = zstd   # Best compression ratio
+```
+
+#### VS Code Memory Optimization
+```json
+{
+    "terminal.integrated.gpuAcceleration": "off",
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.next/**": true
+    },
+    "search.maxResults": 10000,
+    "terminal.integrated.scrollback": 1000,
+    "editor.enablePreview": false
+}
+```
+
+#### Node.js Memory Limits (package.json)
+```json
+{
+    "scripts": {
+        "dev": "NODE_OPTIONS='--max-old-space-size=3072' next dev",
+        "build": "NODE_OPTIONS='--max-old-space-size=4096' next build"
+    }
+}
+```
+
+### Monitoring Scripts
+
+#### `/home/nazky/bin/check-resources.sh`
+```bash
+#!/bin/bash
+# Monitor RAM, zram, VRAM usage
+./bin/check-resources.sh
+```
+
+#### `/home/nazky/bin/optimize-memory.sh`
+```bash
+#!/bin/bash
+# Apply memory optimizations
+sudo ./bin/optimize-memory.sh
+```
+
+### OOM Prevention Checklist
+
+1. ✅ Set `vm.swappiness = 10` di `/etc/sysctl.d/99-ram-optimization.conf`
+2. ✅ Configure zram dengan zstd compression
+3. ✅ Add Node.js memory limits (`--max-old-space-size`)
+4. ✅ Disable VS Code GPU acceleration
+5. ⚠️ Enable zswap di kernel cmdline (butuh reboot)
+6. ⚠️ Extend swap atau tambah RAM jika masih OOM
+
+### VRAM Management (RTX 5050)
+
+#### VS Code / Electron Flags (`~/.config/code-flags.conf`)
+```
+--enable-features=UseOzonePlatform
+--ozone-platform=wayland
+```
+
+#### nvidia-smi Monitoring
+```bash
+nvidia-smi --query-gpu=memory.used,memory.total,utilization.gpu --format=csv
+```
+
+#### Recommended Flags untuk Electron
+```bash
+# Disable hardware video decode untuk hemat VRAM
+--disable-gpu-video-decode
+
+# Limit GPU memory
+--enable-gpu-rasterization
+--ignore-gpu-blocklist
+```
+
+### Troubleshooting
+
+#### Jika OOM Terjadi:
+1. Check `dmesg | grep -i oom` untuk proses penyebab
+2. Jalankan `free -h` untuk status RAM
+3. Check `check-resources.sh` untuk detail
+4. Kill proses yang tidak perlu
+5. Restart dengan `optimize-memory.sh`
+
+#### Jika VRAM Leak:
+1. Check `nvidia-smi` untuk proses GPU
+2. Restart VS Code / Electron apps
+3. Disable GPU acceleration di settings
+
+---
+
+Last Updated: 2026-10-12

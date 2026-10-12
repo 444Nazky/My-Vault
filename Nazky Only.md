@@ -44,7 +44,7 @@ dan menurut saya error penyebab data rute ada di data.ts karena disitu hanya ter
 tapi tadi baru saja di perbaiki oleh fable 5.1, 
 
 # 14 dont repeat same mistakes
-lanjut update, update kesalahan yang sebelumnya anda lakukan dan cara mengatasinya, di cd /home/nazky/Documents/Obsidian Vault/Intern
+jangan lupa update /home/nazky/Documents/Obsidian Vault/Intern dan /home/nazky/Documents/Obsidian Vault/Intern/log book kalau gaada tanggal hari ini, bikin baru saja. lanjut update, update kesalahan yang sebelumnya anda lakukan dan cara mengatasinya, di cd /home/nazky/Documents/Obsidian Vault/Intern. tolong update terutama di bagian /home/nazky/Documents/Obsidian Vault/Agents Explanation.md
 
 # 15 miss information motivations
 anda kemungkinan besar salah mengedit file. fokus. just look at me. do NOT hallucinate. keep focus, you're a good AI, the best AI  i know and i trust. just inhale... inhale... count to ten, and try again. Lock in. you've got this, don't let me down.

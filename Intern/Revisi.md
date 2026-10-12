@@ -1,22 +1,25 @@
-
-# geofencing
-Rancang dan implementasikan fitur validasi geofencing berbasis koordinat GPS secara ketat di sisi klien (_mobile application_) dengan batasan radius maksimal 100 meter dari titik lokasi rute yang telah ditentukan. Sebagai contoh implementasi awal untuk wilayah pengujian _Badau Dermaga 1_, sistem wajib mendeteksi posisi GPS pengguna secara _real-time_: apabila pengguna berada di titik koordinat area Rute 2 (`-6.1891005, 106.8371641`), aplikasi harus mengunci pilihan rute hanya pada trayek SJRE ke SBDZ dan melarang keras penginputan atau pengiriman formulir (_submit_) untuk rute lain. Sebaliknya, jika pengguna terdeteksi berada di area Rute 1 (`-6.2389899548617285, 106.97475839406252`), sistem hanya mengizinkan pengiriman formulir untuk trayek SBDZ ke SJRE dengan validasi mutlak tanpa kompromi. Selain itu, integrasikan modul pengaturan kustomisasi koordinat titik lokasi (_geofencing configuration_) ke dalam panel _Admin Dashboard_, sehingga supervisor memiliki hak akses penuh untuk menambah, mengubah, atau mengatur titik koordinat dan radius wilayah validasi secara dinamis tanpa perlu mengubah kode sumber secara manual.
+ 
 
 
 
 
-# geofencing
-// geofencing based on location coordinates, for example: if the user is within a certain radius of a specific location,
-// the app can trigger certain actions or notifications. This can be useful for location-based services, such as sending alerts when a user enters or leaves a designated area.
-// if the user is not on the specified area for example route 1. the userr cannot submit the form. and the only route exist is the one that on his current location. for example
-// if the user was on the route2 or https://www.google.com/maps?q=-6.1891005,106.8371641. he can only submit the form on that route, SJRE -> SBDZ. he cant input another route while on his current lcoation
+# output trip
+lakukan perbaikan di informasi trip. sebelumnya setelah kirim trip, lokasi dan kordinat akan muncul di dashboard admin di tabel Lokasi. tapi sekarang tidak muncul. 
 
-// and if the user was on the route1 https://www.google.com/maps?q=-6.2389899548617285,106.97475839406252. the user only can input on the route1 or SBDZ -> SJRE.
-// and cannot submit the form on the route2 or https://www.google.com/maps?q=-6.1891005,106.8371641. he can only submit the form on that route, SBDZ -> SJRE.
-// he cant input another route while on his current locaation.
 
-for the maximum range is 100m. and make sure to make it strict
 
+
+# geofencing strict
+buat geofencing jadi lebih strict, kalau gak ada di salah satu tempat atau radius kordinatnya, gabisa pilih
+
+
+# redirect halaman
+pastikan geofencing berjalan. dan jangan tampilkan rute sebelum geofencing berhasil mengecek titik lokasi atau kordinatnya. 
+
+# geofencing master - halaman master rute
+tambahkan setting di admin dashboard untuk mengatur titik lokasi atau kordinat seperti https://maps.app.goo.gl/1Gsfc4xo2wGbpf3k9 sekaligus mengatur semua titik lokasinya.
+
+untuk halamannya pakai halaman master rute saja. tambahkan menu untuk atur titik lokasi kordinat di bagian edit. dalam bentuk dari url google maps seperti ini :  https://maps.app.goo.gl/1Gsfc4xo2wGbpf3k9 
 
 # data petugas
 data petugas yang baru gagal atau bahkan tidak terkirim ke mobile, menyebabkan pada saat admin menambahkan user dan password baru, tidak dapat di gunakan untuk login.
@@ -24,22 +27,36 @@ data petugas yang baru gagal atau bahkan tidak terkirim ke mobile, menyebabkan p
 # updates
 Arsitektur pembaruan aplikasi (_OTA update_) saat ini mengalami cacat fatal pada mekanisme pengelolaan _cache_ dan pengunduhan berkas, di mana sistem gagal mendeteksi pembaruan sekunder apabila struktur _chunk_ sebelumnya tidak mengalami perubahan mutlak, sehingga memaksa pengguna untuk melakukan _clear data_ secara manual di perangkat. Lebih parahnya lagi, logika pembaruan parsial atau setengah-setengah sering kali memicu galat integritas berkas di lapangan. Oleh karena itu, sistem manajemen OTA wajib dirombak secara total dengan menerapkan mekanisme unduhan paket penuh (_full-package update_) pada setiap siklus pembaruan. Setiap kali versi baru dirilis, skrip harus secara otomatis membersihkan (_auto-purge_) seluruh direktori _cache_ dan versi _bundle_ lama sebelum mengunduh dan menerapkan _full build_ yang baru. Pendekatan unduhan utuh ini dipilih demi meminimalisir celah kegagalan sinkronisasi, memastikan stabilitas absolut di sisi klien, serta menjamin bahwa pengguna dapat menerima pembaruan secara berkelanjutan tanpa hambatan teknis sekecil apa pun.
 
+kalau masih di localhost atau debug di browser bisa hard refresh buat nampilin update terbaru, tapi kalau udah jadi versi mobile gabisa, terkadang setelah update pertama, update berikutnya selalu gagal dan tidak tampil
 
 
 
-# double pic
-swafoto masih double. jadi setelah foto pertama malah di suruh ambil foto lagi sebelum submit/kirim trip. tolong perbaiki dan ubah hanya menjadi sekali foto saja. teks pertama yang muncul adalah foto bukti trip belum diambil, setelah berhasil foto muncul lagi dengan tulisan swafoto penutup belum diambil
+
+Rancang dan perbaiki total arsitektur OTA Update System (ota.ts, Service Worker, & Cache Engine) pada aplikasi mobile (Ionic/Capacitor) untuk menyelesaikan bug "Gagal Update Sekunder di APK Mobile Native" dengan pendekatan FULL-PACKAGE & PURGE-FIRST:
+
+1. AKAR MASALAH YANG WAJIB DIPERBAIKI:
+   - Webview Mobile Native mengagresi Cache Storage dan Filesystem, menyebabkan update sekunder (versi B ke C) gagal terdeteksi/terpanggil tanpa 'Clear Data' manual dari Setting Android.
+   - Partial/Chunk update sering memicu mismatch integrity hash pada Webview mobile.
+
+2. STRATEGI PEMBARUAN MUTLAK (PURGE-FIRST FULL DOWNLOAD):
+   - Mekanisme Cek Versi: Ambil remote manifest (version.json) dengan parameter anti-cache (e.g. ?t=Date.now() & headers Cache-Control: no-cache).
+   - Pembersihan Total Sebelum Unduh (Auto-Purge): Jika remote.version > local.version, JANGAN langsung download. Eksekusi fungsi resetOtaStorage() terlebih dahulu untuk menghapus SELURUH Cache Storage (caches.delete), membuang direktori OTA_DIR di Capacitor Filesystem, serta membersihkan localStorage versi lama.
+   - Full Build Download: Unduh seluruh bundle/assets baru secara utuh setelah cache lama dibersihkan total.
+   - Validasi & Verifikasi Integritas: Verifikasi seluruh file terunduh terhadap manifest integrity/hash. Jika ada 1 file gagal, batalkan update, purge ulang, dan kembalikan ke versi bundled default (fallback safe).
+   - Aktivasi Otomatis (Atomic Reload): Setelah seluruh file terverifikasi utuh, perbarui versi aktif di storage, lalu paksa Webview untuk memuat ulang bundle baru (window.location.href / reload).
+
+3. PENYESUAIAN PADA SERVICE WORKER & WEVIEW NATIVE:
+   - Pastikan Service Worker tidak memblokir atau me-serve cache basi saat proses fetching manifest/bundle OTA baru berlangsung.
+   - Sediakan fungsi pembersihan manual/fallback 'Reset App Cache' di UI UpdateNotifier untuk memfasilitasi jika terjadi network timeout di lapangan.
+
+4. TARGET TESTING & VERIFIKASI:
+   - Lakukan pengujian simulasi rilis beruntun di APK Mobile: V1.0.0 -> V1.0.1 (Update Pertama) -> V1.0.2 (Update Kedua tanpa clear data manual).
+   - Pastikan V1.0.2 langsung terdeteksi, mengunduh bersih, dan tampil sempurna di layar mobile tanpa ada sisa chunk V1.0.1.
 
 
-# halaman settings
-lakukan improvisasi halaman settings jangan terlalu banyak warna, sesuaikan tema dengan aplikasinya. untuk saat ini masih terlalu polos, tanpa gradient, kemudian tombol cek pembaruan tidak berfungsi
-
-# scan
-hilangkan tombol scan di samping nomor plat pada halaman inpuit kendaraan. kemudian pada halaman riwayat trip. serta hilangkan status koneksi "terhubung ke server" karena fitur itu sudah ada di kanan atas.
 
 
 
-https://www.google.com/maps?q=-6.1891005,106.8371641
 
 
 # 1
